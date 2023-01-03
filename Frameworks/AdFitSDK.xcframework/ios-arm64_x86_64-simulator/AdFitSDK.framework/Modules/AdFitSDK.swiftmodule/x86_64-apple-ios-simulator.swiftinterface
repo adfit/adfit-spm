@@ -1,6 +1,6 @@
 // swift-interface-format-version: 1.0
 // swift-compiler-version: Apple Swift version 5.6.1 (swiftlang-5.6.0.323.66 clang-1316.0.20.12)
-// swift-module-flags: -target x86_64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name AdFitSDK
+// swift-module-flags: -target x86_64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name AdFitSDK
 import AVFoundation
 import AVKit
 @_exported import AdFitSDK
@@ -21,27 +21,27 @@ import zlib
   @objc optional func nativeAdDidClickAd(_ nativeAd: AdFitSDK.AdFitNativeAd)
 }
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class BizBoardTemplate : UIKit.UIView {
-  @_Concurrency.MainActor(unsafe) public static var defaultBackgroundColor: UIKit.UIColor
-  @_Concurrency.MainActor(unsafe) public static var defaultEdgeInset: UIKit.UIEdgeInsets
-  @_Concurrency.MainActor(unsafe) public var bgViewColor: UIKit.UIColor? {
-    get
-    set
+  @objc @_Concurrency.MainActor(unsafe) public static var defaultBackgroundColor: UIKit.UIColor
+  @objc @_Concurrency.MainActor(unsafe) public static var defaultEdgeInset: UIKit.UIEdgeInsets
+  @objc @_Concurrency.MainActor(unsafe) public var bgViewColor: UIKit.UIColor? {
+    @objc get
+    @objc set
   }
-  @_Concurrency.MainActor(unsafe) public var bgViewleftMargin: CoreGraphics.CGFloat {
-    get
-    set
+  @objc @_Concurrency.MainActor(unsafe) public var bgViewleftMargin: CoreGraphics.CGFloat {
+    @objc get
+    @objc set
   }
-  @_Concurrency.MainActor(unsafe) public var bgViewRightMargin: CoreGraphics.CGFloat {
-    get
-    set
+  @objc @_Concurrency.MainActor(unsafe) public var bgViewRightMargin: CoreGraphics.CGFloat {
+    @objc get
+    @objc set
   }
-  @_Concurrency.MainActor(unsafe) public var bgViewTopMargin: CoreGraphics.CGFloat {
-    get
-    set
+  @objc @_Concurrency.MainActor(unsafe) public var bgViewTopMargin: CoreGraphics.CGFloat {
+    @objc get
+    @objc set
   }
-  @_Concurrency.MainActor(unsafe) public var bgViewBottomMargin: CoreGraphics.CGFloat {
-    get
-    set
+  @objc @_Concurrency.MainActor(unsafe) public var bgViewBottomMargin: CoreGraphics.CGFloat {
+    @objc get
+    @objc set
   }
   @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreGraphics.CGRect)
   @objc deinit
@@ -127,6 +127,15 @@ extension AdFitSDK.AdFitAdView : AdFitSDK.AdFitMediaViewInternalDelegate {
   }
   @objc final public let adUnitId: Swift.String?
   @objc final public var options: [Swift.String : Swift.String] {
+    @objc get
+  }
+  @objc final public var reviewId: Swift.String? {
+    @objc get
+  }
+  @objc final public var displayUrl: Swift.String? {
+    @objc get
+  }
+  @objc final public var dspId: Swift.String? {
     @objc get
   }
   @objc final public var adInfoView: UIKit.UIView? {
@@ -240,31 +249,31 @@ extension AVKit.AVPlayerViewController {
   @objc final public var infoIconPosition: AdFitSDK.AdFitInfoIconPosition
   @objc final public var desiredMediaWidth: CoreGraphics.CGFloat
   @objc public init(clientId: Swift.String, count: Swift.Int = 1)
-  @objc final public func loadAd()
+  @objc final public func loadAd(keyword: Swift.String? = nil)
   @objc deinit
 }
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class BizBoardCell : UIKit.UITableViewCell {
-  @_Concurrency.MainActor(unsafe) public static var defaultBackgroundColor: UIKit.UIColor
-  @_Concurrency.MainActor(unsafe) public static var defaultEdgeInset: UIKit.UIEdgeInsets
-  @_Concurrency.MainActor(unsafe) public var bgViewColor: UIKit.UIColor? {
-    get
-    set
+  @objc @_Concurrency.MainActor(unsafe) public static var defaultBackgroundColor: UIKit.UIColor
+  @objc @_Concurrency.MainActor(unsafe) public static var defaultEdgeInset: UIKit.UIEdgeInsets
+  @objc @_Concurrency.MainActor(unsafe) public var bgViewColor: UIKit.UIColor? {
+    @objc get
+    @objc set
   }
-  @_Concurrency.MainActor(unsafe) public var bgViewleftMargin: CoreGraphics.CGFloat {
-    get
-    set
+  @objc @_Concurrency.MainActor(unsafe) public var bgViewleftMargin: CoreGraphics.CGFloat {
+    @objc get
+    @objc set
   }
-  @_Concurrency.MainActor(unsafe) public var bgViewRightMargin: CoreGraphics.CGFloat {
-    get
-    set
+  @objc @_Concurrency.MainActor(unsafe) public var bgViewRightMargin: CoreGraphics.CGFloat {
+    @objc get
+    @objc set
   }
-  @_Concurrency.MainActor(unsafe) public var bgViewTopMargin: CoreGraphics.CGFloat {
-    get
-    set
+  @objc @_Concurrency.MainActor(unsafe) public var bgViewTopMargin: CoreGraphics.CGFloat {
+    @objc get
+    @objc set
   }
-  @_Concurrency.MainActor(unsafe) public var bgViewBottomMargin: CoreGraphics.CGFloat {
-    get
-    set
+  @objc @_Concurrency.MainActor(unsafe) public var bgViewBottomMargin: CoreGraphics.CGFloat {
+    @objc get
+    @objc set
   }
   @objc deinit
 }

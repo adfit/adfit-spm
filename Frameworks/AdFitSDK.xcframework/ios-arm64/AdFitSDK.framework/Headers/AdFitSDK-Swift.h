@@ -480,6 +480,12 @@ SWIFT_CLASS("_TtC8AdFitSDK13AdFitNativeAd")
 @property (nonatomic, readonly, copy) NSString * _Nullable adUnitId;
 /// 네이티브 광고에서 제공하는 커스텀 정보.<br>
 @property (nonatomic, readonly, copy) NSDictionary<NSString *, NSString *> * _Nonnull options;
+/// 의료심의필 정보<br>
+@property (nonatomic, readonly, copy) NSString * _Nullable reviewId;
+/// 표시 URL<br>
+@property (nonatomic, readonly, copy) NSString * _Nullable displayUrl;
+/// DSP 정보<br>
+@property (nonatomic, readonly, copy) NSString * _Nullable dspId;
 @property (nonatomic, strong) UIView * _Nullable adInfoView;
 /// Info Icon 미세 조정<br>
 @property (nonatomic) CGFloat infoIconTopConstant;
@@ -562,7 +568,7 @@ SWIFT_CLASS("_TtC8AdFitSDK19AdFitNativeAdLoader")
 /// note:
 /// 한개의 <code>AdFitNativeAdLoader</code> 객체에서는 <code>loadAd</code> 메서드를 단 한 번만 호출할 수 있습니다.<br>
 /// 광고 응답 성공 여부와 관계 없이, 한번 <code>loadAd</code> 메서드를 호출한 객체는 재사용이 불가능합니다.
-- (void)loadAd;
+- (void)loadAdWithKeyword:(NSString * _Nullable)keyword;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
@@ -600,9 +606,21 @@ typedef SWIFT_ENUM(NSInteger, AdFitVideoPlayPolicy, open) {
   AdFitVideoPlayPolicyAutoPlayOnWifiOnly = 2,
 };
 
+@class UIColor;
 
 SWIFT_CLASS("_TtC8AdFitSDK12BizBoardCell")
 @interface BizBoardCell : UITableViewCell
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, strong) UIColor * _Nonnull defaultBackgroundColor;)
++ (UIColor * _Nonnull)defaultBackgroundColor SWIFT_WARN_UNUSED_RESULT;
++ (void)setDefaultBackgroundColor:(UIColor * _Nonnull)value;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class) UIEdgeInsets defaultEdgeInset;)
++ (UIEdgeInsets)defaultEdgeInset SWIFT_WARN_UNUSED_RESULT;
++ (void)setDefaultEdgeInset:(UIEdgeInsets)value;
+@property (nonatomic, strong) UIColor * _Nullable bgViewColor;
+@property (nonatomic) CGFloat bgViewleftMargin;
+@property (nonatomic) CGFloat bgViewRightMargin;
+@property (nonatomic) CGFloat bgViewTopMargin;
+@property (nonatomic) CGFloat bgViewBottomMargin;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder SWIFT_UNAVAILABLE;
 - (nonnull instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString * _Nullable)reuseIdentifier SWIFT_UNAVAILABLE;
 @end
@@ -619,6 +637,17 @@ SWIFT_CLASS("_TtC8AdFitSDK12BizBoardCell")
 
 SWIFT_CLASS("_TtC8AdFitSDK16BizBoardTemplate")
 @interface BizBoardTemplate : UIView
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, strong) UIColor * _Nonnull defaultBackgroundColor;)
++ (UIColor * _Nonnull)defaultBackgroundColor SWIFT_WARN_UNUSED_RESULT;
++ (void)setDefaultBackgroundColor:(UIColor * _Nonnull)value;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class) UIEdgeInsets defaultEdgeInset;)
++ (UIEdgeInsets)defaultEdgeInset SWIFT_WARN_UNUSED_RESULT;
++ (void)setDefaultEdgeInset:(UIEdgeInsets)value;
+@property (nonatomic, strong) UIColor * _Nullable bgViewColor;
+@property (nonatomic) CGFloat bgViewleftMargin;
+@property (nonatomic) CGFloat bgViewRightMargin;
+@property (nonatomic) CGFloat bgViewTopMargin;
+@property (nonatomic) CGFloat bgViewBottomMargin;
 - (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
 @end
