@@ -6,11 +6,11 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		+fqnwtMOsm2a2AlbGjktHKwMfLs=
+		qhjpCltfUhyywLPeXyHNVaLvin8=
 		</data>
 		<key>Headers/AFSDAnimatedImage.h</key>
 		<data>
-		Mv9zUs38/CAd+omfC/U5RKych24=
+		Ns8HhL557ktb8fUGfukv7m6vhyg=
 		</data>
 		<key>Headers/AFSDAnimatedImageView+WebCache.h</key>
 		<data>
@@ -22,7 +22,7 @@
 		</data>
 		<key>Headers/AFSDImageCoder.h</key>
 		<data>
-		kfyVVJdB90NxVCPLSaQNBnC/Wvk=
+		6gtXG5yZIM851/9AHxxcbAtcTNY=
 		</data>
 		<key>Headers/AFSDWebImageCompat.h</key>
 		<data>
@@ -38,7 +38,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		ciorONMohs/hruhn8xYWPJffEwY=
+		aKHTk7JFpEHKd4lNXjVwS0h+lDE=
 		</data>
 		<key>Modules/AdFitSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -46,11 +46,11 @@
 		</data>
 		<key>Modules/AdFitSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		BoAxbm5YMUsD//NbjyXkTxsJs28=
+		gPXKXKeh6diL/5pYGb9tz23bVFE=
 		</data>
 		<key>Modules/AdFitSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		R5GnZ5+N7c2bpzfQrO0A7wbxSLs=
+		/rzx6xjSrOvMbLVbT+Dbye0bFzs=
 		</data>
 		<key>Modules/AdFitSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -58,11 +58,11 @@
 		</data>
 		<key>Modules/AdFitSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		IKfOlt7BA3u4912yBGxqafXFyiI=
+		uowhNXc8KbUbJhTbFz/wxAZDq0I=
 		</data>
 		<key>Modules/AdFitSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		TgI4bJJ5+tDcQiP7zzaoJUhk0T4=
+		9eS79V4P12PElJGeJYnuj/gbwxA=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -93,14 +93,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			w0tNBgqpygCp72uy9DT0MqzVt81I2aj3lKAGbW6cq0Q=
+			akzjIZcbF1lujQj1TTt9gaYpoo6zLtIrIVzVof4MtQs=
 			</data>
 		</dict>
 		<key>Headers/AFSDAnimatedImage.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			SDMfboPApa+8rIoH65K2Fj5yMZfI6sOrwEB7MOZ0woI=
+			0dmOLpujZVeKMa0mOIT76e3nWU0vjCTWXuamNZFEy7Q=
 			</data>
 		</dict>
 		<key>Headers/AFSDAnimatedImageView+WebCache.h</key>
@@ -121,7 +121,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			7xehOB1x5JWMJgecYIBjw0hACvWC3dY1NcgQcP2YyNU=
+			/p1aWRaF/9BQoXRBLjRd8QFFJvmlxNxknREyn0YAhwc=
 			</data>
 		</dict>
 		<key>Headers/AFSDWebImageCompat.h</key>
@@ -156,14 +156,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ICSw0h+n3u71TxuM+GU5wox/Oxvgqd2bMK09UaeGffY=
+			eDQnLpjafgjUeBC+sRkeW/U5y8+FNd2lFh2ofOXM9FU=
 			</data>
 		</dict>
 		<key>Modules/AdFitSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			r36ytOsyLzb5FByLtQbkaIVPB55Hxyz4MmHM9SW0JRo=
+			HcCTp/GdEtP5RAwij84xT3cDbc+4deUaM2dZA/e6Vho=
 			</data>
 		</dict>
 		<key>Modules/AdFitSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -177,14 +177,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			WXdKlk8iYDQDxcxIQSOyEj4O4upCH45v/5Fe+GAfk/g=
+			skOsXeiV/AEJ8Gco4+0Sq6XxcIl6ZDiZG6C6vuqvcl0=
 			</data>
 		</dict>
 		<key>Modules/AdFitSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			0RcisRlJ7xqOCIlGOPxf25MpQgd757onTuRtKgyXqTQ=
+			VcXlu+XGR5yH/w96l4E8oWOudhNIJA3hgtfhxTSAazw=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

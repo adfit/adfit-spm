@@ -62,10 +62,10 @@ extension AdFitSDK.BizBoardTemplate : AdFitSDK.AdFitNativeAdRenderable {
     @objc get
     @objc set
   }
+  @objc deinit
   @_Concurrency.MainActor(unsafe) @objc override final public func layoutSubviews()
   @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreGraphics.CGRect)
   @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
-  @objc deinit
 }
 @objc public enum AdFitMediaType : Swift.Int, Swift.CustomStringConvertible {
   case unknown = 0

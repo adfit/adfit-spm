@@ -159,7 +159,7 @@ FOUNDATION_EXPORT AFSDImageCoderOption _Nonnull const AFSDImageCoderWebImageCont
  These methods are all required to implement.
  @note Pay attention that these methods are not called from main queue.
  */
-@protocol SDProgressiveImageCoder <AFSDImageCoder>
+@protocol AFSDProgressiveImageCoder <AFSDImageCoder>
 
 @required
 /**
@@ -202,7 +202,7 @@ FOUNDATION_EXPORT AFSDImageCoderOption _Nonnull const AFSDImageCoderWebImageCont
 /**
  This is the animated image protocol to provide the basic function for animated image rendering. It's adopted by `SDAnimatedImage` and `SDAnimatedImageCoder`
  */
-@protocol SDAnimatedImageProvider <NSObject>
+@protocol AFSDAnimatedImageProvider <NSObject>
 
 @required
 /**
@@ -249,7 +249,7 @@ FOUNDATION_EXPORT AFSDImageCoderOption _Nonnull const AFSDImageCoderWebImageCont
 /**
  This is the animated image coder protocol for custom animated image class like  `SDAnimatedImage`. Through it inherit from `SDImageCoder`. We currentlly only use the method `canDecodeFromData:` to detect the proper coder for specify animated image format.
  */
-@protocol SDAnimatedImageCoder <AFSDImageCoder, SDAnimatedImageProvider>
+@protocol AFSDAnimatedImageCoder <AFSDImageCoder, AFSDAnimatedImageProvider>
 
 @required
 /**

@@ -11,9 +11,9 @@
 
 
 /**
- This is the protocol for SDAnimatedImage class only but not for SDAnimatedImageCoder. If you want to provide a custom animated image class with full advanced function, you can conform to this instead of the base protocol.
+ This is the protocol for SDAnimatedImage class only but not for AFSDAnimatedImageCoder. If you want to provide a custom animated image class with full advanced function, you can conform to this instead of the base protocol.
  */
-@protocol AFSDAnimatedImage <SDAnimatedImageProvider>
+@protocol AFSDAnimatedImage <AFSDAnimatedImageProvider>
 
 @required
 /**
@@ -31,11 +31,11 @@
  Initializes the image with an animated coder. You can use the coder to decode the image frame later.
  @note We use this with animated coder which conforms to `SDProgressiveImageCoder` for progressive animation decoding.
  
- @param animatedCoder An animated coder which conform `SDAnimatedImageCoder` protocol
+ @param animatedCoder An animated coder which conform `AFSDAnimatedImageCoder` protocol
  @param scale The scale factor to assume when interpreting the image data. Applying a scale factor of 1.0 results in an image whose size matches the pixel-based dimensions of the image. Applying a different scale factor changes the size of the image as reported by the `size` property.
  @return An initialized object
  */
-- (nullable instancetype)initWithAnimatedCoder:(nonnull id<SDAnimatedImageCoder>)animatedCoder scale:(CGFloat)scale;
+- (nullable instancetype)initWithAnimatedCoder:(nonnull id<AFSDAnimatedImageCoder>)animatedCoder scale:(CGFloat)scale;
 
 @optional
 // These methods are used for optional advanced feature, like image frame preloading.
@@ -61,7 +61,7 @@
  Return the animated image coder if the image is created with `initWithAnimatedCoder:scale:` method.
  @note We use this with animated coder which conforms to `SDProgressiveImageCoder` for progressive animation decoding.
  */
-@property (nonatomic, strong, readonly, nullable) id<SDAnimatedImageCoder> animatedCoder;
+@property (nonatomic, strong, readonly, nullable) id<AFSDAnimatedImageCoder> animatedCoder;
 
 @end
 
