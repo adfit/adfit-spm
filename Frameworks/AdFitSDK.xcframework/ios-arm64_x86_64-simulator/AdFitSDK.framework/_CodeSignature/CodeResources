@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		qhjpCltfUhyywLPeXyHNVaLvin8=
+		3sAX17nbLcP+ozUrxSBizzg0UEk=
 		</data>
 		<key>Headers/AFSDAnimatedImage.h</key>
 		<data>
@@ -30,7 +30,7 @@
 		</data>
 		<key>Headers/AdFitSDK-Swift.h</key>
 		<data>
-		iEVevDKzAfASLBnAl2+aizFdM5U=
+		obAGCzGMqu2E6mrj93V0aTVXSZ0=
 		</data>
 		<key>Headers/AdFitSDK.h</key>
 		<data>
@@ -38,41 +38,57 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		lmboUmRYhlt8+cWvvH2nNTlYNRw=
+		r8Bh+kQ+rY3qeMq9aiiUKma6I84=
+		</data>
+		<key>Modules/AdFitSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
+		<data>
+		UFVrjHlPL3a6DVO/rOvQSpJFVxk=
+		</data>
+		<key>Modules/AdFitSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
+		<data>
+		wB3nQElfEi+mlSUdbL2rqk3bLMM=
 		</data>
 		<key>Modules/AdFitSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		SzR5XebicRyChDOg/rULrz1ENOE=
+		5vK993GmzE9Dk0mB+zU03Dd/k2g=
 		</data>
 		<key>Modules/AdFitSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		gPXKXKeh6diL/5pYGb9tz23bVFE=
+		wB3nQElfEi+mlSUdbL2rqk3bLMM=
 		</data>
 		<key>Modules/AdFitSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		/rzx6xjSrOvMbLVbT+Dbye0bFzs=
+		zcCszQzA9Ktlq8ccY0N95tDU9Dw=
+		</data>
+		<key>Modules/AdFitSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
+		<data>
+		vXGCuz86RVsbg/ayH4/dHXJJDts=
+		</data>
+		<key>Modules/AdFitSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
+		<data>
+		gxZJTDogThOdEI6zi/DGEls9Wxc=
 		</data>
 		<key>Modules/AdFitSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		vBcU+5bh9GQMlzgM+rLKFMA56u4=
+		Db4dfPtmSHf8AfI97tpvJdy566w=
 		</data>
 		<key>Modules/AdFitSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		uowhNXc8KbUbJhTbFz/wxAZDq0I=
+		gxZJTDogThOdEI6zi/DGEls9Wxc=
 		</data>
 		<key>Modules/AdFitSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		9eS79V4P12PElJGeJYnuj/gbwxA=
+		AYLMBRW0y60pGi+k7hBa3OMrbS8=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		eqw0nonG7Z9A/ZrTuxmWwoJnW0U=
+		aM/zbEDRbER/tXBdFwvL0QN/HAg=
 		</data>
 		<key>en.lproj/AdFit.strings</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			kMuKjNwZS+A4/GABKaDVbsdz2XU=
+			8Tmw2rZJ9VJFwcX7CqxoGvJSV6M=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -81,11 +97,35 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			bBZfF6nr51qUe9+EHsctxs2OgTQ=
+			Ld/+AssyqxErsT0sF+4thQBFwEI=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
+		<key>motionHint_1_image.webp</key>
+		<data>
+		WZ/T0GFigxaw0V7uajLnslpGJqo=
+		</data>
+		<key>motionHint_1_video.webp</key>
+		<data>
+		o+WzxI/JBDTnX0n55uVi6XmCGck=
+		</data>
+		<key>motionHint_2_image.webp</key>
+		<data>
+		rL+g4SDXLgYtebFGWQaQf3hH90w=
+		</data>
+		<key>motionHint_2_video.webp</key>
+		<data>
+		mc6fAvpHvmMIV/g6iHjXdfNkB3A=
+		</data>
+		<key>motionHint_3_image.webp</key>
+		<data>
+		xpGM7HWwVCQxr14wwFGFj+EmgWs=
+		</data>
+		<key>motionHint_3_video.webp</key>
+		<data>
+		6qM86Z7jnXPlK00EqWLhA8Txipc=
+		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
@@ -93,7 +133,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			akzjIZcbF1lujQj1TTt9gaYpoo6zLtIrIVzVof4MtQs=
+			c+gtac4fKse4UqRFSpJEQBdIhFbirvLijxCC6NCnO48=
 			</data>
 		</dict>
 		<key>Headers/AFSDAnimatedImage.h</key>
@@ -135,7 +175,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			D4CGt0CxGtvmYG6P9hOvQnk/B+JpjRuNp1m17xXvoww=
+			O0Q3WPTjTtTzY1e1NVuVsJe7lfMeQsMLagMQl/+ppYI=
 			</data>
 		</dict>
 		<key>Headers/AdFitSDK.h</key>
@@ -145,60 +185,88 @@
 			I2b5pN8TNtszReYRiS6CZLJf3SusFmXTF9fFah6RY/w=
 			</data>
 		</dict>
+		<key>Modules/AdFitSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			VEtdRsl4n/62zn/iVuj0Q+06NoSimGA5jN7BFDbKX+I=
+			</data>
+		</dict>
+		<key>Modules/AdFitSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			5a/T6z4CPQajEAXteerZoQItj/kbXxEA0LeWDSNKZTs=
+			</data>
+		</dict>
 		<key>Modules/AdFitSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ntlRPrHMmM9u0QxcyabJ/+3LbBB3mDEoBrm2SjMvkEE=
+			qh1Xv8Wvs7DLnOV1R19+OqBU5aEfU2aOOZV6AZ9sKSI=
 			</data>
 		</dict>
 		<key>Modules/AdFitSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			eDQnLpjafgjUeBC+sRkeW/U5y8+FNd2lFh2ofOXM9FU=
+			5a/T6z4CPQajEAXteerZoQItj/kbXxEA0LeWDSNKZTs=
 			</data>
 		</dict>
 		<key>Modules/AdFitSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			HcCTp/GdEtP5RAwij84xT3cDbc+4deUaM2dZA/e6Vho=
+			Ii7ej5EwCuS3qYibum76SyTMy/zxSND86OHWPOkea9o=
+			</data>
+		</dict>
+		<key>Modules/AdFitSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			TW+TTF5fhhBgUW9TNrkJuJJB+nfYGmirxhJ4lKitnB8=
+			</data>
+		</dict>
+		<key>Modules/AdFitSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			hGjZ2oo/ACNfNVUMJT0aMqRiSNOM//I8sFPmY6cjNN4=
 			</data>
 		</dict>
 		<key>Modules/AdFitSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			x7WPuCvcfYIQw/ozypOBwPhpO0qUtw4wAcbVhgElpHs=
+			d6a+aY5T1JVpujSXHtkwAnEhy1JeDE2qm6hZIIDKhn4=
 			</data>
 		</dict>
 		<key>Modules/AdFitSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			skOsXeiV/AEJ8Gco4+0Sq6XxcIl6ZDiZG6C6vuqvcl0=
+			hGjZ2oo/ACNfNVUMJT0aMqRiSNOM//I8sFPmY6cjNN4=
 			</data>
 		</dict>
 		<key>Modules/AdFitSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			VcXlu+XGR5yH/w96l4E8oWOudhNIJA3hgtfhxTSAazw=
+			UI5XwMW3qDvFw08IHMVYAUHqhaRqveWSEshqPJrV/JI=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			lNRijdUPmYq6MT04mvv6Pe+ijdOkB8+Eu1rlqFlND4E=
+			rqyIkbUk0t76NUYv5jyJ1kkcOs8UZroRYTVA4g6V08s=
 			</data>
 		</dict>
 		<key>en.lproj/AdFit.strings</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Gm2glzYouT11Thu5bGYaaok0yHurGS+pIuUqiH3tu5k=
+			PBQJfvF0pKoNhWPO6qS4a6aUdvJiF2jOCxZMR1jCDsU=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -207,10 +275,52 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			D3HwVCOV+CdJjA4dOkeCNYnYKLSjXan7l7PzbZ9PqdY=
+			zLr/eV7Er0FFf1yZIOeclsjS3IHLKrdeDTdkADAcqiU=
 			</data>
 			<key>optional</key>
 			<true/>
+		</dict>
+		<key>motionHint_1_image.webp</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			j9gUdqF+PF7PJ2ys71clppPMlZ53DqpC7V4FqucTGLA=
+			</data>
+		</dict>
+		<key>motionHint_1_video.webp</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			rxzpiqcZFxsaD/rLVcw3HK1XMMSTNQhVlnhsmXR0Cw0=
+			</data>
+		</dict>
+		<key>motionHint_2_image.webp</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			9p9oab8QLTbR9U9ixd1NQURC9EHmhTx2CNJctBCgnT4=
+			</data>
+		</dict>
+		<key>motionHint_2_video.webp</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			jKli2xMDfFF+B+DyE3lwYh9jB876wwE2pro9b2W9Ud4=
+			</data>
+		</dict>
+		<key>motionHint_3_image.webp</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Twlp0F6lUjZVcO8HxhpjzOBSsINCkb5MHRdvdi3LoSw=
+			</data>
+		</dict>
+		<key>motionHint_3_video.webp</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			PIz6DFIFgUUkXhNBdlQcEe3NxPcmsW0scCOw1TzBi+A=
+			</data>
 		</dict>
 	</dict>
 	<key>rules</key>

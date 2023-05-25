@@ -6,6 +6,6 @@ framework module AdFitSDK {
 }
 
 module AdFitSDK.Swift {
-    header "AdFitSDK-Swift.h"
-    requires objc
+  header "AdFitSDK-Swift.h"
+  requires objc
 }
