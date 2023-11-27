@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.8 (swiftlang-5.8.0.124.2 clang-1403.0.22.11.100)
+// swift-compiler-version: Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)
 // swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name AdFitSDK
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import AVFoundation
@@ -7,16 +7,22 @@ import AVKit
 @_exported import AdFitSDK
 import AdSupport
 import AppTrackingTransparency
+import Combine
 import CoreTelephony
+import CryptoKit
+import DeveloperToolsSupport
 import Foundation
 import Foundation/*.Data*/
+import OSLog
 import StoreKit
 import Swift
+import SwiftUI
 import SystemConfiguration
 import UIKit
 import WebKit
 import _Concurrency
 import _StringProcessing
+import _SwiftConcurrencyShims
 import zlib
 @objc public protocol AdFitNativeAdDelegate : ObjectiveC.NSObjectProtocol {
   @objc optional func nativeAdDidClickAd(_ nativeAd: AdFitSDK.AdFitNativeAd)
@@ -59,6 +65,10 @@ extension AdFitSDK.BizBoardTemplate : AdFitSDK.AdFitNativeAdRenderable {
   @objc @_Concurrency.MainActor(unsafe) final public var mediaType: AdFitSDK.AdFitMediaType {
     @objc get
   }
+  @objc @_Concurrency.MainActor(unsafe) final public var mainImage: UIKit.UIImage? {
+    @objc get
+  }
+  @objc @_Concurrency.MainActor(unsafe) final public var useVideoControlView: Swift.Bool
   @_Concurrency.MainActor(unsafe) @objc override final public var isAccessibilityElement: Swift.Bool {
     @objc get
     @objc set
@@ -75,6 +85,7 @@ extension AdFitSDK.BizBoardTemplate : AdFitSDK.AdFitNativeAdRenderable {
   case mixed = 3
   case carousel = 4
   case motion = 5
+  case customBiz = 6
   public var description: Swift.String {
     get
   }
@@ -83,6 +94,62 @@ extension AdFitSDK.BizBoardTemplate : AdFitSDK.AdFitNativeAdRenderable {
   public var rawValue: Swift.Int {
     get
   }
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) open class NasResizableView : UIKit.UIView {
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func willMove(toSuperview newSuperview: UIKit.UIView?)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func observeValue(forKeyPath keyPath: Swift.String?, of object: Any?, change: [Foundation.NSKeyValueChangeKey : Any]?, context: Swift.UnsafeMutableRawPointer?)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func layoutSubviews()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+public struct LayoutGravity : Swift.OptionSet {
+  public let rawValue: Swift.Int
+  public init(rawValue: Swift.Int)
+  public static let none: AdFitSDK.LayoutGravity
+  public struct Horz {
+    public static let left: AdFitSDK.LayoutGravity
+    public static let center: AdFitSDK.LayoutGravity
+    public static let right: AdFitSDK.LayoutGravity
+    public static let windowCenter: AdFitSDK.LayoutGravity
+    public static let between: AdFitSDK.LayoutGravity
+    public static let leading: AdFitSDK.LayoutGravity
+    public static let trailing: AdFitSDK.LayoutGravity
+    public static let around: AdFitSDK.LayoutGravity
+    public static let among: AdFitSDK.LayoutGravity
+    public static let fill: AdFitSDK.LayoutGravity
+    public static let mask: AdFitSDK.LayoutGravity
+  }
+  public struct Vert {
+    public static let top: AdFitSDK.LayoutGravity
+    public static let center: AdFitSDK.LayoutGravity
+    public static let bottom: AdFitSDK.LayoutGravity
+    public static let windowCenter: AdFitSDK.LayoutGravity
+    public static let between: AdFitSDK.LayoutGravity
+    public static let fill: AdFitSDK.LayoutGravity
+    public static let baseline: AdFitSDK.LayoutGravity
+    public static let around: AdFitSDK.LayoutGravity
+    public static let among: AdFitSDK.LayoutGravity
+    public static let mask: AdFitSDK.LayoutGravity
+  }
+  public static let center: AdFitSDK.LayoutGravity
+  public static let fill: AdFitSDK.LayoutGravity
+  public static let between: AdFitSDK.LayoutGravity
+  public static let around: AdFitSDK.LayoutGravity
+  public static let among: AdFitSDK.LayoutGravity
+  public typealias ArrayLiteralElement = AdFitSDK.LayoutGravity
+  public typealias Element = AdFitSDK.LayoutGravity
+  public typealias RawValue = Swift.Int
+}
+public func & (left: AdFitSDK.LayoutGravity, right: AdFitSDK.LayoutGravity) -> AdFitSDK.LayoutGravity
+public func > (left: AdFitSDK.LayoutGravity, right: AdFitSDK.LayoutGravity) -> Swift.Bool
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class NasAdView : UIKit.UIView {
+  @_Concurrency.MainActor(unsafe) public var viewModel: AdFitSDK.NasAdViewModel? {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func addSubview(_ view: UIKit.UIView)
+  @objc deinit
 }
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class AdFitAdView : UIKit.UIView {
   @_Concurrency.MainActor(unsafe) public var infoView: UIKit.UIView {
@@ -103,6 +170,59 @@ extension AdFitSDK.AdFitAdView : AdFitSDK.AdFitNativeAdRenderable {
 extension AdFitSDK.AdFitAdView : AdFitSDK.AdFitMediaViewInternalDelegate {
   @_Concurrency.MainActor(unsafe) @objc dynamic public func mediaViewVideoDidDurationChange(_ mediaView: AdFitSDK.AdFitMediaView, current: Foundation.TimeInterval, total: Foundation.TimeInterval)
 }
+final public class VFPositionValue {
+  @discardableResult
+  final public func equal(_ origin: Swift.Int, offset: CoreFoundation.CGFloat = 0) -> AdFitSDK.VFPositionValue
+  @discardableResult
+  final public func equal(_ origin: CoreFoundation.CGFloat, offset: CoreFoundation.CGFloat = 0) -> AdFitSDK.VFPositionValue
+  @discardableResult
+  final public func equal(_ weight: AdFitSDK.Weight, offset: CoreFoundation.CGFloat = 0) -> AdFitSDK.VFPositionValue
+  @discardableResult
+  final public func equal(_ array: [AdFitSDK.VFPositionValue], offset: CoreFoundation.CGFloat = 0) -> AdFitSDK.VFPositionValue
+  @discardableResult
+  final public func equal(_ pos: AdFitSDK.VFPositionValue, offset: CoreFoundation.CGFloat = 0) -> AdFitSDK.VFPositionValue
+  @discardableResult
+  final public func min(_ val: CoreFoundation.CGFloat, offset: CoreFoundation.CGFloat = 0) -> AdFitSDK.VFPositionValue
+  @discardableResult
+  final public func min(_ val: AdFitSDK.VFPositionValue, offset: CoreFoundation.CGFloat = 0) -> AdFitSDK.VFPositionValue
+  @discardableResult
+  final public func max(_ val: CoreFoundation.CGFloat, offset: CoreFoundation.CGFloat = 0) -> AdFitSDK.VFPositionValue
+  @discardableResult
+  final public func max(_ val: AdFitSDK.VFPositionValue, offset: CoreFoundation.CGFloat = 0) -> AdFitSDK.VFPositionValue
+  final public func clear()
+  final public var isActive: Swift.Bool {
+    get
+    set
+  }
+  final public var hasValue: Swift.Bool {
+    get
+  }
+  final public var numberVal: CoreFoundation.CGFloat? {
+    get
+  }
+  final public var weightVal: AdFitSDK.Weight? {
+    get
+  }
+  final public var posVal: AdFitSDK.VFPositionValue? {
+    get
+  }
+  final public var arrayVal: [AdFitSDK.VFPositionValue]? {
+    get
+  }
+  final public var offset: CoreFoundation.CGFloat {
+    get
+  }
+  final public var min: AdFitSDK.VFPositionValue {
+    get
+  }
+  final public var max: AdFitSDK.VFPositionValue {
+    get
+  }
+  public init(_ type: AdFitSDK.LayoutGravity, view: UIKit.UIView?)
+  @objc deinit
+}
+public func >= (oprPos: AdFitSDK.VFPositionValue, size: CoreFoundation.CGFloat)
+public func <= (oprPos: AdFitSDK.VFPositionValue, size: CoreFoundation.CGFloat)
 @objc @_hasMissingDesignatedInitializers final public class AdFitNativeAd : ObjectiveC.NSObject {
   @objc weak final public var delegate: (any AdFitSDK.AdFitNativeAdDelegate)?
   @objc weak final public var rootViewController: UIKit.UIViewController?
@@ -157,6 +277,36 @@ extension AdFitSDK.AdFitAdView : AdFitSDK.AdFitMediaViewInternalDelegate {
   @objc optional func nativeAdLoaderDidReceiveAd(_ nativeAd: AdFitSDK.AdFitNativeAd)
   @objc optional func nativeAdLoaderDidFailToReceiveAd(_ nativeAdLoader: AdFitSDK.AdFitNativeAdLoader, error: any Swift.Error)
 }
+@_inheritsConvenienceInitializers @objc public class ContentObject : ObjectiveC.NSObject, Swift.Codable {
+  @objc override dynamic public init()
+  @discardableResult
+  public func setId(_ id: Swift.String) -> AdFitSDK.ContentObject
+  @discardableResult
+  public func setUrl(_ url: Swift.String) -> AdFitSDK.ContentObject
+  @discardableResult
+  public func setTitle(_ title: Swift.String) -> AdFitSDK.ContentObject
+  @discardableResult
+  public func setSearchKeyword(_ search: Swift.String) -> AdFitSDK.ContentObject
+  @discardableResult
+  public func setKeywords(_ keywords: [Swift.String]) -> AdFitSDK.ContentObject
+  @discardableResult
+  public func setCategoryTaxonomies(_ cattax: Swift.Int) -> AdFitSDK.ContentObject
+  @discardableResult
+  public func setCategories(_ cat: [Swift.String]) -> AdFitSDK.ContentObject
+  @discardableResult
+  public func setSectionCategories(_ sectioncat: [Swift.String]) -> AdFitSDK.ContentObject
+  @objc deinit
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
+}
+@_inheritsConvenienceInitializers @objc public class UserObject : ObjectiveC.NSObject, Swift.Codable {
+  @objc override dynamic public init()
+  @discardableResult
+  public func setKeywords(_ keywords: [Swift.String]) -> AdFitSDK.UserObject
+  @objc deinit
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
+}
 @objc public enum AdFitVideoPlayPolicy : Swift.Int, Swift.CustomStringConvertible {
   case alwaysManualPlay = 0
   case alwaysAutoPlay = 1
@@ -182,13 +332,95 @@ precedencegroup AnchorPriorityOperatorPrecedence {
   lowerThan: MultiplicationPrecedence
 }
 infix operator ! : AnchorPriorityOperatorPrecedence
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) open class VirtualLayout : UIKit.UIView {
+  @_Concurrency.MainActor(unsafe) open var isSelected: Swift.Bool
+  @_Concurrency.MainActor(unsafe) public func vf_removeAllSubviews()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func layoutSubviews()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func traitCollectionDidChange(_ previousTraitCollection: UIKit.UITraitCollection?)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func sizeThatFits(_ size: CoreFoundation.CGSize) -> CoreFoundation.CGSize
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open var isHidden: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func willRemoveSubview(_ subview: UIKit.UIView)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func willMove(toSuperview newSuperview: UIKit.UIView?)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func observeValue(forKeyPath keyPath: Swift.String?, of object: Any?, change: [Foundation.NSKeyValueChangeKey : Any]?, context: Swift.UnsafeMutableRawPointer?)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
 @objc public protocol AdFitMediaViewInternalDelegate : ObjectiveC.NSObjectProtocol {
   @objc optional func mediaViewVideoDidDurationChange(_ mediaView: AdFitSDK.AdFitMediaView, current: Foundation.TimeInterval, total: Foundation.TimeInterval)
+}
+@objc @_Concurrency.MainActor(unsafe) open class LinearLayout : AdFitSDK.VirtualLayout {
+  @_Concurrency.MainActor(unsafe) convenience public init(_ direction: AdFitSDK.Direction)
+  @_Concurrency.MainActor(unsafe) public init(frame: CoreFoundation.CGRect, direction: AdFitSDK.Direction)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  @_Concurrency.MainActor(unsafe) public var direction: AdFitSDK.Direction {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func willRemoveSubview(_ subview: UIKit.UIView)
+  @objc deinit
+}
+extension UIKit.UIView {
+  @_Concurrency.MainActor(unsafe) public var vfBaseline: AdFitSDK.VFPositionValue {
+    get
+  }
+  @_Concurrency.MainActor(unsafe) public var vfTop: AdFitSDK.VFPositionValue {
+    get
+  }
+  @_Concurrency.MainActor(unsafe) public var vfLeading: AdFitSDK.VFPositionValue {
+    get
+  }
+  @_Concurrency.MainActor(unsafe) public var vfBottom: AdFitSDK.VFPositionValue {
+    get
+  }
+  @_Concurrency.MainActor(unsafe) public var vfTrailing: AdFitSDK.VFPositionValue {
+    get
+  }
+  @_Concurrency.MainActor(unsafe) public var vfCenterX: AdFitSDK.VFPositionValue {
+    get
+  }
+  @_Concurrency.MainActor(unsafe) public var vfCenterY: AdFitSDK.VFPositionValue {
+    get
+  }
+  @_Concurrency.MainActor(unsafe) public var vfLeft: AdFitSDK.VFPositionValue {
+    get
+  }
+  @_Concurrency.MainActor(unsafe) public var vfRight: AdFitSDK.VFPositionValue {
+    get
+  }
+  @_Concurrency.MainActor(unsafe) public var vfWidth: AdFitSDK.VFLayoutSize {
+    get
+  }
+  @_Concurrency.MainActor(unsafe) public var vfHeight: AdFitSDK.VFLayoutSize {
+    get
+  }
+  @_Concurrency.MainActor(unsafe) public var vfWidthRatio: AdFitSDK.VFPositionValue {
+    get
+  }
+  @_Concurrency.MainActor(unsafe) public var vfHeightRatio: AdFitSDK.VFPositionValue {
+    get
+  }
+  @_Concurrency.MainActor(unsafe) public var vfVisibility: AdFitSDK.Visibility {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) public var vfAlign: AdFitSDK.LayoutGravity {
+    get
+    set
+  }
 }
 extension AVKit.AVPlayerViewController {
   @_Concurrency.MainActor(unsafe) @objc override dynamic open var prefersStatusBarHidden: Swift.Bool {
     @objc get
   }
+}
+@_hasMissingDesignatedInitializers public class ThemeManager {
+  public static let shared: AdFitSDK.ThemeManager
+  public func changeTheme()
+  @objc deinit
 }
 @objc @_Concurrency.MainActor(unsafe) final public class AdFitBannerAdView : UIKit.UIView {
   @objc @_Concurrency.MainActor(unsafe) final public var clientId: Swift.String? {
@@ -224,6 +456,71 @@ extension AVKit.AVPlayerViewController {
   @objc override dynamic public init()
   @objc deinit
 }
+public enum SizeClassType {
+  public enum Width {
+    case any
+    case compact
+    case regular
+    public static func == (a: AdFitSDK.SizeClassType.Width, b: AdFitSDK.SizeClassType.Width) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  public enum Height {
+    case any
+    case compact
+    case regular
+    public static func == (a: AdFitSDK.SizeClassType.Height, b: AdFitSDK.SizeClassType.Height) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  public enum Direction {
+    case portrait
+    case landscape
+    public static func == (a: AdFitSDK.SizeClassType.Direction, b: AdFitSDK.SizeClassType.Direction) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  case `default`
+  case portrait
+  case landscape
+  case custom(AdFitSDK.SizeClassType.Width, AdFitSDK.SizeClassType.Height, AdFitSDK.SizeClassType.Direction?)
+}
+public struct BizBoardTemplatePresentableView : SwiftUI.UIViewRepresentable {
+  public init(clientId: Swift.String)
+  @_Concurrency.MainActor(unsafe) public func makeUIView(context: AdFitSDK.BizBoardTemplatePresentableView.Context) -> AdFitSDK.BizBoardTemplate
+  @_Concurrency.MainActor(unsafe) public func updateUIView(_ uiView: AdFitSDK.BizBoardTemplate, context: AdFitSDK.BizBoardTemplatePresentableView.Context)
+  @_Concurrency.MainActor(unsafe) public func makeCoordinator() -> AdFitSDK.BizBoardTemplatePresentableView.Coordinator
+  @objc @_hasMissingDesignatedInitializers public class Coordinator : ObjectiveC.NSObject, AdFitSDK.AdFitNativeAdLoaderDelegate, AdFitSDK.AdFitNativeAdDelegate {
+    @objc public func nativeAdLoaderDidReceiveAd(_ nativeAd: AdFitSDK.AdFitNativeAd)
+    @objc public func nativeAdLoaderDidFailToReceiveAd(_ nativeAdLoader: AdFitSDK.AdFitNativeAdLoader, error: any Swift.Error)
+    @objc public func nativeAdDidClickAd(_ nativeAd: AdFitSDK.AdFitNativeAd)
+    @objc deinit
+  }
+  public typealias Body = Swift.Never
+  public typealias UIViewType = AdFitSDK.BizBoardTemplate
+}
+extension AdFitSDK.BizBoardTemplatePresentableView {
+  public func onSizeThatFits() -> some SwiftUI.View
+  
+}
+@objc @_hasMissingDesignatedInitializers public class NasAdViewModel : ObjectiveC.NSObject {
+  @objc public var adAspectRatio: CoreFoundation.CGFloat {
+    @objc get
+  }
+  @objc public var maxHeight: CoreFoundation.CGFloat {
+    @objc get
+  }
+  @objc weak public var rootViewController: UIKit.UIViewController?
+  @objc public func bind()
+  @objc public func unbind()
+  @objc deinit
+}
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class PlainNativeAdView : UIKit.UIView, AdFitSDK.AdFitNativeAdRenderable {
   @_Concurrency.MainActor(unsafe) public var blockHandler: () -> Swift.Void
   @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
@@ -240,6 +537,9 @@ extension AVKit.AVPlayerViewController {
   @objc optional func mediaViewVideoDidComplete(_ mediaView: AdFitSDK.AdFitMediaView)
   @objc optional func mediaViewVideoDidMute(_ mediaView: AdFitSDK.AdFitMediaView)
   @objc optional func mediaViewVideoDidUnmute(_ mediaView: AdFitSDK.AdFitMediaView)
+  @objc optional func mediaViewVideoDidDurationChange(_ mediaView: AdFitSDK.AdFitMediaView, current: Foundation.TimeInterval, total: Foundation.TimeInterval)
+  @objc optional func mediaViewVideoDidFailed(_ mediaView: AdFitSDK.AdFitMediaView, error: any Swift.Error)
+  @objc optional func mediaViewVideoDidChangeBuffering(_ mediaView: AdFitSDK.AdFitMediaView, buffering: Swift.Bool)
 }
 @objc final public class AdFitNativeAdLoader : ObjectiveC.NSObject {
   @objc final public var ads: [AdFitSDK.AdFitNativeAd]
@@ -250,7 +550,7 @@ extension AVKit.AVPlayerViewController {
   @objc weak final public var rootViewController: UIKit.UIViewController?
   @objc final public var infoIconPosition: AdFitSDK.AdFitInfoIconPosition
   @objc final public var desiredMediaWidth: CoreFoundation.CGFloat
-  @objc public init(clientId: Swift.String, count: Swift.Int = 1)
+  @objc public init(clientId: Swift.String, count: Swift.Int = 1, userObject: AdFitSDK.UserObject? = nil, contentObject: AdFitSDK.ContentObject? = nil)
   @objc final public func loadAd(keyword: Swift.String? = nil)
   @objc deinit
 }
@@ -263,6 +563,65 @@ extension AVKit.AVPlayerViewController {
   public var rawValue: Swift.Int {
     get
   }
+}
+public struct Weight {
+  public static let zeroWeight: AdFitSDK.Weight
+  public static let fillWeight: AdFitSDK.Weight
+  public init(_ value: Swift.Int)
+  public init(_ value: CoreFoundation.CGFloat)
+}
+extension AdFitSDK.Weight : Swift.Equatable {
+}
+public func != (lhs: AdFitSDK.Weight, rhs: AdFitSDK.Weight) -> Swift.Bool
+public func == (lhs: AdFitSDK.Weight, rhs: AdFitSDK.Weight) -> Swift.Bool
+public func += (lhs: inout AdFitSDK.Weight, rhs: AdFitSDK.Weight)
+public func -= (lhs: inout AdFitSDK.Weight, rhs: AdFitSDK.Weight)
+public func + (lhs: AdFitSDK.Weight, rhs: AdFitSDK.Weight) -> AdFitSDK.Weight
+postfix operator %
+postfix public func % (val: CoreFoundation.CGFloat) -> AdFitSDK.Weight
+postfix public func % (val: Swift.Int) -> AdFitSDK.Weight
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) final public class AdFitFlexibleView : UIKit.UIView {
+  @objc @_Concurrency.MainActor(unsafe) final public var clientId: Swift.String {
+    get
+  }
+  @objc @_Concurrency.MainActor(unsafe) final public var desiredMediaWidth: CoreFoundation.CGFloat
+  @objc @_Concurrency.MainActor(unsafe) weak final public var delegate: (any AdFitSDK.AdFitFlexibleViewDelegate)?
+  @objc @_Concurrency.MainActor(unsafe) final public var adRatio: CoreFoundation.CGFloat {
+    @objc get
+  }
+  @objc @_Concurrency.MainActor(unsafe) convenience public init(adUnitId: Swift.String)
+  @objc @_Concurrency.MainActor(unsafe) weak final public var rootViewController: UIKit.UIViewController?
+  @objc @_Concurrency.MainActor(unsafe) final public func loadAd()
+  @objc deinit
+  @_Concurrency.MainActor(unsafe) final public var latestContainerHeight: CoreFoundation.CGFloat {
+    get
+  }
+}
+@objc public protocol AdFitFlexibleViewDelegate : ObjectiveC.NSObjectProtocol {
+  @objc optional func adViewDidReceiveAd(_ adView: AdFitSDK.AdFitFlexibleView)
+  @objc optional func adViewDidFailToReceiveAd(_ adView: AdFitSDK.AdFitFlexibleView, error: any Swift.Error)
+  @objc optional func adViewDidClickAd(_ adView: AdFitSDK.AdFitFlexibleView)
+}
+public struct AdFitBannerPresentableView : SwiftUI.UIViewRepresentable {
+  public typealias UIViewType = AdFitSDK.AdFitBannerAdView
+  public init(clientId: Swift.String, adUnitSize: Swift.String)
+  @_Concurrency.MainActor(unsafe) public func makeUIView(context: AdFitSDK.AdFitBannerPresentableView.Context) -> AdFitSDK.AdFitBannerAdView
+  @_Concurrency.MainActor(unsafe) public func updateUIView(_ uiView: AdFitSDK.AdFitBannerAdView, context: AdFitSDK.AdFitBannerPresentableView.Context)
+  public func onDidClickAd(_ closure: ((AdFitSDK.AdFitBannerAdView) -> Swift.Void)?) -> AdFitSDK.AdFitBannerPresentableView
+  public func onDidReceiveAd(_ closure: ((AdFitSDK.AdFitBannerAdView, (any Swift.Error)?) -> Swift.Void)?) -> AdFitSDK.AdFitBannerPresentableView
+  @_Concurrency.MainActor(unsafe) public func makeCoordinator() -> AdFitSDK.AdFitBannerPresentableView.Coordinator
+  @objc @_inheritsConvenienceInitializers public class Coordinator : ObjectiveC.NSObject, AdFitSDK.AdFitBannerAdViewDelegate {
+    @objc public func adViewDidClickAd(_ bannerAdView: AdFitSDK.AdFitBannerAdView)
+    @objc public func adViewDidReceiveAd(_ bannerAdView: AdFitSDK.AdFitBannerAdView)
+    @objc public func adViewDidFailToReceiveAd(_ bannerAdView: AdFitSDK.AdFitBannerAdView, error: any Swift.Error)
+    @objc override dynamic public init()
+    @objc deinit
+  }
+  public typealias Body = Swift.Never
+}
+extension AdFitSDK.AdFitBannerPresentableView {
+  public func onSizeThatFits(orientation: SwiftUI.Binding<UIKit.UIDeviceOrientation>, width: CoreFoundation.CGFloat = UIApplication.shared.safeBounds.width) -> some SwiftUI.View
+  
 }
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class BizBoardCell : UIKit.UITableViewCell {
   @objc @_Concurrency.MainActor(unsafe) public static var defaultBackgroundColor: UIKit.UIColor
@@ -312,6 +671,64 @@ extension AdFitSDK.AdFit {
   @objc final public class func register(accountId: Swift.String)
   @objc final public class func unregister()
 }
+extension Swift.Dictionary {
+  public func get<T>(_ key: Key) -> T?
+  public func get<T>(_ key: Key, defaultValue: T) -> T
+  public func color(_ key: Key) -> UIKit.UIColor?
+  public func image(_ key: Key) -> UIKit.UIImage?
+  public func cast<T>(_ key: Key) -> T? where T : AdFitSDK.StringRepresentable
+}
+public protocol StringRepresentable {
+  static func fromString(_ value: Swift.String) -> Self?
+}
+extension Swift.Float : AdFitSDK.StringRepresentable {
+  public static func fromString(_ value: Swift.String) -> Swift.Float?
+}
+extension CoreFoundation.CGFloat : AdFitSDK.StringRepresentable {
+  public static func fromString(_ value: Swift.String) -> CoreFoundation.CGFloat?
+}
+extension Swift.Int : AdFitSDK.StringRepresentable {
+  public static func fromString(_ value: Swift.String) -> Swift.Int?
+}
+extension Swift.String : AdFitSDK.StringRepresentable {
+  public static func fromString(_ value: Swift.String) -> Swift.String?
+}
+extension Swift.Bool : AdFitSDK.StringRepresentable {
+  public static func fromString(_ value: Swift.String) -> Swift.Bool?
+}
+extension Foundation.URL : AdFitSDK.StringRepresentable {
+  public static func fromString(_ value: Swift.String) -> Foundation.URL?
+}
+extension ObjectiveC.Selector : AdFitSDK.StringRepresentable {
+  public static func fromString(_ value: Swift.String) -> ObjectiveC.Selector?
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) open class FrameLayout : AdFitSDK.VirtualLayout {
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+@objc public protocol NasAdLoaderDelegate : ObjectiveC.NSObjectProtocol {
+  @objc optional func didReceivedAd(_ viewModel: AdFitSDK.NasAdViewModel)
+  @objc optional func didFailToReceiveAd()
+}
+@objc final public class NasAdLoader : ObjectiveC.NSObject {
+  @objc weak final public var delegate: (any AdFitSDK.NasAdLoaderDelegate)?
+  @objc final public var desiredMediaWidth: CoreFoundation.CGFloat
+  @objc public init(adUnitId: Swift.String, preload: Swift.Bool = true)
+  @objc final public func loadAd()
+  @objc deinit
+}
+public struct BannerSizeModifier : SwiftUI.ViewModifier {
+  public init(unitSize: Swift.String, width: CoreFoundation.CGFloat = UIApplication.shared.safeBounds.width)
+  @_Concurrency.MainActor(unsafe) public func body(content: AdFitSDK.BannerSizeModifier.Content) -> some SwiftUI.View
+  
+  public typealias Body = @_opaqueReturnTypeOf("$s8AdFitSDK18BannerSizeModifierV4body7contentQr7SwiftUI05_ViewF8_ContentVyACG_tF", 0) __
+}
+extension UIKit.UIApplication {
+  @_Concurrency.MainActor(unsafe) public var safeBounds: CoreFoundation.CGRect {
+    get
+  }
+}
 @objc public protocol AdFitNativeAdRenderable {
   @objc func adTitleLabel() -> UIKit.UILabel?
   @objc optional func adBodyLabel() -> UIKit.UILabel?
@@ -320,6 +737,25 @@ extension AdFitSDK.AdFit {
   @objc func adProfileIconView() -> UIKit.UIImageView?
   @objc func adMediaView() -> AdFitSDK.AdFitMediaView?
   @objc optional func customInfoIconView() -> UIKit.UIImageView?
+}
+public enum Visibility {
+  case visible
+  case invisible
+  case gone
+  public static func == (a: AdFitSDK.Visibility, b: AdFitSDK.Visibility) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum Direction {
+  case vertical
+  case horizontal
+  public static func == (a: AdFitSDK.Direction, b: AdFitSDK.Direction) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
 }
 @objc public enum AdFitInfoIconPosition : Swift.Int, Swift.CustomStringConvertible {
   case topLeft = 0
@@ -335,15 +771,103 @@ extension AdFitSDK.AdFit {
     get
   }
 }
+public protocol VFLayoutSizeValueType {
+}
+extension CoreFoundation.CGFloat : AdFitSDK.VFLayoutSizeValueType {
+}
+extension Swift.Double : AdFitSDK.VFLayoutSizeValueType {
+}
+extension Swift.Int : AdFitSDK.VFLayoutSizeValueType {
+}
+extension AdFitSDK.Weight : AdFitSDK.VFLayoutSizeValueType {
+}
+extension Swift.Array : AdFitSDK.VFLayoutSizeValueType {
+}
+extension AdFitSDK.VFLayoutSize : AdFitSDK.VFLayoutSizeValueType {
+}
+extension UIKit.UIView : AdFitSDK.VFLayoutSizeValueType {
+}
+final public class VFLayoutSize {
+  public static let wrap: AdFitSDK.VFLayoutSize
+  public static let fill: AdFitSDK.VFLayoutSize
+  @discardableResult
+  final public func equal(_ weight: AdFitSDK.Weight, increment: CoreFoundation.CGFloat = 0, multiple: CoreFoundation.CGFloat = 1) -> AdFitSDK.VFLayoutSize
+  @discardableResult
+  final public func equal(_ value: AdFitSDK.VFLayoutSize, increment: CoreFoundation.CGFloat = 0, multiple: CoreFoundation.CGFloat = 1) -> AdFitSDK.VFLayoutSize
+  @discardableResult
+  final public func equal(_ value: any AdFitSDK.VFLayoutSizeValueType) -> AdFitSDK.VFLayoutSize
+  @discardableResult
+  final public func add(_ val: CoreFoundation.CGFloat) -> AdFitSDK.VFLayoutSize
+  @discardableResult
+  final public func min(_ size: CoreFoundation.CGFloat, increment: CoreFoundation.CGFloat = 0, multiple: CoreFoundation.CGFloat = 1) -> AdFitSDK.VFLayoutSize
+  @discardableResult
+  final public func min(_ dime: AdFitSDK.VFLayoutSize, increment: CoreFoundation.CGFloat = 0, multiple: CoreFoundation.CGFloat = 1) -> AdFitSDK.VFLayoutSize
+  @discardableResult
+  final public func max(_ size: CoreFoundation.CGFloat, increment: CoreFoundation.CGFloat = 0, multiple: CoreFoundation.CGFloat = 1) -> AdFitSDK.VFLayoutSize
+  @discardableResult
+  final public func max(_ size: AdFitSDK.VFLayoutSize, increment: CoreFoundation.CGFloat = 0, multiple: CoreFoundation.CGFloat = 1) -> AdFitSDK.VFLayoutSize
+  @discardableResult
+  final public func and() -> UIKit.UIView?
+  final public func clear()
+  final public var isActive: Swift.Bool {
+    get
+    set
+  }
+  final public var hasValue: Swift.Bool {
+    get
+  }
+  final public var isWrap: Swift.Bool {
+    get
+  }
+  final public var isFill: Swift.Bool {
+    get
+  }
+  final public var numberVal: CoreFoundation.CGFloat? {
+    get
+  }
+  final public var sizeVal: AdFitSDK.VFLayoutSize? {
+    get
+  }
+  final public var arrayVal: [AdFitSDK.VFLayoutSize]? {
+    get
+  }
+  final public var weightVal: AdFitSDK.Weight? {
+    get
+  }
+  final public var increment: CoreFoundation.CGFloat {
+    get
+  }
+  final public var multiple: CoreFoundation.CGFloat {
+    get
+  }
+  final public var min: AdFitSDK.VFLayoutSize {
+    get
+  }
+  final public var max: AdFitSDK.VFLayoutSize {
+    get
+  }
+  public init(_ type: AdFitSDK.LayoutGravity, view: UIKit.UIView?)
+  @objc deinit
+}
 extension AdFitSDK.AdFitMediaType : Swift.Equatable {}
 extension AdFitSDK.AdFitMediaType : Swift.Hashable {}
 extension AdFitSDK.AdFitMediaType : Swift.RawRepresentable {}
 extension AdFitSDK.AdFitVideoPlayPolicy : Swift.Equatable {}
 extension AdFitSDK.AdFitVideoPlayPolicy : Swift.Hashable {}
 extension AdFitSDK.AdFitVideoPlayPolicy : Swift.RawRepresentable {}
+extension AdFitSDK.SizeClassType.Width : Swift.Equatable {}
+extension AdFitSDK.SizeClassType.Width : Swift.Hashable {}
+extension AdFitSDK.SizeClassType.Height : Swift.Equatable {}
+extension AdFitSDK.SizeClassType.Height : Swift.Hashable {}
+extension AdFitSDK.SizeClassType.Direction : Swift.Equatable {}
+extension AdFitSDK.SizeClassType.Direction : Swift.Hashable {}
 extension AdFitSDK.AdMotionPlayType : Swift.Equatable {}
 extension AdFitSDK.AdMotionPlayType : Swift.Hashable {}
 extension AdFitSDK.AdMotionPlayType : Swift.RawRepresentable {}
+extension AdFitSDK.Visibility : Swift.Equatable {}
+extension AdFitSDK.Visibility : Swift.Hashable {}
+extension AdFitSDK.Direction : Swift.Equatable {}
+extension AdFitSDK.Direction : Swift.Hashable {}
 extension AdFitSDK.AdFitInfoIconPosition : Swift.Equatable {}
 extension AdFitSDK.AdFitInfoIconPosition : Swift.Hashable {}
 extension AdFitSDK.AdFitInfoIconPosition : Swift.RawRepresentable {}

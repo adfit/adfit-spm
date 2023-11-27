@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		3sAX17nbLcP+ozUrxSBizzg0UEk=
+		KrBNZPg7SYm0MlS2yf6DEoCRDOI=
 		</data>
 		<key>Headers/AFSDAnimatedImage.h</key>
 		<data>
@@ -30,7 +30,7 @@
 		</data>
 		<key>Headers/AdFitSDK-Swift.h</key>
 		<data>
-		obAGCzGMqu2E6mrj93V0aTVXSZ0=
+		5PySWGsAgTVZKFLMAlLiRoY0DRY=
 		</data>
 		<key>Headers/AdFitSDK.h</key>
 		<data>
@@ -38,51 +38,55 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		r8Bh+kQ+rY3qeMq9aiiUKma6I84=
+		ZjQmo6hMgmE2Kv7PNvAzDkrDzRY=
+		</data>
+		<key>Makefile.am</key>
+		<data>
+		LYMQcMdUXwxMXu0Lz2SA1S2sd50=
 		</data>
 		<key>Modules/AdFitSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		UFVrjHlPL3a6DVO/rOvQSpJFVxk=
+		hI2Qi7FNyd8OkIyOtMH8ZjZOfs4=
 		</data>
 		<key>Modules/AdFitSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		wB3nQElfEi+mlSUdbL2rqk3bLMM=
+		QLYcp7/dk4BKLT85UWdMvgptxho=
 		</data>
 		<key>Modules/AdFitSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		5vK993GmzE9Dk0mB+zU03Dd/k2g=
+		3gRtI2CSxmzZExpINuXL0IiUWdI=
 		</data>
 		<key>Modules/AdFitSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		wB3nQElfEi+mlSUdbL2rqk3bLMM=
+		QLYcp7/dk4BKLT85UWdMvgptxho=
 		</data>
 		<key>Modules/AdFitSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		zcCszQzA9Ktlq8ccY0N95tDU9Dw=
+		IK6zQuTwBD5wu0pII9F8U+TGpzg=
 		</data>
 		<key>Modules/AdFitSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		vXGCuz86RVsbg/ayH4/dHXJJDts=
+		9tcnDjxUdFsb3I5JfCuBXCmtj04=
 		</data>
 		<key>Modules/AdFitSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		gxZJTDogThOdEI6zi/DGEls9Wxc=
+		1+tPN9MjdBD3NvprJtH3CfxFuN8=
 		</data>
 		<key>Modules/AdFitSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		Db4dfPtmSHf8AfI97tpvJdy566w=
+		DzoIPkHpo01G220V8heYdsQK1BI=
 		</data>
 		<key>Modules/AdFitSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		gxZJTDogThOdEI6zi/DGEls9Wxc=
+		1+tPN9MjdBD3NvprJtH3CfxFuN8=
 		</data>
 		<key>Modules/AdFitSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		AYLMBRW0y60pGi+k7hBa3OMrbS8=
+		7DhHxNlU/aXVJTxZvZHLOsBIIbI=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		aM/zbEDRbER/tXBdFwvL0QN/HAg=
+		zhd2EKdWBi9Xd7e5SuIeaJM4OWk=
 		</data>
 		<key>en.lproj/AdFit.strings</key>
 		<dict>
@@ -102,6 +106,46 @@
 			<key>optional</key>
 			<true/>
 		</dict>
+		<key>libsharpyuv.pc.in</key>
+		<data>
+		SvdI/TsgvO8dPq1d1TR85Ejjt8U=
+		</data>
+		<key>libsharpyuv.rc</key>
+		<data>
+		xcu0xcbMQDvFmGCBrxGM25NMqkI=
+		</data>
+		<key>libwebp.pc.in</key>
+		<data>
+		d6UKgYMW45e+pxWhkOnEKV7j2Mc=
+		</data>
+		<key>libwebp.rc</key>
+		<data>
+		Sm7gS32iw7cgNqSRyA9MDIoMKX4=
+		</data>
+		<key>libwebpdecoder.pc.in</key>
+		<data>
+		4QVTpnP+0y9UI6MT80Fs5vj/g7o=
+		</data>
+		<key>libwebpdecoder.rc</key>
+		<data>
+		5LZMqq+ptBag1UxUxNmqhyNfSuE=
+		</data>
+		<key>libwebpdemux.pc.in</key>
+		<data>
+		+9XOST4Jv1r5dKu9SctbSHvU4+c=
+		</data>
+		<key>libwebpdemux.rc</key>
+		<data>
+		JAuRntJrpMEXiMAtBSslAYR2Vs4=
+		</data>
+		<key>libwebpmux.pc.in</key>
+		<data>
+		5GSM3RDasJtIbg1PD5u9rwpd++g=
+		</data>
+		<key>libwebpmux.rc</key>
+		<data>
+		YDtCFXGeu71qlkSkpWNZBb0hmQA=
+		</data>
 		<key>motionHint_1_image.webp</key>
 		<data>
 		WZ/T0GFigxaw0V7uajLnslpGJqo=
@@ -133,7 +177,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			c+gtac4fKse4UqRFSpJEQBdIhFbirvLijxCC6NCnO48=
+			8P1/nDnlkGcKyrYvZqvH8EfSMhzOoCDpkoOFV5vQkeY=
 			</data>
 		</dict>
 		<key>Headers/AFSDAnimatedImage.h</key>
@@ -175,7 +219,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			O0Q3WPTjTtTzY1e1NVuVsJe7lfMeQsMLagMQl/+ppYI=
+			EFXd0nT9eHc5+cPNhWg375jlLCiYymWXMfDspJ7fCTE=
 			</data>
 		</dict>
 		<key>Headers/AdFitSDK.h</key>
@@ -185,81 +229,88 @@
 			I2b5pN8TNtszReYRiS6CZLJf3SusFmXTF9fFah6RY/w=
 			</data>
 		</dict>
+		<key>Makefile.am</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			BUHFpDdPvy6roUptfbRcJLU5PF57U6yS0MNnD2JZsSE=
+			</data>
+		</dict>
 		<key>Modules/AdFitSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			VEtdRsl4n/62zn/iVuj0Q+06NoSimGA5jN7BFDbKX+I=
+			E2IpsBqZFB6oHdNRoZi3CkrB0oalmW7LprX5iEYpeRI=
 			</data>
 		</dict>
 		<key>Modules/AdFitSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			5a/T6z4CPQajEAXteerZoQItj/kbXxEA0LeWDSNKZTs=
+			Sns4M8umjMcSfKoVyFLFjxO22sD9QF4j0r+yq5woozc=
 			</data>
 		</dict>
 		<key>Modules/AdFitSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			qh1Xv8Wvs7DLnOV1R19+OqBU5aEfU2aOOZV6AZ9sKSI=
+			qz0CH2FyrZOb3CD25/HKkB3E00WlyohkvI4XbD+mmxQ=
 			</data>
 		</dict>
 		<key>Modules/AdFitSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			5a/T6z4CPQajEAXteerZoQItj/kbXxEA0LeWDSNKZTs=
+			Sns4M8umjMcSfKoVyFLFjxO22sD9QF4j0r+yq5woozc=
 			</data>
 		</dict>
 		<key>Modules/AdFitSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Ii7ej5EwCuS3qYibum76SyTMy/zxSND86OHWPOkea9o=
+			5Emyk26lzIgbDObWHIHSDXQZ5dVCEGy0Z7VnpPin9kw=
 			</data>
 		</dict>
 		<key>Modules/AdFitSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			TW+TTF5fhhBgUW9TNrkJuJJB+nfYGmirxhJ4lKitnB8=
+			QC7ELn0r6qP3FdPHA3z8SibVBuABtyL/UKJ90E7BZG8=
 			</data>
 		</dict>
 		<key>Modules/AdFitSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			hGjZ2oo/ACNfNVUMJT0aMqRiSNOM//I8sFPmY6cjNN4=
+			3I3QhM12EINMnf9C2CrPBfvzmuz+4NvpIuhaJuP7uaU=
 			</data>
 		</dict>
 		<key>Modules/AdFitSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			d6a+aY5T1JVpujSXHtkwAnEhy1JeDE2qm6hZIIDKhn4=
+			7AxtM1ASEvJFMYn6aUb0UOstGhHjknHx6jvnzYazW0c=
 			</data>
 		</dict>
 		<key>Modules/AdFitSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			hGjZ2oo/ACNfNVUMJT0aMqRiSNOM//I8sFPmY6cjNN4=
+			3I3QhM12EINMnf9C2CrPBfvzmuz+4NvpIuhaJuP7uaU=
 			</data>
 		</dict>
 		<key>Modules/AdFitSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			UI5XwMW3qDvFw08IHMVYAUHqhaRqveWSEshqPJrV/JI=
+			iHUE7Umd8Kygejwh9Dl5fSo5VSvjutkYMjlP0aBZhdE=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			rqyIkbUk0t76NUYv5jyJ1kkcOs8UZroRYTVA4g6V08s=
+			tJ1FzWwe3SkcWqxQlTdH1KMWpBV7LW0SDGg1xmoELUo=
 			</data>
 		</dict>
 		<key>en.lproj/AdFit.strings</key>
@@ -279,6 +330,76 @@
 			</data>
 			<key>optional</key>
 			<true/>
+		</dict>
+		<key>libsharpyuv.pc.in</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			xT8SnDs75fhKedBrKePFCagQ2jtRMaRKnHmm2zGkcEY=
+			</data>
+		</dict>
+		<key>libsharpyuv.rc</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			7cXO2CbavRntywJvxRTGnrn/SI9mPxbzQPcDJDOVFxY=
+			</data>
+		</dict>
+		<key>libwebp.pc.in</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			MPfyIIom5yBcb/M+aZkKg8OPQRjBuvHwESA4coaiKAg=
+			</data>
+		</dict>
+		<key>libwebp.rc</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			HKtkgVSVdIXhId/YmFwpy3LDeOWxXRRCzSNglkzR0Rg=
+			</data>
+		</dict>
+		<key>libwebpdecoder.pc.in</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			OzV042V9AuvEWyK8VOnRG0f7qQ9lhi8B2Rge1+IefsI=
+			</data>
+		</dict>
+		<key>libwebpdecoder.rc</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			9kQLs8BsgzPc2GeFdZSV/hMgLLmtU1+pkzYpemw33So=
+			</data>
+		</dict>
+		<key>libwebpdemux.pc.in</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			SWtWQMIciQQ67QPf0KqsSujNGxrQpTf9pkTSGKHNUAQ=
+			</data>
+		</dict>
+		<key>libwebpdemux.rc</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			nW+PKZ3NIN9ZoLTUhWFEVy5yHYPvNJdYTcIiIAZOjM0=
+			</data>
+		</dict>
+		<key>libwebpmux.pc.in</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			8cHehcDglO1JjypMedD53xPi5AmzgscqCd0RosHs5dI=
+			</data>
+		</dict>
+		<key>libwebpmux.rc</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			gKzifOFXibZVTZ6h2w2VLsLKdDRth9yyLMKbdVyzD4s=
+			</data>
 		</dict>
 		<key>motionHint_1_image.webp</key>
 		<dict>
