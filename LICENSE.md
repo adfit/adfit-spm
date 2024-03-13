@@ -1,4 +1,6 @@
-# OSS Notice | Adfit-iOS-SPM-external #
+오픈소스 라이선스
+
+# OSS Notice | Adfit-iOS #
 
 This application is Copyright © Kakao Corp. All rights reserved.
 

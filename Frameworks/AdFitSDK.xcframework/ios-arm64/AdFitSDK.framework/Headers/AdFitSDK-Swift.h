@@ -366,7 +366,7 @@ SWIFT_PROTOCOL("_TtP8AdFitSDK23AdFitNativeAdRenderable_")
 /// 광고 제목 텍스트를 표시할 <code>UILabel</code> 객체를 리턴하도록 구현하세요.
 - (UILabel * _Nullable)adTitleLabel SWIFT_WARN_UNUSED_RESULT;
 @optional
-/// 광고 본문 텍스트를 표시할 <code>UILable</code> 객체를 리턴하도록 구현하세요.
+/// 광고 본문 텍스트를 표시할 <code>UILabel</code> 객체를 리턴하도록 구현하세요.
 - (UILabel * _Nullable)adBodyLabel SWIFT_WARN_UNUSED_RESULT;
 @required
 /// CTA(행동 유도) 버튼 텍스트를 표시할 <code>UIButton</code> 객체를 리턴하도록 구현하세요.
@@ -701,7 +701,7 @@ SWIFT_CLASS("_TtC8AdFitSDK19AdFitNativeAdLoader")
 /// 이 프로퍼티를 지정하면, 광고 서버는 해당 길이에 맞게 미디어 요소의 크기를 최적화 하여 전달합니다.<br>
 /// 기본값은 현재 기기가 세로 모드일 때의 가로 해상도입니다.
 /// note:
-/// 이 프로퍼티의 값은 반드시 논리 해상도 기준으로 설정해주세요. 레티나 기기의 2x, 3x 계산은 SDK 내부에서 자동으로 처리합니다.
+/// 이 프로퍼티의 값은 반드시 논리 해상도 기준으로 설정해 주세요. 레티나 기기의 2x, 3x 계산은 SDK 내부에서 자동으로 처리합니다.
 /// <ul>
 ///   <li>
 ///     아이폰 6 미만: 320
@@ -792,6 +792,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class) UIEdgeInsets defaultEdgeInset;
 @property (nonatomic) CGFloat bgViewBottomMargin;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder SWIFT_UNAVAILABLE;
 - (nonnull instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString * _Nullable)reuseIdentifier SWIFT_UNAVAILABLE;
+- (CGFloat)adHeightWithWidth:(CGFloat)width SWIFT_WARN_UNUSED_RESULT;
 @end
 
 
@@ -819,6 +820,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class) UIEdgeInsets defaultEdgeInset;
 @property (nonatomic) CGFloat bgViewBottomMargin;
 - (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
+- (CGFloat)adHeightWithWidth:(CGFloat)width SWIFT_WARN_UNUSED_RESULT;
 @end
 
 
@@ -837,15 +839,23 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class) UIEdgeInsets defaultEdgeInset;
 SWIFT_CLASS("_TtC8AdFitSDK13ContentObject")
 @interface ContentObject : NSObject
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+- (ContentObject * _Nonnull)setId:(NSString * _Nonnull)id;
+- (ContentObject * _Nonnull)setUrl:(NSString * _Nonnull)url;
+- (ContentObject * _Nonnull)setTitle:(NSString * _Nonnull)title;
+- (ContentObject * _Nonnull)setSearchKeyword:(NSString * _Nonnull)search;
+- (ContentObject * _Nonnull)setKeywords:(NSArray<NSString *> * _Nonnull)keywords;
+- (ContentObject * _Nonnull)setCategoryTaxonomies:(NSInteger)cattax;
+- (ContentObject * _Nonnull)setCategories:(NSArray<NSString *> * _Nonnull)cat;
+- (ContentObject * _Nonnull)setSectionCategories:(NSArray<NSString *> * _Nonnull)sectioncat;
 @end
 
 @class UITraitCollection;
 
 SWIFT_CLASS("_TtC8AdFitSDK13VirtualLayout")
 @interface VirtualLayout : UIView
+- (CGSize)sizeThatFits:(CGSize)size SWIFT_WARN_UNUSED_RESULT;
 - (void)layoutSubviews;
 - (void)traitCollectionDidChange:(UITraitCollection * _Nullable)previousTraitCollection;
-- (CGSize)sizeThatFits:(CGSize)size SWIFT_WARN_UNUSED_RESULT;
 @property (nonatomic, getter=isHidden) BOOL hidden;
 - (void)willRemoveSubview:(UIView * _Nonnull)subview;
 - (void)willMoveToSuperview:(UIView * _Nullable)newSuperview;
@@ -947,6 +957,7 @@ SWIFT_CLASS("_TtC8AdFitSDK17PlainNativeAdView")
 - (UIImageView * _Nullable)adProfileIconView SWIFT_WARN_UNUSED_RESULT;
 - (AdFitMediaView * _Nullable)adMediaView SWIFT_WARN_UNUSED_RESULT;
 @end
+
 
 
 
