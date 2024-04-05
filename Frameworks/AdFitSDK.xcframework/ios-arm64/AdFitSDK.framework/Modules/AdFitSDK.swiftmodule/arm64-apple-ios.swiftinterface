@@ -8,12 +8,14 @@ import AVKit
 import AdSupport
 import AppTrackingTransparency
 import Combine
+import CoreGraphics
 import CoreTelephony
 import CryptoKit
 import DeveloperToolsSupport
 import Foundation
 import Foundation/*.Data*/
 import OSLog
+import SceneKit
 import StoreKit
 import Swift
 import SwiftUI
@@ -108,6 +110,26 @@ extension AdFitSDK.BizBoardTemplate : AdFitSDK.AdFitNativeAdRenderable {
   @_Concurrency.MainActor(unsafe) open func calculateRectFromSubviews(_ size: CoreFoundation.CGSize, isEstimate: Swift.Bool, hasSubLayout: inout Swift.Bool, subviews: [UIKit.UIView]?, type: AdFitSDK.SizeClassType) -> CoreFoundation.CGSize
   @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
   @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc(IAVDSnapshotViewConfiguration) final public class SnapshotViewConfiguration : ObjectiveC.NSObject {
+  @_inheritsConvenienceInitializers @objc(IAVDSnapshotViewHeaderAttributes) final public class HeaderAttributes : ObjectiveC.NSObject {
+    @objc final public var color: UIKit.UIColor
+    @objc final public var cornerRadius: CoreFoundation.CGFloat
+    @objc final public var verticalInset: CoreFoundation.CGFloat
+    @objc final public var font: UIKit.UIFont
+    @objc override dynamic public init()
+    @objc deinit
+  }
+  @objc final public var zSpacing: Swift.Float
+  @objc final public var minimumZSpacing: Swift.Float
+  @objc final public var maximumZSpacing: Swift.Float
+  @objc final public var backgroundColor: UIKit.UIColor
+  @objc final public var highlightColor: UIKit.UIColor
+  @objc final public var normalHeaderAttributes: AdFitSDK.SnapshotViewConfiguration.HeaderAttributes
+  @objc final public var importantHeaderAttributes: AdFitSDK.SnapshotViewConfiguration.HeaderAttributes
+  @objc final public var descriptionFont: UIKit.UIFont
+  @objc override dynamic public init()
   @objc deinit
 }
 public struct LayoutGravity : Swift.OptionSet {

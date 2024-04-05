@@ -958,6 +958,50 @@ SWIFT_CLASS("_TtC8AdFitSDK17PlainNativeAdView")
 - (AdFitMediaView * _Nullable)adMediaView SWIFT_WARN_UNUSED_RESULT;
 @end
 
+@class IAVDSnapshotViewHeaderAttributes;
+@class UIFont;
+
+/// Configuration options for the 3D snapshot view.
+SWIFT_CLASS_NAMED("SnapshotViewConfiguration")
+@interface IAVDSnapshotViewConfiguration : NSObject
+/// The spacing between layers along the z-axis.
+@property (nonatomic) float zSpacing;
+/// The minimum spacing between layers along the z-axis.
+@property (nonatomic) float minimumZSpacing;
+/// The maximum spacing between layers on the z-axis.
+@property (nonatomic) float maximumZSpacing;
+/// The scene’s background color, which gets rendered behind
+/// all content.
+@property (nonatomic, strong) UIColor * _Nonnull backgroundColor;
+/// The color of the highlight overlaid on top of a UI element when it
+/// is selected.
+@property (nonatomic, strong) UIColor * _Nonnull highlightColor;
+/// The attributes for a header of normal importance.
+@property (nonatomic, strong) IAVDSnapshotViewHeaderAttributes * _Nonnull normalHeaderAttributes;
+/// The attributes for a header of higher importance.
+@property (nonatomic, strong) IAVDSnapshotViewHeaderAttributes * _Nonnull importantHeaderAttributes;
+/// The font used to render the description for a selected element.
+@property (nonatomic, strong) UIFont * _Nonnull descriptionFont;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+/// Attributes used to customize the header rendered above the UI element.
+SWIFT_CLASS_NAMED("HeaderAttributes")
+@interface IAVDSnapshotViewHeaderAttributes : NSObject
+/// The background color of the header rendered above each view
+/// that has name text.
+@property (nonatomic, strong) UIColor * _Nonnull color;
+/// The corner radius of the header background.
+@property (nonatomic) CGFloat cornerRadius;
+/// The top and bottom inset between the header and the name text.
+@property (nonatomic) CGFloat verticalInset;
+/// The font used to render the name text in the header.
+@property (nonatomic, strong) UIFont * _Nonnull font;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
 
 
 

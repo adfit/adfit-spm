@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		1PMG/X76ZlREPRuOkyIOe8gYvtE=
+		D9bvxY6B3RDSiIh1aSYcNFBmJWE=
 		</data>
 		<key>Headers/AFSDAnimatedImage.h</key>
 		<data>
@@ -30,7 +30,7 @@
 		</data>
 		<key>Headers/AdFitSDK-Swift.h</key>
 		<data>
-		JvmmD00rfr2Zcdotl91VoJgSimE=
+		RP6Hqbj4q5s5A5X5hTR2LqdIf7g=
 		</data>
 		<key>Headers/AdFitSDK.h</key>
 		<data>
@@ -38,47 +38,47 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		VWpKaFfyooMrlmHbkcOclt6Mmv8=
+		ia989sqIcbg4DMcMU90PQSkSwOk=
 		</data>
 		<key>Modules/AdFitSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		GQXA1yJqeKlD/HbefklIh8y9z/I=
+		djOYT0fgIEdvZJndzNlNKfwSGpU=
 		</data>
 		<key>Modules/AdFitSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		O/7NHJtdQ7dWHysrhV5HGPyVy6g=
+		pcPKr1nIgQxz3KVTM7qZpzZZztA=
 		</data>
 		<key>Modules/AdFitSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		ONdr6APVW133uSw1STVKfRgrExM=
+		khIo7bdIoDiBVa0bdUt+AaRoCIc=
 		</data>
 		<key>Modules/AdFitSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		O/7NHJtdQ7dWHysrhV5HGPyVy6g=
+		pcPKr1nIgQxz3KVTM7qZpzZZztA=
 		</data>
 		<key>Modules/AdFitSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		jGYMsFEwpp2WuLse1vlZdtgTwV8=
+		5mu1M1hr0Bjz3cdde4Jf15GyT24=
 		</data>
 		<key>Modules/AdFitSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		R0EXFLnGNSXV3y5gJJWnzc2Dt8A=
+		Ao9U8pEgl8PTbG3rc/6Xr9Od3bc=
 		</data>
 		<key>Modules/AdFitSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		qNHmkXOtGs5Eo6xCs0/tcCDl76k=
+		6DrwWMWj8nEOmFLCCNfdrvz1yJw=
 		</data>
 		<key>Modules/AdFitSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		JFQKIjR2E5mwm9wHmhiCsKajyHQ=
+		q/6mnz+QDSkoATHJbwdFoDOV/gE=
 		</data>
 		<key>Modules/AdFitSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		qNHmkXOtGs5Eo6xCs0/tcCDl76k=
+		6DrwWMWj8nEOmFLCCNfdrvz1yJw=
 		</data>
 		<key>Modules/AdFitSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		F+6xrnC/hAbtL8MRQGjppjWcETM=
+		yzIhy91RYN9B0TgmryEJHU+BsIk=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -86,7 +86,7 @@
 		</data>
 		<key>PrivacyInfo.xcprivacy</key>
 		<data>
-		qxH9O7Qx9D4ZtzRD8fiT1lkF1Tw=
+		j0faHAHBmZj5X3tCo7hQnwk0b2k=
 		</data>
 		<key>banner_placeholder.jpg</key>
 		<data>
@@ -96,7 +96,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			h9e9Ldvx6r1ny0lql4tyvq7WqZM=
+			/JXN6ynkha9EKxpuSLTGGooEMnM=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -105,7 +105,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ff9To6H/Jt4rLQzqTSHRMbkI9eg=
+			vaSW5x+fM5QX476AvlWORGRZ94w=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -141,7 +141,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			HPLq4xOjDPUupCof2I2qtWQw9jZa5Q0l6hHzQ9PQyyc=
+			G4Ae+bjrlqlLJeGoAO0MniDWT9b0vwhTDOuUVYP+8hU=
 			</data>
 		</dict>
 		<key>Headers/AFSDAnimatedImage.h</key>
@@ -183,7 +183,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			NT0B649mQ5pUk9qPA5PItI9BGazzV9+Wt169LYDGYEw=
+			kN2/5IWs5ulo/xwUBZpq0ai9f17V3lBDsGQja8NiMCc=
 			</data>
 		</dict>
 		<key>Headers/AdFitSDK.h</key>
@@ -197,70 +197,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			p30PHEI6oSBR956aXvAJ/q5DTIBQNTmx2dz1VJ0RW3Y=
+			Em9VI+oJjKSFQVGModTCsaCi1lzMHFikpiCd3W/l0HY=
 			</data>
 		</dict>
 		<key>Modules/AdFitSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			5N6r6AF68BU2Z5q8yEUzRRu5vyPtY8F1ZXWI7MlzXrU=
+			Dg+A23jMvCyb22/8U6ymUTEEeNScHE1MqXQcUuzZ5TY=
 			</data>
 		</dict>
 		<key>Modules/AdFitSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			IT6D7FHeeEuDZqoHlnpzaUuFNLp3VdGAHk9xJZ3RCfE=
+			kJxFlqAnj8bUU7lf07JoBiXcvkGL+AZXMQpjV537rvg=
 			</data>
 		</dict>
 		<key>Modules/AdFitSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			5N6r6AF68BU2Z5q8yEUzRRu5vyPtY8F1ZXWI7MlzXrU=
+			Dg+A23jMvCyb22/8U6ymUTEEeNScHE1MqXQcUuzZ5TY=
 			</data>
 		</dict>
 		<key>Modules/AdFitSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Wws2SIBNG+GeROpTJ5iQrbSQgkjYHan2MnSl1YYRspU=
+			94fU1OGEsrwXflHuiAX5UrvP+qeMndoTj2Ss8ijeciU=
 			</data>
 		</dict>
 		<key>Modules/AdFitSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Sn7TLI6JbqNeWkev84MIAcoZjrkCyrVedQPicjFC8cQ=
+			8BXKCOLqFaqOIN7tY+ETrRaqEG5TshWtsSfKVagFg/8=
 			</data>
 		</dict>
 		<key>Modules/AdFitSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZwsfftH22S/UVcxlNs6/MFecGZHZEoNlqaoYX4Ynflk=
+			7oV2oDr14WE8HqcXYVLkhD0QoBUEBUWRcewB0ATkO0c=
 			</data>
 		</dict>
 		<key>Modules/AdFitSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			cc+6jdMRsYqEWq7O0a9hDKy5BzLqx6CLHuIXpWmFWB8=
+			84vu4FWEZ29LjXAmvn9w5P4cDbT6UjDrRgZ9CsHl7xU=
 			</data>
 		</dict>
 		<key>Modules/AdFitSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZwsfftH22S/UVcxlNs6/MFecGZHZEoNlqaoYX4Ynflk=
+			7oV2oDr14WE8HqcXYVLkhD0QoBUEBUWRcewB0ATkO0c=
 			</data>
 		</dict>
 		<key>Modules/AdFitSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			PdUsyu9Btf5SzNDcON+dRGkIsVd+tHm0iccggnR0Wlg=
+			6G15S5MfUqOTzO+059J8i+V3km4SyLOOUvPqobiJ1Cc=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -274,7 +274,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			iyO4LsNiNCMEu/BE8Kiw9vY6QBRP7FF0UoH88aboT3E=
+			66GRl0YjKrwyjGWCBC86Cq3NZVwqqNyX/TzJBCNl9ZE=
 			</data>
 		</dict>
 		<key>banner_placeholder.jpg</key>
@@ -288,7 +288,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			otEX+yjye36hg6TThM1RnvgZY8Q+92ft7diWQ1LGuD8=
+			Py4W5f45FNEV30JwSLQR9Sbtu6U5CJG7XW2KbkztmNI=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -297,7 +297,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			bepGCnYpKGEka29j25daE2layt53DUbtySQhorP+Twc=
+			Xs4v2X/oskh+SK7X3EcQ/GQpaJ9eXpJWwCc2Dgdo3ls=
 			</data>
 			<key>optional</key>
 			<true/>
