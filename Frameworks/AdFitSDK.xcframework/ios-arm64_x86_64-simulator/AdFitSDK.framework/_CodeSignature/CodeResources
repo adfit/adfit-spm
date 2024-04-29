@@ -30,7 +30,7 @@
 		</data>
 		<key>Headers/AdFitSDK-Swift.h</key>
 		<data>
-		RP6Hqbj4q5s5A5X5hTR2LqdIf7g=
+		tSmQ8e6GYvqy/Jh8r+6/cgSVfLw=
 		</data>
 		<key>Headers/AdFitSDK.h</key>
 		<data>
@@ -42,7 +42,7 @@
 		</data>
 		<key>Modules/AdFitSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		djOYT0fgIEdvZJndzNlNKfwSGpU=
+		DfGixlSiLBljbt2osfVXj2ukqOA=
 		</data>
 		<key>Modules/AdFitSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -58,11 +58,11 @@
 		</data>
 		<key>Modules/AdFitSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		5mu1M1hr0Bjz3cdde4Jf15GyT24=
+		S3sRJVVKnQTtTIIKTuAt8d/TNug=
 		</data>
 		<key>Modules/AdFitSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		Ao9U8pEgl8PTbG3rc/6Xr9Od3bc=
+		f7RCXGotAZOSx+rvkS9WRbK7vw0=
 		</data>
 		<key>Modules/AdFitSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -78,7 +78,7 @@
 		</data>
 		<key>Modules/AdFitSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		yzIhy91RYN9B0TgmryEJHU+BsIk=
+		WkhUDt5cVDfeu56qVU6wKxHBKjQ=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -183,7 +183,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			kN2/5IWs5ulo/xwUBZpq0ai9f17V3lBDsGQja8NiMCc=
+			C62FsS1kiixUps2ueddMzKkj+FtXUWmSpBlfhXfcbpo=
 			</data>
 		</dict>
 		<key>Headers/AdFitSDK.h</key>
@@ -197,7 +197,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Em9VI+oJjKSFQVGModTCsaCi1lzMHFikpiCd3W/l0HY=
+			GqyOCxQcUktwWkTrPsWQ5ktqI3gGrTVc9jzikSgEhkM=
 			</data>
 		</dict>
 		<key>Modules/AdFitSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -225,14 +225,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			94fU1OGEsrwXflHuiAX5UrvP+qeMndoTj2Ss8ijeciU=
+			gwj2GEltyCvj6rBzu3Pl9wOg5LbtGn/ZDE7XlMrYVmg=
 			</data>
 		</dict>
 		<key>Modules/AdFitSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			8BXKCOLqFaqOIN7tY+ETrRaqEG5TshWtsSfKVagFg/8=
+			SlquX/UeqTHAxVUvRLjzoHB33X5etxD3Ku0qpUZUei0=
 			</data>
 		</dict>
 		<key>Modules/AdFitSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -260,7 +260,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			6G15S5MfUqOTzO+059J8i+V3km4SyLOOUvPqobiJ1Cc=
+			ZfrnJOEzYQG7Ms8RSZA+3eLYvTwYKAr69UIgcr+YgI4=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

@@ -1033,6 +1033,7 @@ SWIFT_CLASS_NAMED("HeaderAttributes")
 
 
 
+
 /// 타겟팅 향상을 위한 유저오브젝트 클래스입니다.
 SWIFT_CLASS("_TtC8AdFitSDK10UserObject")
 @interface UserObject : NSObject
