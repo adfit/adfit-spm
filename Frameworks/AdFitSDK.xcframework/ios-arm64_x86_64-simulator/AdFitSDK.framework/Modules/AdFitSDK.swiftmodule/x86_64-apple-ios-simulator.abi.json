@@ -73181,7 +73181,7 @@
       "kind": "StringLiteral",
       "offset": 13416,
       "length": 9,
-      "value": "\"3.14.12\""
+      "value": "\"3.14.15\""
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Utils\/System.swift",
