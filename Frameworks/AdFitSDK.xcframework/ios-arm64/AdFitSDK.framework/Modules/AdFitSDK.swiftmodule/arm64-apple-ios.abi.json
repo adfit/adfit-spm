@@ -43296,602 +43296,588 @@
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/AdFitNativeAd.swift",
       "kind": "IntegerLiteral",
-      "offset": 7105,
+      "offset": 7057,
       "length": 4,
       "value": "1000"
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/AdFitNativeAd.swift",
       "kind": "IntegerLiteral",
-      "offset": 7136,
+      "offset": 7088,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/AdFitNativeAd.swift",
       "kind": "StringLiteral",
-      "offset": 7192,
+      "offset": 7144,
       "length": 6,
       "value": "\"%.2f\""
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/AdFitNativeAd.swift",
       "kind": "StringLiteral",
-      "offset": 7238,
+      "offset": 7190,
       "length": 39,
       "value": "\"Too slow binding: \""
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/AdFitNativeAd.swift",
       "kind": "StringLiteral",
-      "offset": 7274,
+      "offset": 7226,
       "length": 2,
       "value": "\"ms\""
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/AdFitNativeAd.swift",
       "kind": "StringLiteral",
-      "offset": 7384,
+      "offset": 7336,
       "length": 30,
       "value": "\"nativeAdView size is inValid\""
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/AdFitNativeAd.swift",
-      "kind": "IntegerLiteral",
-      "offset": 7739,
-      "length": 2,
-      "value": "30"
-    },
-    {
-      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/AdFitNativeAd.swift",
-      "kind": "IntegerLiteral",
-      "offset": 7773,
-      "length": 2,
-      "value": "30"
-    },
-    {
-      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/AdFitNativeAd.swift",
       "kind": "BooleanLiteral",
-      "offset": 9456,
+      "offset": 9414,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/AdFitNativeAd.swift",
       "kind": "BooleanLiteral",
-      "offset": 10280,
+      "offset": 10238,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/AdFitNativeAd.swift",
       "kind": "StringLiteral",
-      "offset": 10803,
+      "offset": 10761,
       "length": 38,
       "value": "\"Viewable impression change detected.\""
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/AdFitNativeAd.swift",
       "kind": "BooleanLiteral",
-      "offset": 11745,
+      "offset": 11703,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/AdFitNativeAd.swift",
       "kind": "BooleanLiteral",
-      "offset": 11944,
+      "offset": 11902,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/AdFitNativeAd.swift",
       "kind": "StringLiteral",
-      "offset": 12027,
+      "offset": 11985,
       "length": 121,
       "value": "\"Viewable impression detected [Covered Layer]. size: \""
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/AdFitNativeAd.swift",
       "kind": "StringLiteral",
-      "offset": 12104,
+      "offset": 12062,
       "length": 1,
       "value": "\", impression rate: \""
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/AdFitNativeAd.swift",
       "kind": "StringLiteral",
-      "offset": 12147,
+      "offset": 12105,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/AdFitNativeAd.swift",
       "kind": "BooleanLiteral",
-      "offset": 12251,
+      "offset": 12209,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/AdFitNativeAd.swift",
       "kind": "StringLiteral",
-      "offset": 12315,
+      "offset": 12273,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/AdFitNativeAd.swift",
       "kind": "BooleanLiteral",
-      "offset": 12936,
+      "offset": 12894,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/AdFitNativeAd.swift",
       "kind": "StringLiteral",
-      "offset": 13019,
+      "offset": 12977,
       "length": 105,
       "value": "\"Viewable impression detected. size: \""
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/AdFitNativeAd.swift",
       "kind": "StringLiteral",
-      "offset": 13080,
+      "offset": 13038,
       "length": 1,
       "value": "\", impression rate: \""
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/AdFitNativeAd.swift",
       "kind": "StringLiteral",
-      "offset": 13123,
+      "offset": 13081,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/AdFitNativeAd.swift",
       "kind": "BooleanLiteral",
-      "offset": 13227,
+      "offset": 13185,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/AdFitNativeAd.swift",
       "kind": "StringLiteral",
-      "offset": 13291,
+      "offset": 13249,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/AdFitNativeAd.swift",
       "kind": "StringLiteral",
-      "offset": 14115,
+      "offset": 14073,
       "length": 23,
       "value": "\"Link_Advertising_Page\""
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/AdFitNativeAd.swift",
       "kind": "StringLiteral",
-      "offset": 14219,
+      "offset": 14177,
       "length": 23,
       "value": "\"Link_Advertising_Page\""
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/AdFitNativeAd.swift",
       "kind": "StringLiteral",
-      "offset": 14331,
+      "offset": 14289,
       "length": 23,
       "value": "\"Link_Advertising_Page\""
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/AdFitNativeAd.swift",
       "kind": "StringLiteral",
-      "offset": 14441,
+      "offset": 14399,
       "length": 23,
       "value": "\"Link_Advertising_Page\""
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/AdFitNativeAd.swift",
       "kind": "BooleanLiteral",
-      "offset": 14609,
+      "offset": 14567,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/AdFitNativeAd.swift",
       "kind": "StringLiteral",
-      "offset": 14768,
+      "offset": 14726,
       "length": 23,
       "value": "\"Link_Advertising_Page\""
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/AdFitNativeAd.swift",
       "kind": "StringLiteral",
-      "offset": 15404,
+      "offset": 15362,
       "length": 8,
       "value": "\"adInfo\""
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/AdFitNativeAd.swift",
       "kind": "BooleanLiteral",
-      "offset": 15657,
+      "offset": 15615,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/AdFitNativeAd.swift",
       "kind": "BooleanLiteral",
-      "offset": 15747,
+      "offset": 15705,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/AdFitNativeAd.swift",
       "kind": "BooleanLiteral",
-      "offset": 15811,
+      "offset": 15769,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/AdFitNativeAd.swift",
       "kind": "BooleanLiteral",
-      "offset": 15854,
+      "offset": 15812,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/AdFitNativeAd.swift",
       "kind": "StringLiteral",
-      "offset": 16031,
+      "offset": 15989,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/AdFitNativeAd.swift",
       "kind": "BooleanLiteral",
-      "offset": 16274,
+      "offset": 16232,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/AdFitNativeAd.swift",
       "kind": "BooleanLiteral",
-      "offset": 16651,
+      "offset": 16609,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/AdFitNativeAd.swift",
       "kind": "BooleanLiteral",
-      "offset": 16860,
+      "offset": 16818,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/AdFitNativeAd.swift",
       "kind": "BooleanLiteral",
-      "offset": 17594,
+      "offset": 17552,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/AdFitNativeAd.swift",
       "kind": "IntegerLiteral",
-      "offset": 20057,
+      "offset": 20015,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/AdFitNativeAd.swift",
       "kind": "IntegerLiteral",
-      "offset": 20069,
+      "offset": 20027,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/AdFitNativeAd.swift",
       "kind": "IntegerLiteral",
-      "offset": 20557,
+      "offset": 20515,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/AdFitNativeAd.swift",
       "kind": "IntegerLiteral",
-      "offset": 20561,
+      "offset": 20519,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/AdFitNativeAd.swift",
       "kind": "IntegerLiteral",
-      "offset": 20596,
+      "offset": 20554,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/AdFitNativeAd.swift",
       "kind": "IntegerLiteral",
-      "offset": 20600,
+      "offset": 20558,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/AdFitNativeAd.swift",
       "kind": "IntegerLiteral",
-      "offset": 21030,
+      "offset": 20988,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/AdFitNativeAd.swift",
       "kind": "IntegerLiteral",
-      "offset": 21065,
+      "offset": 21023,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/AdFitNativeAd.swift",
       "kind": "IntegerLiteral",
-      "offset": 21098,
+      "offset": 21056,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/AdFitNativeAd.swift",
       "kind": "IntegerLiteral",
-      "offset": 21333,
+      "offset": 21291,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/AdFitNativeAd.swift",
       "kind": "IntegerLiteral",
-      "offset": 21386,
+      "offset": 21344,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/AdFitNativeAd.swift",
       "kind": "IntegerLiteral",
-      "offset": 21672,
+      "offset": 21630,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/AdFitNativeAd.swift",
       "kind": "IntegerLiteral",
-      "offset": 21726,
+      "offset": 21684,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/AdFitNativeAd.swift",
       "kind": "BooleanLiteral",
-      "offset": 22051,
+      "offset": 22009,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/AdFitNativeAd.swift",
       "kind": "BooleanLiteral",
-      "offset": 22107,
+      "offset": 22065,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/AdFitNativeAd.swift",
       "kind": "BooleanLiteral",
-      "offset": 22634,
+      "offset": 22592,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/AdFitNativeAd.swift",
       "kind": "BooleanLiteral",
-      "offset": 22724,
+      "offset": 22682,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/AdFitNativeAd.swift",
       "kind": "StringLiteral",
-      "offset": 22890,
+      "offset": 22848,
       "length": 92,
       "value": "\"랜딩 URL이 인젝션 되었습니다. \n원본:\""
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/AdFitNativeAd.swift",
       "kind": "StringLiteral",
-      "offset": 22956,
+      "offset": 22914,
       "length": 1,
       "value": "\"\n교체:\""
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/AdFitNativeAd.swift",
       "kind": "StringLiteral",
-      "offset": 22980,
+      "offset": 22938,
       "length": 1,
       "value": "\")\""
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/AdFitNativeAd.swift",
       "kind": "BooleanLiteral",
-      "offset": 23071,
+      "offset": 23029,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/AdFitNativeAd.swift",
       "kind": "FloatLiteral",
-      "offset": 23138,
+      "offset": 23096,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/AdFitNativeAd.swift",
       "kind": "BooleanLiteral",
-      "offset": 23171,
+      "offset": 23129,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/AdFitNativeAd.swift",
       "kind": "StringLiteral",
-      "offset": 23203,
+      "offset": 23161,
       "length": 29,
       "value": "\"Naitve ad has been clicked.\""
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/AdFitNativeAd.swift",
       "kind": "BooleanLiteral",
-      "offset": 23865,
+      "offset": 23823,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/AdFitNativeAd.swift",
       "kind": "StringLiteral",
-      "offset": 23904,
+      "offset": 23862,
       "length": 71,
       "value": "\"Click handling will be delegated to publisher. adUrl: \""
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/AdFitNativeAd.swift",
       "kind": "StringLiteral",
-      "offset": 23974,
+      "offset": 23932,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/AdFitNativeAd.swift",
       "kind": "BooleanLiteral",
-      "offset": 24458,
+      "offset": 24416,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/AdFitNativeAd.swift",
       "kind": "BooleanLiteral",
-      "offset": 24536,
+      "offset": 24494,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/AdFitNativeAd.swift",
       "kind": "FloatLiteral",
-      "offset": 24603,
+      "offset": 24561,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/AdFitNativeAd.swift",
       "kind": "BooleanLiteral",
-      "offset": 24636,
+      "offset": 24594,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/AdFitNativeAd.swift",
       "kind": "StringLiteral",
-      "offset": 24668,
+      "offset": 24626,
       "length": 29,
       "value": "\"Info icon has been clicked.\""
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/AdFitNativeAd.swift",
       "kind": "BooleanLiteral",
-      "offset": 24751,
+      "offset": 24709,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/AdFitNativeAd.swift",
       "kind": "StringLiteral",
-      "offset": 24786,
+      "offset": 24744,
       "length": 72,
       "value": "\"Click handling will be delegated to publisher. adInfoUrl: \""
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/AdFitNativeAd.swift",
       "kind": "StringLiteral",
-      "offset": 24857,
+      "offset": 24815,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/AdFitNativeAd.swift",
       "kind": "BooleanLiteral",
-      "offset": 25310,
+      "offset": 25268,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/AdFitNativeAd.swift",
       "kind": "BooleanLiteral",
-      "offset": 25421,
+      "offset": 25379,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/AdFitNativeAd.swift",
       "kind": "BooleanLiteral",
-      "offset": 25584,
+      "offset": 25542,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/AdFitNativeAd.swift",
       "kind": "Array",
-      "offset": 25597,
+      "offset": 25555,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/AdFitNativeAd.swift",
       "kind": "BooleanLiteral",
-      "offset": 25892,
+      "offset": 25850,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/AdFitNativeAd.swift",
       "kind": "BooleanLiteral",
-      "offset": 26075,
+      "offset": 26033,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/AdFitNativeAd.swift",
       "kind": "BooleanLiteral",
-      "offset": 26901,
+      "offset": 26859,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/AdFitNativeAd.swift",
       "kind": "StringLiteral",
-      "offset": 27046,
+      "offset": 27004,
       "length": 30,
       "value": "\"delegate: nativeAdDidClickAd\""
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/AdFitNativeAd.swift",
       "kind": "StringLiteral",
-      "offset": 27338,
+      "offset": 27296,
       "length": 39,
       "value": "\"delegate: nativeAdDidClickAdWithAdUrl\""
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/AdFitNativeAd.swift",
       "kind": "BooleanLiteral",
-      "offset": 27452,
+      "offset": 27410,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/AdFitNativeAd.swift",
       "kind": "StringLiteral",
-      "offset": 27524,
+      "offset": 27482,
       "length": 27,
       "value": "\"nativeAdDidClickAd:adUrl:\""
     },
@@ -73167,7 +73153,7 @@
       "kind": "StringLiteral",
       "offset": 13416,
       "length": 9,
-      "value": "\"3.14.15\""
+      "value": "\"3.14.17\""
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Utils\/System.swift",
