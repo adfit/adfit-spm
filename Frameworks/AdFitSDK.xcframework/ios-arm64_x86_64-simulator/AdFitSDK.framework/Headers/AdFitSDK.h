@@ -12,6 +12,7 @@
 #import "AFSDAnimatedImage.h"
 #import "AFSDImageCoder.h"
 #import "AFSDWebImageCompat.h"
+#import "ColorExtractBridge.h"
 
 //! Project version number for AdFitSDK.
 FOUNDATION_EXPORT double AdFitSDKVersionNumber;

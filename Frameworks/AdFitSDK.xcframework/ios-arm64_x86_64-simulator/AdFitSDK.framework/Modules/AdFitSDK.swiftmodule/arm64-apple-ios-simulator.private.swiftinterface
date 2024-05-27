@@ -384,6 +384,7 @@ final public class PopUpTemplatePresenter {
   weak final public var delegate: (any AdFitSDK.PopUpTemplatePresenterDelegate)?
   public init()
   final public func presentPopUpTemplate(_ rootViewController: UIKit.UIViewController)
+  final public func presentCenterPopUpTemplate(_ rootViewController: UIKit.UIViewController)
   @objc deinit
 }
 extension UIKit.UIView {
@@ -542,7 +543,7 @@ public enum SizeClassType {
   case custom(AdFitSDK.SizeClassType.Width, AdFitSDK.SizeClassType.Height, AdFitSDK.SizeClassType.Direction?)
 }
 public struct BizBoardTemplatePresentableView : SwiftUI.UIViewRepresentable {
-  public init(clientId: Swift.String)
+  public init(clientId: Swift.String, refresh: SwiftUI.Binding<Swift.Bool>)
   @_Concurrency.MainActor(unsafe) public func makeUIView(context: AdFitSDK.BizBoardTemplatePresentableView.Context) -> AdFitSDK.BizBoardTemplate
   @_Concurrency.MainActor(unsafe) public func updateUIView(_ uiView: AdFitSDK.BizBoardTemplate, context: AdFitSDK.BizBoardTemplatePresentableView.Context)
   public func onDidReceiveAd(_ closure: ((AdFitSDK.AdFitNativeAd) -> Swift.Void)?) -> AdFitSDK.BizBoardTemplatePresentableView
