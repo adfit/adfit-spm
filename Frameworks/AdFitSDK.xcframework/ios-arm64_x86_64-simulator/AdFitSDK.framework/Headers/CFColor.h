@@ -16,9 +16,9 @@ typedef struct {
     uint8_t r;
     uint8_t g;
     uint8_t b;
-} SFColor;
+} CFColor;
 
-void getHSV(SFColor color, int* h, int* s, int* v);
-SFColor hsvToRGB(int h, int s, int v);
+void getHSV(CFColor color, int* h, int* s, int* v);
+CFColor hsvToRGB(int h, int s, int v);
 
 #endif /* SFColor_h */
