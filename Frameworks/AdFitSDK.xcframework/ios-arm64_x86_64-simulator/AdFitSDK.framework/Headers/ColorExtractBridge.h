@@ -21,13 +21,16 @@
 
 @interface ColorExtractBridge : NSObject
 
-#if TARGET_OS_IPHONE
-- (NSArray<NSValue *> *)getColorsFromImage:(UIImage *)image;
-#else
-- (NSArray<NSValue *> *)getColorsFromImage:(NSImage *)image;
-#endif
-
-
+- (NSArray<NSValue *> *)getColorsFromImage:(CGImageRef)image
+                                      minS:(int)minS
+                                      maxS:(int)maxS
+                                      minV:(int)minV
+                                      maxV:(int)maxV
+                                      minAreaRatio:(double)minAreaRatio
+                                      inspectPixelsBy:(int)inspectPixelsBy
+                                      maxOutputSize:(int)maxOutputSize
+                                      fill:(BOOL)fill
+                                    adjust:(BOOL)adjust;
 
 @end
 

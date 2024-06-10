@@ -503,6 +503,8 @@ extension AdFitSDK.PopUpAdTemplateView {
 @objc @_inheritsConvenienceInitializers final public class AdFit : ObjectiveC.NSObject {
   @objc public static var videoPlayPolicy: AdFitSDK.AdFitVideoPlayPolicy
   @objc final public class func configInit()
+  @objc public static func register(webView: WebKit.WKWebView)
+  public static func unRegister(webView: WebKit.WKWebView)
   @objc override dynamic public init()
   @objc deinit
 }
