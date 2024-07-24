@@ -318,6 +318,9 @@ SWIFT_CLASS("_TtC8AdFitSDK5AdFit")
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class) enum AdFitVideoPlayPolicy videoPlayPolicy;)
 + (enum AdFitVideoPlayPolicy)videoPlayPolicy SWIFT_WARN_UNUSED_RESULT;
 + (void)setVideoPlayPolicy:(enum AdFitVideoPlayPolicy)value;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class) BOOL isTVA;)
++ (BOOL)isTVA SWIFT_WARN_UNUSED_RESULT;
++ (void)setIsTVA:(BOOL)value;
 + (void)configInit;
 /// 광고가 있는 웹사이트를 로드할 WKWebView를 등록합니다.<br>
 /// \param webView 광고가 있는 웹사이트를 로드할 WKWebView 객체

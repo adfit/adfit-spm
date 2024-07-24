@@ -305,36 +305,6 @@ public func <= (oprPos: AdFitSDK.VFPositionValue, size: CoreFoundation.CGFloat)
   @objc optional func nativeAdLoaderDidReceiveAd(_ nativeAd: AdFitSDK.AdFitNativeAd)
   @objc optional func nativeAdLoaderDidFailToReceiveAd(_ nativeAdLoader: AdFitSDK.AdFitNativeAdLoader, error: any Swift.Error)
 }
-@_inheritsConvenienceInitializers @objc public class ContentObject : ObjectiveC.NSObject, Swift.Codable {
-  @objc override dynamic public init()
-  @discardableResult
-  @objc public func setId(_ id: Swift.String) -> AdFitSDK.ContentObject
-  @discardableResult
-  @objc public func setUrl(_ url: Swift.String) -> AdFitSDK.ContentObject
-  @discardableResult
-  @objc public func setTitle(_ title: Swift.String) -> AdFitSDK.ContentObject
-  @discardableResult
-  @objc public func setSearchKeyword(_ search: Swift.String) -> AdFitSDK.ContentObject
-  @discardableResult
-  @objc public func setKeywords(_ keywords: [Swift.String]) -> AdFitSDK.ContentObject
-  @discardableResult
-  @objc public func setCategoryTaxonomies(_ cattax: Swift.Int) -> AdFitSDK.ContentObject
-  @discardableResult
-  @objc public func setCategories(_ cat: [Swift.String]) -> AdFitSDK.ContentObject
-  @discardableResult
-  @objc public func setSectionCategories(_ sectioncat: [Swift.String]) -> AdFitSDK.ContentObject
-  @objc deinit
-  public func encode(to encoder: any Swift.Encoder) throws
-  required public init(from decoder: any Swift.Decoder) throws
-}
-@_inheritsConvenienceInitializers @objc public class UserObject : ObjectiveC.NSObject, Swift.Codable {
-  @objc override dynamic public init()
-  @discardableResult
-  public func setKeywords(_ keywords: [Swift.String]) -> AdFitSDK.UserObject
-  @objc deinit
-  public func encode(to encoder: any Swift.Encoder) throws
-  required public init(from decoder: any Swift.Decoder) throws
-}
 @objc public enum AdFitVideoPlayPolicy : Swift.Int, Swift.CustomStringConvertible {
   case alwaysManualPlay = 0
   case alwaysAutoPlay = 1
@@ -502,6 +472,7 @@ extension AdFitSDK.PopUpAdTemplateView {
 
 @objc @_inheritsConvenienceInitializers final public class AdFit : ObjectiveC.NSObject {
   @objc public static var videoPlayPolicy: AdFitSDK.AdFitVideoPlayPolicy
+  @objc public static var isTVA: Swift.Bool
   @objc final public class func configInit()
   @objc public static func register(webView: WebKit.WKWebView)
   public static func unRegister(webView: WebKit.WKWebView)
@@ -585,6 +556,36 @@ extension AdFitSDK.BizBoardTemplatePresentableView {
   @_Concurrency.MainActor(unsafe) @objc public func adProfileIconView() -> UIKit.UIImageView?
   @_Concurrency.MainActor(unsafe) @objc public func adMediaView() -> AdFitSDK.AdFitMediaView?
   @objc deinit
+}
+@_inheritsConvenienceInitializers @objc public class ContentObject : ObjectiveC.NSObject, Swift.Codable {
+  @objc override dynamic public init()
+  @discardableResult
+  @objc public func setId(_ id: Swift.String) -> AdFitSDK.ContentObject
+  @discardableResult
+  @objc public func setUrl(_ url: Swift.String) -> AdFitSDK.ContentObject
+  @discardableResult
+  @objc public func setTitle(_ title: Swift.String) -> AdFitSDK.ContentObject
+  @discardableResult
+  @objc public func setSearchKeyword(_ search: Swift.String) -> AdFitSDK.ContentObject
+  @discardableResult
+  @objc public func setKeywords(_ keywords: [Swift.String]) -> AdFitSDK.ContentObject
+  @discardableResult
+  @objc public func setCategoryTaxonomies(_ cattax: Swift.Int) -> AdFitSDK.ContentObject
+  @discardableResult
+  @objc public func setCategories(_ cat: [Swift.String]) -> AdFitSDK.ContentObject
+  @discardableResult
+  @objc public func setSectionCategories(_ sectioncat: [Swift.String]) -> AdFitSDK.ContentObject
+  @objc deinit
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
+}
+@_inheritsConvenienceInitializers @objc public class UserObject : ObjectiveC.NSObject, Swift.Codable {
+  @objc override dynamic public init()
+  @discardableResult
+  public func setKeywords(_ keywords: [Swift.String]) -> AdFitSDK.UserObject
+  @objc deinit
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
 }
 @objc public protocol AdFitMediaViewDelegate : ObjectiveC.NSObjectProtocol {
   @objc optional func mediaViewVideoDidPlay(_ mediaView: AdFitSDK.AdFitMediaView)
@@ -763,6 +764,25 @@ extension Foundation.URL : AdFitSDK.StringRepresentable {
 }
 extension ObjectiveC.Selector : AdFitSDK.StringRepresentable {
   public static func fromString(_ value: Swift.String) -> ObjectiveC.Selector?
+}
+public struct NASPresentableView : SwiftUI.UIViewRepresentable {
+  public init(clientId: Swift.String, loadTrigger: SwiftUI.Binding<Swift.Bool> = .init(get: { return false }, set: { _ in }))
+  @_Concurrency.MainActor(unsafe) public func makeUIView(context: AdFitSDK.NASPresentableView.Context) -> AdFitSDK.AdFitFlexibleView
+  @_Concurrency.MainActor(unsafe) public func updateUIView(_ uiView: AdFitSDK.AdFitFlexibleView, context: AdFitSDK.NASPresentableView.Context)
+  @_Concurrency.MainActor(unsafe) public func makeCoordinator() -> AdFitSDK.NASPresentableView.Coordinator
+  public func onCalculatedHeight(_ handler: @escaping (CoreFoundation.CGFloat) -> Swift.Void) -> AdFitSDK.NASPresentableView
+  public func onDidReceiveAd(_ handler: @escaping () -> Swift.Void) -> AdFitSDK.NASPresentableView
+  public func onFailToReceiveAd(_ handler: @escaping (any Swift.Error) -> Swift.Void) -> AdFitSDK.NASPresentableView
+  public func onDidClickAd(_ handler: @escaping () -> Swift.Void) -> AdFitSDK.NASPresentableView
+  @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class Coordinator : ObjectiveC.NSObject, AdFitSDK.AdFitFlexibleViewDelegate {
+    public func loadAd(trigger: Swift.Bool)
+    @objc public func adViewDidReceiveAd(_ adView: AdFitSDK.AdFitFlexibleView)
+    @objc public func adViewDidFailToReceiveAd(_ adView: AdFitSDK.AdFitFlexibleView, error: any Swift.Error)
+    @objc public func adViewDidClickAd(_ adView: AdFitSDK.AdFitFlexibleView)
+    @objc deinit
+  }
+  public typealias Body = Swift.Never
+  public typealias UIViewType = AdFitSDK.AdFitFlexibleView
 }
 @objc public protocol NasAdLoaderDelegate : ObjectiveC.NSObjectProtocol {
   @objc optional func didReceivedAd(_ viewModel: AdFitSDK.NasAdViewModel)
