@@ -34165,7 +34165,7 @@
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Video\/Player.swift",
       "kind": "BooleanLiteral",
-      "offset": 10790,
+      "offset": 10791,
       "length": 5,
       "value": "false"
     },
@@ -41030,154 +41030,154 @@
       "value": "true"
     },
     {
-      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/ViewableImpressionSDK-1.4.7\/VIViewableChecker.swift",
+      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/ViewableImpressionSDK-1.4.9\/VIViewableChecker.swift",
       "kind": "FloatLiteral",
       "offset": 293,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/ViewableImpressionSDK-1.4.7\/VIViewableChecker.swift",
+      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/ViewableImpressionSDK-1.4.9\/VIViewableChecker.swift",
       "kind": "FloatLiteral",
       "offset": 324,
       "length": 4,
       "value": "50.0"
     },
     {
-      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/ViewableImpressionSDK-1.4.7\/VIViewableChecker.swift",
+      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/ViewableImpressionSDK-1.4.9\/VIViewableChecker.swift",
       "kind": "FloatLiteral",
       "offset": 366,
       "length": 3,
       "value": "0.5"
     },
     {
-      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/ViewableImpressionSDK-1.4.7\/VIViewableChecker.swift",
+      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/ViewableImpressionSDK-1.4.9\/VIViewableChecker.swift",
       "kind": "BooleanLiteral",
       "offset": 392,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/ViewableImpressionSDK-1.4.7\/VIViewableChecker.swift",
+      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/ViewableImpressionSDK-1.4.9\/VIViewableChecker.swift",
       "kind": "BooleanLiteral",
       "offset": 424,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/ViewableImpressionSDK-1.4.7\/VIViewableChecker.swift",
+      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/ViewableImpressionSDK-1.4.9\/VIViewableChecker.swift",
       "kind": "StringLiteral",
       "offset": 549,
       "length": 17,
       "value": "\"viewableChecker\""
     },
     {
-      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/ViewableImpressionSDK-1.4.7\/VIViewableChecker.swift",
+      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/ViewableImpressionSDK-1.4.9\/VIViewableChecker.swift",
       "kind": "StringLiteral",
       "offset": 569,
       "length": 34,
       "value": "\".viewableImpression.workingQueue\""
     },
     {
-      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/ViewableImpressionSDK-1.4.7\/VIViewableChecker.swift",
+      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/ViewableImpressionSDK-1.4.9\/VIViewableChecker.swift",
       "kind": "StringLiteral",
       "offset": 678,
       "length": 17,
       "value": "\"viewableChecker\""
     },
     {
-      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/ViewableImpressionSDK-1.4.7\/VIViewableChecker.swift",
+      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/ViewableImpressionSDK-1.4.9\/VIViewableChecker.swift",
       "kind": "StringLiteral",
       "offset": 698,
       "length": 30,
       "value": "\".viewableChange.workingQueue\""
     },
     {
-      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/ViewableImpressionSDK-1.4.7\/VIViewableChecker.swift",
+      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/ViewableImpressionSDK-1.4.9\/VIViewableChecker.swift",
       "kind": "BooleanLiteral",
       "offset": 765,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/ViewableImpressionSDK-1.4.7\/VIViewableChecker.swift",
+      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/ViewableImpressionSDK-1.4.9\/VIViewableChecker.swift",
       "kind": "BooleanLiteral",
       "offset": 802,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/ViewableImpressionSDK-1.4.7\/VIViewableChecker.swift",
+      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/ViewableImpressionSDK-1.4.9\/VIViewableChecker.swift",
       "kind": "BooleanLiteral",
       "offset": 942,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/ViewableImpressionSDK-1.4.7\/VIViewableChecker.swift",
+      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/ViewableImpressionSDK-1.4.9\/VIViewableChecker.swift",
       "kind": "BooleanLiteral",
       "offset": 1023,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/ViewableImpressionSDK-1.4.7\/VIViewableChecker.swift",
+      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/ViewableImpressionSDK-1.4.9\/VIViewableChecker.swift",
       "kind": "BooleanLiteral",
       "offset": 1066,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/ViewableImpressionSDK-1.4.7\/VIViewableChecker.swift",
+      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/ViewableImpressionSDK-1.4.9\/VIViewableChecker.swift",
       "kind": "BooleanLiteral",
       "offset": 3991,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/ViewableImpressionSDK-1.4.7\/VIViewableChecker.swift",
+      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/ViewableImpressionSDK-1.4.9\/VIViewableChecker.swift",
       "kind": "BooleanLiteral",
       "offset": 4053,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/ViewableImpressionSDK-1.4.7\/VIViewableChecker.swift",
+      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/ViewableImpressionSDK-1.4.9\/VIViewableChecker.swift",
       "kind": "BooleanLiteral",
       "offset": 5501,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/ViewableImpressionSDK-1.4.7\/VIViewableChecker.swift",
+      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/ViewableImpressionSDK-1.4.9\/VIViewableChecker.swift",
       "kind": "BooleanLiteral",
       "offset": 6254,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/ViewableImpressionSDK-1.4.7\/VIViewableChecker.swift",
+      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/ViewableImpressionSDK-1.4.9\/VIViewableChecker.swift",
       "kind": "BooleanLiteral",
       "offset": 6621,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/ViewableImpressionSDK-1.4.7\/VIViewableChecker.swift",
+      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/ViewableImpressionSDK-1.4.9\/VIViewableChecker.swift",
       "kind": "BooleanLiteral",
       "offset": 7053,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/ViewableImpressionSDK-1.4.7\/VIViewableChecker.swift",
+      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/ViewableImpressionSDK-1.4.9\/VIViewableChecker.swift",
       "kind": "BooleanLiteral",
       "offset": 8702,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/ViewableImpressionSDK-1.4.7\/VIViewableChecker.swift",
+      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/ViewableImpressionSDK-1.4.9\/VIViewableChecker.swift",
       "kind": "BooleanLiteral",
       "offset": 19367,
       "length": 5,
