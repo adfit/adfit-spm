@@ -1,6 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-compiler-version: Apple Swift version 6.0.2 effective-5.10 (swiftlang-6.0.2.1.2 clang-1600.0.26.4)
 // swift-module-flags: -target x86_64-apple-ios14.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name AdFitSDK
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface
 import AVFoundation
 import AVKit
 @_exported import AdFitSDK
@@ -28,57 +29,57 @@ import zlib
 @objc public protocol AdFitNativeAdDelegate : ObjectiveC.NSObjectProtocol {
   @objc optional func nativeAdDidClickAd(_ nativeAd: AdFitSDK.AdFitNativeAd)
 }
-@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class BizBoardTemplate : UIKit.UIView {
-  @objc @_Concurrency.MainActor(unsafe) public static var defaultBackgroundColor: UIKit.UIColor
-  @objc @_Concurrency.MainActor(unsafe) public static var defaultEdgeInset: UIKit.UIEdgeInsets
-  @objc @_Concurrency.MainActor(unsafe) public var bgViewColor: UIKit.UIColor? {
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency public class BizBoardTemplate : UIKit.UIView {
+  @objc @_Concurrency.MainActor @preconcurrency public static var defaultBackgroundColor: UIKit.UIColor
+  @objc @_Concurrency.MainActor @preconcurrency public static var defaultEdgeInset: UIKit.UIEdgeInsets
+  @objc @_Concurrency.MainActor @preconcurrency public var bgViewColor: UIKit.UIColor? {
     @objc get
     @objc set
   }
-  @objc @_Concurrency.MainActor(unsafe) public var bgViewleftMargin: CoreFoundation.CGFloat {
+  @objc @_Concurrency.MainActor @preconcurrency public var bgViewleftMargin: CoreFoundation.CGFloat {
     @objc get
     @objc set
   }
-  @objc @_Concurrency.MainActor(unsafe) public var bgViewRightMargin: CoreFoundation.CGFloat {
+  @objc @_Concurrency.MainActor @preconcurrency public var bgViewRightMargin: CoreFoundation.CGFloat {
     @objc get
     @objc set
   }
-  @objc @_Concurrency.MainActor(unsafe) public var bgViewTopMargin: CoreFoundation.CGFloat {
+  @objc @_Concurrency.MainActor @preconcurrency public var bgViewTopMargin: CoreFoundation.CGFloat {
     @objc get
     @objc set
   }
-  @objc @_Concurrency.MainActor(unsafe) public var bgViewBottomMargin: CoreFoundation.CGFloat {
+  @objc @_Concurrency.MainActor @preconcurrency public var bgViewBottomMargin: CoreFoundation.CGFloat {
     @objc get
     @objc set
   }
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
-  @objc @_Concurrency.MainActor(unsafe) public func adHeight(width: CoreFoundation.CGFloat) -> CoreFoundation.CGFloat
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @objc @_Concurrency.MainActor @preconcurrency public func adHeight(width: CoreFoundation.CGFloat) -> CoreFoundation.CGFloat
   @objc deinit
 }
 extension AdFitSDK.BizBoardTemplate : AdFitSDK.AdFitNativeAdRenderable {
-  @_Concurrency.MainActor(unsafe) @objc dynamic public func adTitleLabel() -> UIKit.UILabel?
-  @_Concurrency.MainActor(unsafe) @objc dynamic public func adCallToActionButton() -> UIKit.UIButton?
-  @_Concurrency.MainActor(unsafe) @objc dynamic public func adProfileNameLabel() -> UIKit.UILabel?
-  @_Concurrency.MainActor(unsafe) @objc dynamic public func adProfileIconView() -> UIKit.UIImageView?
-  @_Concurrency.MainActor(unsafe) @objc dynamic public func adMediaView() -> AdFitSDK.AdFitMediaView?
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func adTitleLabel() -> UIKit.UILabel?
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func adCallToActionButton() -> UIKit.UIButton?
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func adProfileNameLabel() -> UIKit.UILabel?
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func adProfileIconView() -> UIKit.UIImageView?
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func adMediaView() -> AdFitSDK.AdFitMediaView?
 }
-@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) final public class AdFitMediaView : UIKit.UIView {
-  @objc @_Concurrency.MainActor(unsafe) weak final public var delegate: (any AdFitSDK.AdFitMediaViewDelegate)?
-  @objc @_Concurrency.MainActor(unsafe) final public var mediaType: AdFitSDK.AdFitMediaType {
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency final public class AdFitMediaView : UIKit.UIView {
+  @objc @_Concurrency.MainActor @preconcurrency weak final public var delegate: (any AdFitSDK.AdFitMediaViewDelegate)?
+  @objc @_Concurrency.MainActor @preconcurrency final public var mediaType: AdFitSDK.AdFitMediaType {
     @objc get
   }
-  @objc @_Concurrency.MainActor(unsafe) final public var mainImage: UIKit.UIImage? {
+  @objc @_Concurrency.MainActor @preconcurrency final public var mainImage: UIKit.UIImage? {
     @objc get
   }
-  @objc @_Concurrency.MainActor(unsafe) final public var useVideoControlView: Swift.Bool
-  @_Concurrency.MainActor(unsafe) @objc override final public var isAccessibilityElement: Swift.Bool {
+  @objc @_Concurrency.MainActor @preconcurrency final public var useVideoControlView: Swift.Bool
+  @_Concurrency.MainActor @preconcurrency @objc override final public var isAccessibilityElement: Swift.Bool {
     @objc get
     @objc set
   }
   @objc deinit
-  @_Concurrency.MainActor(unsafe) @objc override final public func layoutSubviews()
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
-  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @_Concurrency.MainActor @preconcurrency @objc override final public func layoutSubviews()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
 }
 @objc public enum AdFitMediaType : Swift.Int, Swift.CustomStringConvertible {
   case unknown = 0
@@ -97,18 +98,18 @@ extension AdFitSDK.BizBoardTemplate : AdFitSDK.AdFitNativeAdRenderable {
     get
   }
 }
-@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) open class NasResizableView : UIKit.UIView {
-  @_Concurrency.MainActor(unsafe) @objc override dynamic open func willMove(toSuperview newSuperview: UIKit.UIView?)
-  @_Concurrency.MainActor(unsafe) @objc override dynamic open func observeValue(forKeyPath keyPath: Swift.String?, of object: Any?, change: [Foundation.NSKeyValueChangeKey : Any]?, context: Swift.UnsafeMutableRawPointer?)
-  @_Concurrency.MainActor(unsafe) @objc override dynamic open func layoutSubviews()
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
-  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency open class NasResizableView : UIKit.UIView {
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic open func willMove(toSuperview newSuperview: UIKit.UIView?)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic open func observeValue(forKeyPath keyPath: Swift.String?, of object: Any?, change: [Foundation.NSKeyValueChangeKey : Any]?, context: Swift.UnsafeMutableRawPointer?)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic open func layoutSubviews()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
   @objc deinit
 }
-@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) open class FrameLayout : AdFitSDK.VirtualLayout {
-  @_Concurrency.MainActor(unsafe) open func calculateRectFromSubviews(_ size: CoreFoundation.CGSize, isEstimate: Swift.Bool, hasSubLayout: inout Swift.Bool, subviews: [UIKit.UIView]?, type: AdFitSDK.SizeClassType) -> CoreFoundation.CGSize
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
-  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency open class FrameLayout : AdFitSDK.VirtualLayout {
+  @_Concurrency.MainActor @preconcurrency open func calculateRectFromSubviews(_ size: CoreFoundation.CGSize, isEstimate: Swift.Bool, hasSubLayout: inout Swift.Bool, subviews: [UIKit.UIView]?, type: AdFitSDK.SizeClassType) -> CoreFoundation.CGSize
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
   @objc deinit
 }
 @_inheritsConvenienceInitializers @objc(IAVDSnapshotViewConfiguration) final public class SnapshotViewConfiguration : ObjectiveC.NSObject {
@@ -171,32 +172,32 @@ public struct LayoutGravity : Swift.OptionSet {
 }
 public func & (left: AdFitSDK.LayoutGravity, right: AdFitSDK.LayoutGravity) -> AdFitSDK.LayoutGravity
 public func > (left: AdFitSDK.LayoutGravity, right: AdFitSDK.LayoutGravity) -> Swift.Bool
-@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class NasAdView : UIKit.UIView {
-  @_Concurrency.MainActor(unsafe) public var viewModel: AdFitSDK.NasAdViewModel? {
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency public class NasAdView : UIKit.UIView {
+  @_Concurrency.MainActor @preconcurrency public var viewModel: AdFitSDK.NasAdViewModel? {
     get
     set
   }
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public func addSubview(_ view: UIKit.UIView)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func addSubview(_ view: UIKit.UIView)
   @objc deinit
 }
-@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class AdFitAdView : UIKit.UIView {
-  @_Concurrency.MainActor(unsafe) public var infoView: UIKit.UIView {
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency public class AdFitAdView : UIKit.UIView {
+  @_Concurrency.MainActor @preconcurrency public var infoView: UIKit.UIView {
     get
   }
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public func layoutSubviews()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func layoutSubviews()
   @objc deinit
 }
 extension AdFitSDK.AdFitAdView : AdFitSDK.AdFitNativeAdRenderable {
-  @_Concurrency.MainActor(unsafe) @objc dynamic public func adTitleLabel() -> UIKit.UILabel?
-  @_Concurrency.MainActor(unsafe) @objc dynamic public func adCallToActionButton() -> UIKit.UIButton?
-  @_Concurrency.MainActor(unsafe) @objc dynamic public func adProfileNameLabel() -> UIKit.UILabel?
-  @_Concurrency.MainActor(unsafe) @objc dynamic public func adProfileIconView() -> UIKit.UIImageView?
-  @_Concurrency.MainActor(unsafe) @objc dynamic public func adMediaView() -> AdFitSDK.AdFitMediaView?
-  @_Concurrency.MainActor(unsafe) @objc dynamic public func customInfoIconView() -> UIKit.UIImageView?
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func adTitleLabel() -> UIKit.UILabel?
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func adCallToActionButton() -> UIKit.UIButton?
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func adProfileNameLabel() -> UIKit.UILabel?
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func adProfileIconView() -> UIKit.UIImageView?
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func adMediaView() -> AdFitSDK.AdFitMediaView?
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func customInfoIconView() -> UIKit.UIImageView?
 }
 extension AdFitSDK.AdFitAdView : AdFitSDK.AdFitMediaViewInternalDelegate {
-  @_Concurrency.MainActor(unsafe) @objc dynamic public func mediaViewVideoDidDurationChange(_ mediaView: AdFitSDK.AdFitMediaView, current: Foundation.TimeInterval, total: Foundation.TimeInterval)
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func mediaViewVideoDidDurationChange(_ mediaView: AdFitSDK.AdFitMediaView, current: Foundation.TimeInterval, total: Foundation.TimeInterval)
 }
 final public class VFPositionValue {
   @discardableResult
@@ -333,15 +334,15 @@ infix operator ! : AnchorPriorityOperatorPrecedence
 @objc public protocol AdFitMediaViewInternalDelegate : ObjectiveC.NSObjectProtocol {
   @objc optional func mediaViewVideoDidDurationChange(_ mediaView: AdFitSDK.AdFitMediaView, current: Foundation.TimeInterval, total: Foundation.TimeInterval)
 }
-@objc @_Concurrency.MainActor(unsafe) open class LinearLayout : AdFitSDK.VirtualLayout {
-  @_Concurrency.MainActor(unsafe) convenience public init(_ direction: AdFitSDK.Direction)
-  @_Concurrency.MainActor(unsafe) public init(frame: CoreFoundation.CGRect, direction: AdFitSDK.Direction)
-  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
-  @_Concurrency.MainActor(unsafe) public var direction: AdFitSDK.Direction {
+@objc @_Concurrency.MainActor @preconcurrency open class LinearLayout : AdFitSDK.VirtualLayout {
+  @_Concurrency.MainActor @preconcurrency convenience public init(_ direction: AdFitSDK.Direction)
+  @_Concurrency.MainActor @preconcurrency public init(frame: CoreFoundation.CGRect, direction: AdFitSDK.Direction)
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  @_Concurrency.MainActor @preconcurrency public var direction: AdFitSDK.Direction {
     get
     set
   }
-  @_Concurrency.MainActor(unsafe) @objc override dynamic open func willRemoveSubview(_ subview: UIKit.UIView)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic open func willRemoveSubview(_ subview: UIKit.UIView)
   @objc deinit
 }
 public protocol PopUpTemplatePresenterDelegate : AnyObject {
@@ -357,56 +358,56 @@ final public class PopUpTemplatePresenter {
   @objc deinit
 }
 extension UIKit.UIView {
-  @_Concurrency.MainActor(unsafe) public var vfBaseline: AdFitSDK.VFPositionValue {
+  @_Concurrency.MainActor @preconcurrency public var vfBaseline: AdFitSDK.VFPositionValue {
     get
   }
-  @_Concurrency.MainActor(unsafe) public var vfTop: AdFitSDK.VFPositionValue {
+  @_Concurrency.MainActor @preconcurrency public var vfTop: AdFitSDK.VFPositionValue {
     get
   }
-  @_Concurrency.MainActor(unsafe) public var vfLeading: AdFitSDK.VFPositionValue {
+  @_Concurrency.MainActor @preconcurrency public var vfLeading: AdFitSDK.VFPositionValue {
     get
   }
-  @_Concurrency.MainActor(unsafe) public var vfBottom: AdFitSDK.VFPositionValue {
+  @_Concurrency.MainActor @preconcurrency public var vfBottom: AdFitSDK.VFPositionValue {
     get
   }
-  @_Concurrency.MainActor(unsafe) public var vfTrailing: AdFitSDK.VFPositionValue {
+  @_Concurrency.MainActor @preconcurrency public var vfTrailing: AdFitSDK.VFPositionValue {
     get
   }
-  @_Concurrency.MainActor(unsafe) public var vfCenterX: AdFitSDK.VFPositionValue {
+  @_Concurrency.MainActor @preconcurrency public var vfCenterX: AdFitSDK.VFPositionValue {
     get
   }
-  @_Concurrency.MainActor(unsafe) public var vfCenterY: AdFitSDK.VFPositionValue {
+  @_Concurrency.MainActor @preconcurrency public var vfCenterY: AdFitSDK.VFPositionValue {
     get
   }
-  @_Concurrency.MainActor(unsafe) public var vfLeft: AdFitSDK.VFPositionValue {
+  @_Concurrency.MainActor @preconcurrency public var vfLeft: AdFitSDK.VFPositionValue {
     get
   }
-  @_Concurrency.MainActor(unsafe) public var vfRight: AdFitSDK.VFPositionValue {
+  @_Concurrency.MainActor @preconcurrency public var vfRight: AdFitSDK.VFPositionValue {
     get
   }
-  @_Concurrency.MainActor(unsafe) public var vfWidth: AdFitSDK.VFLayoutSize {
+  @_Concurrency.MainActor @preconcurrency public var vfWidth: AdFitSDK.VFLayoutSize {
     get
   }
-  @_Concurrency.MainActor(unsafe) public var vfHeight: AdFitSDK.VFLayoutSize {
+  @_Concurrency.MainActor @preconcurrency public var vfHeight: AdFitSDK.VFLayoutSize {
     get
   }
-  @_Concurrency.MainActor(unsafe) public var vfWidthRatio: AdFitSDK.VFPositionValue {
+  @_Concurrency.MainActor @preconcurrency public var vfWidthRatio: AdFitSDK.VFPositionValue {
     get
   }
-  @_Concurrency.MainActor(unsafe) public var vfHeightRatio: AdFitSDK.VFPositionValue {
+  @_Concurrency.MainActor @preconcurrency public var vfHeightRatio: AdFitSDK.VFPositionValue {
     get
   }
-  @_Concurrency.MainActor(unsafe) public var vfVisibility: AdFitSDK.Visibility {
+  @_Concurrency.MainActor @preconcurrency public var vfVisibility: AdFitSDK.Visibility {
     get
     set
   }
-  @_Concurrency.MainActor(unsafe) public var vfAlign: AdFitSDK.LayoutGravity {
+  @_Concurrency.MainActor @preconcurrency public var vfAlign: AdFitSDK.LayoutGravity {
     get
     set
   }
 }
 extension AVKit.AVPlayerViewController {
-  @_Concurrency.MainActor(unsafe) @objc override dynamic open var prefersStatusBarHidden: Swift.Bool {
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic open var prefersStatusBarHidden: Swift.Bool {
     @objc get
   }
 }
@@ -415,59 +416,59 @@ extension AVKit.AVPlayerViewController {
   public func changeTheme()
   @objc deinit
 }
-@objc @_Concurrency.MainActor(unsafe) final public class AdFitBannerAdView : UIKit.UIView {
-  @objc @_Concurrency.MainActor(unsafe) final public var clientId: Swift.String? {
+@objc @_Concurrency.MainActor @preconcurrency final public class AdFitBannerAdView : UIKit.UIView {
+  @objc @_Concurrency.MainActor @preconcurrency final public var clientId: Swift.String? {
     get
   }
-  @objc @_Concurrency.MainActor(unsafe) final public var adUnitSize: Swift.String? {
+  @objc @_Concurrency.MainActor @preconcurrency final public var adUnitSize: Swift.String? {
     get
   }
-  @objc @_Concurrency.MainActor(unsafe) weak final public var delegate: (any AdFitSDK.AdFitBannerAdViewDelegate)?
-  @objc @_Concurrency.MainActor(unsafe) weak final public var rootViewController: UIKit.UIViewController?
-  @_Concurrency.MainActor(unsafe) @objc override final public var isUserInteractionEnabled: Swift.Bool {
+  @objc @_Concurrency.MainActor @preconcurrency weak final public var delegate: (any AdFitSDK.AdFitBannerAdViewDelegate)?
+  @objc @_Concurrency.MainActor @preconcurrency weak final public var rootViewController: UIKit.UIViewController?
+  @_Concurrency.MainActor @preconcurrency @objc override final public var isUserInteractionEnabled: Swift.Bool {
     @objc get
     @objc set
   }
-  @_Concurrency.MainActor(unsafe) @objc override final public var clipsToBounds: Swift.Bool {
+  @_Concurrency.MainActor @preconcurrency @objc override final public var clipsToBounds: Swift.Bool {
     @objc get
     @objc set
   }
-  @_Concurrency.MainActor(unsafe) @objc override final public var frame: CoreFoundation.CGRect {
+  @_Concurrency.MainActor @preconcurrency @objc override final public var frame: CoreFoundation.CGRect {
     @objc get
     @objc set
   }
-  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
-  @objc @_Concurrency.MainActor(unsafe) public init(clientId: Swift.String, adUnitSize: Swift.String)
-  @objc @_Concurrency.MainActor(unsafe) public init(clientId: Swift.String)
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  @objc @_Concurrency.MainActor @preconcurrency public init(clientId: Swift.String, adUnitSize: Swift.String)
+  @objc @_Concurrency.MainActor @preconcurrency public init(clientId: Swift.String)
   @objc deinit
-  @_Concurrency.MainActor(unsafe) @objc override final public func addSubview(_ view: UIKit.UIView)
-  @objc @_Concurrency.MainActor(unsafe) final public func loadAd()
+  @_Concurrency.MainActor @preconcurrency @objc override final public func addSubview(_ view: UIKit.UIView)
+  @objc @_Concurrency.MainActor @preconcurrency final public func loadAd()
 }
-@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) open class VirtualLayout : UIKit.UIView {
-  @_Concurrency.MainActor(unsafe) @objc override dynamic open func sizeThatFits(_ size: CoreFoundation.CGSize) -> CoreFoundation.CGSize
-  @_Concurrency.MainActor(unsafe) @objc override dynamic open func layoutSubviews()
-  @_Concurrency.MainActor(unsafe) @objc override dynamic open func traitCollectionDidChange(_ previousTraitCollection: UIKit.UITraitCollection?)
-  @_Concurrency.MainActor(unsafe) @objc override dynamic open var isHidden: Swift.Bool {
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency open class VirtualLayout : UIKit.UIView {
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic open func sizeThatFits(_ size: CoreFoundation.CGSize) -> CoreFoundation.CGSize
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic open func layoutSubviews()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic open func traitCollectionDidChange(_ previousTraitCollection: UIKit.UITraitCollection?)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic open var isHidden: Swift.Bool {
     @objc get
     @objc set
   }
-  @_Concurrency.MainActor(unsafe) @objc override dynamic open func willRemoveSubview(_ subview: UIKit.UIView)
-  @_Concurrency.MainActor(unsafe) @objc override dynamic open func willMove(toSuperview newSuperview: UIKit.UIView?)
-  @_Concurrency.MainActor(unsafe) @objc override dynamic open func observeValue(forKeyPath keyPath: Swift.String?, of object: Any?, change: [Foundation.NSKeyValueChangeKey : Any]?, context: Swift.UnsafeMutableRawPointer?)
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
-  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic open func willRemoveSubview(_ subview: UIKit.UIView)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic open func willMove(toSuperview newSuperview: UIKit.UIView?)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic open func observeValue(forKeyPath keyPath: Swift.String?, of object: Any?, change: [Foundation.NSKeyValueChangeKey : Any]?, context: Swift.UnsafeMutableRawPointer?)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
   @objc deinit
 }
-public struct PopUpAdTemplateView : SwiftUI.View {
-  @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
+@_Concurrency.MainActor @preconcurrency public struct PopUpAdTemplateView : SwiftUICore.View {
+  @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
     get
   }
   public typealias Body = @_opaqueReturnTypeOf("$s8AdFitSDK05PopUpA12TemplateViewV4bodyQrvp", 0) __
 }
 extension AdFitSDK.PopUpAdTemplateView {
-  public func onDidReceiveAd(_ handler: @escaping () -> Swift.Void) -> AdFitSDK.PopUpAdTemplateView
-  public func onFailToReceiveAd(_ handler: @escaping (any Swift.Error) -> Swift.Void) -> AdFitSDK.PopUpAdTemplateView
-  public func onDidClickAd(_ handler: @escaping () -> Swift.Void) -> AdFitSDK.PopUpAdTemplateView
+  @_Concurrency.MainActor @preconcurrency public func onDidReceiveAd(_ handler: @escaping () -> Swift.Void) -> AdFitSDK.PopUpAdTemplateView
+  @_Concurrency.MainActor @preconcurrency public func onFailToReceiveAd(_ handler: @escaping (any Swift.Error) -> Swift.Void) -> AdFitSDK.PopUpAdTemplateView
+  @_Concurrency.MainActor @preconcurrency public func onDidClickAd(_ handler: @escaping () -> Swift.Void) -> AdFitSDK.PopUpAdTemplateView
 }
 
 @objc @_inheritsConvenienceInitializers final public class AdFit : ObjectiveC.NSObject {
@@ -514,14 +515,14 @@ public enum SizeClassType {
   case landscape
   case custom(AdFitSDK.SizeClassType.Width, AdFitSDK.SizeClassType.Height, AdFitSDK.SizeClassType.Direction?)
 }
-public struct BizBoardTemplatePresentableView : SwiftUI.UIViewRepresentable {
-  public init(clientId: Swift.String, refresh: SwiftUI.Binding<Swift.Bool>)
-  @_Concurrency.MainActor(unsafe) public func makeUIView(context: AdFitSDK.BizBoardTemplatePresentableView.Context) -> AdFitSDK.BizBoardTemplate
-  @_Concurrency.MainActor(unsafe) public func updateUIView(_ uiView: AdFitSDK.BizBoardTemplate, context: AdFitSDK.BizBoardTemplatePresentableView.Context)
-  public func onDidReceiveAd(_ closure: ((AdFitSDK.AdFitNativeAd) -> Swift.Void)?) -> AdFitSDK.BizBoardTemplatePresentableView
-  public func onDidFailToReceiveAd(_ closure: ((any Swift.Error) -> Swift.Void)?) -> AdFitSDK.BizBoardTemplatePresentableView
-  public func onDidClickAd(_ closure: ((AdFitSDK.AdFitNativeAd) -> Swift.Void)?) -> AdFitSDK.BizBoardTemplatePresentableView
-  @_Concurrency.MainActor(unsafe) public func makeCoordinator() -> AdFitSDK.BizBoardTemplatePresentableView.Coordinator
+@_Concurrency.MainActor @preconcurrency public struct BizBoardTemplatePresentableView : SwiftUI.UIViewRepresentable {
+  @_Concurrency.MainActor @preconcurrency public init(clientId: Swift.String, refresh: SwiftUICore.Binding<Swift.Bool>)
+  @_Concurrency.MainActor @preconcurrency public func makeUIView(context: AdFitSDK.BizBoardTemplatePresentableView.Context) -> AdFitSDK.BizBoardTemplate
+  @_Concurrency.MainActor @preconcurrency public func updateUIView(_ uiView: AdFitSDK.BizBoardTemplate, context: AdFitSDK.BizBoardTemplatePresentableView.Context)
+  @_Concurrency.MainActor @preconcurrency public func onDidReceiveAd(_ closure: ((AdFitSDK.AdFitNativeAd) -> Swift.Void)?) -> AdFitSDK.BizBoardTemplatePresentableView
+  @_Concurrency.MainActor @preconcurrency public func onDidFailToReceiveAd(_ closure: ((any Swift.Error) -> Swift.Void)?) -> AdFitSDK.BizBoardTemplatePresentableView
+  @_Concurrency.MainActor @preconcurrency public func onDidClickAd(_ closure: ((AdFitSDK.AdFitNativeAd) -> Swift.Void)?) -> AdFitSDK.BizBoardTemplatePresentableView
+  @_Concurrency.MainActor @preconcurrency public func makeCoordinator() -> AdFitSDK.BizBoardTemplatePresentableView.Coordinator
   @objc @_hasMissingDesignatedInitializers public class Coordinator : ObjectiveC.NSObject, AdFitSDK.AdFitNativeAdLoaderDelegate, AdFitSDK.AdFitNativeAdDelegate {
     @objc public func nativeAdLoaderDidReceiveAd(_ nativeAd: AdFitSDK.AdFitNativeAd)
     @objc public func nativeAdLoaderDidFailToReceiveAd(_ nativeAdLoader: AdFitSDK.AdFitNativeAdLoader, error: any Swift.Error)
@@ -532,7 +533,7 @@ public struct BizBoardTemplatePresentableView : SwiftUI.UIViewRepresentable {
   public typealias UIViewType = AdFitSDK.BizBoardTemplate
 }
 extension AdFitSDK.BizBoardTemplatePresentableView {
-  public func onSizeThatFits() -> some SwiftUI.View
+  @_Concurrency.MainActor @preconcurrency public func onSizeThatFits() -> some SwiftUICore.View
   
 }
 @objc @_hasMissingDesignatedInitializers public class NasAdViewModel : ObjectiveC.NSObject {
@@ -547,14 +548,14 @@ extension AdFitSDK.BizBoardTemplatePresentableView {
   @objc public func unbind()
   @objc deinit
 }
-@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class PlainNativeAdView : UIKit.UIView, AdFitSDK.AdFitNativeAdRenderable {
-  @_Concurrency.MainActor(unsafe) public var blockHandler: () -> Swift.Void
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
-  @_Concurrency.MainActor(unsafe) @objc public func adTitleLabel() -> UIKit.UILabel?
-  @_Concurrency.MainActor(unsafe) @objc public func adCallToActionButton() -> UIKit.UIButton?
-  @_Concurrency.MainActor(unsafe) @objc public func adProfileNameLabel() -> UIKit.UILabel?
-  @_Concurrency.MainActor(unsafe) @objc public func adProfileIconView() -> UIKit.UIImageView?
-  @_Concurrency.MainActor(unsafe) @objc public func adMediaView() -> AdFitSDK.AdFitMediaView?
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency public class PlainNativeAdView : UIKit.UIView, AdFitSDK.AdFitNativeAdRenderable {
+  @_Concurrency.MainActor @preconcurrency public var blockHandler: () -> Swift.Void
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @_Concurrency.MainActor @preconcurrency @objc public func adTitleLabel() -> UIKit.UILabel?
+  @_Concurrency.MainActor @preconcurrency @objc public func adCallToActionButton() -> UIKit.UIButton?
+  @_Concurrency.MainActor @preconcurrency @objc public func adProfileNameLabel() -> UIKit.UILabel?
+  @_Concurrency.MainActor @preconcurrency @objc public func adProfileIconView() -> UIKit.UIImageView?
+  @_Concurrency.MainActor @preconcurrency @objc public func adMediaView() -> AdFitSDK.AdFitMediaView?
   @objc deinit
 }
 @_inheritsConvenienceInitializers @objc public class ContentObject : ObjectiveC.NSObject, Swift.Codable {
@@ -597,9 +598,9 @@ extension AdFitSDK.BizBoardTemplatePresentableView {
   @objc optional func mediaViewVideoDidFailed(_ mediaView: AdFitSDK.AdFitMediaView, error: any Swift.Error)
   @objc optional func mediaViewVideoDidChangeBuffering(_ mediaView: AdFitSDK.AdFitMediaView, buffering: Swift.Bool)
 }
-public struct PopUpTransitionModifier : SwiftUI.ViewModifier {
-  public init(adUnitId: Swift.String, isPresented: SwiftUI.Binding<Swift.Bool>)
-  @_Concurrency.MainActor(unsafe) public func body(content: AdFitSDK.PopUpTransitionModifier.Content) -> some SwiftUI.View
+@_Concurrency.MainActor @preconcurrency public struct PopUpTransitionModifier : SwiftUICore.ViewModifier {
+  @_Concurrency.MainActor @preconcurrency public init(adUnitId: Swift.String, isPresented: SwiftUICore.Binding<Swift.Bool>)
+  @_Concurrency.MainActor @preconcurrency public func body(content: AdFitSDK.PopUpTransitionModifier.Content) -> some SwiftUICore.View
   
   public typealias Body = @_opaqueReturnTypeOf("$s8AdFitSDK23PopUpTransitionModifierV4body7contentQr7SwiftUI05_ViewG8_ContentVyACG_tF", 0) __
 }
@@ -642,20 +643,20 @@ public func + (lhs: AdFitSDK.Weight, rhs: AdFitSDK.Weight) -> AdFitSDK.Weight
 postfix operator %
 postfix public func % (val: CoreFoundation.CGFloat) -> AdFitSDK.Weight
 postfix public func % (val: Swift.Int) -> AdFitSDK.Weight
-@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) final public class AdFitFlexibleView : UIKit.UIView {
-  @objc @_Concurrency.MainActor(unsafe) final public var clientId: Swift.String {
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency final public class AdFitFlexibleView : UIKit.UIView {
+  @objc @_Concurrency.MainActor @preconcurrency final public var clientId: Swift.String {
     get
   }
-  @objc @_Concurrency.MainActor(unsafe) final public var desiredMediaWidth: CoreFoundation.CGFloat
-  @objc @_Concurrency.MainActor(unsafe) weak final public var delegate: (any AdFitSDK.AdFitFlexibleViewDelegate)?
-  @objc @_Concurrency.MainActor(unsafe) final public var adRatio: CoreFoundation.CGFloat {
+  @objc @_Concurrency.MainActor @preconcurrency final public var desiredMediaWidth: CoreFoundation.CGFloat
+  @objc @_Concurrency.MainActor @preconcurrency weak final public var delegate: (any AdFitSDK.AdFitFlexibleViewDelegate)?
+  @objc @_Concurrency.MainActor @preconcurrency final public var adRatio: CoreFoundation.CGFloat {
     @objc get
   }
-  @objc @_Concurrency.MainActor(unsafe) convenience public init(adUnitId: Swift.String)
-  @objc @_Concurrency.MainActor(unsafe) weak final public var rootViewController: UIKit.UIViewController?
-  @objc @_Concurrency.MainActor(unsafe) final public func loadAd()
+  @objc @_Concurrency.MainActor @preconcurrency convenience public init(adUnitId: Swift.String)
+  @objc @_Concurrency.MainActor @preconcurrency weak final public var rootViewController: UIKit.UIViewController?
+  @objc @_Concurrency.MainActor @preconcurrency final public func loadAd()
   @objc deinit
-  @_Concurrency.MainActor(unsafe) final public var latestContainerHeight: CoreFoundation.CGFloat {
+  @_Concurrency.MainActor @preconcurrency final public var latestContainerHeight: CoreFoundation.CGFloat {
     get
   }
 }
@@ -664,14 +665,14 @@ postfix public func % (val: Swift.Int) -> AdFitSDK.Weight
   @objc optional func adViewDidFailToReceiveAd(_ adView: AdFitSDK.AdFitFlexibleView, error: any Swift.Error)
   @objc optional func adViewDidClickAd(_ adView: AdFitSDK.AdFitFlexibleView)
 }
-public struct AdFitBannerPresentableView : SwiftUI.UIViewRepresentable {
+@_Concurrency.MainActor @preconcurrency public struct AdFitBannerPresentableView : SwiftUI.UIViewRepresentable {
   public typealias UIViewType = AdFitSDK.AdFitBannerAdView
-  public init(clientId: Swift.String, adUnitSize: Swift.String)
-  @_Concurrency.MainActor(unsafe) public func makeUIView(context: AdFitSDK.AdFitBannerPresentableView.Context) -> AdFitSDK.AdFitBannerAdView
-  @_Concurrency.MainActor(unsafe) public func updateUIView(_ uiView: AdFitSDK.AdFitBannerAdView, context: AdFitSDK.AdFitBannerPresentableView.Context)
-  public func onDidClickAd(_ closure: ((AdFitSDK.AdFitBannerAdView) -> Swift.Void)?) -> AdFitSDK.AdFitBannerPresentableView
-  public func onDidReceiveAd(_ closure: ((AdFitSDK.AdFitBannerAdView, (any Swift.Error)?) -> Swift.Void)?) -> AdFitSDK.AdFitBannerPresentableView
-  @_Concurrency.MainActor(unsafe) public func makeCoordinator() -> AdFitSDK.AdFitBannerPresentableView.Coordinator
+  @_Concurrency.MainActor @preconcurrency public init(clientId: Swift.String, adUnitSize: Swift.String)
+  @_Concurrency.MainActor @preconcurrency public func makeUIView(context: AdFitSDK.AdFitBannerPresentableView.Context) -> AdFitSDK.AdFitBannerAdView
+  @_Concurrency.MainActor @preconcurrency public func updateUIView(_ uiView: AdFitSDK.AdFitBannerAdView, context: AdFitSDK.AdFitBannerPresentableView.Context)
+  @_Concurrency.MainActor @preconcurrency public func onDidClickAd(_ closure: ((AdFitSDK.AdFitBannerAdView) -> Swift.Void)?) -> AdFitSDK.AdFitBannerPresentableView
+  @_Concurrency.MainActor @preconcurrency public func onDidReceiveAd(_ closure: ((AdFitSDK.AdFitBannerAdView, (any Swift.Error)?) -> Swift.Void)?) -> AdFitSDK.AdFitBannerPresentableView
+  @_Concurrency.MainActor @preconcurrency public func makeCoordinator() -> AdFitSDK.AdFitBannerPresentableView.Coordinator
   @objc @_inheritsConvenienceInitializers public class Coordinator : ObjectiveC.NSObject, AdFitSDK.AdFitBannerAdViewDelegate {
     @objc public func adViewDidClickAd(_ bannerAdView: AdFitSDK.AdFitBannerAdView)
     @objc public func adViewDidReceiveAd(_ bannerAdView: AdFitSDK.AdFitBannerAdView)
@@ -682,41 +683,41 @@ public struct AdFitBannerPresentableView : SwiftUI.UIViewRepresentable {
   public typealias Body = Swift.Never
 }
 extension AdFitSDK.AdFitBannerPresentableView {
-  public func onSizeThatFits(orientation: SwiftUI.Binding<UIKit.UIDeviceOrientation>, width: CoreFoundation.CGFloat = UIApplication.shared.safeBounds.width) -> some SwiftUI.View
+  @_Concurrency.MainActor @preconcurrency public func onSizeThatFits(orientation: SwiftUICore.Binding<UIKit.UIDeviceOrientation>, width: CoreFoundation.CGFloat = UIApplication.shared.safeBounds.width) -> some SwiftUICore.View
   
 }
-@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class BizBoardCell : UIKit.UITableViewCell {
-  @objc @_Concurrency.MainActor(unsafe) public static var defaultBackgroundColor: UIKit.UIColor
-  @objc @_Concurrency.MainActor(unsafe) public static var defaultEdgeInset: UIKit.UIEdgeInsets
-  @objc @_Concurrency.MainActor(unsafe) public var bgViewColor: UIKit.UIColor? {
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency public class BizBoardCell : UIKit.UITableViewCell {
+  @objc @_Concurrency.MainActor @preconcurrency public static var defaultBackgroundColor: UIKit.UIColor
+  @objc @_Concurrency.MainActor @preconcurrency public static var defaultEdgeInset: UIKit.UIEdgeInsets
+  @objc @_Concurrency.MainActor @preconcurrency public var bgViewColor: UIKit.UIColor? {
     @objc get
     @objc set
   }
-  @objc @_Concurrency.MainActor(unsafe) public var bgViewleftMargin: CoreFoundation.CGFloat {
+  @objc @_Concurrency.MainActor @preconcurrency public var bgViewleftMargin: CoreFoundation.CGFloat {
     @objc get
     @objc set
   }
-  @objc @_Concurrency.MainActor(unsafe) public var bgViewRightMargin: CoreFoundation.CGFloat {
+  @objc @_Concurrency.MainActor @preconcurrency public var bgViewRightMargin: CoreFoundation.CGFloat {
     @objc get
     @objc set
   }
-  @objc @_Concurrency.MainActor(unsafe) public var bgViewTopMargin: CoreFoundation.CGFloat {
+  @objc @_Concurrency.MainActor @preconcurrency public var bgViewTopMargin: CoreFoundation.CGFloat {
     @objc get
     @objc set
   }
-  @objc @_Concurrency.MainActor(unsafe) public var bgViewBottomMargin: CoreFoundation.CGFloat {
+  @objc @_Concurrency.MainActor @preconcurrency public var bgViewBottomMargin: CoreFoundation.CGFloat {
     @objc get
     @objc set
   }
-  @objc @_Concurrency.MainActor(unsafe) public func adHeight(width: CoreFoundation.CGFloat) -> CoreFoundation.CGFloat
+  @objc @_Concurrency.MainActor @preconcurrency public func adHeight(width: CoreFoundation.CGFloat) -> CoreFoundation.CGFloat
   @objc deinit
 }
 extension AdFitSDK.BizBoardCell : AdFitSDK.AdFitNativeAdRenderable {
-  @_Concurrency.MainActor(unsafe) @objc dynamic public func adTitleLabel() -> UIKit.UILabel?
-  @_Concurrency.MainActor(unsafe) @objc dynamic public func adCallToActionButton() -> UIKit.UIButton?
-  @_Concurrency.MainActor(unsafe) @objc dynamic public func adProfileNameLabel() -> UIKit.UILabel?
-  @_Concurrency.MainActor(unsafe) @objc dynamic public func adProfileIconView() -> UIKit.UIImageView?
-  @_Concurrency.MainActor(unsafe) @objc dynamic public func adMediaView() -> AdFitSDK.AdFitMediaView?
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func adTitleLabel() -> UIKit.UILabel?
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func adCallToActionButton() -> UIKit.UIButton?
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func adProfileNameLabel() -> UIKit.UILabel?
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func adProfileIconView() -> UIKit.UIImageView?
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func adMediaView() -> AdFitSDK.AdFitMediaView?
 }
 public enum KakaoIntergration : Swift.Hashable {
   case none
@@ -765,15 +766,15 @@ extension Foundation.URL : AdFitSDK.StringRepresentable {
 extension ObjectiveC.Selector : AdFitSDK.StringRepresentable {
   public static func fromString(_ value: Swift.String) -> ObjectiveC.Selector?
 }
-public struct NASPresentableView : SwiftUI.UIViewRepresentable {
-  public init(clientId: Swift.String, loadTrigger: SwiftUI.Binding<Swift.Bool> = .init(get: { return false }, set: { _ in }))
-  @_Concurrency.MainActor(unsafe) public func makeUIView(context: AdFitSDK.NASPresentableView.Context) -> AdFitSDK.AdFitFlexibleView
-  @_Concurrency.MainActor(unsafe) public func updateUIView(_ uiView: AdFitSDK.AdFitFlexibleView, context: AdFitSDK.NASPresentableView.Context)
-  @_Concurrency.MainActor(unsafe) public func makeCoordinator() -> AdFitSDK.NASPresentableView.Coordinator
-  public func onCalculatedHeight(_ handler: @escaping (CoreFoundation.CGFloat) -> Swift.Void) -> AdFitSDK.NASPresentableView
-  public func onDidReceiveAd(_ handler: @escaping () -> Swift.Void) -> AdFitSDK.NASPresentableView
-  public func onFailToReceiveAd(_ handler: @escaping (any Swift.Error) -> Swift.Void) -> AdFitSDK.NASPresentableView
-  public func onDidClickAd(_ handler: @escaping () -> Swift.Void) -> AdFitSDK.NASPresentableView
+@_Concurrency.MainActor @preconcurrency public struct NASPresentableView : SwiftUI.UIViewRepresentable {
+  @_Concurrency.MainActor @preconcurrency public init(clientId: Swift.String, loadTrigger: SwiftUICore.Binding<Swift.Bool> = .init(get: { return false }, set: { _ in }))
+  @_Concurrency.MainActor @preconcurrency public func makeUIView(context: AdFitSDK.NASPresentableView.Context) -> AdFitSDK.AdFitFlexibleView
+  @_Concurrency.MainActor @preconcurrency public func updateUIView(_ uiView: AdFitSDK.AdFitFlexibleView, context: AdFitSDK.NASPresentableView.Context)
+  @_Concurrency.MainActor @preconcurrency public func makeCoordinator() -> AdFitSDK.NASPresentableView.Coordinator
+  @_Concurrency.MainActor @preconcurrency public func onCalculatedHeight(_ handler: @escaping (CoreFoundation.CGFloat) -> Swift.Void) -> AdFitSDK.NASPresentableView
+  @_Concurrency.MainActor @preconcurrency public func onDidReceiveAd(_ handler: @escaping () -> Swift.Void) -> AdFitSDK.NASPresentableView
+  @_Concurrency.MainActor @preconcurrency public func onFailToReceiveAd(_ handler: @escaping (any Swift.Error) -> Swift.Void) -> AdFitSDK.NASPresentableView
+  @_Concurrency.MainActor @preconcurrency public func onDidClickAd(_ handler: @escaping () -> Swift.Void) -> AdFitSDK.NASPresentableView
   @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class Coordinator : ObjectiveC.NSObject, AdFitSDK.AdFitFlexibleViewDelegate {
     public func loadAd(trigger: Swift.Bool)
     @objc public func adViewDidReceiveAd(_ adView: AdFitSDK.AdFitFlexibleView)
@@ -795,14 +796,14 @@ public struct NASPresentableView : SwiftUI.UIViewRepresentable {
   @objc final public func loadAd()
   @objc deinit
 }
-public struct BannerSizeModifier : SwiftUI.ViewModifier {
-  public init(unitSize: Swift.String, width: CoreFoundation.CGFloat = UIApplication.shared.safeBounds.width)
-  @_Concurrency.MainActor(unsafe) public func body(content: AdFitSDK.BannerSizeModifier.Content) -> some SwiftUI.View
+@_Concurrency.MainActor @preconcurrency public struct BannerSizeModifier : SwiftUICore.ViewModifier {
+  @_Concurrency.MainActor @preconcurrency public init(unitSize: Swift.String, width: CoreFoundation.CGFloat = UIApplication.shared.safeBounds.width)
+  @_Concurrency.MainActor @preconcurrency public func body(content: AdFitSDK.BannerSizeModifier.Content) -> some SwiftUICore.View
   
   public typealias Body = @_opaqueReturnTypeOf("$s8AdFitSDK18BannerSizeModifierV4body7contentQr7SwiftUI05_ViewF8_ContentVyACG_tF", 0) __
 }
 extension UIKit.UIApplication {
-  @_Concurrency.MainActor(unsafe) public var safeBounds: CoreFoundation.CGRect {
+  @_Concurrency.MainActor @preconcurrency public var safeBounds: CoreFoundation.CGRect {
     get
   }
 }
@@ -932,15 +933,21 @@ extension AdFitSDK.AdFitMediaType : Swift.RawRepresentable {}
 extension AdFitSDK.AdFitVideoPlayPolicy : Swift.Equatable {}
 extension AdFitSDK.AdFitVideoPlayPolicy : Swift.Hashable {}
 extension AdFitSDK.AdFitVideoPlayPolicy : Swift.RawRepresentable {}
+extension AdFitSDK.PopUpAdTemplateView : Swift.Sendable {}
 extension AdFitSDK.SizeClassType.Width : Swift.Equatable {}
 extension AdFitSDK.SizeClassType.Width : Swift.Hashable {}
 extension AdFitSDK.SizeClassType.Height : Swift.Equatable {}
 extension AdFitSDK.SizeClassType.Height : Swift.Hashable {}
 extension AdFitSDK.SizeClassType.Direction : Swift.Equatable {}
 extension AdFitSDK.SizeClassType.Direction : Swift.Hashable {}
+extension AdFitSDK.BizBoardTemplatePresentableView : Swift.Sendable {}
+extension AdFitSDK.PopUpTransitionModifier : Swift.Sendable {}
 extension AdFitSDK.AdMotionPlayType : Swift.Equatable {}
 extension AdFitSDK.AdMotionPlayType : Swift.Hashable {}
 extension AdFitSDK.AdMotionPlayType : Swift.RawRepresentable {}
+extension AdFitSDK.AdFitBannerPresentableView : Swift.Sendable {}
+extension AdFitSDK.NASPresentableView : Swift.Sendable {}
+extension AdFitSDK.BannerSizeModifier : Swift.Sendable {}
 extension AdFitSDK.Visibility : Swift.Equatable {}
 extension AdFitSDK.Visibility : Swift.Hashable {}
 extension AdFitSDK.Direction : Swift.Equatable {}
