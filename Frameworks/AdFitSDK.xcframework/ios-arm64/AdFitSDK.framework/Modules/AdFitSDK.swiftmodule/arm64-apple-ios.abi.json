@@ -2369,6 +2369,48 @@
           },
           {
             "kind": "Var",
+            "name": "catalog",
+            "printedName": "catalog",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AdFitSDK.AdFitMediaType.Type) -> AdFitSDK.AdFitMediaType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AdFitMediaType",
+                    "printedName": "AdFitSDK.AdFitMediaType",
+                    "usr": "c:@M@AdFitSDK@E@AdFitMediaType"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AdFitSDK.AdFitMediaType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AdFitMediaType",
+                        "printedName": "AdFitSDK.AdFitMediaType",
+                        "usr": "c:@M@AdFitSDK@E@AdFitMediaType"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@AdFitSDK@E@AdFitMediaType@AdFitMediaTypeCatalog",
+            "mangledName": "$s8AdFitSDK0aB9MediaTypeO7catalogyA2CmF",
+            "moduleName": "AdFitSDK",
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "fixedbinaryorder": 7
+          },
+          {
+            "kind": "Var",
             "name": "description",
             "printedName": "description",
             "children": [
@@ -10209,6 +10251,871 @@
       },
       {
         "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AdFitSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AdFitSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AdFitSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AdFitSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AdFitSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AdFitSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AdFitSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AdFitSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AdFitSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MultiAdTheme",
+        "printedName": "MultiAdTheme",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "light",
+            "printedName": "light",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AdFitSDK.MultiAdTheme.Type) -> AdFitSDK.MultiAdTheme",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MultiAdTheme",
+                    "printedName": "AdFitSDK.MultiAdTheme",
+                    "usr": "s:8AdFitSDK05MultiA5ThemeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AdFitSDK.MultiAdTheme.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MultiAdTheme",
+                        "printedName": "AdFitSDK.MultiAdTheme",
+                        "usr": "s:8AdFitSDK05MultiA5ThemeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8AdFitSDK05MultiA5ThemeO5lightyA2CmF",
+            "mangledName": "$s8AdFitSDK05MultiA5ThemeO5lightyA2CmF",
+            "moduleName": "AdFitSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "dark",
+            "printedName": "dark",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AdFitSDK.MultiAdTheme.Type) -> AdFitSDK.MultiAdTheme",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MultiAdTheme",
+                    "printedName": "AdFitSDK.MultiAdTheme",
+                    "usr": "s:8AdFitSDK05MultiA5ThemeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AdFitSDK.MultiAdTheme.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MultiAdTheme",
+                        "printedName": "AdFitSDK.MultiAdTheme",
+                        "usr": "s:8AdFitSDK05MultiA5ThemeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8AdFitSDK05MultiA5ThemeO4darkyA2CmF",
+            "mangledName": "$s8AdFitSDK05MultiA5ThemeO4darkyA2CmF",
+            "moduleName": "AdFitSDK"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "AdFitSDK.MultiAdTheme?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MultiAdTheme",
+                    "printedName": "AdFitSDK.MultiAdTheme",
+                    "usr": "s:8AdFitSDK05MultiA5ThemeO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:8AdFitSDK05MultiA5ThemeO8rawValueACSgSS_tcfc",
+            "mangledName": "$s8AdFitSDK05MultiA5ThemeO8rawValueACSgSS_tcfc",
+            "moduleName": "AdFitSDK",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8AdFitSDK05MultiA5ThemeO8rawValueSSvp",
+            "mangledName": "$s8AdFitSDK05MultiA5ThemeO8rawValueSSvp",
+            "moduleName": "AdFitSDK",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8AdFitSDK05MultiA5ThemeO8rawValueSSvg",
+                "mangledName": "$s8AdFitSDK05MultiA5ThemeO8rawValueSSvg",
+                "moduleName": "AdFitSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:8AdFitSDK05MultiA5ThemeO",
+        "mangledName": "$s8AdFitSDK05MultiA5ThemeO",
+        "moduleName": "AdFitSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "enumRawTypeName": "String",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AdFitSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AdFitSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AdFitSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AdFitSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AdFitSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AdFitSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AdFitSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AdFitSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "AdFitSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AdFitSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "AdFitSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AdFitSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MultiNativeAdView",
+        "printedName": "MultiNativeAdView",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "estimateHeight",
+            "printedName": "estimateHeight(width:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8AdFitSDK011MultiNativeA4ViewC14estimateHeight5width14CoreFoundation7CGFloatVAH_tF",
+            "mangledName": "$s8AdFitSDK011MultiNativeA4ViewC14estimateHeight5width12CoreGraphics7CGFloatVAH_tF",
+            "moduleName": "AdFitSDK",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(frame:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MultiNativeAdView",
+                "printedName": "AdFitSDK.MultiNativeAdView",
+                "usr": "c:@M@AdFitSDK@objc(cs)MultiNativeAdView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@AdFitSDK@objc(cs)MultiNativeAdView(im)initWithFrame:",
+            "mangledName": "$s8AdFitSDK011MultiNativeA4ViewC5frameACSo6CGRectV_tcfc",
+            "moduleName": "AdFitSDK",
+            "overriding": true,
+            "objc_name": "initWithFrame:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "setUpStyle",
+            "printedName": "setUpStyle(isDarkMode:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8AdFitSDK011MultiNativeA4ViewC10setUpStyle10isDarkModeySb_tF",
+            "mangledName": "$s8AdFitSDK011MultiNativeA4ViewC10setUpStyle10isDarkModeySb_tF",
+            "moduleName": "AdFitSDK",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "Final",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "adTitleLabel",
+            "printedName": "adTitleLabel()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UILabel?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UILabel",
+                    "printedName": "UIKit.UILabel",
+                    "usr": "c:objc(cs)UILabel"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AdFitSDK@objc(cs)MultiNativeAdView(im)adTitleLabel",
+            "mangledName": "$s8AdFitSDK011MultiNativeA4ViewC12adTitleLabelSo7UILabelCSgyF",
+            "moduleName": "AdFitSDK",
+            "objc_name": "adTitleLabel",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "adCallToActionButton",
+            "printedName": "adCallToActionButton()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIButton?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIButton",
+                    "printedName": "UIKit.UIButton",
+                    "usr": "c:objc(cs)UIButton"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AdFitSDK@objc(cs)MultiNativeAdView(im)adCallToActionButton",
+            "mangledName": "$s8AdFitSDK011MultiNativeA4ViewC20adCallToActionButtonSo8UIButtonCSgyF",
+            "moduleName": "AdFitSDK",
+            "objc_name": "adCallToActionButton",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "adProfileNameLabel",
+            "printedName": "adProfileNameLabel()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UILabel?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UILabel",
+                    "printedName": "UIKit.UILabel",
+                    "usr": "c:objc(cs)UILabel"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AdFitSDK@objc(cs)MultiNativeAdView(im)adProfileNameLabel",
+            "mangledName": "$s8AdFitSDK011MultiNativeA4ViewC18adProfileNameLabelSo7UILabelCSgyF",
+            "moduleName": "AdFitSDK",
+            "objc_name": "adProfileNameLabel",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "adProfileIconView",
+            "printedName": "adProfileIconView()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIImageView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImageView",
+                    "printedName": "UIKit.UIImageView",
+                    "usr": "c:objc(cs)UIImageView"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AdFitSDK@objc(cs)MultiNativeAdView(im)adProfileIconView",
+            "mangledName": "$s8AdFitSDK011MultiNativeA4ViewC013adProfileIconF0So07UIImageF0CSgyF",
+            "moduleName": "AdFitSDK",
+            "objc_name": "adProfileIconView",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "adMediaView",
+            "printedName": "adMediaView()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "AdFitSDK.AdFitMediaView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AdFitMediaView",
+                    "printedName": "AdFitSDK.AdFitMediaView",
+                    "usr": "c:@M@AdFitSDK@objc(cs)AdFitMediaView"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AdFitSDK@objc(cs)MultiNativeAdView(im)adMediaView",
+            "mangledName": "$s8AdFitSDK011MultiNativeA4ViewC07adMediaF0AA0abhF0CSgyF",
+            "moduleName": "AdFitSDK",
+            "objc_name": "adMediaView",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "isContainerClickable",
+            "printedName": "isContainerClickable()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8AdFitSDK011MultiNativeA4ViewC20isContainerClickableSbyF",
+            "mangledName": "$s8AdFitSDK011MultiNativeA4ViewC20isContainerClickableSbyF",
+            "moduleName": "AdFitSDK",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "Final",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "customInfoIconView",
+            "printedName": "customInfoIconView()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIImageView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImageView",
+                    "printedName": "UIKit.UIImageView",
+                    "usr": "c:objc(cs)UIImageView"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AdFitSDK@objc(cs)MultiNativeAdView(im)customInfoIconView",
+            "mangledName": "$s8AdFitSDK011MultiNativeA4ViewC014customInfoIconF0So07UIImageF0CSgyF",
+            "moduleName": "AdFitSDK",
+            "objc_name": "customInfoIconView",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@AdFitSDK@objc(cs)MultiNativeAdView",
+        "mangledName": "$s8AdFitSDK011MultiNativeA4ViewC",
+        "moduleName": "AdFitSDK",
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "Final",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIView",
+        "hasMissingDesignatedInitializers": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIView",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "VFLayoutSizeValueType",
+            "printedName": "VFLayoutSizeValueType",
+            "usr": "s:8AdFitSDK21VFLayoutSizeValueTypeP",
+            "mangledName": "$s8AdFitSDK21VFLayoutSizeValueTypeP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "AdFitNativeAdRenderable",
+            "printedName": "AdFitNativeAdRenderable",
+            "usr": "c:@M@AdFitSDK@objc(pl)AdFitNativeAdRenderable",
+            "mangledName": "$s8AdFitSDK0ab6NativeA10RenderableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AdFitSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -10427,6 +11334,23 @@
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AdFitSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AdFitSDK"
       },
       {
         "kind": "Import",
@@ -11934,6 +12858,23 @@
       },
       {
         "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "AdFitSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AdFitSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -12306,6 +13247,95 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AdFitSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AdFitSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "AdFitSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AdFitSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AdFitSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "AdFitSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AdFitSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "AdFitSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AdFitSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AdFitSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "AdFitSDK"
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -12328,6 +13358,23 @@
         "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AdFitSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AdFitSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "StoreKit",
+        "printedName": "StoreKit",
         "declKind": "Import",
         "moduleName": "AdFitSDK"
       },
@@ -13676,6 +14723,16 @@
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
+        "moduleName": "AdFitSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
         "moduleName": "AdFitSDK"
       },
       {
@@ -14673,6 +15730,16 @@
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
           }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AdFitSDK",
+        "declAttributes": [
+          "RawDocComment"
         ]
       },
       {
@@ -18610,6 +19677,245 @@
         ]
       },
       {
+        "kind": "TypeDecl",
+        "name": "TalkFolderObject",
+        "printedName": "TalkFolderObject",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TalkFolderObject",
+                "printedName": "AdFitSDK.TalkFolderObject",
+                "usr": "c:@M@AdFitSDK@objc(cs)TalkFolderObject"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@AdFitSDK@objc(cs)TalkFolderObject(im)init",
+            "mangledName": "$s8AdFitSDK16TalkFolderObjectCACycfc",
+            "moduleName": "AdFitSDK",
+            "overriding": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "setSubTabIndex",
+            "printedName": "setSubTabIndex(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TalkFolderObject",
+                "printedName": "AdFitSDK.TalkFolderObject",
+                "usr": "c:@M@AdFitSDK@objc(cs)TalkFolderObject"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8AdFitSDK16TalkFolderObjectC14setSubTabIndexyACSiF",
+            "mangledName": "$s8AdFitSDK16TalkFolderObjectC14setSubTabIndexyACSiF",
+            "moduleName": "AdFitSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "DiscardableResult"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setIsTalkPlus",
+            "printedName": "setIsTalkPlus(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TalkFolderObject",
+                "printedName": "AdFitSDK.TalkFolderObject",
+                "usr": "c:@M@AdFitSDK@objc(cs)TalkFolderObject"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8AdFitSDK16TalkFolderObjectC05setIsD4PlusyACSbF",
+            "mangledName": "$s8AdFitSDK16TalkFolderObjectC05setIsD4PlusyACSbF",
+            "moduleName": "AdFitSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "DiscardableResult"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TalkFolderObject",
+                "printedName": "AdFitSDK.TalkFolderObject",
+                "usr": "c:@M@AdFitSDK@objc(cs)TalkFolderObject"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:8AdFitSDK16TalkFolderObjectC4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s8AdFitSDK16TalkFolderObjectC4fromACs7Decoder_p_tKcfc",
+            "moduleName": "AdFitSDK",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8AdFitSDK16TalkFolderObjectC6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s8AdFitSDK16TalkFolderObjectC6encode2toys7Encoder_p_tKF",
+            "moduleName": "AdFitSDK",
+            "implicit": true,
+            "declAttributes": [
+              "Final"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@AdFitSDK@objc(cs)TalkFolderObject",
+        "mangledName": "$s8AdFitSDK16TalkFolderObjectC",
+        "moduleName": "AdFitSDK",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
@@ -19385,6 +20691,13 @@
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "AdFitSDK"
       },
       {
         "kind": "Import",
@@ -22600,6 +23913,23 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AdFitSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AdFitSDK"
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -22614,16 +23944,6 @@
         "printedName": "AVFoundation",
         "declKind": "Import",
         "moduleName": "AdFitSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "AdFitSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
       },
       {
         "kind": "Import",
@@ -23772,69 +25092,6 @@
             "declKind": "EnumElement",
             "usr": "s:8AdFitSDK17KakaoIntergrationO3sdkyACSS_SStcACmF",
             "mangledName": "$s8AdFitSDK17KakaoIntergrationO3sdkyACSS_SStcACmF",
-            "moduleName": "AdFitSDK"
-          },
-          {
-            "kind": "Var",
-            "name": "sync",
-            "printedName": "sync",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(AdFitSDK.KakaoIntergration.Type) -> (Swift.String, Swift.String) -> AdFitSDK.KakaoIntergration",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(Swift.String, Swift.String) -> AdFitSDK.KakaoIntergration",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "KakaoIntergration",
-                        "printedName": "AdFitSDK.KakaoIntergration",
-                        "usr": "s:8AdFitSDK17KakaoIntergrationO"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Tuple",
-                        "printedName": "(appID: Swift.String, appUserId: Swift.String)",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "String",
-                            "printedName": "Swift.String",
-                            "usr": "s:SS"
-                          },
-                          {
-                            "kind": "TypeNominal",
-                            "name": "String",
-                            "printedName": "Swift.String",
-                            "usr": "s:SS"
-                          }
-                        ]
-                      }
-                    ]
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "AdFitSDK.KakaoIntergration.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "KakaoIntergration",
-                        "printedName": "AdFitSDK.KakaoIntergration",
-                        "usr": "s:8AdFitSDK17KakaoIntergrationO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:8AdFitSDK17KakaoIntergrationO4syncyACSS_SStcACmF",
-            "mangledName": "$s8AdFitSDK17KakaoIntergrationO4syncyACSS_SStcACmF",
             "moduleName": "AdFitSDK"
           },
           {
@@ -25685,6 +26942,16 @@
             "usr": "s:s28CustomDebugStringConvertibleP",
             "mangledName": "$ss28CustomDebugStringConvertibleP"
           }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AdFitSDK",
+        "declAttributes": [
+          "RawDocComment"
         ]
       },
       {
@@ -28382,6 +29649,16 @@
             "usr": "s:8AdFitSDK21VFLayoutSizeValueTypeP",
             "mangledName": "$s8AdFitSDK21VFLayoutSizeValueTypeP"
           }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AdFitSDK",
+        "declAttributes": [
+          "RawDocComment"
         ]
       },
       {
@@ -34893,34 +36170,6 @@
       "value": "0"
     },
     {
-      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Utils\/SkanCheck.swift",
-      "kind": "Array",
-      "offset": 232,
-      "length": 230,
-      "value": "[0x80, 0x7F, 0x30, 0x66, 0xEE, 0x7E, 0xD2, 0x43, 0xAF, 0x46, 0x45, 0xDE, 0xC3, 0x8F, 0x28, 0x60, 0x35, 0xB5, 0x4F, 0x85, 0x44, 0x8D, 0xB3, 0xF2, 0xBC, 0x52, 0x43, 0x60, 0x48, 0xD5, 0xB1, 0x6E]"
-    },
-    {
-      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Utils\/SkanCheck.swift",
-      "kind": "Array",
-      "offset": 509,
-      "length": 468,
-      "value": "[0x04, 0x57, 0xA3, 0xCF, 0x6F, 0x38, 0x17, 0x07, 0xA5, 0x17, 0x46, 0xCD, 0xAE, 0xEF, 0x8B, 0x3C, 0x9E, 0x2A, 0x1D, 0x37, 0xA7, 0xD0, 0xEB, 0x68, 0xA3, 0x03, 0x03, 0xE9, 0xE5, 0xC2, 0x09, 0x4D, 0x97, 0xFB, 0xDD, 0x21, 0x06, 0x23, 0x96, 0x27, 0x23, 0x96, 0x9F, 0x44, 0xE8, 0xFC, 0x69, 0x28, 0xCC, 0x7E, 0xBC, 0x51, 0xBF, 0xC1, 0xC3, 0xC4, 0x00, 0xED, 0x00, 0xA9, 0x5A, 0x0A, 0xE3, 0xFF, 0xD9]"
-    },
-    {
-      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Utils\/SkanCheck.swift",
-      "kind": "Array",
-      "offset": 1022,
-      "length": 692,
-      "value": "[0x04, 0x57, 0xA3, 0xCF, 0x6F, 0x38, 0x17, 0x07, 0xA5, 0x17, 0x46, 0xCD, 0xAE, 0xEF, 0x8B, 0x3C, 0x9E, 0x2A, 0x1D, 0x37, 0xA7, 0xD0, 0xEB, 0x68, 0xA3, 0x03, 0x03, 0xE9, 0xE5, 0xC2, 0x09, 0x4D, 0x97, 0xFB, 0xDD, 0x21, 0x06, 0x23, 0x96, 0x27, 0x23, 0x96, 0x9F, 0x44, 0xE8, 0xFC, 0x69, 0x28, 0xCC, 0x7E, 0xBC, 0x51, 0xBF, 0xC1, 0xC3, 0xC4, 0x00, 0xED, 0x00, 0xA9, 0x5A, 0x0A, 0xE3, 0xFF, 0xD9, 0x80, 0x7F, 0x30, 0x66, 0xEE, 0x7E, 0xD2, 0x43, 0xAF, 0x46, 0x45, 0xDE, 0xC3, 0x8F, 0x28, 0x60, 0x35, 0xB5, 0x4F, 0x85, 0x44, 0x8D, 0xB3, 0xF2, 0xBC, 0x52, 0x43, 0x60, 0x48, 0xD5, 0xB1, 0x6E]"
-    },
-    {
-      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Utils\/SkanCheck.swift",
-      "kind": "StringLiteral",
-      "offset": 2065,
-      "length": 10,
-      "value": "\"⁣\""
-    },
-    {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/NAS\/IInternal\/Renderer\/Component.swift",
       "kind": "StringLiteral",
       "offset": 446,
@@ -35077,21 +36326,21 @@
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Views\/AdFitMediaView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1247,
+      "offset": 1254,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Views\/AdFitMediaView.swift",
       "kind": "BooleanLiteral",
-      "offset": 2915,
+      "offset": 2454,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Views\/AdFitMediaView.swift",
       "kind": "BooleanLiteral",
-      "offset": 2965,
+      "offset": 2504,
       "length": 5,
       "value": "false"
     },
@@ -35143,6 +36392,13 @@
       "offset": 703,
       "length": 1,
       "value": "6"
+    },
+    {
+      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Enums\/AdFitMediaType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 750,
+      "length": 1,
+      "value": "7"
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Utils\/AssociatedKey.swift",
@@ -35448,140 +36704,140 @@
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Video\/Player.swift",
       "kind": "BooleanLiteral",
-      "offset": 1012,
+      "offset": 1132,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Video\/Player.swift",
       "kind": "IntegerLiteral",
-      "offset": 1123,
+      "offset": 1243,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Video\/Player.swift",
       "kind": "IntegerLiteral",
-      "offset": 1169,
+      "offset": 1289,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Video\/Player.swift",
       "kind": "BooleanLiteral",
-      "offset": 1210,
+      "offset": 1330,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Video\/Player.swift",
       "kind": "BooleanLiteral",
-      "offset": 1340,
+      "offset": 1460,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Video\/Player.swift",
       "kind": "BooleanLiteral",
-      "offset": 1489,
+      "offset": 1609,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Video\/Player.swift",
       "kind": "Array",
-      "offset": 1537,
+      "offset": 1657,
       "length": 177,
       "value": "[\\.<NOT_IMPLEMENTED>, \\.<NOT_IMPLEMENTED>, \\.<NOT_IMPLEMENTED>]"
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Video\/Player.swift",
       "kind": "Array",
-      "offset": 1761,
+      "offset": 1881,
       "length": 466,
       "value": "[\\.<NOT_IMPLEMENTED>, \\.<NOT_IMPLEMENTED>, \\.<NOT_IMPLEMENTED>, \\.<NOT_IMPLEMENTED>, \\.<NOT_IMPLEMENTED>, \\.<NOT_IMPLEMENTED>]"
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Video\/Player.swift",
       "kind": "IntegerLiteral",
-      "offset": 2268,
+      "offset": 2388,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Video\/Player.swift",
       "kind": "IntegerLiteral",
-      "offset": 2614,
+      "offset": 2734,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Video\/Player.swift",
       "kind": "IntegerLiteral",
-      "offset": 3063,
+      "offset": 3183,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Video\/Player.swift",
       "kind": "BooleanLiteral",
-      "offset": 4068,
+      "offset": 4188,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Video\/Player.swift",
       "kind": "BooleanLiteral",
-      "offset": 4745,
+      "offset": 4865,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Video\/Player.swift",
       "kind": "BooleanLiteral",
-      "offset": 4898,
+      "offset": 5018,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Video\/Player.swift",
       "kind": "BooleanLiteral",
-      "offset": 6743,
+      "offset": 6863,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Video\/Player.swift",
       "kind": "BooleanLiteral",
-      "offset": 7115,
+      "offset": 7356,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Video\/Player.swift",
       "kind": "BooleanLiteral",
-      "offset": 7613,
+      "offset": 7854,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Video\/Player.swift",
       "kind": "BooleanLiteral",
-      "offset": 7791,
+      "offset": 8032,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Video\/Player.swift",
       "kind": "BooleanLiteral",
-      "offset": 7922,
+      "offset": 8163,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Video\/Player.swift",
       "kind": "BooleanLiteral",
-      "offset": 10791,
+      "offset": 11032,
       "length": 5,
       "value": "false"
     },
@@ -35805,273 +37061,273 @@
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Native\/NativeAdDefaultAd.swift",
       "kind": "StringLiteral",
-      "offset": 314,
+      "offset": 457,
       "length": 6,
       "value": "\"type\""
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Native\/NativeAdDefaultAd.swift",
       "kind": "StringLiteral",
-      "offset": 322,
+      "offset": 465,
       "length": 8,
       "value": "\"native\""
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Native\/NativeAdDefaultAd.swift",
       "kind": "StringLiteral",
-      "offset": 340,
+      "offset": 483,
       "length": 7,
       "value": "\"dspId\""
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Native\/NativeAdDefaultAd.swift",
       "kind": "StringLiteral",
-      "offset": 349,
+      "offset": 492,
       "length": 5,
       "value": "\"SDK\""
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Native\/NativeAdDefaultAd.swift",
       "kind": "StringLiteral",
-      "offset": 364,
+      "offset": 507,
       "length": 12,
       "value": "\"adInfoIcon\""
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Native\/NativeAdDefaultAd.swift",
       "kind": "StringLiteral",
-      "offset": 379,
+      "offset": 522,
       "length": 5,
       "value": "\"url\""
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Native\/NativeAdDefaultAd.swift",
       "kind": "StringLiteral",
-      "offset": 386,
+      "offset": 529,
       "length": 58,
       "value": "\"https:\/\/t1.daumcdn.net\/b2\/templates\/image\/opt_out_30.png\""
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Native\/NativeAdDefaultAd.swift",
       "kind": "StringLiteral",
-      "offset": 446,
+      "offset": 589,
       "length": 7,
       "value": "\"width\""
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Native\/NativeAdDefaultAd.swift",
       "kind": "IntegerLiteral",
-      "offset": 455,
+      "offset": 598,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Native\/NativeAdDefaultAd.swift",
       "kind": "StringLiteral",
-      "offset": 459,
+      "offset": 602,
       "length": 8,
       "value": "\"height\""
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Native\/NativeAdDefaultAd.swift",
       "kind": "IntegerLiteral",
-      "offset": 469,
+      "offset": 612,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Native\/NativeAdDefaultAd.swift",
       "kind": "StringLiteral",
-      "offset": 482,
+      "offset": 625,
       "length": 11,
       "value": "\"adInfoUrl\""
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Native\/NativeAdDefaultAd.swift",
       "kind": "StringLiteral",
-      "offset": 495,
+      "offset": 638,
       "length": 36,
       "value": "\"https:\/\/info.ad.daum.net\/optout.do\""
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Native\/NativeAdDefaultAd.swift",
       "kind": "StringLiteral",
-      "offset": 541,
+      "offset": 684,
       "length": 12,
       "value": "\"landingUrl\""
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Native\/NativeAdDefaultAd.swift",
       "kind": "StringLiteral",
-      "offset": 555,
+      "offset": 698,
       "length": 28,
       "value": "\"https:\/\/www.kakaocorp.com\/\""
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Native\/NativeAdDefaultAd.swift",
       "kind": "StringLiteral",
-      "offset": 593,
+      "offset": 736,
       "length": 11,
       "value": "\"mainImage\""
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Native\/NativeAdDefaultAd.swift",
       "kind": "StringLiteral",
-      "offset": 607,
+      "offset": 750,
       "length": 5,
       "value": "\"url\""
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Native\/NativeAdDefaultAd.swift",
       "kind": "StringLiteral",
-      "offset": 635,
+      "offset": 778,
       "length": 7,
       "value": "\"width\""
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Native\/NativeAdDefaultAd.swift",
       "kind": "IntegerLiteral",
-      "offset": 644,
+      "offset": 787,
       "length": 3,
       "value": "320"
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Native\/NativeAdDefaultAd.swift",
       "kind": "StringLiteral",
-      "offset": 649,
+      "offset": 792,
       "length": 8,
       "value": "\"height\""
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Native\/NativeAdDefaultAd.swift",
       "kind": "IntegerLiteral",
-      "offset": 659,
+      "offset": 802,
       "length": 3,
       "value": "100"
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Native\/NativeAdDefaultAd.swift",
       "kind": "StringLiteral",
-      "offset": 673,
+      "offset": 816,
       "length": 13,
       "value": "\"profileIcon\""
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Native\/NativeAdDefaultAd.swift",
       "kind": "StringLiteral",
-      "offset": 689,
+      "offset": 832,
       "length": 5,
       "value": "\"url\""
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Native\/NativeAdDefaultAd.swift",
       "kind": "StringLiteral",
-      "offset": 717,
+      "offset": 860,
       "length": 7,
       "value": "\"width\""
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Native\/NativeAdDefaultAd.swift",
       "kind": "IntegerLiteral",
-      "offset": 726,
+      "offset": 869,
       "length": 2,
       "value": "30"
-    },
-    {
-      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Native\/NativeAdDefaultAd.swift",
-      "kind": "StringLiteral",
-      "offset": 730,
-      "length": 8,
-      "value": "\"height\""
-    },
-    {
-      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Native\/NativeAdDefaultAd.swift",
-      "kind": "IntegerLiteral",
-      "offset": 740,
-      "length": 2,
-      "value": "30"
-    },
-    {
-      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Native\/NativeAdDefaultAd.swift",
-      "kind": "StringLiteral",
-      "offset": 753,
-      "length": 13,
-      "value": "\"profileName\""
-    },
-    {
-      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Native\/NativeAdDefaultAd.swift",
-      "kind": "StringLiteral",
-      "offset": 768,
-      "length": 17,
-      "value": "\"프로필이름\""
-    },
-    {
-      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Native\/NativeAdDefaultAd.swift",
-      "kind": "StringLiteral",
-      "offset": 795,
-      "length": 14,
-      "value": "\"callToAction\""
-    },
-    {
-      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Native\/NativeAdDefaultAd.swift",
-      "kind": "StringLiteral",
-      "offset": 811,
-      "length": 14,
-      "value": "\"바로가기\""
-    },
-    {
-      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Native\/NativeAdDefaultAd.swift",
-      "kind": "StringLiteral",
-      "offset": 835,
-      "length": 7,
-      "value": "\"title\""
-    },
-    {
-      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Native\/NativeAdDefaultAd.swift",
-      "kind": "StringLiteral",
-      "offset": 844,
-      "length": 11,
-      "value": "\"타이틀\""
-    },
-    {
-      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Native\/NativeAdDefaultAd.swift",
-      "kind": "StringLiteral",
-      "offset": 865,
-      "length": 6,
-      "value": "\"body\""
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Native\/NativeAdDefaultAd.swift",
       "kind": "StringLiteral",
       "offset": 873,
       "length": 8,
+      "value": "\"height\""
+    },
+    {
+      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Native\/NativeAdDefaultAd.swift",
+      "kind": "IntegerLiteral",
+      "offset": 883,
+      "length": 2,
+      "value": "30"
+    },
+    {
+      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Native\/NativeAdDefaultAd.swift",
+      "kind": "StringLiteral",
+      "offset": 896,
+      "length": 13,
+      "value": "\"profileName\""
+    },
+    {
+      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Native\/NativeAdDefaultAd.swift",
+      "kind": "StringLiteral",
+      "offset": 911,
+      "length": 17,
+      "value": "\"프로필이름\""
+    },
+    {
+      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Native\/NativeAdDefaultAd.swift",
+      "kind": "StringLiteral",
+      "offset": 938,
+      "length": 14,
+      "value": "\"callToAction\""
+    },
+    {
+      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Native\/NativeAdDefaultAd.swift",
+      "kind": "StringLiteral",
+      "offset": 954,
+      "length": 14,
+      "value": "\"바로가기\""
+    },
+    {
+      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Native\/NativeAdDefaultAd.swift",
+      "kind": "StringLiteral",
+      "offset": 978,
+      "length": 7,
+      "value": "\"title\""
+    },
+    {
+      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Native\/NativeAdDefaultAd.swift",
+      "kind": "StringLiteral",
+      "offset": 987,
+      "length": 11,
+      "value": "\"타이틀\""
+    },
+    {
+      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Native\/NativeAdDefaultAd.swift",
+      "kind": "StringLiteral",
+      "offset": 1008,
+      "length": 6,
+      "value": "\"body\""
+    },
+    {
+      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Native\/NativeAdDefaultAd.swift",
+      "kind": "StringLiteral",
+      "offset": 1016,
+      "length": 8,
       "value": "\"설명\""
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Native\/NativeAdDefaultAd.swift",
       "kind": "StringLiteral",
-      "offset": 891,
+      "offset": 1034,
       "length": 9,
       "value": "\"altText\""
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Native\/NativeAdDefaultAd.swift",
       "kind": "StringLiteral",
-      "offset": 902,
+      "offset": 1045,
       "length": 65,
       "value": "\"기술과 사람으로 더 나은 세상을 만드는 카카오\""
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Native\/NativeAdDefaultAd.swift",
       "kind": "StringLiteral",
-      "offset": 977,
+      "offset": 1120,
       "length": 8,
       "value": "\"events\""
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Native\/NativeAdDefaultAd.swift",
       "kind": "Array",
-      "offset": 987,
+      "offset": 1130,
       "length": 11,
       "value": "[]"
     },
@@ -36386,44 +37642,58 @@
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/API\/RandomRequest.swift",
       "kind": "BooleanLiteral",
-      "offset": 702,
+      "offset": 784,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/API\/RandomRequest.swift",
       "kind": "Array",
-      "offset": 734,
+      "offset": 816,
       "length": 573,
       "value": "[\"https:\/\/t1.daumcdn.net\/adfit_sdk\/creatives\/mock\/bizboard\/biz-motion-rangerover.json\", \"https:\/\/t1.daumcdn.net\/adfit_sdk\/creatives\/mock\/bizboard\/biz-motion-netfilx.json\", \"https:\/\/t1.daumcdn.net\/adfit_sdk\/creatives\/mock\/bizboard\/biz-motion-pa.json\", \"https:\/\/t1.daumcdn.net\/adfit_sdk\/creatives\/mock\/bizboard\/biz-image-1029x258.json\", \"https:\/\/t1.daumcdn.net\/adfit_sdk\/creatives\/mock\/bizboard\/biz-image-eximage.json\"]"
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/API\/RandomRequest.swift",
       "kind": "Array",
-      "offset": 1346,
+      "offset": 1428,
       "length": 292,
       "value": "[\"https:\/\/t1.daumcdn.net\/adfit_sdk\/creatives\/mock\/bizboard\/biz-motion-eximage-rangerover.json\", \"https:\/\/t1.daumcdn.net\/adfit_sdk\/creatives\/mock\/bizboard\/biz-motion-exvideo-netfilx.json\"]"
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/API\/RandomRequest.swift",
       "kind": "Array",
-      "offset": 1665,
+      "offset": 1747,
       "length": 437,
       "value": "[\"https:\/\/t1.daumcdn.net\/adfit_sdk\/creatives\/mock\/bizboard\/biz-image-eximage.json\", \"https:\/\/t1.daumcdn.net\/adfit_sdk\/creatives\/mock\/bizboard\/biz-image-exmulti.json\", \"https:\/\/t1.daumcdn.net\/adfit_sdk\/creatives\/mock\/bizboard\/biz-image-exvideo-1.json\", \"https:\/\/t1.daumcdn.net\/adfit_sdk\/creatives\/mock\/bizboard\/biz-image-exvideo-2.json\"]"
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/API\/RandomRequest.swift",
       "kind": "Array",
-      "offset": 2131,
+      "offset": 2213,
       "length": 656,
       "value": "[\"https:\/\/t1.daumcdn.net\/adfit_sdk\/creatives\/mock\/bizboard\/biz-image-eximage.json\", \"https:\/\/t1.daumcdn.net\/adfit_sdk\/creatives\/mock\/bizboard\/biz-image-exmulti.json\", \"https:\/\/t1.daumcdn.net\/adfit_sdk\/creatives\/mock\/bizboard\/biz-image-exvideo-1.json\", \"https:\/\/t1.daumcdn.net\/adfit_sdk\/creatives\/mock\/bizboard\/biz-image-1029x258.json\", \"https:\/\/t1.daumcdn.net\/adfit_sdk\/creatives\/mock\/bizboard\/biz-custom.json\", \"https:\/\/t1.daumcdn.net\/adfit_sdk\/creatives\/mock\/bizboard\/biz-image-1029x222.json\"]"
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/API\/RandomRequest.swift",
       "kind": "Array",
-      "offset": 2809,
+      "offset": 2891,
       "length": 280,
       "value": "[\"https:\/\/t1.daumcdn.net\/adfit_sdk\/creatives\/mock\/focusAd\/focusAd-autoplay.json\", \"https:\/\/t1.daumcdn.net\/adfit_sdk\/creatives\/mock\/focusAd\/focusAd-chun.json\", \"https:\/\/t1.daumcdn.net\/adfit_sdk\/creatives\/mock\/focusAd\/focusAd-noad.json\"]"
+    },
+    {
+      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/API\/RandomRequest.swift",
+      "kind": "Array",
+      "offset": 3196,
+      "length": 612,
+      "value": "[\"https:\/\/t1.daumcdn.net\/adfit_sdk\/creatives\/mock\/native\/native-image-1.json\", \"https:\/\/t1.daumcdn.net\/adfit_sdk\/creatives\/mock\/native\/native-image-2.json\", \"https:\/\/t1.daumcdn.net\/adfit_sdk\/creatives\/mock\/native\/native-video-1.json\", \"https:\/\/t1.daumcdn.net\/adfit_sdk\/creatives\/mock\/native\/native-catalog4.json\", \"https:\/\/t1.daumcdn.net\/adfit_sdk\/creatives\/mock\/native\/native-catalog8.json\", \"https:\/\/t1.daumcdn.net\/adfit_sdk\/creatives\/mock\/native\/native-catalog2.json\", \"https:\/\/t1.daumcdn.net\/adfit_sdk\/creatives\/mock\/native\/native-catalog3.json\"]"
+    },
+    {
+      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/API\/RandomRequest.swift",
+      "kind": "Array",
+      "offset": 3828,
+      "length": 100,
+      "value": "[\"https:\/\/t1.daumcdn.net\/adfit_sdk\/creatives\/mock\/native\/native-catalog2-order3.json\"]"
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Common\/ExpandableAsset.swift",
@@ -36610,86 +37880,254 @@
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Native\/AdFitNativeAd.swift",
       "kind": "IntegerLiteral",
-      "offset": 1466,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Native\/AdFitNativeAd.swift",
-      "kind": "StringLiteral",
-      "offset": 3306,
-      "length": 9,
-      "value": "\"bodyExt\""
-    },
-    {
-      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Native\/AdFitNativeAd.swift",
-      "kind": "StringLiteral",
-      "offset": 3328,
-      "length": 6,
-      "value": "\"text\""
-    },
-    {
-      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Native\/AdFitNativeAd.swift",
-      "kind": "StringLiteral",
-      "offset": 3459,
-      "length": 12,
-      "value": "\"displayUrl\""
-    },
-    {
-      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Native\/AdFitNativeAd.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4204,
+      "offset": 1460,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Native\/AdFitNativeAd.swift",
       "kind": "IntegerLiteral",
-      "offset": 4261,
+      "offset": 3943,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Native\/AdFitNativeAd.swift",
       "kind": "IntegerLiteral",
-      "offset": 4316,
+      "offset": 4000,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Native\/AdFitNativeAd.swift",
       "kind": "IntegerLiteral",
-      "offset": 4372,
+      "offset": 4055,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Native\/AdFitNativeAd.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4111,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Native\/AdFitNativeAd.swift",
       "kind": "BooleanLiteral",
-      "offset": 4722,
+      "offset": 4461,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Native\/AdFitNativeAd.swift",
       "kind": "BooleanLiteral",
-      "offset": 4845,
+      "offset": 4584,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Native\/AdFitNativeAd.swift",
       "kind": "BooleanLiteral",
-      "offset": 4907,
+      "offset": 4695,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Native\/AdFitNativeAd.swift",
       "kind": "BooleanLiteral",
-      "offset": 5099,
+      "offset": 4887,
       "length": 5,
       "value": "false"
+    },
+    {
+      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Views\/Template\/Catalog\/Common\/CatalogMetric.swift",
+      "kind": "IntegerLiteral",
+      "offset": 223,
+      "length": 2,
+      "value": "32"
+    },
+    {
+      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Views\/Template\/Catalog\/Common\/CatalogMetric.swift",
+      "kind": "IntegerLiteral",
+      "offset": 269,
+      "length": 2,
+      "value": "32"
+    },
+    {
+      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Views\/Template\/Catalog\/Common\/CatalogMetric.swift",
+      "kind": "IntegerLiteral",
+      "offset": 400,
+      "length": 3,
+      "value": "500"
+    },
+    {
+      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Views\/Template\/Catalog\/Common\/CatalogMetric.swift",
+      "kind": "IntegerLiteral",
+      "offset": 472,
+      "length": 3,
+      "value": "115"
+    },
+    {
+      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Views\/Template\/Catalog\/Common\/CatalogMetric.swift",
+      "kind": "IntegerLiteral",
+      "offset": 523,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Views\/Template\/Catalog\/Common\/CatalogProfileImageView.swift",
+      "kind": "FloatLiteral",
+      "offset": 1249,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Views\/Template\/Catalog\/Common\/CatalogProfileImageView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1400,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Views\/Template\/Catalog\/Common\/CatalogProfileImageView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1406,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Views\/Template\/Catalog\/Common\/CatalogProfileImageView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1416,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Views\/Template\/Catalog\/Common\/CatalogProfileImageView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1428,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Views\/Template\/Catalog\/Common\/MultiNativeAdTheme.swift",
+      "kind": "StringLiteral",
+      "offset": 205,
+      "length": 7,
+      "value": "\"light\""
+    },
+    {
+      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Views\/Template\/Catalog\/Common\/MultiNativeAdTheme.swift",
+      "kind": "StringLiteral",
+      "offset": 229,
+      "length": 6,
+      "value": "\"dark\""
+    },
+    {
+      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Views\/Template\/Catalog\/Type3\/CatalogType3View.swift",
+      "kind": "Array",
+      "offset": 799,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Views\/Template\/Catalog\/Type4\/CatalogType4View.swift",
+      "kind": "IntegerLiteral",
+      "offset": 379,
+      "length": 2,
+      "value": "97"
+    },
+    {
+      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Views\/Template\/Catalog\/Type4\/CatalogType4View.swift",
+      "kind": "IntegerLiteral",
+      "offset": 391,
+      "length": 3,
+      "value": "132"
+    },
+    {
+      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Views\/Template\/Catalog\/Type4\/CatalogType4View.swift",
+      "kind": "IntegerLiteral",
+      "offset": 436,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Views\/Template\/Catalog\/Type4\/CatalogType4View.swift",
+      "kind": "IntegerLiteral",
+      "offset": 483,
+      "length": 1,
+      "value": "9"
+    },
+    {
+      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Views\/Template\/Catalog\/Type4\/CatalogType4View.swift",
+      "kind": "IntegerLiteral",
+      "offset": 492,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Views\/Template\/Catalog\/Type4\/CatalogType4View.swift",
+      "kind": "FloatLiteral",
+      "offset": 504,
+      "length": 3,
+      "value": "8.5"
+    },
+    {
+      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Views\/Template\/Catalog\/Type4\/CatalogType4View.swift",
+      "kind": "IntegerLiteral",
+      "offset": 516,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Views\/Template\/Catalog\/Type4\/CatalogType4View.swift",
+      "kind": "StringLiteral",
+      "offset": 949,
+      "length": 7,
+      "value": "\"type4\""
+    },
+    {
+      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Views\/Template\/Catalog\/Type4\/CatalogType4ViewModel.swift",
+      "kind": "Array",
+      "offset": 278,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Views\/Template\/Catalog\/MultiNativeAdView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 334,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Views\/Template\/Catalog\/MultiNativeAdView.swift",
+      "kind": "StringLiteral",
+      "offset": 3135,
+      "length": 28,
+      "value": "\"에서 추천하는 상품\""
+    },
+    {
+      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Views\/Template\/Catalog\/MultiNativeAdView.swift",
+      "kind": "FloatLiteral",
+      "offset": 3379,
+      "length": 4,
+      "value": "0.02"
+    },
+    {
+      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Views\/Template\/Catalog\/MultiNativeAdView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3425,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Views\/Template\/Catalog\/MultiNativeAdView.swift",
+      "kind": "Array",
+      "offset": 3519,
+      "length": 2,
+      "value": "[]"
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Logging\/Logger.swift",
@@ -37511,6 +38949,20 @@
       "value": "false"
     },
     {
+      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Media\/Image.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2239,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Media\/Image.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2261,
+      "length": 1,
+      "value": "0"
+    },
+    {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Video\/XMLVastParser.swift",
       "kind": "StringLiteral",
       "offset": 684,
@@ -37590,623 +39042,616 @@
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Common\/SDKActionLog.swift",
       "kind": "StringLiteral",
-      "offset": 763,
-      "length": 7,
-      "value": "\"SR001\""
-    },
-    {
-      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Common\/SDKActionLog.swift",
-      "kind": "StringLiteral",
-      "offset": 813,
-      "length": 7,
-      "value": "\"SR002\""
-    },
-    {
-      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Common\/SDKActionLog.swift",
-      "kind": "StringLiteral",
-      "offset": 865,
-      "length": 7,
-      "value": "\"SR003\""
-    },
-    {
-      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Common\/SDKActionLog.swift",
-      "kind": "StringLiteral",
-      "offset": 920,
-      "length": 7,
-      "value": "\"SR004\""
-    },
-    {
-      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Common\/SDKActionLog.swift",
-      "kind": "StringLiteral",
-      "offset": 978,
-      "length": 7,
-      "value": "\"SR005\""
-    },
-    {
-      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Common\/SDKActionLog.swift",
-      "kind": "StringLiteral",
-      "offset": 1045,
-      "length": 7,
-      "value": "\"AR001\""
-    },
-    {
-      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Common\/SDKActionLog.swift",
-      "kind": "StringLiteral",
-      "offset": 1089,
+      "offset": 797,
       "length": 7,
       "value": "\"AR002\""
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Common\/SDKActionLog.swift",
       "kind": "StringLiteral",
-      "offset": 1133,
+      "offset": 841,
       "length": 7,
       "value": "\"AR003\""
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Common\/SDKActionLog.swift",
       "kind": "StringLiteral",
-      "offset": 1177,
+      "offset": 885,
       "length": 7,
       "value": "\"AR004\""
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Common\/SDKActionLog.swift",
       "kind": "StringLiteral",
-      "offset": 1267,
+      "offset": 975,
       "length": 10,
       "value": "\"AdFitSAL\""
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Common\/SDKActionLog.swift",
       "kind": "StringLiteral",
-      "offset": 1319,
+      "offset": 1027,
       "length": 17,
       "value": "\"AdFitSALVersion\""
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Common\/SDKActionLog.swift",
       "kind": "StringLiteral",
-      "offset": 1372,
+      "offset": 1080,
       "length": 17,
       "value": "\"AdFitSDKVersion\""
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Common\/SDKActionLog.swift",
       "kind": "BooleanLiteral",
-      "offset": 1487,
+      "offset": 1195,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Common\/SDKActionLog.swift",
       "kind": "IntegerLiteral",
-      "offset": 13459,
+      "offset": 12181,
       "length": 1,
       "value": "7"
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Common\/SDKActionLog.swift",
       "kind": "StringLiteral",
-      "offset": 18146,
+      "offset": 16868,
       "length": 7,
       "value": "\"AP001\""
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Common\/SDKActionLog.swift",
       "kind": "StringLiteral",
-      "offset": 18180,
+      "offset": 16902,
       "length": 7,
       "value": "\"AP002\""
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Common\/SDKActionLog.swift",
       "kind": "StringLiteral",
-      "offset": 18214,
+      "offset": 16936,
       "length": 7,
       "value": "\"AP003\""
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Common\/SDKActionLog.swift",
       "kind": "StringLiteral",
-      "offset": 18249,
+      "offset": 16971,
       "length": 7,
       "value": "\"AP004\""
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Common\/SDKActionLog.swift",
       "kind": "StringLiteral",
-      "offset": 18283,
+      "offset": 17005,
       "length": 7,
       "value": "\"AP005\""
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Common\/SDKActionLog.swift",
       "kind": "StringLiteral",
-      "offset": 18318,
+      "offset": 17040,
       "length": 7,
       "value": "\"AP006\""
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Common\/SDKActionLog.swift",
       "kind": "StringLiteral",
-      "offset": 18356,
+      "offset": 17078,
       "length": 7,
       "value": "\"AP007\""
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Common\/SDKActionLog.swift",
       "kind": "StringLiteral",
-      "offset": 18396,
+      "offset": 17118,
       "length": 7,
       "value": "\"AP008\""
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Common\/SDKActionLog.swift",
       "kind": "StringLiteral",
-      "offset": 18460,
+      "offset": 17182,
       "length": 7,
       "value": "\"AC001\""
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Common\/SDKActionLog.swift",
       "kind": "StringLiteral",
-      "offset": 18492,
+      "offset": 17214,
       "length": 7,
       "value": "\"AC002\""
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Common\/SDKActionLog.swift",
       "kind": "StringLiteral",
-      "offset": 18538,
+      "offset": 17260,
       "length": 7,
       "value": "\"AC003\""
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Common\/SDKActionLog.swift",
       "kind": "StringLiteral",
-      "offset": 18583,
+      "offset": 17305,
       "length": 7,
       "value": "\"AC004\""
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Common\/SDKActionLog.swift",
       "kind": "StringLiteral",
-      "offset": 18623,
+      "offset": 17345,
       "length": 7,
       "value": "\"AC005\""
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Common\/SDKActionLog.swift",
       "kind": "StringLiteral",
-      "offset": 18662,
+      "offset": 17384,
       "length": 7,
       "value": "\"AC006\""
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Common\/SDKActionLog.swift",
       "kind": "StringLiteral",
-      "offset": 18702,
+      "offset": 17424,
       "length": 7,
       "value": "\"AC007\""
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Common\/SDKActionLog.swift",
       "kind": "StringLiteral",
-      "offset": 18752,
+      "offset": 17474,
       "length": 7,
       "value": "\"AC008\""
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Common\/SDKActionLog.swift",
       "kind": "StringLiteral",
-      "offset": 18801,
+      "offset": 17523,
       "length": 7,
       "value": "\"AC009\""
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Common\/SDKActionLog.swift",
       "kind": "StringLiteral",
-      "offset": 18845,
+      "offset": 17567,
       "length": 7,
       "value": "\"AC010\""
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Common\/SDKActionLog.swift",
       "kind": "StringLiteral",
-      "offset": 18926,
+      "offset": 17648,
       "length": 7,
       "value": "\"SR001\""
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Common\/SDKActionLog.swift",
       "kind": "StringLiteral",
-      "offset": 18966,
+      "offset": 17688,
       "length": 7,
       "value": "\"SR002\""
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Common\/SDKActionLog.swift",
       "kind": "StringLiteral",
-      "offset": 19008,
+      "offset": 17730,
       "length": 7,
       "value": "\"SR003\""
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Common\/SDKActionLog.swift",
       "kind": "StringLiteral",
-      "offset": 19053,
+      "offset": 17775,
       "length": 7,
       "value": "\"SR004\""
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Common\/SDKActionLog.swift",
       "kind": "StringLiteral",
-      "offset": 19101,
+      "offset": 17823,
       "length": 7,
       "value": "\"SR005\""
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Common\/SDKActionLog.swift",
       "kind": "StringLiteral",
-      "offset": 19166,
+      "offset": 17872,
+      "length": 7,
+      "value": "\"SR006\""
+    },
+    {
+      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Common\/SDKActionLog.swift",
+      "kind": "StringLiteral",
+      "offset": 17923,
+      "length": 7,
+      "value": "\"SR007\""
+    },
+    {
+      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Common\/SDKActionLog.swift",
+      "kind": "StringLiteral",
+      "offset": 17972,
+      "length": 7,
+      "value": "\"SR008\""
+    },
+    {
+      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Common\/SDKActionLog.swift",
+      "kind": "StringLiteral",
+      "offset": 18018,
+      "length": 7,
+      "value": "\"SR009\""
+    },
+    {
+      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Common\/SDKActionLog.swift",
+      "kind": "StringLiteral",
+      "offset": 18063,
+      "length": 7,
+      "value": "\"SR010\""
+    },
+    {
+      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Common\/SDKActionLog.swift",
+      "kind": "StringLiteral",
+      "offset": 18128,
       "length": 7,
       "value": "\"AR001\""
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Common\/SDKActionLog.swift",
       "kind": "StringLiteral",
-      "offset": 19200,
+      "offset": 18162,
       "length": 7,
       "value": "\"AR002\""
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Common\/SDKActionLog.swift",
       "kind": "StringLiteral",
-      "offset": 19234,
+      "offset": 18196,
       "length": 7,
       "value": "\"AR003\""
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Common\/SDKActionLog.swift",
       "kind": "StringLiteral",
-      "offset": 19268,
+      "offset": 18230,
       "length": 7,
       "value": "\"AR004\""
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Common\/SDKActionLog.swift",
       "kind": "StringLiteral",
-      "offset": 19307,
+      "offset": 18269,
       "length": 7,
       "value": "\"AR005\""
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Common\/SDKActionLog.swift",
       "kind": "StringLiteral",
-      "offset": 19346,
+      "offset": 18308,
       "length": 7,
       "value": "\"AR006\""
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Common\/SDKActionLog.swift",
       "kind": "StringLiteral",
-      "offset": 19391,
+      "offset": 18353,
       "length": 7,
       "value": "\"AR007\""
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Common\/SDKActionLog.swift",
       "kind": "StringLiteral",
-      "offset": 19436,
+      "offset": 18398,
       "length": 7,
       "value": "\"AR008\""
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Common\/SDKActionLog.swift",
       "kind": "StringLiteral",
-      "offset": 19920,
+      "offset": 18882,
       "length": 7,
       "value": "\"AR012\""
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Common\/SDKActionLog.swift",
       "kind": "StringLiteral",
-      "offset": 19962,
+      "offset": 18924,
       "length": 7,
       "value": "\"AR013\""
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Common\/SDKActionLog.swift",
       "kind": "StringLiteral",
-      "offset": 20004,
+      "offset": 18966,
       "length": 7,
       "value": "\"AR014\""
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Common\/SDKActionLog.swift",
       "kind": "StringLiteral",
-      "offset": 20191,
+      "offset": 19153,
       "length": 7,
       "value": "\"AR016\""
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Common\/SDKActionLog.swift",
       "kind": "StringLiteral",
-      "offset": 20234,
+      "offset": 19196,
       "length": 7,
       "value": "\"AR017\""
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Common\/SDKActionLog.swift",
       "kind": "StringLiteral",
-      "offset": 20278,
+      "offset": 19240,
       "length": 7,
       "value": "\"AR018\""
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Common\/SDKActionLog.swift",
       "kind": "StringLiteral",
-      "offset": 20319,
+      "offset": 19281,
       "length": 7,
       "value": "\"AR019\""
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Common\/SDKActionLog.swift",
       "kind": "StringLiteral",
-      "offset": 20380,
+      "offset": 19342,
       "length": 8,
       "value": "\"APA001\""
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Common\/SDKActionLog.swift",
       "kind": "StringLiteral",
-      "offset": 20419,
+      "offset": 19381,
       "length": 8,
       "value": "\"APA002\""
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Common\/SDKActionLog.swift",
       "kind": "StringLiteral",
-      "offset": 20458,
+      "offset": 19420,
       "length": 8,
       "value": "\"APA003\""
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Common\/SDKActionLog.swift",
       "kind": "StringLiteral",
-      "offset": 20498,
+      "offset": 19460,
       "length": 8,
       "value": "\"APA004\""
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Common\/SDKActionLog.swift",
       "kind": "StringLiteral",
-      "offset": 20537,
+      "offset": 19499,
       "length": 8,
       "value": "\"APA005\""
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Common\/SDKActionLog.swift",
       "kind": "StringLiteral",
-      "offset": 20574,
+      "offset": 19536,
       "length": 8,
       "value": "\"ACA002\""
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Common\/SDKActionLog.swift",
       "kind": "StringLiteral",
-      "offset": 20616,
+      "offset": 19578,
       "length": 8,
       "value": "\"SRA001\""
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Common\/SDKActionLog.swift",
       "kind": "StringLiteral",
-      "offset": 20654,
+      "offset": 19616,
       "length": 8,
       "value": "\"ARA001\""
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Common\/SDKActionLog.swift",
       "kind": "StringLiteral",
-      "offset": 20718,
+      "offset": 19680,
       "length": 8,
       "value": "\"APF001\""
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Common\/SDKActionLog.swift",
       "kind": "StringLiteral",
-      "offset": 20758,
+      "offset": 19720,
       "length": 8,
       "value": "\"APF002\""
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Common\/SDKActionLog.swift",
       "kind": "StringLiteral",
-      "offset": 20798,
+      "offset": 19760,
       "length": 8,
       "value": "\"APF003\""
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Common\/SDKActionLog.swift",
       "kind": "StringLiteral",
-      "offset": 20839,
+      "offset": 19801,
       "length": 8,
       "value": "\"APF004\""
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Common\/SDKActionLog.swift",
       "kind": "StringLiteral",
-      "offset": 20879,
+      "offset": 19841,
       "length": 8,
       "value": "\"APF005\""
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Common\/SDKActionLog.swift",
       "kind": "StringLiteral",
-      "offset": 20917,
+      "offset": 19879,
       "length": 8,
       "value": "\"ACF002\""
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Common\/SDKActionLog.swift",
       "kind": "StringLiteral",
-      "offset": 20960,
+      "offset": 19922,
       "length": 8,
       "value": "\"SRF001\""
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Common\/SDKActionLog.swift",
       "kind": "StringLiteral",
-      "offset": 20999,
+      "offset": 19961,
       "length": 8,
       "value": "\"ARF001\""
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Common\/SDKActionLog.swift",
       "kind": "StringLiteral",
-      "offset": 21069,
+      "offset": 20031,
       "length": 8,
       "value": "\"IFC001\""
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Common\/SDKActionLog.swift",
       "kind": "StringLiteral",
-      "offset": 21120,
+      "offset": 20082,
       "length": 8,
       "value": "\"IFC002\""
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Common\/SDKActionLog.swift",
       "kind": "StringLiteral",
-      "offset": 21191,
+      "offset": 20153,
       "length": 7,
       "value": "\"ER001\""
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Common\/SDKActionLog.swift",
       "kind": "StringLiteral",
-      "offset": 21232,
+      "offset": 20194,
       "length": 7,
       "value": "\"ER002\""
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Common\/SDKActionLog.swift",
       "kind": "StringLiteral",
-      "offset": 21273,
+      "offset": 20235,
       "length": 7,
       "value": "\"ER003\""
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Common\/SDKActionLog.swift",
       "kind": "StringLiteral",
-      "offset": 21316,
+      "offset": 20278,
       "length": 7,
       "value": "\"ER004\""
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Common\/SDKActionLog.swift",
       "kind": "StringLiteral",
-      "offset": 21360,
+      "offset": 20322,
       "length": 7,
       "value": "\"ER005\""
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Common\/SDKActionLog.swift",
       "kind": "StringLiteral",
-      "offset": 21399,
+      "offset": 20361,
       "length": 7,
       "value": "\"ER006\""
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Common\/SDKActionLog.swift",
       "kind": "StringLiteral",
-      "offset": 21442,
+      "offset": 20404,
       "length": 7,
       "value": "\"ER007\""
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Common\/SDKActionLog.swift",
       "kind": "StringLiteral",
-      "offset": 21485,
+      "offset": 20447,
       "length": 7,
       "value": "\"ER008\""
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Common\/SDKActionLog.swift",
       "kind": "StringLiteral",
-      "offset": 21530,
+      "offset": 20492,
       "length": 7,
       "value": "\"ER009\""
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Common\/SDKActionLog.swift",
       "kind": "StringLiteral",
-      "offset": 21576,
+      "offset": 20538,
       "length": 7,
       "value": "\"ER010\""
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Common\/SDKActionLog.swift",
       "kind": "StringLiteral",
-      "offset": 21612,
+      "offset": 20574,
       "length": 7,
       "value": "\"ER011\""
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Common\/SDKActionLog.swift",
       "kind": "StringLiteral",
-      "offset": 21652,
+      "offset": 20614,
       "length": 7,
       "value": "\"ER012\""
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Common\/SDKActionLog.swift",
       "kind": "StringLiteral",
-      "offset": 21692,
+      "offset": 20654,
       "length": 7,
       "value": "\"ER013\""
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Common\/SDKActionLog.swift",
       "kind": "StringLiteral",
-      "offset": 21734,
+      "offset": 20696,
       "length": 7,
       "value": "\"ER014\""
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Common\/SDKActionLog.swift",
       "kind": "StringLiteral",
-      "offset": 21777,
+      "offset": 20739,
       "length": 7,
       "value": "\"ER015\""
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Common\/SDKActionLog.swift",
       "kind": "IntegerLiteral",
-      "offset": 21851,
+      "offset": 20813,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Common\/SDKActionLog.swift",
       "kind": "IntegerLiteral",
-      "offset": 21873,
+      "offset": 20835,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Common\/SDKActionLog.swift",
       "kind": "IntegerLiteral",
-      "offset": 21898,
+      "offset": 20860,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Common\/SDKActionLog.swift",
       "kind": "IntegerLiteral",
-      "offset": 21922,
+      "offset": 20884,
       "length": 1,
       "value": "4"
     },
@@ -38806,6 +40251,69 @@
       "value": "false"
     },
     {
+      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/skan\/CodableSKAN.swift",
+      "kind": "StringLiteral",
+      "offset": 437,
+      "length": 10,
+      "value": "\"fidelity\""
+    },
+    {
+      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/skan\/CodableSKAN.swift",
+      "kind": "FloatLiteral",
+      "offset": 1738,
+      "length": 3,
+      "value": "2.0"
+    },
+    {
+      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/skan\/CodableSKAN.swift",
+      "kind": "FloatLiteral",
+      "offset": 1761,
+      "length": 3,
+      "value": "2.1"
+    },
+    {
+      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/skan\/CodableSKAN.swift",
+      "kind": "FloatLiteral",
+      "offset": 1784,
+      "length": 3,
+      "value": "2.2"
+    },
+    {
+      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/skan\/CodableSKAN.swift",
+      "kind": "FloatLiteral",
+      "offset": 1806,
+      "length": 3,
+      "value": "3.0"
+    },
+    {
+      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/skan\/CodableSKAN.swift",
+      "kind": "FloatLiteral",
+      "offset": 1828,
+      "length": 3,
+      "value": "4.0"
+    },
+    {
+      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/skan\/CodableSKAN.swift",
+      "kind": "StringLiteral",
+      "offset": 3095,
+      "length": 12,
+      "value": "\"itunesitem\""
+    },
+    {
+      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/skan\/CodableSKAN.swift",
+      "kind": "StringLiteral",
+      "offset": 3133,
+      "length": 11,
+      "value": "\"sourceapp\""
+    },
+    {
+      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/skan\/CodableSKAN.swift",
+      "kind": "StringLiteral",
+      "offset": 3177,
+      "length": 18,
+      "value": "\"sourceidentifier\""
+    },
+    {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/ViewCapture\/ViewElement.swift",
       "kind": "StringLiteral",
       "offset": 1647,
@@ -39347,7 +40855,7 @@
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/API\/AdRequestInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 1700,
+      "offset": 1744,
       "length": 1,
       "value": "1"
     },
@@ -39956,21 +41464,21 @@
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Banner\/BannerAd.swift",
       "kind": "StringLiteral",
-      "offset": 334,
+      "offset": 340,
       "length": 29,
       "value": "\"https:\/\/display.ad.daum.net\""
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Banner\/BannerAd.swift",
       "kind": "StringLiteral",
-      "offset": 748,
+      "offset": 754,
       "length": 7,
       "value": "\"empty\""
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Banner\/BannerAd.swift",
       "kind": "StringLiteral",
-      "offset": 763,
+      "offset": 769,
       "length": 7,
       "value": "\"empty\""
     },
@@ -40297,6 +41805,62 @@
       "value": "\"DAN-zIGVvp92RibKR4Nm\""
     },
     {
+      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Media\/CatalogDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 2083,
+      "length": 7,
+      "value": "\"image\""
+    },
+    {
+      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Media\/CatalogDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 2112,
+      "length": 7,
+      "value": "\"title\""
+    },
+    {
+      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Media\/CatalogDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 2140,
+      "length": 6,
+      "value": "\"body\""
+    },
+    {
+      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Media\/CatalogDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 2168,
+      "length": 7,
+      "value": "\"price\""
+    },
+    {
+      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Media\/CatalogDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 2201,
+      "length": 11,
+      "value": "\"saleprice\""
+    },
+    {
+      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Media\/CatalogDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 2240,
+      "length": 13,
+      "value": "\"salepercent\""
+    },
+    {
+      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Media\/CatalogDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 2280,
+      "length": 12,
+      "value": "\"landingUrl\""
+    },
+    {
+      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Media\/CatalogDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 2315,
+      "length": 8,
+      "value": "\"events\""
+    },
+    {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Native\/Slot.swift",
       "kind": "StringLiteral",
       "offset": 203,
@@ -40372,6 +41936,13 @@
       "offset": 1387,
       "length": 5,
       "value": "false"
+    },
+    {
+      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/AdFit.swift",
+      "kind": "Dictionary",
+      "offset": 1598,
+      "length": 3,
+      "value": "[]"
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Report\/ReportConfiguration.swift",
@@ -40766,6 +42337,20 @@
       "value": "\"adfit.template.request.working.queue\""
     },
     {
+      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Common\/ObjectInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 6105,
+      "length": 13,
+      "value": "\"subtabindex\""
+    },
+    {
+      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Common\/ObjectInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 6145,
+      "length": 12,
+      "value": "\"istalkplus\""
+    },
+    {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/NAS\/Live\/Data\/ResponseJSON.swift",
       "kind": "StringLiteral",
       "offset": 186,
@@ -40831,21 +42416,21 @@
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Media\/Video.swift",
       "kind": "BooleanLiteral",
-      "offset": 435,
+      "offset": 450,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Media\/Video.swift",
       "kind": "BooleanLiteral",
-      "offset": 811,
+      "offset": 1455,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Media\/Video.swift",
       "kind": "BooleanLiteral",
-      "offset": 1220,
+      "offset": 1777,
       "length": 5,
       "value": "false"
     },
@@ -40901,14 +42486,14 @@
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Native\/AdFitNativeAdLoader.swift",
       "kind": "BooleanLiteral",
-      "offset": 2368,
+      "offset": 2370,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Native\/AdFitNativeAdLoader.swift",
       "kind": "IntegerLiteral",
-      "offset": 2987,
+      "offset": 2989,
       "length": 1,
       "value": "1"
     },
@@ -41167,7 +42752,14 @@
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/NAS\/AdFitFlexibleView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1143,
+      "offset": 845,
+      "length": 4,
+      "value": "1000"
+    },
+    {
+      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/NAS\/AdFitFlexibleView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1192,
       "length": 1,
       "value": "0"
     },
@@ -41235,172 +42827,158 @@
       "value": "true"
     },
     {
-      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/ViewableImpressionSDK-1.4.10\/VIViewableChecker.swift",
+      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/ViewableImpressionSDK-1.4.11\/VIViewableChecker.swift",
       "kind": "FloatLiteral",
       "offset": 293,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/ViewableImpressionSDK-1.4.10\/VIViewableChecker.swift",
+      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/ViewableImpressionSDK-1.4.11\/VIViewableChecker.swift",
       "kind": "FloatLiteral",
       "offset": 324,
       "length": 4,
       "value": "50.0"
     },
     {
-      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/ViewableImpressionSDK-1.4.10\/VIViewableChecker.swift",
+      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/ViewableImpressionSDK-1.4.11\/VIViewableChecker.swift",
       "kind": "FloatLiteral",
       "offset": 366,
       "length": 3,
       "value": "0.5"
     },
     {
-      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/ViewableImpressionSDK-1.4.10\/VIViewableChecker.swift",
+      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/ViewableImpressionSDK-1.4.11\/VIViewableChecker.swift",
       "kind": "BooleanLiteral",
       "offset": 392,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/ViewableImpressionSDK-1.4.10\/VIViewableChecker.swift",
+      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/ViewableImpressionSDK-1.4.11\/VIViewableChecker.swift",
       "kind": "BooleanLiteral",
       "offset": 424,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/ViewableImpressionSDK-1.4.10\/VIViewableChecker.swift",
+      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/ViewableImpressionSDK-1.4.11\/VIViewableChecker.swift",
       "kind": "StringLiteral",
       "offset": 549,
       "length": 17,
       "value": "\"viewableChecker\""
     },
     {
-      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/ViewableImpressionSDK-1.4.10\/VIViewableChecker.swift",
+      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/ViewableImpressionSDK-1.4.11\/VIViewableChecker.swift",
       "kind": "StringLiteral",
       "offset": 569,
       "length": 34,
       "value": "\".viewableImpression.workingQueue\""
     },
     {
-      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/ViewableImpressionSDK-1.4.10\/VIViewableChecker.swift",
+      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/ViewableImpressionSDK-1.4.11\/VIViewableChecker.swift",
       "kind": "StringLiteral",
       "offset": 678,
       "length": 17,
       "value": "\"viewableChecker\""
     },
     {
-      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/ViewableImpressionSDK-1.4.10\/VIViewableChecker.swift",
+      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/ViewableImpressionSDK-1.4.11\/VIViewableChecker.swift",
       "kind": "StringLiteral",
       "offset": 698,
       "length": 30,
       "value": "\".viewableChange.workingQueue\""
     },
     {
-      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/ViewableImpressionSDK-1.4.10\/VIViewableChecker.swift",
+      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/ViewableImpressionSDK-1.4.11\/VIViewableChecker.swift",
       "kind": "BooleanLiteral",
       "offset": 765,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/ViewableImpressionSDK-1.4.10\/VIViewableChecker.swift",
+      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/ViewableImpressionSDK-1.4.11\/VIViewableChecker.swift",
       "kind": "BooleanLiteral",
       "offset": 802,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/ViewableImpressionSDK-1.4.10\/VIViewableChecker.swift",
+      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/ViewableImpressionSDK-1.4.11\/VIViewableChecker.swift",
       "kind": "BooleanLiteral",
       "offset": 942,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/ViewableImpressionSDK-1.4.10\/VIViewableChecker.swift",
+      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/ViewableImpressionSDK-1.4.11\/VIViewableChecker.swift",
       "kind": "BooleanLiteral",
       "offset": 1023,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/ViewableImpressionSDK-1.4.10\/VIViewableChecker.swift",
+      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/ViewableImpressionSDK-1.4.11\/VIViewableChecker.swift",
       "kind": "BooleanLiteral",
       "offset": 1066,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/ViewableImpressionSDK-1.4.10\/VIViewableChecker.swift",
+      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/ViewableImpressionSDK-1.4.11\/VIViewableChecker.swift",
       "kind": "BooleanLiteral",
       "offset": 3991,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/ViewableImpressionSDK-1.4.10\/VIViewableChecker.swift",
+      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/ViewableImpressionSDK-1.4.11\/VIViewableChecker.swift",
       "kind": "BooleanLiteral",
       "offset": 4053,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/ViewableImpressionSDK-1.4.10\/VIViewableChecker.swift",
+      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/ViewableImpressionSDK-1.4.11\/VIViewableChecker.swift",
       "kind": "BooleanLiteral",
       "offset": 5501,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/ViewableImpressionSDK-1.4.10\/VIViewableChecker.swift",
+      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/ViewableImpressionSDK-1.4.11\/VIViewableChecker.swift",
       "kind": "BooleanLiteral",
       "offset": 6254,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/ViewableImpressionSDK-1.4.10\/VIViewableChecker.swift",
+      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/ViewableImpressionSDK-1.4.11\/VIViewableChecker.swift",
       "kind": "BooleanLiteral",
       "offset": 6621,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/ViewableImpressionSDK-1.4.10\/VIViewableChecker.swift",
+      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/ViewableImpressionSDK-1.4.11\/VIViewableChecker.swift",
       "kind": "BooleanLiteral",
       "offset": 7053,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/ViewableImpressionSDK-1.4.10\/VIViewableChecker.swift",
+      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/ViewableImpressionSDK-1.4.11\/VIViewableChecker.swift",
       "kind": "BooleanLiteral",
       "offset": 8702,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/ViewableImpressionSDK-1.4.10\/VIViewableChecker.swift",
+      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/ViewableImpressionSDK-1.4.11\/VIViewableChecker.swift",
       "kind": "BooleanLiteral",
-      "offset": 19361,
+      "offset": 19692,
       "length": 5,
       "value": "false"
-    },
-    {
-      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Native\/NativeAd.swift",
-      "kind": "StringLiteral",
-      "offset": 993,
-      "length": 7,
-      "value": "\"empty\""
-    },
-    {
-      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Native\/NativeAd.swift",
-      "kind": "StringLiteral",
-      "offset": 1008,
-      "length": 7,
-      "value": "\"empty\""
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Views\/Template\/BizBoard\/BizBoardCell.swift",
@@ -41469,90 +43047,90 @@
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Internal\/KakaoIntegration.swift",
       "kind": "StringLiteral",
       "offset": 262,
-      "length": 40,
-      "value": "\"https:\/\/acid-api.dev.ds.kakao.com\/acid\""
+      "length": 66,
+      "value": "\"https:\/\/kuid-provider-public.sandbox.onkakao.net\/api\/public\/kuid\""
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Internal\/KakaoIntegration.swift",
       "kind": "StringLiteral",
-      "offset": 336,
-      "length": 36,
-      "value": "\"https:\/\/acid-api.ds.kakao.com\/acid\""
+      "offset": 370,
+      "length": 52,
+      "value": "\"https:\/\/kuid-provider.ds.kakao.com\/api\/public\/kuid\""
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Internal\/KakaoIntegration.swift",
       "kind": "StringLiteral",
-      "offset": 443,
+      "offset": 493,
       "length": 68,
       "value": "\"abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789-._~\""
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Focus\/FocusAd.swift",
       "kind": "StringLiteral",
-      "offset": 848,
+      "offset": 345,
       "length": 8,
       "value": "\"events\""
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Focus\/FocusAd.swift",
       "kind": "StringLiteral",
-      "offset": 884,
+      "offset": 381,
       "length": 12,
       "value": "\"triggerImg\""
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Focus\/FocusAd.swift",
       "kind": "StringLiteral",
-      "offset": 924,
+      "offset": 421,
       "length": 13,
       "value": "\"triggerName\""
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Focus\/FocusAd.swift",
       "kind": "StringLiteral",
-      "offset": 2234,
+      "offset": 1731,
       "length": 9,
       "value": "\"content\""
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Focus\/FocusAd.swift",
       "kind": "StringLiteral",
-      "offset": 2270,
+      "offset": 1767,
       "length": 9,
       "value": "\"trigger\""
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Focus\/FocusAd.swift",
       "kind": "StringLiteral",
-      "offset": 2307,
+      "offset": 1804,
       "length": 8,
       "value": "\"events\""
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Focus\/FocusAd.swift",
       "kind": "StringLiteral",
-      "offset": 2337,
+      "offset": 1834,
       "length": 7,
       "value": "\"dspId\""
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Focus\/FocusAd.swift",
       "kind": "StringLiteral",
-      "offset": 2370,
+      "offset": 1867,
       "length": 5,
       "value": "\"cid\""
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Focus\/FocusAd.swift",
       "kind": "StringLiteral",
-      "offset": 2402,
+      "offset": 1899,
       "length": 6,
       "value": "\"crid\""
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Focus\/FocusAd.swift",
       "kind": "StringLiteral",
-      "offset": 2434,
+      "offset": 1931,
       "length": 6,
       "value": "\"adid\""
     },
@@ -42110,6 +43688,13 @@
       "value": "true"
     },
     {
+      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Media\/Catalog.swift",
+      "kind": "BooleanLiteral",
+      "offset": 947,
+      "length": 5,
+      "value": "false"
+    },
+    {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/NAS\/NasLog.swift",
       "kind": "IntegerLiteral",
       "offset": 256,
@@ -42353,6 +43938,13 @@
       "offset": 7797,
       "length": 1,
       "value": "1"
+    },
+    {
+      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Native\/CodableNativeAd.swift",
+      "kind": "StringLiteral",
+      "offset": 1767,
+      "length": 11,
+      "value": "\"ckeywords\""
     },
     {
       "filePath": "\/Users\/deploy\/Library\/Developer\/Xcode\/DerivedData\/AdFitSDK-emtmibslkcxawacmkjcehimtkpaz\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AdFit-External\/IntermediateBuildFilesPath\/AdFitSDK.build\/Release-iphoneos\/AdFitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
@@ -43001,84 +44593,98 @@
     {
       "filePath": "\/Users\/deploy\/Library\/Developer\/Xcode\/DerivedData\/AdFitSDK-emtmibslkcxawacmkjcehimtkpaz\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AdFit-External\/IntermediateBuildFilesPath\/AdFitSDK.build\/Release-iphoneos\/AdFitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 15876,
+      "offset": 15770,
+      "length": 15,
+      "value": "\"catalogAdMark\""
+    },
+    {
+      "filePath": "\/Users\/deploy\/Library\/Developer\/Xcode\/DerivedData\/AdFitSDK-emtmibslkcxawacmkjcehimtkpaz\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AdFit-External\/IntermediateBuildFilesPath\/AdFitSDK.build\/Release-iphoneos\/AdFitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 15915,
+      "length": 12,
+      "value": "\"catalogCTA\""
+    },
+    {
+      "filePath": "\/Users\/deploy\/Library\/Developer\/Xcode\/DerivedData\/AdFitSDK-emtmibslkcxawacmkjcehimtkpaz\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AdFit-External\/IntermediateBuildFilesPath\/AdFitSDK.build\/Release-iphoneos\/AdFitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 16169,
       "length": 26,
       "value": "\"expandableVideo\/closeBtn\""
     },
     {
       "filePath": "\/Users\/deploy\/Library\/Developer\/Xcode\/DerivedData\/AdFitSDK-emtmibslkcxawacmkjcehimtkpaz\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AdFit-External\/IntermediateBuildFilesPath\/AdFitSDK.build\/Release-iphoneos\/AdFitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 16048,
+      "offset": 16341,
       "length": 24,
       "value": "\"expandableVideo\/ctaBtn\""
     },
     {
       "filePath": "\/Users\/deploy\/Library\/Developer\/Xcode\/DerivedData\/AdFitSDK-emtmibslkcxawacmkjcehimtkpaz\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AdFit-External\/IntermediateBuildFilesPath\/AdFitSDK.build\/Release-iphoneos\/AdFitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 16222,
+      "offset": 16515,
       "length": 26,
       "value": "\"expandableVideo\/pauseBtn\""
     },
     {
       "filePath": "\/Users\/deploy\/Library\/Developer\/Xcode\/DerivedData\/AdFitSDK-emtmibslkcxawacmkjcehimtkpaz\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AdFit-External\/IntermediateBuildFilesPath\/AdFitSDK.build\/Release-iphoneos\/AdFitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 16396,
+      "offset": 16689,
       "length": 25,
       "value": "\"expandableVideo\/playBtn\""
     },
     {
       "filePath": "\/Users\/deploy\/Library\/Developer\/Xcode\/DerivedData\/AdFitSDK-emtmibslkcxawacmkjcehimtkpaz\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AdFit-External\/IntermediateBuildFilesPath\/AdFitSDK.build\/Release-iphoneos\/AdFitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 16571,
+      "offset": 16864,
       "length": 26,
       "value": "\"expandableVideo\/soundOff\""
     },
     {
       "filePath": "\/Users\/deploy\/Library\/Developer\/Xcode\/DerivedData\/AdFitSDK-emtmibslkcxawacmkjcehimtkpaz\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AdFit-External\/IntermediateBuildFilesPath\/AdFitSDK.build\/Release-iphoneos\/AdFitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 16745,
+      "offset": 17038,
       "length": 25,
       "value": "\"expandableVideo\/soundOn\""
     },
     {
       "filePath": "\/Users\/deploy\/Library\/Developer\/Xcode\/DerivedData\/AdFitSDK-emtmibslkcxawacmkjcehimtkpaz\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AdFit-External\/IntermediateBuildFilesPath\/AdFitSDK.build\/Release-iphoneos\/AdFitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 16905,
+      "offset": 17198,
       "length": 11,
       "value": "\"defaultAd\""
     },
     {
       "filePath": "\/Users\/deploy\/Library\/Developer\/Xcode\/DerivedData\/AdFitSDK-emtmibslkcxawacmkjcehimtkpaz\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AdFit-External\/IntermediateBuildFilesPath\/AdFitSDK.build\/Release-iphoneos\/AdFitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 17042,
+      "offset": 17335,
       "length": 11,
       "value": "\"i Mark_AD\""
     },
     {
       "filePath": "\/Users\/deploy\/Library\/Developer\/Xcode\/DerivedData\/AdFitSDK-emtmibslkcxawacmkjcehimtkpaz\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AdFit-External\/IntermediateBuildFilesPath\/AdFitSDK.build\/Release-iphoneos\/AdFitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 17183,
+      "offset": 17476,
       "length": 12,
       "value": "\"markADmark\""
     },
     {
       "filePath": "\/Users\/deploy\/Library\/Developer\/Xcode\/DerivedData\/AdFitSDK-emtmibslkcxawacmkjcehimtkpaz\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AdFit-External\/IntermediateBuildFilesPath\/AdFitSDK.build\/Release-iphoneos\/AdFitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 17339,
+      "offset": 17632,
       "length": 19,
       "value": "\"nativePlaceholder\""
     },
     {
       "filePath": "\/Users\/deploy\/Library\/Developer\/Xcode\/DerivedData\/AdFitSDK-emtmibslkcxawacmkjcehimtkpaz\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AdFit-External\/IntermediateBuildFilesPath\/AdFitSDK.build\/Release-iphoneos\/AdFitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 17476,
+      "offset": 17769,
       "length": 6,
       "value": "\"path\""
     },
     {
       "filePath": "\/Users\/deploy\/Library\/Developer\/Xcode\/DerivedData\/AdFitSDK-emtmibslkcxawacmkjcehimtkpaz\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AdFit-External\/IntermediateBuildFilesPath\/AdFitSDK.build\/Release-iphoneos\/AdFitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 17612,
+      "offset": 17905,
       "length": 12,
       "value": "\"popupClose\""
     }

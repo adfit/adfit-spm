@@ -545,6 +545,8 @@ typedef SWIFT_ENUM(NSInteger, AdFitMediaType, open) {
   AdFitMediaTypeMotion = 5,
 /// 커스텀비즈(실사배경)
   AdFitMediaTypeCustomBiz = 6,
+/// 카탈로그
+  AdFitMediaTypeCatalog = 7,
 };
 
 @protocol AdFitMediaViewDelegate;
@@ -626,7 +628,7 @@ SWIFT_CLASS("_TtC8AdFitSDK13AdFitNativeAd")
 @property (nonatomic, weak) UIViewController * _Nullable rootViewController;
 /// 네이티브 광고에 포함된 미디어 요소의 <code>가로 / 세로</code> 비율.<br>
 /// 광고가 로드 되기 전의 값은 <em>0</em> 이며, 광고 로드 이후 실제 미디어의 비율로 변경됩니다.<br>
-/// 만일 광고에 포함된 미디어 요소의 사이즈가 1200x628 이라면, <code>1.9108...</code> 값을 가지게 됩니다.
+/// 만일 광고에 포함된 미디어 요소의 사이즈가 1200x600 이라면, <code>2.0</code> 값을 가지게 됩니다.
 @property (nonatomic, readonly) CGFloat mediaAspectRatio;
 /// 네이티브 광고에 포함된 미디어 요소의 타입.<br>
 /// 기본값은 <em>unknown</em> 이며, 광고 로드 이후 실제 미디어의 타입으로 변경됩니다.
@@ -895,6 +897,24 @@ SWIFT_CLASS("_TtC8AdFitSDK12LinearLayout")
 @end
 
 
+
+SWIFT_CLASS("_TtC8AdFitSDK17MultiNativeAdView")
+@interface MultiNativeAdView : UIView
+- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
+@end
+
+
+
+@interface MultiNativeAdView (SWIFT_EXTENSION(AdFitSDK)) <AdFitNativeAdRenderable>
+- (UILabel * _Nullable)adTitleLabel SWIFT_WARN_UNUSED_RESULT;
+- (UIButton * _Nullable)adCallToActionButton SWIFT_WARN_UNUSED_RESULT;
+- (UILabel * _Nullable)adProfileNameLabel SWIFT_WARN_UNUSED_RESULT;
+- (UIImageView * _Nullable)adProfileIconView SWIFT_WARN_UNUSED_RESULT;
+- (AdFitMediaView * _Nullable)adMediaView SWIFT_WARN_UNUSED_RESULT;
+- (UIImageView * _Nullable)customInfoIconView SWIFT_WARN_UNUSED_RESULT;
+@end
+
 @protocol NasAdLoaderDelegate;
 
 SWIFT_CLASS("_TtC8AdFitSDK11NasAdLoader")
@@ -1013,6 +1033,16 @@ SWIFT_CLASS_NAMED("HeaderAttributes")
 @property (nonatomic, strong) UIFont * _Nonnull font;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
+
+
+/// 톡폴더 관련 정보 수집을 위한 클래스입니다.
+SWIFT_CLASS("_TtC8AdFitSDK16TalkFolderObject")
+@interface TalkFolderObject : NSObject
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+
 
 
 

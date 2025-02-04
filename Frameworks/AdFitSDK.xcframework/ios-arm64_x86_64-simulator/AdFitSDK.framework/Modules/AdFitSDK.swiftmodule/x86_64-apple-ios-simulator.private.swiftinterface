@@ -89,6 +89,7 @@ extension AdFitSDK.BizBoardTemplate : AdFitSDK.AdFitNativeAdRenderable {
   case carousel = 4
   case motion = 5
   case customBiz = 6
+  case catalog = 7
   public var description: Swift.String {
     get
   }
@@ -300,6 +301,32 @@ public func <= (oprPos: AdFitSDK.VFPositionValue, size: CoreFoundation.CGFloat)
   @objc deinit
   @objc final public func bind(_ nativeAdView: UIKit.UIView)
   @objc final public func block()
+}
+public enum MultiAdTheme : Swift.String {
+  case light
+  case dark
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency final public class MultiNativeAdView : UIKit.UIView {
+  @_Concurrency.MainActor @preconcurrency final public func estimateHeight(width: CoreFoundation.CGFloat) -> CoreFoundation.CGFloat
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @objc deinit
+}
+extension AdFitSDK.MultiNativeAdView {
+  @_Concurrency.MainActor @preconcurrency final public func setUpStyle(isDarkMode: Swift.Bool)
+}
+extension AdFitSDK.MultiNativeAdView : AdFitSDK.AdFitNativeAdRenderable {
+  @_Concurrency.MainActor @preconcurrency @objc final public func adTitleLabel() -> UIKit.UILabel?
+  @_Concurrency.MainActor @preconcurrency @objc final public func adCallToActionButton() -> UIKit.UIButton?
+  @_Concurrency.MainActor @preconcurrency @objc final public func adProfileNameLabel() -> UIKit.UILabel?
+  @_Concurrency.MainActor @preconcurrency @objc final public func adProfileIconView() -> UIKit.UIImageView?
+  @_Concurrency.MainActor @preconcurrency @objc final public func adMediaView() -> AdFitSDK.AdFitMediaView?
+  @_Concurrency.MainActor @preconcurrency final public func isContainerClickable() -> Swift.Bool
+  @_Concurrency.MainActor @preconcurrency @objc final public func customInfoIconView() -> UIKit.UIImageView?
 }
 @objc public protocol AdFitNativeAdLoaderDelegate : ObjectiveC.NSObjectProtocol {
   @objc optional func nativeAdLoaderDidReceiveAds(_ nativeAds: [AdFitSDK.AdFitNativeAd])
@@ -588,6 +615,16 @@ extension AdFitSDK.BizBoardTemplatePresentableView {
   public func encode(to encoder: any Swift.Encoder) throws
   required public init(from decoder: any Swift.Decoder) throws
 }
+@_inheritsConvenienceInitializers @objc final public class TalkFolderObject : ObjectiveC.NSObject, Swift.Codable {
+  @objc override dynamic public init()
+  @discardableResult
+  final public func setSubTabIndex(_ subTabIndex: Swift.Int) -> AdFitSDK.TalkFolderObject
+  @discardableResult
+  final public func setIsTalkPlus(_ isTalkPlus: Swift.Bool) -> AdFitSDK.TalkFolderObject
+  @objc deinit
+  final public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
 @objc public protocol AdFitMediaViewDelegate : ObjectiveC.NSObjectProtocol {
   @objc optional func mediaViewVideoDidPlay(_ mediaView: AdFitSDK.AdFitMediaView)
   @objc optional func mediaViewVideoDidPause(_ mediaView: AdFitSDK.AdFitMediaView)
@@ -722,7 +759,6 @@ extension AdFitSDK.BizBoardCell : AdFitSDK.AdFitNativeAdRenderable {
 public enum KakaoIntergration : Swift.Hashable {
   case none
   case sdk(appKey: Swift.String, appUserId: Swift.String)
-  case sync(appID: Swift.String, appUserId: Swift.String)
   case account(accountId: Swift.String)
   public func hash(into hasher: inout Swift.Hasher)
   public static func == (a: AdFitSDK.KakaoIntergration, b: AdFitSDK.KakaoIntergration) -> Swift.Bool
@@ -930,6 +966,9 @@ final public class VFLayoutSize {
 extension AdFitSDK.AdFitMediaType : Swift.Equatable {}
 extension AdFitSDK.AdFitMediaType : Swift.Hashable {}
 extension AdFitSDK.AdFitMediaType : Swift.RawRepresentable {}
+extension AdFitSDK.MultiAdTheme : Swift.Equatable {}
+extension AdFitSDK.MultiAdTheme : Swift.Hashable {}
+extension AdFitSDK.MultiAdTheme : Swift.RawRepresentable {}
 extension AdFitSDK.AdFitVideoPlayPolicy : Swift.Equatable {}
 extension AdFitSDK.AdFitVideoPlayPolicy : Swift.Hashable {}
 extension AdFitSDK.AdFitVideoPlayPolicy : Swift.RawRepresentable {}
