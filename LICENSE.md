@@ -1,6 +1,4 @@
-오픈소스 라이선스
-
-# OSS Notice | Adfit-iOS #
+# OSS Notice | Adfit-iOS-InKakao #
 
 This application is Copyright © Kakao Corp. All rights reserved.
 
@@ -16,9 +14,17 @@ Copyright 2018 Apple Inc.
 
 Apple MIT License
 
+ **auto-changelog**
+
+https://github.com/cookpete/auto-changelog
+
+Copyright 2017 Pete Cook https://cookpete.com
+
+MIT License
+
  **FSPagerView**
 
-https://github.com/WenchaoD/FSPagerView
+https://github.com/wenchaod/fspagerview
 
 Copyright 2017 FSPagerView (https://github.com/WenchaoD/FSPagerView)
 
@@ -26,15 +32,23 @@ MIT License
 
  **GzipSwift**
 
-https://github.com/1024jp/GzipSwift/
+https://github.com/1024jp/gzipswift
 
 Copyright 2014-2020 1024jp
 
 MIT License
 
+ **InAppViewDebugger**
+
+https://github.com/indragiek/inappviewdebugger
+
+Copyright (c) 2019 Indragie Karunaratne
+
+MIT License
+
  **KSCrash**
 
-http://github.com/kstenerud/KSCrash/
+https://github.com/kstenerud/kscrash
 
 Copyright 2012 Karl Stenerud
 
@@ -42,7 +56,7 @@ MIT License
 
  **libextobjc**
 
-http://github.com/jspahrsummers/libextobjc/
+https://github.com/jspahrsummers/libextobjc
 
 Copyright Justin Spahr-Summers
 
@@ -58,7 +72,7 @@ Apache License 2.0
 
  **SDWebImage**
 
-https://github.com/SDWebImage/SDWebImage
+https://github.com/sdwebimage/sdwebimage
 
 Copyright 2009-2017 Olivier Poitrey rs@dailymotion.com
 
@@ -66,9 +80,49 @@ MIT License
 
  **SDWebImageWebPCoder**
 
-https://github.com/SDWebImage/SDWebImageWebPCoder
+https://github.com/sdwebimage/sdwebimagewebpcoder
 
 Copyright 2018 Bogdan Poplauschi
+
+MIT License
+
+ **SuperEasyLayout**
+
+https://github.com/doil6317/supereasylayout
+
+Copyright (c) 2019 doil6317 <doil6317@gmail.com>
+
+MIT License
+
+ **Swift Hamcrest**
+
+https://github.com/nschum/swifthamcrest
+
+Copyright 2014 Nikolaj Schumacher
+
+BSD 3-Clause "New" or "Revised" License
+
+ **Swift-DocC Plugin**
+
+https://github.com/apple/swift-docc-plugin
+
+Copyright (c) 2022 Apple Inc
+
+Apache License 2.0
+
+ **TangramKit**
+
+https://github.com/youngsoft/tangramkit
+
+Copyright (c) 2016 欧阳大哥
+
+MIT License
+
+ **TemplateKit**
+
+https://github.com/mcudich/templatekit
+
+Copyright (c) 2016 Matias Cudich
 
 MIT License
 
@@ -175,7 +229,7 @@ IN NO EVENT SHALL APPLE BE LIABLE FOR ANY SPECIAL, INDIRECT, INCIDENTAL OR CONSE
 # BSD 3-Clause "New" or "Revised" License #
 
 ``````````
-Copyright (c)   . All rights reserved.
+Copyright (c) <year> <owner> . All rights reserved.
 
 Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
 
@@ -193,7 +247,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
 ``````````
 MIT License
 
-Copyright (c)  
+Copyright (c) <year> <copyright holders>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
