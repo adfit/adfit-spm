@@ -236,6 +236,16 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AdFitSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "SwiftUI",
         "printedName": "SwiftUI",
         "declKind": "Import",
@@ -10251,871 +10261,6 @@
       },
       {
         "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "AdFitSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "AdFitSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "AdFitSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "AdFitSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "AdFitSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "AdFitSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "AdFitSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "AdFitSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "AdFitSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "MultiAdTheme",
-        "printedName": "MultiAdTheme",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "light",
-            "printedName": "light",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(AdFitSDK.MultiAdTheme.Type) -> AdFitSDK.MultiAdTheme",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "MultiAdTheme",
-                    "printedName": "AdFitSDK.MultiAdTheme",
-                    "usr": "s:8AdFitSDK05MultiA5ThemeO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "AdFitSDK.MultiAdTheme.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "MultiAdTheme",
-                        "printedName": "AdFitSDK.MultiAdTheme",
-                        "usr": "s:8AdFitSDK05MultiA5ThemeO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:8AdFitSDK05MultiA5ThemeO5lightyA2CmF",
-            "mangledName": "$s8AdFitSDK05MultiA5ThemeO5lightyA2CmF",
-            "moduleName": "AdFitSDK"
-          },
-          {
-            "kind": "Var",
-            "name": "dark",
-            "printedName": "dark",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(AdFitSDK.MultiAdTheme.Type) -> AdFitSDK.MultiAdTheme",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "MultiAdTheme",
-                    "printedName": "AdFitSDK.MultiAdTheme",
-                    "usr": "s:8AdFitSDK05MultiA5ThemeO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "AdFitSDK.MultiAdTheme.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "MultiAdTheme",
-                        "printedName": "AdFitSDK.MultiAdTheme",
-                        "usr": "s:8AdFitSDK05MultiA5ThemeO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:8AdFitSDK05MultiA5ThemeO4darkyA2CmF",
-            "mangledName": "$s8AdFitSDK05MultiA5ThemeO4darkyA2CmF",
-            "moduleName": "AdFitSDK"
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(rawValue:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "AdFitSDK.MultiAdTheme?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "MultiAdTheme",
-                    "printedName": "AdFitSDK.MultiAdTheme",
-                    "usr": "s:8AdFitSDK05MultiA5ThemeO"
-                  }
-                ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:8AdFitSDK05MultiA5ThemeO8rawValueACSgSS_tcfc",
-            "mangledName": "$s8AdFitSDK05MultiA5ThemeO8rawValueACSgSS_tcfc",
-            "moduleName": "AdFitSDK",
-            "implicit": true,
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Var",
-            "name": "rawValue",
-            "printedName": "rawValue",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:8AdFitSDK05MultiA5ThemeO8rawValueSSvp",
-            "mangledName": "$s8AdFitSDK05MultiA5ThemeO8rawValueSSvp",
-            "moduleName": "AdFitSDK",
-            "implicit": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:8AdFitSDK05MultiA5ThemeO8rawValueSSvg",
-                "mangledName": "$s8AdFitSDK05MultiA5ThemeO8rawValueSSvg",
-                "moduleName": "AdFitSDK",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          }
-        ],
-        "declKind": "Enum",
-        "usr": "s:8AdFitSDK05MultiA5ThemeO",
-        "mangledName": "$s8AdFitSDK05MultiA5ThemeO",
-        "moduleName": "AdFitSDK",
-        "declAttributes": [
-          "AccessControl"
-        ],
-        "enumRawTypeName": "String",
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "RawRepresentable",
-            "printedName": "RawRepresentable",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "RawValue",
-                "printedName": "RawValue",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:SY",
-            "mangledName": "$sSY"
-          }
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "AdFitSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "AdFitSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "AdFitSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "AdFitSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "AdFitSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "AdFitSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "AdFitSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "AdFitSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "Combine",
-        "printedName": "Combine",
-        "declKind": "Import",
-        "moduleName": "AdFitSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "AdFitSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Combine",
-        "printedName": "Combine",
-        "declKind": "Import",
-        "moduleName": "AdFitSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "AdFitSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "MultiNativeAdView",
-        "printedName": "MultiNativeAdView",
-        "children": [
-          {
-            "kind": "Function",
-            "name": "estimateHeight",
-            "printedName": "estimateHeight(width:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "CGFloat",
-                "printedName": "CoreGraphics.CGFloat",
-                "usr": "s:14CoreFoundation7CGFloatV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "CGFloat",
-                "printedName": "CoreGraphics.CGFloat",
-                "usr": "s:14CoreFoundation7CGFloatV"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:8AdFitSDK011MultiNativeA4ViewC14estimateHeight5width14CoreFoundation7CGFloatVAH_tF",
-            "mangledName": "$s8AdFitSDK011MultiNativeA4ViewC14estimateHeight5width12CoreGraphics7CGFloatVAH_tF",
-            "moduleName": "AdFitSDK",
-            "declAttributes": [
-              "Preconcurrency",
-              "Custom",
-              "Final",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(frame:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "MultiNativeAdView",
-                "printedName": "AdFitSDK.MultiNativeAdView",
-                "usr": "c:@M@AdFitSDK@objc(cs)MultiNativeAdView"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "CGRect",
-                "printedName": "CoreFoundation.CGRect",
-                "usr": "c:@S@CGRect"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "c:@M@AdFitSDK@objc(cs)MultiNativeAdView(im)initWithFrame:",
-            "mangledName": "$s8AdFitSDK011MultiNativeA4ViewC5frameACSo6CGRectV_tcfc",
-            "moduleName": "AdFitSDK",
-            "overriding": true,
-            "objc_name": "initWithFrame:",
-            "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "Preconcurrency",
-              "Custom",
-              "Override",
-              "AccessControl"
-            ],
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Function",
-            "name": "setUpStyle",
-            "printedName": "setUpStyle(isDarkMode:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:8AdFitSDK011MultiNativeA4ViewC10setUpStyle10isDarkModeySb_tF",
-            "mangledName": "$s8AdFitSDK011MultiNativeA4ViewC10setUpStyle10isDarkModeySb_tF",
-            "moduleName": "AdFitSDK",
-            "declAttributes": [
-              "Preconcurrency",
-              "Custom",
-              "Final",
-              "AccessControl"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "adTitleLabel",
-            "printedName": "adTitleLabel()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "UIKit.UILabel?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UILabel",
-                    "printedName": "UIKit.UILabel",
-                    "usr": "c:objc(cs)UILabel"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@CM@AdFitSDK@objc(cs)MultiNativeAdView(im)adTitleLabel",
-            "mangledName": "$s8AdFitSDK011MultiNativeA4ViewC12adTitleLabelSo7UILabelCSgyF",
-            "moduleName": "AdFitSDK",
-            "objc_name": "adTitleLabel",
-            "declAttributes": [
-              "Final",
-              "ObjC",
-              "Preconcurrency",
-              "Custom",
-              "AccessControl"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "adCallToActionButton",
-            "printedName": "adCallToActionButton()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "UIKit.UIButton?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UIButton",
-                    "printedName": "UIKit.UIButton",
-                    "usr": "c:objc(cs)UIButton"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@CM@AdFitSDK@objc(cs)MultiNativeAdView(im)adCallToActionButton",
-            "mangledName": "$s8AdFitSDK011MultiNativeA4ViewC20adCallToActionButtonSo8UIButtonCSgyF",
-            "moduleName": "AdFitSDK",
-            "objc_name": "adCallToActionButton",
-            "declAttributes": [
-              "Final",
-              "ObjC",
-              "Preconcurrency",
-              "Custom",
-              "AccessControl"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "adProfileNameLabel",
-            "printedName": "adProfileNameLabel()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "UIKit.UILabel?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UILabel",
-                    "printedName": "UIKit.UILabel",
-                    "usr": "c:objc(cs)UILabel"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@CM@AdFitSDK@objc(cs)MultiNativeAdView(im)adProfileNameLabel",
-            "mangledName": "$s8AdFitSDK011MultiNativeA4ViewC18adProfileNameLabelSo7UILabelCSgyF",
-            "moduleName": "AdFitSDK",
-            "objc_name": "adProfileNameLabel",
-            "declAttributes": [
-              "Final",
-              "ObjC",
-              "Preconcurrency",
-              "Custom",
-              "AccessControl"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "adProfileIconView",
-            "printedName": "adProfileIconView()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "UIKit.UIImageView?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UIImageView",
-                    "printedName": "UIKit.UIImageView",
-                    "usr": "c:objc(cs)UIImageView"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@CM@AdFitSDK@objc(cs)MultiNativeAdView(im)adProfileIconView",
-            "mangledName": "$s8AdFitSDK011MultiNativeA4ViewC013adProfileIconF0So07UIImageF0CSgyF",
-            "moduleName": "AdFitSDK",
-            "objc_name": "adProfileIconView",
-            "declAttributes": [
-              "Final",
-              "ObjC",
-              "Preconcurrency",
-              "Custom",
-              "AccessControl"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "adMediaView",
-            "printedName": "adMediaView()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "AdFitSDK.AdFitMediaView?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "AdFitMediaView",
-                    "printedName": "AdFitSDK.AdFitMediaView",
-                    "usr": "c:@M@AdFitSDK@objc(cs)AdFitMediaView"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@CM@AdFitSDK@objc(cs)MultiNativeAdView(im)adMediaView",
-            "mangledName": "$s8AdFitSDK011MultiNativeA4ViewC07adMediaF0AA0abhF0CSgyF",
-            "moduleName": "AdFitSDK",
-            "objc_name": "adMediaView",
-            "declAttributes": [
-              "Final",
-              "ObjC",
-              "Preconcurrency",
-              "Custom",
-              "AccessControl"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "isContainerClickable",
-            "printedName": "isContainerClickable()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:8AdFitSDK011MultiNativeA4ViewC20isContainerClickableSbyF",
-            "mangledName": "$s8AdFitSDK011MultiNativeA4ViewC20isContainerClickableSbyF",
-            "moduleName": "AdFitSDK",
-            "declAttributes": [
-              "Preconcurrency",
-              "Custom",
-              "Final",
-              "AccessControl"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "customInfoIconView",
-            "printedName": "customInfoIconView()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "UIKit.UIImageView?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UIImageView",
-                    "printedName": "UIKit.UIImageView",
-                    "usr": "c:objc(cs)UIImageView"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@CM@AdFitSDK@objc(cs)MultiNativeAdView(im)customInfoIconView",
-            "mangledName": "$s8AdFitSDK011MultiNativeA4ViewC014customInfoIconF0So07UIImageF0CSgyF",
-            "moduleName": "AdFitSDK",
-            "objc_name": "customInfoIconView",
-            "declAttributes": [
-              "Final",
-              "ObjC",
-              "Preconcurrency",
-              "Custom",
-              "AccessControl"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Class",
-        "usr": "c:@M@AdFitSDK@objc(cs)MultiNativeAdView",
-        "mangledName": "$s8AdFitSDK011MultiNativeA4ViewC",
-        "moduleName": "AdFitSDK",
-        "declAttributes": [
-          "Preconcurrency",
-          "Custom",
-          "Final",
-          "AccessControl",
-          "ObjC"
-        ],
-        "superclassUsr": "c:objc(cs)UIView",
-        "hasMissingDesignatedInitializers": true,
-        "inheritsConvenienceInitializers": true,
-        "superclassNames": [
-          "UIKit.UIView",
-          "UIKit.UIResponder",
-          "ObjectiveC.NSObject"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObservingPublishing",
-            "printedName": "_KeyValueCodingAndObservingPublishing",
-            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
-            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "UITraitChangeObservable",
-            "printedName": "UITraitChangeObservable",
-            "usr": "s:5UIKit23UITraitChangeObservableP",
-            "mangledName": "$s5UIKit23UITraitChangeObservableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "__DefaultCustomPlaygroundQuickLookable",
-            "printedName": "__DefaultCustomPlaygroundQuickLookable",
-            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
-            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "VFLayoutSizeValueType",
-            "printedName": "VFLayoutSizeValueType",
-            "usr": "s:8AdFitSDK21VFLayoutSizeValueTypeP",
-            "mangledName": "$s8AdFitSDK21VFLayoutSizeValueTypeP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Sendable",
-            "printedName": "Sendable",
-            "usr": "s:s8SendableP",
-            "mangledName": "$ss8SendableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "AdFitNativeAdRenderable",
-            "printedName": "AdFitNativeAdRenderable",
-            "usr": "c:@M@AdFitSDK@objc(pl)AdFitNativeAdRenderable",
-            "mangledName": "$s8AdFitSDK0ab6NativeA10RenderableP"
-          }
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "AdFitSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -13247,95 +12392,6 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "AdFitSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "AdFitSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "Combine",
-        "printedName": "Combine",
-        "declKind": "Import",
-        "moduleName": "AdFitSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "AdFitSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "AdFitSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "Combine",
-        "printedName": "Combine",
-        "declKind": "Import",
-        "moduleName": "AdFitSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "AdFitSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Combine",
-        "printedName": "Combine",
-        "declKind": "Import",
-        "moduleName": "AdFitSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "AdFitSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "AdFitSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "Combine",
-        "printedName": "Combine",
-        "declKind": "Import",
-        "moduleName": "AdFitSDK"
-      },
-      {
-        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -13360,6 +12416,16 @@
         "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "AdFitSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AdFitSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
       },
       {
         "kind": "Import",
@@ -15472,8 +14538,114 @@
       },
       {
         "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AdFitSDK"
+      },
+      {
+        "kind": "Import",
         "name": "Combine",
         "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "AdFitSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AdFitSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AdFitSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "AdFitSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AdFitSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "AdFitSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AdFitSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AdFitSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "AdFitSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AdFitSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "AdFitSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AdFitSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "AdFitSDK"
       },
@@ -16337,6 +15509,13 @@
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "AdFitSDK"
       },
       {
         "kind": "Import",
@@ -19014,6 +18193,873 @@
       },
       {
         "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AdFitSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AdFitSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AdFitSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AdFitSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AdFitSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AdFitSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AdFitSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "AdFitSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AdFitSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "AdFitSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AdFitSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MultiNativeAdView",
+        "printedName": "MultiNativeAdView",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "estimateHeight",
+            "printedName": "estimateHeight(width:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8AdFitSDK011MultiNativeA4ViewC14estimateHeight5width14CoreFoundation7CGFloatVAH_tF",
+            "mangledName": "$s8AdFitSDK011MultiNativeA4ViewC14estimateHeight5width12CoreGraphics7CGFloatVAH_tF",
+            "moduleName": "AdFitSDK",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(frame:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MultiNativeAdView",
+                "printedName": "AdFitSDK.MultiNativeAdView",
+                "usr": "c:@M@AdFitSDK@objc(cs)MultiNativeAdView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@AdFitSDK@objc(cs)MultiNativeAdView(im)initWithFrame:",
+            "mangledName": "$s8AdFitSDK011MultiNativeA4ViewC5frameACSo6CGRectV_tcfc",
+            "moduleName": "AdFitSDK",
+            "overriding": true,
+            "objc_name": "initWithFrame:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "setUpStyle",
+            "printedName": "setUpStyle(isDarkMode:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8AdFitSDK011MultiNativeA4ViewC10setUpStyle10isDarkModeySb_tF",
+            "mangledName": "$s8AdFitSDK011MultiNativeA4ViewC10setUpStyle10isDarkModeySb_tF",
+            "moduleName": "AdFitSDK",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "Final",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "adTitleLabel",
+            "printedName": "adTitleLabel()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UILabel?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UILabel",
+                    "printedName": "UIKit.UILabel",
+                    "usr": "c:objc(cs)UILabel"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AdFitSDK@objc(cs)MultiNativeAdView(im)adTitleLabel",
+            "mangledName": "$s8AdFitSDK011MultiNativeA4ViewC12adTitleLabelSo7UILabelCSgyF",
+            "moduleName": "AdFitSDK",
+            "objc_name": "adTitleLabel",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "adCallToActionButton",
+            "printedName": "adCallToActionButton()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIButton?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIButton",
+                    "printedName": "UIKit.UIButton",
+                    "usr": "c:objc(cs)UIButton"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AdFitSDK@objc(cs)MultiNativeAdView(im)adCallToActionButton",
+            "mangledName": "$s8AdFitSDK011MultiNativeA4ViewC20adCallToActionButtonSo8UIButtonCSgyF",
+            "moduleName": "AdFitSDK",
+            "objc_name": "adCallToActionButton",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "adProfileNameLabel",
+            "printedName": "adProfileNameLabel()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UILabel?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UILabel",
+                    "printedName": "UIKit.UILabel",
+                    "usr": "c:objc(cs)UILabel"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AdFitSDK@objc(cs)MultiNativeAdView(im)adProfileNameLabel",
+            "mangledName": "$s8AdFitSDK011MultiNativeA4ViewC18adProfileNameLabelSo7UILabelCSgyF",
+            "moduleName": "AdFitSDK",
+            "objc_name": "adProfileNameLabel",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "adProfileIconView",
+            "printedName": "adProfileIconView()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIImageView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImageView",
+                    "printedName": "UIKit.UIImageView",
+                    "usr": "c:objc(cs)UIImageView"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AdFitSDK@objc(cs)MultiNativeAdView(im)adProfileIconView",
+            "mangledName": "$s8AdFitSDK011MultiNativeA4ViewC013adProfileIconF0So07UIImageF0CSgyF",
+            "moduleName": "AdFitSDK",
+            "objc_name": "adProfileIconView",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "adMediaView",
+            "printedName": "adMediaView()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "AdFitSDK.AdFitMediaView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AdFitMediaView",
+                    "printedName": "AdFitSDK.AdFitMediaView",
+                    "usr": "c:@M@AdFitSDK@objc(cs)AdFitMediaView"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AdFitSDK@objc(cs)MultiNativeAdView(im)adMediaView",
+            "mangledName": "$s8AdFitSDK011MultiNativeA4ViewC07adMediaF0AA0abhF0CSgyF",
+            "moduleName": "AdFitSDK",
+            "objc_name": "adMediaView",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "isContainerClickable",
+            "printedName": "isContainerClickable()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AdFitSDK@objc(cs)MultiNativeAdView(im)isContainerClickable",
+            "mangledName": "$s8AdFitSDK011MultiNativeA4ViewC20isContainerClickableSbyF",
+            "moduleName": "AdFitSDK",
+            "objc_name": "isContainerClickable",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "customInfoIconView",
+            "printedName": "customInfoIconView()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIImageView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImageView",
+                    "printedName": "UIKit.UIImageView",
+                    "usr": "c:objc(cs)UIImageView"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AdFitSDK@objc(cs)MultiNativeAdView(im)customInfoIconView",
+            "mangledName": "$s8AdFitSDK011MultiNativeA4ViewC014customInfoIconF0So07UIImageF0CSgyF",
+            "moduleName": "AdFitSDK",
+            "objc_name": "customInfoIconView",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@AdFitSDK@objc(cs)MultiNativeAdView",
+        "mangledName": "$s8AdFitSDK011MultiNativeA4ViewC",
+        "moduleName": "AdFitSDK",
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "Final",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIView",
+        "hasMissingDesignatedInitializers": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIView",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "VFLayoutSizeValueType",
+            "printedName": "VFLayoutSizeValueType",
+            "usr": "s:8AdFitSDK21VFLayoutSizeValueTypeP",
+            "mangledName": "$s8AdFitSDK21VFLayoutSizeValueTypeP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "AdFitNativeAdRenderable",
+            "printedName": "AdFitNativeAdRenderable",
+            "usr": "c:@M@AdFitSDK@objc(pl)AdFitNativeAdRenderable",
+            "mangledName": "$s8AdFitSDK0ab6NativeA10RenderableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AdFitSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AdFitSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AdFitSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AdFitSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AdFitSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AdFitSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AdFitSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AdFitSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AdFitSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AdFitSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MultiAdTheme",
+        "printedName": "MultiAdTheme",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "light",
+            "printedName": "light",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AdFitSDK.MultiAdTheme.Type) -> AdFitSDK.MultiAdTheme",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MultiAdTheme",
+                    "printedName": "AdFitSDK.MultiAdTheme",
+                    "usr": "s:8AdFitSDK05MultiA5ThemeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AdFitSDK.MultiAdTheme.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MultiAdTheme",
+                        "printedName": "AdFitSDK.MultiAdTheme",
+                        "usr": "s:8AdFitSDK05MultiA5ThemeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8AdFitSDK05MultiA5ThemeO5lightyA2CmF",
+            "mangledName": "$s8AdFitSDK05MultiA5ThemeO5lightyA2CmF",
+            "moduleName": "AdFitSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "dark",
+            "printedName": "dark",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AdFitSDK.MultiAdTheme.Type) -> AdFitSDK.MultiAdTheme",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MultiAdTheme",
+                    "printedName": "AdFitSDK.MultiAdTheme",
+                    "usr": "s:8AdFitSDK05MultiA5ThemeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AdFitSDK.MultiAdTheme.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MultiAdTheme",
+                        "printedName": "AdFitSDK.MultiAdTheme",
+                        "usr": "s:8AdFitSDK05MultiA5ThemeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8AdFitSDK05MultiA5ThemeO4darkyA2CmF",
+            "mangledName": "$s8AdFitSDK05MultiA5ThemeO4darkyA2CmF",
+            "moduleName": "AdFitSDK"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "AdFitSDK.MultiAdTheme?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MultiAdTheme",
+                    "printedName": "AdFitSDK.MultiAdTheme",
+                    "usr": "s:8AdFitSDK05MultiA5ThemeO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:8AdFitSDK05MultiA5ThemeO8rawValueACSgSS_tcfc",
+            "mangledName": "$s8AdFitSDK05MultiA5ThemeO8rawValueACSgSS_tcfc",
+            "moduleName": "AdFitSDK",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8AdFitSDK05MultiA5ThemeO8rawValueSSvp",
+            "mangledName": "$s8AdFitSDK05MultiA5ThemeO8rawValueSSvp",
+            "moduleName": "AdFitSDK",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8AdFitSDK05MultiA5ThemeO8rawValueSSvg",
+                "mangledName": "$s8AdFitSDK05MultiA5ThemeO8rawValueSSvg",
+                "moduleName": "AdFitSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:8AdFitSDK05MultiA5ThemeO",
+        "mangledName": "$s8AdFitSDK05MultiA5ThemeO",
+        "moduleName": "AdFitSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "enumRawTypeName": "String",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AdFitSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -21442,7 +21488,7 @@
           {
             "kind": "Function",
             "name": "loadAd",
-            "printedName": "loadAd(keyword:)",
+            "printedName": "loadAd(keyword:regionId:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -21463,13 +21509,28 @@
                 ],
                 "hasDefaultArg": true,
                 "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@AdFitSDK@objc(cs)AdFitNativeAdLoader(im)loadAdWithKeyword:",
-            "mangledName": "$s8AdFitSDK0ab6NativeA6LoaderC04loadA07keywordySSSg_tF",
+            "usr": "c:@M@AdFitSDK@objc(cs)AdFitNativeAdLoader(im)loadAdWithKeyword:regionId:",
+            "mangledName": "$s8AdFitSDK0ab6NativeA6LoaderC04loadA07keyword8regionIdySSSg_AGtF",
             "moduleName": "AdFitSDK",
-            "objc_name": "loadAdWithKeyword:",
+            "objc_name": "loadAdWithKeyword:regionId:",
             "declAttributes": [
               "Final",
               "AccessControl",
@@ -22626,6 +22687,124 @@
           },
           {
             "kind": "Var",
+            "name": "videoDelegate",
+            "printedName": "videoDelegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeakStorage",
+                "printedName": "(any AdFitSDK.AdFitFlexibleViewVideoDelegate)?"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@AdFitSDK@objc(cs)AdFitFlexibleView(py)videoDelegate",
+            "mangledName": "$s8AdFitSDK0aB12FlexibleViewC13videoDelegateAA0abde5VideoG0_pSgvp",
+            "moduleName": "AdFitSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "ReferenceOwnership",
+              "AccessControl",
+              "ObjC"
+            ],
+            "ownership": 1,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any AdFitSDK.AdFitFlexibleViewVideoDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AdFitFlexibleViewVideoDelegate",
+                        "printedName": "any AdFitSDK.AdFitFlexibleViewVideoDelegate",
+                        "usr": "c:@M@AdFitSDK@objc(pl)AdFitFlexibleViewVideoDelegate"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AdFitSDK@objc(cs)AdFitFlexibleView(im)videoDelegate",
+                "mangledName": "$s8AdFitSDK0aB12FlexibleViewC13videoDelegateAA0abde5VideoG0_pSgvg",
+                "moduleName": "AdFitSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any AdFitSDK.AdFitFlexibleViewVideoDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AdFitFlexibleViewVideoDelegate",
+                        "printedName": "any AdFitSDK.AdFitFlexibleViewVideoDelegate",
+                        "usr": "c:@M@AdFitSDK@objc(pl)AdFitFlexibleViewVideoDelegate"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AdFitSDK@objc(cs)AdFitFlexibleView(im)setVideoDelegate:",
+                "mangledName": "$s8AdFitSDK0aB12FlexibleViewC13videoDelegateAA0abde5VideoG0_pSgvs",
+                "moduleName": "AdFitSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8AdFitSDK0aB12FlexibleViewC13videoDelegateAA0abde5VideoG0_pSgvM",
+                "mangledName": "$s8AdFitSDK0aB12FlexibleViewC13videoDelegateAA0abde5VideoG0_pSgvM",
+                "moduleName": "AdFitSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "adRatio",
             "printedName": "adRatio",
             "children": [
@@ -23185,6 +23364,319 @@
         ]
       },
       {
+        "kind": "TypeDecl",
+        "name": "AdFitFlexibleViewVideoDelegate",
+        "printedName": "AdFitFlexibleViewVideoDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "flexibleViewVideoDidPlay",
+            "printedName": "flexibleViewVideoDidPlay(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AdFitFlexibleView",
+                "printedName": "AdFitSDK.AdFitFlexibleView",
+                "usr": "c:@M@AdFitSDK@objc(cs)AdFitFlexibleView"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AdFitSDK@objc(pl)AdFitFlexibleViewVideoDelegate(im)flexibleViewVideoDidPlay:",
+            "mangledName": "$s8AdFitSDK0aB25FlexibleViewVideoDelegateP08flexibleeF7DidPlayyyAA0abdE0CF",
+            "moduleName": "AdFitSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : AdFitSDK.AdFitFlexibleViewVideoDelegate>",
+            "sugared_genericSig": "<Self where Self : AdFitSDK.AdFitFlexibleViewVideoDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Optional",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "flexibleViewVideoDidPause",
+            "printedName": "flexibleViewVideoDidPause(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AdFitFlexibleView",
+                "printedName": "AdFitSDK.AdFitFlexibleView",
+                "usr": "c:@M@AdFitSDK@objc(cs)AdFitFlexibleView"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AdFitSDK@objc(pl)AdFitFlexibleViewVideoDelegate(im)flexibleViewVideoDidPause:",
+            "mangledName": "$s8AdFitSDK0aB25FlexibleViewVideoDelegateP08flexibleeF8DidPauseyyAA0abdE0CF",
+            "moduleName": "AdFitSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : AdFitSDK.AdFitFlexibleViewVideoDelegate>",
+            "sugared_genericSig": "<Self where Self : AdFitSDK.AdFitFlexibleViewVideoDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Optional",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "flexibleViewVideoDidComplete",
+            "printedName": "flexibleViewVideoDidComplete(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AdFitFlexibleView",
+                "printedName": "AdFitSDK.AdFitFlexibleView",
+                "usr": "c:@M@AdFitSDK@objc(cs)AdFitFlexibleView"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AdFitSDK@objc(pl)AdFitFlexibleViewVideoDelegate(im)flexibleViewVideoDidComplete:",
+            "mangledName": "$s8AdFitSDK0aB25FlexibleViewVideoDelegateP08flexibleeF11DidCompleteyyAA0abdE0CF",
+            "moduleName": "AdFitSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : AdFitSDK.AdFitFlexibleViewVideoDelegate>",
+            "sugared_genericSig": "<Self where Self : AdFitSDK.AdFitFlexibleViewVideoDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Optional",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "flexibleViewVideoDidMute",
+            "printedName": "flexibleViewVideoDidMute(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AdFitFlexibleView",
+                "printedName": "AdFitSDK.AdFitFlexibleView",
+                "usr": "c:@M@AdFitSDK@objc(cs)AdFitFlexibleView"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AdFitSDK@objc(pl)AdFitFlexibleViewVideoDelegate(im)flexibleViewVideoDidMute:",
+            "mangledName": "$s8AdFitSDK0aB25FlexibleViewVideoDelegateP08flexibleeF7DidMuteyyAA0abdE0CF",
+            "moduleName": "AdFitSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : AdFitSDK.AdFitFlexibleViewVideoDelegate>",
+            "sugared_genericSig": "<Self where Self : AdFitSDK.AdFitFlexibleViewVideoDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Optional",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "flexibleViewVideoDidUnmute",
+            "printedName": "flexibleViewVideoDidUnmute(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AdFitFlexibleView",
+                "printedName": "AdFitSDK.AdFitFlexibleView",
+                "usr": "c:@M@AdFitSDK@objc(cs)AdFitFlexibleView"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AdFitSDK@objc(pl)AdFitFlexibleViewVideoDelegate(im)flexibleViewVideoDidUnmute:",
+            "mangledName": "$s8AdFitSDK0aB25FlexibleViewVideoDelegateP08flexibleeF9DidUnmuteyyAA0abdE0CF",
+            "moduleName": "AdFitSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : AdFitSDK.AdFitFlexibleViewVideoDelegate>",
+            "sugared_genericSig": "<Self where Self : AdFitSDK.AdFitFlexibleViewVideoDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Optional",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "flexibleViewVideoDidFailed",
+            "printedName": "flexibleViewVideoDidFailed(_:error:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AdFitFlexibleView",
+                "printedName": "AdFitSDK.AdFitFlexibleView",
+                "usr": "c:@M@AdFitSDK@objc(cs)AdFitFlexibleView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Error",
+                "printedName": "any Swift.Error",
+                "usr": "s:s5ErrorP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AdFitSDK@objc(pl)AdFitFlexibleViewVideoDelegate(im)flexibleViewVideoDidFailed:error:",
+            "mangledName": "$s8AdFitSDK0aB25FlexibleViewVideoDelegateP08flexibleeF9DidFailed_5erroryAA0abdE0C_s5Error_ptF",
+            "moduleName": "AdFitSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : AdFitSDK.AdFitFlexibleViewVideoDelegate>",
+            "sugared_genericSig": "<Self where Self : AdFitSDK.AdFitFlexibleViewVideoDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Optional",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "flexibleViewVideoDidChangeBuffering",
+            "printedName": "flexibleViewVideoDidChangeBuffering(_:buffering:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AdFitFlexibleView",
+                "printedName": "AdFitSDK.AdFitFlexibleView",
+                "usr": "c:@M@AdFitSDK@objc(cs)AdFitFlexibleView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AdFitSDK@objc(pl)AdFitFlexibleViewVideoDelegate(im)flexibleViewVideoDidChangeBuffering:buffering:",
+            "mangledName": "$s8AdFitSDK0aB25FlexibleViewVideoDelegateP08flexibleeF18DidChangeBuffering_9bufferingyAA0abdE0C_SbtF",
+            "moduleName": "AdFitSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : AdFitSDK.AdFitFlexibleViewVideoDelegate>",
+            "sugared_genericSig": "<Self where Self : AdFitSDK.AdFitFlexibleViewVideoDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Optional",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "flexibleViewVideoDidDurationChange",
+            "printedName": "flexibleViewVideoDidDurationChange(_:current:total:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AdFitFlexibleView",
+                "printedName": "AdFitSDK.AdFitFlexibleView",
+                "usr": "c:@M@AdFitSDK@objc(cs)AdFitFlexibleView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AdFitSDK@objc(pl)AdFitFlexibleViewVideoDelegate(im)flexibleViewVideoDidDurationChange:current:total:",
+            "mangledName": "$s8AdFitSDK0aB25FlexibleViewVideoDelegateP08flexibleeF17DidDurationChange_7current5totalyAA0abdE0C_S2dtF",
+            "moduleName": "AdFitSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : AdFitSDK.AdFitFlexibleViewVideoDelegate>",
+            "sugared_genericSig": "<Self where Self : AdFitSDK.AdFitFlexibleViewVideoDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Optional",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "c:@M@AdFitSDK@objc(pl)AdFitFlexibleViewVideoDelegate",
+        "mangledName": "$s8AdFitSDK0aB25FlexibleViewVideoDelegateP",
+        "moduleName": "AdFitSDK",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
@@ -23717,15 +24209,23 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "CGFloat",
-                "printedName": "CoreGraphics.CGFloat",
+                "name": "Optional",
+                "printedName": "CoreGraphics.CGFloat?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
                 "hasDefaultArg": true,
-                "usr": "s:14CoreFoundation7CGFloatV"
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Func",
-            "usr": "s:8AdFitSDK0aB21BannerPresentableViewV14onSizeThatFits11orientation5widthQr7SwiftUI7BindingVySo19UIDeviceOrientationVG_14CoreFoundation7CGFloatVtF",
-            "mangledName": "$s8AdFitSDK0aB21BannerPresentableViewV14onSizeThatFits11orientation5widthQr7SwiftUI7BindingVySo19UIDeviceOrientationVG_12CoreGraphics7CGFloatVtF",
+            "usr": "s:8AdFitSDK0aB21BannerPresentableViewV14onSizeThatFits11orientation5widthQr7SwiftUI7BindingVySo19UIDeviceOrientationVG_14CoreFoundation7CGFloatVSgtF",
+            "mangledName": "$s8AdFitSDK0aB21BannerPresentableViewV14onSizeThatFits11orientation5widthQr7SwiftUI7BindingVySo19UIDeviceOrientationVG_12CoreGraphics7CGFloatVSgtF",
             "moduleName": "AdFitSDK",
             "declAttributes": [
               "Preconcurrency",
@@ -23910,23 +24410,6 @@
         "declAttributes": [
           "RawDocComment"
         ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "AdFitSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "AdFitSDK"
       },
       {
         "kind": "Import",
@@ -26995,15 +27478,23 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "CGFloat",
-                "printedName": "CoreGraphics.CGFloat",
+                "name": "Optional",
+                "printedName": "CoreGraphics.CGFloat?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
                 "hasDefaultArg": true,
-                "usr": "s:14CoreFoundation7CGFloatV"
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:8AdFitSDK18BannerSizeModifierV04unitE05widthACSS_14CoreFoundation7CGFloatVtcfc",
-            "mangledName": "$s8AdFitSDK18BannerSizeModifierV04unitE05widthACSS_12CoreGraphics7CGFloatVtcfc",
+            "usr": "s:8AdFitSDK18BannerSizeModifierV04unitE05widthACSS_14CoreFoundation7CGFloatVSgtcfc",
+            "mangledName": "$s8AdFitSDK18BannerSizeModifierV04unitE05widthACSS_12CoreGraphics7CGFloatVSgtcfc",
             "moduleName": "AdFitSDK",
             "declAttributes": [
               "Preconcurrency",
@@ -27382,6 +27873,33 @@
             "declAttributes": [
               "RawDocComment",
               "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "isContainerClickable",
+            "printedName": "isContainerClickable()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AdFitSDK@objc(pl)AdFitNativeAdRenderable(im)isContainerClickable",
+            "mangledName": "$s8AdFitSDK0ab6NativeA10RenderableP20isContainerClickableSbyF",
+            "moduleName": "AdFitSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : AdFitSDK.AdFitNativeAdRenderable>",
+            "sugared_genericSig": "<Self where Self : AdFitSDK.AdFitNativeAdRenderable>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Optional",
+              "ObjC",
+              "RawDocComment"
             ],
             "reqNewWitnessTableEntry": true,
             "funcSelfKind": "NonMutating"
@@ -31631,6 +32149,51 @@
           },
           {
             "kind": "Conformance",
+            "name": "DataProtocol",
+            "printedName": "DataProtocol",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Regions",
+                "printedName": "Regions",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CollectionOfOne",
+                    "printedName": "Swift.CollectionOfOne<[Swift.UInt8]>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[Swift.UInt8]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "UInt8",
+                            "printedName": "Swift.UInt8",
+                            "usr": "s:s5UInt8V"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:s15CollectionOfOneV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:10Foundation12DataProtocolP",
+            "mangledName": "$s10Foundation12DataProtocolP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "MutableDataProtocol",
+            "printedName": "MutableDataProtocol",
+            "usr": "s:10Foundation19MutableDataProtocolP",
+            "mangledName": "$s10Foundation19MutableDataProtocolP"
+          },
+          {
+            "kind": "Conformance",
             "name": "ContiguousBytes",
             "printedName": "ContiguousBytes",
             "usr": "s:10Foundation15ContiguousBytesP",
@@ -31677,51 +32240,6 @@
             ],
             "usr": "s:10Foundation26DecodableWithConfigurationP",
             "mangledName": "$s10Foundation26DecodableWithConfigurationP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "DataProtocol",
-            "printedName": "DataProtocol",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "Regions",
-                "printedName": "Regions",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "CollectionOfOne",
-                    "printedName": "Swift.CollectionOfOne<[Swift.UInt8]>",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Array",
-                        "printedName": "[Swift.UInt8]",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "UInt8",
-                            "printedName": "Swift.UInt8",
-                            "usr": "s:s5UInt8V"
-                          }
-                        ],
-                        "usr": "s:Sa"
-                      }
-                    ],
-                    "usr": "s:s15CollectionOfOneV"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:10Foundation12DataProtocolP",
-            "mangledName": "$s10Foundation12DataProtocolP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "MutableDataProtocol",
-            "printedName": "MutableDataProtocol",
-            "usr": "s:10Foundation19MutableDataProtocolP",
-            "mangledName": "$s10Foundation19MutableDataProtocolP"
           }
         ]
       },
@@ -36219,6 +36737,27 @@
       "value": "\"Video\""
     },
     {
+      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/API\/CookieManager.swift",
+      "kind": "StringLiteral",
+      "offset": 313,
+      "length": 13,
+      "value": "\"ad.daum.net\""
+    },
+    {
+      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/API\/CookieManager.swift",
+      "kind": "Array",
+      "offset": 359,
+      "length": 17,
+      "value": "[\"aid\", \"aid_ts\"]"
+    },
+    {
+      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/API\/CookieManager.swift",
+      "kind": "StringLiteral",
+      "offset": 403,
+      "length": 15,
+      "value": "\"adfit_cookies\""
+    },
+    {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Report\/EndPoint.swift",
       "kind": "StringLiteral",
       "offset": 194,
@@ -37873,254 +38412,65 @@
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Native\/AdFitNativeAd.swift",
       "kind": "IntegerLiteral",
-      "offset": 1460,
+      "offset": 1671,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Native\/AdFitNativeAd.swift",
       "kind": "IntegerLiteral",
-      "offset": 3943,
+      "offset": 4154,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Native\/AdFitNativeAd.swift",
       "kind": "IntegerLiteral",
-      "offset": 4000,
+      "offset": 4211,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Native\/AdFitNativeAd.swift",
       "kind": "IntegerLiteral",
-      "offset": 4055,
+      "offset": 4266,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Native\/AdFitNativeAd.swift",
       "kind": "IntegerLiteral",
-      "offset": 4111,
+      "offset": 4322,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Native\/AdFitNativeAd.swift",
       "kind": "BooleanLiteral",
-      "offset": 4461,
+      "offset": 4672,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Native\/AdFitNativeAd.swift",
       "kind": "BooleanLiteral",
-      "offset": 4584,
+      "offset": 4795,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Native\/AdFitNativeAd.swift",
       "kind": "BooleanLiteral",
-      "offset": 4695,
+      "offset": 4906,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Native\/AdFitNativeAd.swift",
       "kind": "BooleanLiteral",
-      "offset": 4887,
+      "offset": 5098,
       "length": 5,
       "value": "false"
-    },
-    {
-      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Views\/Template\/Catalog\/Common\/CatalogMetric.swift",
-      "kind": "IntegerLiteral",
-      "offset": 223,
-      "length": 2,
-      "value": "32"
-    },
-    {
-      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Views\/Template\/Catalog\/Common\/CatalogMetric.swift",
-      "kind": "IntegerLiteral",
-      "offset": 269,
-      "length": 2,
-      "value": "32"
-    },
-    {
-      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Views\/Template\/Catalog\/Common\/CatalogMetric.swift",
-      "kind": "IntegerLiteral",
-      "offset": 400,
-      "length": 3,
-      "value": "500"
-    },
-    {
-      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Views\/Template\/Catalog\/Common\/CatalogMetric.swift",
-      "kind": "IntegerLiteral",
-      "offset": 472,
-      "length": 3,
-      "value": "115"
-    },
-    {
-      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Views\/Template\/Catalog\/Common\/CatalogMetric.swift",
-      "kind": "IntegerLiteral",
-      "offset": 523,
-      "length": 2,
-      "value": "10"
-    },
-    {
-      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Views\/Template\/Catalog\/Common\/CatalogProfileImageView.swift",
-      "kind": "FloatLiteral",
-      "offset": 1249,
-      "length": 3,
-      "value": "0.5"
-    },
-    {
-      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Views\/Template\/Catalog\/Common\/CatalogProfileImageView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1400,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Views\/Template\/Catalog\/Common\/CatalogProfileImageView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1406,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Views\/Template\/Catalog\/Common\/CatalogProfileImageView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1416,
-      "length": 2,
-      "value": "20"
-    },
-    {
-      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Views\/Template\/Catalog\/Common\/CatalogProfileImageView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1428,
-      "length": 2,
-      "value": "20"
-    },
-    {
-      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Views\/Template\/Catalog\/Common\/MultiNativeAdTheme.swift",
-      "kind": "StringLiteral",
-      "offset": 205,
-      "length": 7,
-      "value": "\"light\""
-    },
-    {
-      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Views\/Template\/Catalog\/Common\/MultiNativeAdTheme.swift",
-      "kind": "StringLiteral",
-      "offset": 229,
-      "length": 6,
-      "value": "\"dark\""
-    },
-    {
-      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Views\/Template\/Catalog\/Type3\/CatalogType3View.swift",
-      "kind": "Array",
-      "offset": 799,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Views\/Template\/Catalog\/Type4\/CatalogType4View.swift",
-      "kind": "IntegerLiteral",
-      "offset": 379,
-      "length": 2,
-      "value": "97"
-    },
-    {
-      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Views\/Template\/Catalog\/Type4\/CatalogType4View.swift",
-      "kind": "IntegerLiteral",
-      "offset": 391,
-      "length": 3,
-      "value": "132"
-    },
-    {
-      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Views\/Template\/Catalog\/Type4\/CatalogType4View.swift",
-      "kind": "IntegerLiteral",
-      "offset": 436,
-      "length": 1,
-      "value": "6"
-    },
-    {
-      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Views\/Template\/Catalog\/Type4\/CatalogType4View.swift",
-      "kind": "IntegerLiteral",
-      "offset": 483,
-      "length": 1,
-      "value": "9"
-    },
-    {
-      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Views\/Template\/Catalog\/Type4\/CatalogType4View.swift",
-      "kind": "IntegerLiteral",
-      "offset": 492,
-      "length": 2,
-      "value": "16"
-    },
-    {
-      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Views\/Template\/Catalog\/Type4\/CatalogType4View.swift",
-      "kind": "FloatLiteral",
-      "offset": 504,
-      "length": 3,
-      "value": "8.5"
-    },
-    {
-      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Views\/Template\/Catalog\/Type4\/CatalogType4View.swift",
-      "kind": "IntegerLiteral",
-      "offset": 516,
-      "length": 2,
-      "value": "16"
-    },
-    {
-      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Views\/Template\/Catalog\/Type4\/CatalogType4View.swift",
-      "kind": "StringLiteral",
-      "offset": 949,
-      "length": 7,
-      "value": "\"type4\""
-    },
-    {
-      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Views\/Template\/Catalog\/Type4\/CatalogType4ViewModel.swift",
-      "kind": "Array",
-      "offset": 278,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Views\/Template\/Catalog\/MultiNativeAdView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 334,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Views\/Template\/Catalog\/MultiNativeAdView.swift",
-      "kind": "StringLiteral",
-      "offset": 3131,
-      "length": 28,
-      "value": "\"에서 추천하는 상품\""
-    },
-    {
-      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Views\/Template\/Catalog\/MultiNativeAdView.swift",
-      "kind": "FloatLiteral",
-      "offset": 3375,
-      "length": 4,
-      "value": "0.02"
-    },
-    {
-      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Views\/Template\/Catalog\/MultiNativeAdView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3421,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Views\/Template\/Catalog\/MultiNativeAdView.swift",
-      "kind": "Array",
-      "offset": 3614,
-      "length": 2,
-      "value": "[]"
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Logging\/Logger.swift",
@@ -38594,23 +38944,37 @@
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/API\/Api.swift",
       "kind": "StringLiteral",
-      "offset": 857,
+      "offset": 868,
+      "length": 41,
+      "value": "\"https:\/\/serv-us.ds.kakao.com\/sdk\/banner\""
+    },
+    {
+      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/API\/Api.swift",
+      "kind": "StringLiteral",
+      "offset": 953,
       "length": 31,
       "value": "\"http:\/\/localhost:8000\/sdk\/nas\""
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/API\/Api.swift",
       "kind": "StringLiteral",
-      "offset": 937,
+      "offset": 1033,
       "length": 39,
       "value": "\"https:\/\/kyson.devel.kakao.com\/sdk\/sal\""
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/API\/Api.swift",
       "kind": "StringLiteral",
-      "offset": 1024,
+      "offset": 1120,
       "length": 33,
       "value": "\"https:\/\/kyson.kakao.com\/sdk\/sal\""
+    },
+    {
+      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/API\/Api.swift",
+      "kind": "BooleanLiteral",
+      "offset": 12797,
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Video\/VideoPlayerDelegate.swift",
@@ -40197,7 +40561,7 @@
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Common\/AdError.swift",
       "kind": "StringLiteral",
-      "offset": 6214,
+      "offset": 6558,
       "length": 14,
       "value": "\"HH:mm:ss.SSS\""
     },
@@ -40242,6 +40606,13 @@
       "offset": 588,
       "length": 5,
       "value": "false"
+    },
+    {
+      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Native\/DuplicateRequestChecker.swift",
+      "kind": "Dictionary",
+      "offset": 314,
+      "length": 3,
+      "value": "[]"
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/skan\/CodableSKAN.swift",
@@ -40750,51 +41121,65 @@
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Views\/AdFitBannerAdView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1358,
+      "offset": 1784,
       "length": 2,
       "value": "30"
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Views\/AdFitBannerAdView.swift",
       "kind": "StringLiteral",
-      "offset": 1442,
+      "offset": 1868,
       "length": 33,
       "value": "\".AdFitBannerAdView.workingQueue\""
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Views\/AdFitBannerAdView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1593,
+      "offset": 2019,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Views\/AdFitBannerAdView.swift",
       "kind": "BooleanLiteral",
-      "offset": 2009,
+      "offset": 2435,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Views\/AdFitBannerAdView.swift",
       "kind": "BooleanLiteral",
-      "offset": 2042,
+      "offset": 2468,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Views\/AdFitBannerAdView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2205,
+      "offset": 2631,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Views\/AdFitBannerAdView.swift",
       "kind": "StringLiteral",
-      "offset": 2337,
+      "offset": 2845,
       "length": 639,
       "value": "\"        <!DOCTYPE html>\n        <html>\n            <head>\n                <style>\n                    body {\n                        padding:0;\n                        margin:0;\n                        width: 100%;\n                        height: 100%;\n                        background-image: url('banner_placeholder.jpg');\n                        background-repeat: no-repeat;\n                        background-size: cover;\n                          }\n                <\/style>\n            <\/head>\n            <body>\n            <\/body>\n        <\/html>\""
+    },
+    {
+      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Views\/AdFitBannerAdView.swift",
+      "kind": "StringLiteral",
+      "offset": 3536,
+      "length": 1182,
+      "value": "\"            <!DOCTYPE html>\n            <html lang=\"ko\">\n            <head>\n                <meta charset=\"UTF-8\">\n                <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n                <title>WKWebView Image<\/title>\n                <style>\n                    html, body {\n                        margin: 0;\n                        padding: 0;\n                        height: 100%;\n                        display: flex;\n                        justify-content: center;\n                        align-items: center;\n                    }\n                    img {\n                        height: 100vh; \/* WKWebView 높이와 동일 *\/\n                        width: auto; \/* 비율 유지 *\/\n                        max-width: 100%; \/* 뷰포트보다 커지지 않도록 제한 *\/\n                        display: block;\n                    }\n                <\/style>\n            <\/head>\n            <body>\n                <img src=\"bannerDefaultAsset-300x250.png\" alt=\"Responsive Image\">\n            <\/body>\n            <\/html>\""
+    },
+    {
+      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Views\/AdFitBannerAdView.swift",
+      "kind": "StringLiteral",
+      "offset": 4770,
+      "length": 719,
+      "value": "\"            <!DOCTYPE html>\n            <html>\n                <head>\n                    <style>\n                        body {\n                            padding:0;\n                            margin:0;\n                            width: 100%;\n                            height: 100%;\n                            background-image: url('bannerDefaultAsset-320x100.png');\n                            background-repeat: no-repeat;\n                            background-size: cover;\n                              }\n                    <\/style>\n                <\/head>\n                <body>\n                <\/body>\n            <\/html>\""
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/ViewCapture\/SnapshotView.swift",
@@ -40848,7 +41233,7 @@
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/API\/AdRequestInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 1744,
+      "offset": 1770,
       "length": 1,
       "value": "1"
     },
@@ -41463,15 +41848,22 @@
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Banner\/BannerAd.swift",
+      "kind": "BooleanLiteral",
+      "offset": 661,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Banner\/BannerAd.swift",
       "kind": "StringLiteral",
-      "offset": 754,
+      "offset": 782,
       "length": 7,
       "value": "\"empty\""
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Models\/Banner\/BannerAd.swift",
       "kind": "StringLiteral",
-      "offset": 769,
+      "offset": 797,
       "length": 7,
       "value": "\"empty\""
     },
@@ -42023,22 +42415,50 @@
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Logging\/LogConsoleViewController.swift",
+      "kind": "Array",
+      "offset": 4054,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Logging\/LogConsoleViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 4174,
+      "length": 24,
+      "value": "\"logconsole.filterqueue\""
+    },
+    {
+      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Logging\/LogConsoleViewController.swift",
+      "kind": "Array",
+      "offset": 4252,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Logging\/LogConsoleViewController.swift",
+      "kind": "Array",
+      "offset": 4298,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Logging\/LogConsoleViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 5737,
+      "offset": 4471,
       "length": 2,
       "value": "36"
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Logging\/LogConsoleViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 5777,
+      "offset": 4511,
       "length": 3,
       "value": "200"
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Logging\/LogConsoleViewController.swift",
       "kind": "StringLiteral",
-      "offset": 31381,
+      "offset": 32999,
       "length": 19,
       "value": "\"DAN-1hux82hxke720\""
     },
@@ -42321,6 +42741,195 @@
       "offset": 1778,
       "length": 5,
       "value": "\"⋯\""
+    },
+    {
+      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Views\/Template\/Catalog\/Type3\/CatalogType3View.swift",
+      "kind": "Array",
+      "offset": 799,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Views\/Template\/Catalog\/Type4\/CatalogType4View.swift",
+      "kind": "IntegerLiteral",
+      "offset": 379,
+      "length": 2,
+      "value": "97"
+    },
+    {
+      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Views\/Template\/Catalog\/Type4\/CatalogType4View.swift",
+      "kind": "IntegerLiteral",
+      "offset": 391,
+      "length": 3,
+      "value": "132"
+    },
+    {
+      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Views\/Template\/Catalog\/Type4\/CatalogType4View.swift",
+      "kind": "IntegerLiteral",
+      "offset": 436,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Views\/Template\/Catalog\/Type4\/CatalogType4View.swift",
+      "kind": "IntegerLiteral",
+      "offset": 483,
+      "length": 1,
+      "value": "9"
+    },
+    {
+      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Views\/Template\/Catalog\/Type4\/CatalogType4View.swift",
+      "kind": "IntegerLiteral",
+      "offset": 492,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Views\/Template\/Catalog\/Type4\/CatalogType4View.swift",
+      "kind": "FloatLiteral",
+      "offset": 504,
+      "length": 3,
+      "value": "8.5"
+    },
+    {
+      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Views\/Template\/Catalog\/Type4\/CatalogType4View.swift",
+      "kind": "IntegerLiteral",
+      "offset": 516,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Views\/Template\/Catalog\/Type4\/CatalogType4View.swift",
+      "kind": "StringLiteral",
+      "offset": 949,
+      "length": 7,
+      "value": "\"type4\""
+    },
+    {
+      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Views\/Template\/Catalog\/Type4\/CatalogType4ViewModel.swift",
+      "kind": "Array",
+      "offset": 278,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Views\/Template\/Catalog\/MultiNativeAdView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 334,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Views\/Template\/Catalog\/MultiNativeAdView.swift",
+      "kind": "StringLiteral",
+      "offset": 3131,
+      "length": 28,
+      "value": "\"에서 추천하는 상품\""
+    },
+    {
+      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Views\/Template\/Catalog\/MultiNativeAdView.swift",
+      "kind": "FloatLiteral",
+      "offset": 3375,
+      "length": 4,
+      "value": "0.02"
+    },
+    {
+      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Views\/Template\/Catalog\/MultiNativeAdView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3421,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Views\/Template\/Catalog\/MultiNativeAdView.swift",
+      "kind": "Array",
+      "offset": 3614,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Views\/Template\/Catalog\/Common\/CatalogMetric.swift",
+      "kind": "IntegerLiteral",
+      "offset": 223,
+      "length": 2,
+      "value": "32"
+    },
+    {
+      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Views\/Template\/Catalog\/Common\/CatalogMetric.swift",
+      "kind": "IntegerLiteral",
+      "offset": 269,
+      "length": 2,
+      "value": "32"
+    },
+    {
+      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Views\/Template\/Catalog\/Common\/CatalogMetric.swift",
+      "kind": "IntegerLiteral",
+      "offset": 400,
+      "length": 3,
+      "value": "500"
+    },
+    {
+      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Views\/Template\/Catalog\/Common\/CatalogMetric.swift",
+      "kind": "IntegerLiteral",
+      "offset": 472,
+      "length": 3,
+      "value": "115"
+    },
+    {
+      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Views\/Template\/Catalog\/Common\/CatalogMetric.swift",
+      "kind": "IntegerLiteral",
+      "offset": 523,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Views\/Template\/Catalog\/Common\/CatalogProfileImageView.swift",
+      "kind": "FloatLiteral",
+      "offset": 1249,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Views\/Template\/Catalog\/Common\/CatalogProfileImageView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1400,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Views\/Template\/Catalog\/Common\/CatalogProfileImageView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1406,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Views\/Template\/Catalog\/Common\/CatalogProfileImageView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1416,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Views\/Template\/Catalog\/Common\/CatalogProfileImageView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1428,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Views\/Template\/Catalog\/Common\/MultiNativeAdTheme.swift",
+      "kind": "StringLiteral",
+      "offset": 205,
+      "length": 7,
+      "value": "\"light\""
+    },
+    {
+      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Views\/Template\/Catalog\/Common\/MultiNativeAdTheme.swift",
+      "kind": "StringLiteral",
+      "offset": 229,
+      "length": 6,
+      "value": "\"dark\""
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/NAS\/Live\/DataService.swift",
@@ -42752,7 +43361,7 @@
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/NAS\/AdFitFlexibleView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1192,
+      "offset": 1265,
       "length": 1,
       "value": "0"
     },
@@ -43424,37 +44033,44 @@
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Views\/BannerWebView.swift",
       "kind": "Array",
-      "offset": 1143,
+      "offset": 1169,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Views\/BannerWebView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1189,
+      "offset": 1215,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Views\/BannerWebView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1261,
+      "offset": 1287,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Views\/BannerWebView.swift",
       "kind": "StringLiteral",
-      "offset": 1379,
+      "offset": 1405,
       "length": 210,
       "value": "\"document.addEventListener('click', function(event) {\n    window.webkit.messageHandlers.clickHandler.postMessage({x: event.clientX, y: event.clientY});\n});\""
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Views\/BannerWebView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1640,
+      "offset": 1666,
       "length": 4,
       "value": "true"
+    },
+    {
+      "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Views\/BannerWebView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2286,
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Users\/deploy\/jenkins_workspace\/workspace\/BUILD_ad-fit-ios_external\/AdFitSDK\/AdFitSDK\/Talk\/BizBoard\/BizBoardAd.swift",
