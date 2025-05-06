@@ -976,6 +976,19 @@ SWIFT_CLASS("_TtC8AdFitSDK17PlainNativeAdView")
 - (AdFitMediaView * _Nullable)adMediaView SWIFT_WARN_UNUSED_RESULT;
 @end
 
+/// 네이티브 광고의 미디어 요소(이미지, 비디오 등)를 표시합니다.
+SWIFT_CLASS("_TtC8AdFitSDK18QuickViewMediaView")
+@interface QuickViewMediaView : UIView
+/// 현재 표시중인 미디어의 타입.<br>
+/// 만약 표시중인 미디어가 없다면 <em>unknown</em> 을 리턴합니다.
+@property (nonatomic, readonly) enum AdFitMediaType mediaType;
+/// 현재 표시중인 미디어의 타입이 이미지 일때 메인이미지를 리턴합니다.
+@property (nonatomic, readonly, strong) UIImage * _Nullable mainImage;
+@property (nonatomic) BOOL isAccessibilityElement;
+- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
 @class IAVDSnapshotViewHeaderAttributes;
 @class UIFont;
 /// Configuration options for the 3D snapshot view.
