@@ -708,6 +708,7 @@ SWIFT_PROTOCOL("_TtP8AdFitSDK21AdFitNativeAdDelegate_")
 @protocol AdFitNativeAdLoaderDelegate;
 @class UserObject;
 @class ContentObject;
+@class NSUUID;
 SWIFT_CLASS("_TtC8AdFitSDK19AdFitNativeAdLoader")
 @interface AdFitNativeAdLoader : NSObject
 /// 네이티브 광고 배열.
@@ -753,7 +754,7 @@ SWIFT_CLASS("_TtC8AdFitSDK19AdFitNativeAdLoader")
 /// note:
 /// 한개의 <code>AdFitNativeAdLoader</code> 객체에서는 <code>loadAd</code> 메서드를 단 한 번만 호출할 수 있습니다.<br>
 /// 광고 응답 성공 여부와 관계 없이, 한번 <code>loadAd</code> 메서드를 호출한 객체는 재사용이 불가능합니다.
-- (void)loadAdWithKeyword:(NSString * _Nullable)keyword regionId:(NSString * _Nullable)regionId;
+- (void)loadAdWithKeyword:(NSString * _Nullable)keyword regionId:(NSString * _Nullable)regionId duplicateKey:(NSUUID * _Nullable)duplicateKey;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
@@ -1760,6 +1761,7 @@ SWIFT_PROTOCOL("_TtP8AdFitSDK21AdFitNativeAdDelegate_")
 @protocol AdFitNativeAdLoaderDelegate;
 @class UserObject;
 @class ContentObject;
+@class NSUUID;
 SWIFT_CLASS("_TtC8AdFitSDK19AdFitNativeAdLoader")
 @interface AdFitNativeAdLoader : NSObject
 /// 네이티브 광고 배열.
@@ -1805,7 +1807,7 @@ SWIFT_CLASS("_TtC8AdFitSDK19AdFitNativeAdLoader")
 /// note:
 /// 한개의 <code>AdFitNativeAdLoader</code> 객체에서는 <code>loadAd</code> 메서드를 단 한 번만 호출할 수 있습니다.<br>
 /// 광고 응답 성공 여부와 관계 없이, 한번 <code>loadAd</code> 메서드를 호출한 객체는 재사용이 불가능합니다.
-- (void)loadAdWithKeyword:(NSString * _Nullable)keyword regionId:(NSString * _Nullable)regionId;
+- (void)loadAdWithKeyword:(NSString * _Nullable)keyword regionId:(NSString * _Nullable)regionId duplicateKey:(NSUUID * _Nullable)duplicateKey;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
