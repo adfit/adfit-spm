@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		XCuB40XbnzbRFkbxCgogl5AUg1g=
+		sp0XJDQmqhMHhW7gB2NcbwOveX0=
 		</data>
 		<key>Headers/AFSDAnimatedImage.h</key>
 		<data>
@@ -30,7 +30,7 @@
 		</data>
 		<key>Headers/AdFitSDK-Swift.h</key>
 		<data>
-		PXOrYlCwRq8x/ZHOrkgXxBX1rng=
+		Z8ZLps7kFy9vNrgN2ju/nRutVYI=
 		</data>
 		<key>Headers/AdFitSDK.h</key>
 		<data>
@@ -46,47 +46,47 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		JdyXjN4uk9zRjQLKDQ6QOSFqb4Q=
+		7nyOcWTKDTaVAYFNf5JGLK0eSYc=
 		</data>
 		<key>Modules/AdFitSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		Re0LzOnH3AWvfy3MZM9nwTWxuIw=
+		6PcfWmLvPcqJjgk9GCaHJk2fXIc=
 		</data>
 		<key>Modules/AdFitSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		y9C9CKVb6spEyByOC6qIRWmRQn8=
+		lW/9rtqkMFCgxUgqLKZDDGid1SI=
 		</data>
 		<key>Modules/AdFitSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		ANOVWLum6mAX7dzfgnLlZuPI3B0=
+		ekQ8g26M2UjYEGmPGTFJ2BdkPT8=
 		</data>
 		<key>Modules/AdFitSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		y9C9CKVb6spEyByOC6qIRWmRQn8=
+		lW/9rtqkMFCgxUgqLKZDDGid1SI=
 		</data>
 		<key>Modules/AdFitSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		81nIsa4qfDcASh0MzX5grE2MM50=
+		2Lg2CwxG1+rGJ/nG514/rEiNf2M=
 		</data>
 		<key>Modules/AdFitSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		Re0LzOnH3AWvfy3MZM9nwTWxuIw=
+		6PcfWmLvPcqJjgk9GCaHJk2fXIc=
 		</data>
 		<key>Modules/AdFitSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		3Y35sZ0fGmFFnqgivyLNUfjwP1c=
+		YFniYHKWNhBh+f04YGE9F72mvsk=
 		</data>
 		<key>Modules/AdFitSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		0bWfxV1FMOhbllRcMgSblApEFNk=
+		dZiMhra7pDpn1CXDSNsfAHXlr94=
 		</data>
 		<key>Modules/AdFitSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		3Y35sZ0fGmFFnqgivyLNUfjwP1c=
+		YFniYHKWNhBh+f04YGE9F72mvsk=
 		</data>
 		<key>Modules/AdFitSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		d7u0lqSG/jyxQt9sUqAtKmzIkfE=
+		aGKq2bKWcz7Q3NMSiXHmcJhQYC0=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -112,7 +112,16 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			/JXN6ynkha9EKxpuSLTGGooEMnM=
+			V36TnU34gOWCt499kwnpwfa6ExM=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>ja.lproj/AdFit.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			ay9mkmUXhwpQBGqTNSGuBboHDYs=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -121,7 +130,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			vaSW5x+fM5QX476AvlWORGRZ94w=
+			3sfA8nFcAQDamJjbtVMyNgST5vU=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -157,7 +166,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			hSvDMBKHV3N/hHBgjaDw0/PLy8nCazI6Ss/9MJnELoQ=
+			5lDz43iJWFlG3ioJe8NW0S4HVlrPXe4SLrC/H4Mvcxc=
 			</data>
 		</dict>
 		<key>Headers/AFSDAnimatedImage.h</key>
@@ -199,7 +208,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			agIiHSzSTQNK2ySSkbacff0/X4bqSCfZN4QTOUO8tsQ=
+			gV6cktBCQLSWX6/Bjds1H21vNh0aM8DixiPeRlfNFuY=
 			</data>
 		</dict>
 		<key>Headers/AdFitSDK.h</key>
@@ -227,70 +236,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			KJuxqycRXeURUY9g+v003L9y4Ud6asfH77+xxtpONJU=
+			F4rr5ur9q5dv02UjAVP9qeZpxyGbTEnTLnt5kzbPQXk=
 			</data>
 		</dict>
 		<key>Modules/AdFitSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			crrBK90DLnLXWzavz0/BJEIipZNI7+PQlNbd9DWQWE4=
+			evx8eO8DZvvzPiDmmmBZZR/BsCK7c5zPjQe5+VjHWRA=
 			</data>
 		</dict>
 		<key>Modules/AdFitSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			oWxF5sw6elbeABOIX4ictHu3lF9Wq4AT3hBrIpX/AH4=
+			nXPQgJyWYJGg74/dbx04Kd3trEts1erj5ua0/OUL8gE=
 			</data>
 		</dict>
 		<key>Modules/AdFitSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			crrBK90DLnLXWzavz0/BJEIipZNI7+PQlNbd9DWQWE4=
+			evx8eO8DZvvzPiDmmmBZZR/BsCK7c5zPjQe5+VjHWRA=
 			</data>
 		</dict>
 		<key>Modules/AdFitSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			iLv6u9VOtX7sfdwtsnkyF1nwtqk9Hs6EPr1ZnD+bW/o=
+			cspHMa7ZYwKgbQJ+kllr2uiaQsPjNX4LPnO1q3Km2xI=
 			</data>
 		</dict>
 		<key>Modules/AdFitSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			KJuxqycRXeURUY9g+v003L9y4Ud6asfH77+xxtpONJU=
+			F4rr5ur9q5dv02UjAVP9qeZpxyGbTEnTLnt5kzbPQXk=
 			</data>
 		</dict>
 		<key>Modules/AdFitSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			yiDN1BoZ3ZIAGXn0tw+WehAxpTyQqB0uYSdYu+SbEdg=
+			654kpJEYlzrn+Q+kF39TBCe1gKgFM85w0AnDPJ9wt7k=
 			</data>
 		</dict>
 		<key>Modules/AdFitSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			age6yKYasE4eRF6OC3Fmd5/LU5yp4Z361PclSeCCDkc=
+			x8nuPNEyig+3UcYrylYgNoI2DIncjODgifgMIrZUmas=
 			</data>
 		</dict>
 		<key>Modules/AdFitSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			yiDN1BoZ3ZIAGXn0tw+WehAxpTyQqB0uYSdYu+SbEdg=
+			654kpJEYlzrn+Q+kF39TBCe1gKgFM85w0AnDPJ9wt7k=
 			</data>
 		</dict>
 		<key>Modules/AdFitSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			2R55kU3tYU0EkQwRQZIescmZL5V03pb9TRLVI0aMuIo=
+			c0a8LU2L0itcg8mYjE6jMNU13OQzKnVIOtNmcFx/AdY=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -332,7 +341,16 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Py4W5f45FNEV30JwSLQR9Sbtu6U5CJG7XW2KbkztmNI=
+			xO1KoOtkiwcsvL0J/9AxIDAXVkjVMgJbiLxFVGNXomk=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>ja.lproj/AdFit.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			rw9rw8PsJYgld4AsYe0/78QVo9H5G/rI9yvlScLH/10=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -341,7 +359,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Xs4v2X/oskh+SK7X3EcQ/GQpaJ9eXpJWwCc2Dgdo3ls=
+			murWraEGawDgSzAx9a2ez/Z8K9xkn75NBIz/cri/VXg=
 			</data>
 			<key>optional</key>
 			<true/>
