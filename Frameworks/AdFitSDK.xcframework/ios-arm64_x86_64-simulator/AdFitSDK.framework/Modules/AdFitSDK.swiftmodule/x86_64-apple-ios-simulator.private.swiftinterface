@@ -534,8 +534,9 @@ public struct Feedback : Swift.Codable {
 }
 public typealias VoidCallback = () -> Swift.Void
 public typealias ReportCallback = (@escaping (Swift.Bool) -> Swift.Void) -> Swift.Void
+public typealias CustomAdGuideCallback = () -> Swift.String?
 public class AdFeedbackHandler {
-  public var customAdGuideCallback: AdFitSDK.VoidCallback?
+  public var customAdGuideCallback: AdFitSDK.CustomAdGuideCallback?
   public var interestedCallback: AdFitSDK.VoidCallback?
   public var notInterestedCallback: AdFitSDK.VoidCallback?
   public var reportCallback: AdFitSDK.ReportCallback?

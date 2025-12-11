@@ -14974,17 +14974,26 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "(() -> ())?",
+                "printedName": "(() -> Swift.String?)?",
                 "children": [
                   {
                     "kind": "TypeFunc",
                     "name": "Function",
-                    "printedName": "() -> ()",
+                    "printedName": "() -> Swift.String?",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "Void",
-                        "printedName": "()"
+                        "name": "Optional",
+                        "printedName": "Swift.String?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sq"
                       },
                       {
                         "kind": "TypeNominal",
@@ -14998,8 +15007,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:8AdFitSDK0A15FeedbackHandlerC06customA13GuideCallbackyycSgvp",
-            "mangledName": "$s8AdFitSDK0A15FeedbackHandlerC06customA13GuideCallbackyycSgvp",
+            "usr": "s:8AdFitSDK0A15FeedbackHandlerC06customA13GuideCallbackSSSgycSgvp",
+            "mangledName": "$s8AdFitSDK0A15FeedbackHandlerC06customA13GuideCallbackSSSgycSgvp",
             "moduleName": "AdFitSDK",
             "declAttributes": [
               "HasInitialValue",
@@ -15017,17 +15026,26 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "(() -> ())?",
+                    "printedName": "(() -> Swift.String?)?",
                     "children": [
                       {
                         "kind": "TypeFunc",
                         "name": "Function",
-                        "printedName": "() -> ()",
+                        "printedName": "() -> Swift.String?",
                         "children": [
                           {
                             "kind": "TypeNominal",
-                            "name": "Void",
-                            "printedName": "()"
+                            "name": "Optional",
+                            "printedName": "Swift.String?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              }
+                            ],
+                            "usr": "s:Sq"
                           },
                           {
                             "kind": "TypeNominal",
@@ -15041,8 +15059,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8AdFitSDK0A15FeedbackHandlerC06customA13GuideCallbackyycSgvg",
-                "mangledName": "$s8AdFitSDK0A15FeedbackHandlerC06customA13GuideCallbackyycSgvg",
+                "usr": "s:8AdFitSDK0A15FeedbackHandlerC06customA13GuideCallbackSSSgycSgvg",
+                "mangledName": "$s8AdFitSDK0A15FeedbackHandlerC06customA13GuideCallbackSSSgycSgvg",
                 "moduleName": "AdFitSDK",
                 "implicit": true,
                 "accessorKind": "get"
@@ -15060,17 +15078,26 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "(() -> ())?",
+                    "printedName": "(() -> Swift.String?)?",
                     "children": [
                       {
                         "kind": "TypeFunc",
                         "name": "Function",
-                        "printedName": "() -> ()",
+                        "printedName": "() -> Swift.String?",
                         "children": [
                           {
                             "kind": "TypeNominal",
-                            "name": "Void",
-                            "printedName": "()"
+                            "name": "Optional",
+                            "printedName": "Swift.String?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              }
+                            ],
+                            "usr": "s:Sq"
                           },
                           {
                             "kind": "TypeNominal",
@@ -15084,8 +15111,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8AdFitSDK0A15FeedbackHandlerC06customA13GuideCallbackyycSgvs",
-                "mangledName": "$s8AdFitSDK0A15FeedbackHandlerC06customA13GuideCallbackyycSgvs",
+                "usr": "s:8AdFitSDK0A15FeedbackHandlerC06customA13GuideCallbackSSSgycSgvs",
+                "mangledName": "$s8AdFitSDK0A15FeedbackHandlerC06customA13GuideCallbackSSSgycSgvs",
                 "moduleName": "AdFitSDK",
                 "implicit": true,
                 "accessorKind": "set"
@@ -15102,8 +15129,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8AdFitSDK0A15FeedbackHandlerC06customA13GuideCallbackyycSgvM",
-                "mangledName": "$s8AdFitSDK0A15FeedbackHandlerC06customA13GuideCallbackyycSgvM",
+                "usr": "s:8AdFitSDK0A15FeedbackHandlerC06customA13GuideCallbackSSSgycSgvM",
+                "mangledName": "$s8AdFitSDK0A15FeedbackHandlerC06customA13GuideCallbackSSSgycSgvM",
                 "moduleName": "AdFitSDK",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -42236,188 +42263,188 @@
       "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Models\/Native\/NativeAdDefaultAd.swift",
       "kind": "StringLiteral",
       "offset": 638,
-      "length": 36,
-      "value": "\"https:\/\/info.ad.daum.net\/optout.do\""
+      "length": 37,
+      "value": "\"https:\/\/info.ds.kakao.com\/optout.do\""
     },
     {
       "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Models\/Native\/NativeAdDefaultAd.swift",
       "kind": "StringLiteral",
-      "offset": 684,
+      "offset": 685,
       "length": 12,
       "value": "\"landingUrl\""
     },
     {
       "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Models\/Native\/NativeAdDefaultAd.swift",
       "kind": "StringLiteral",
-      "offset": 698,
+      "offset": 699,
       "length": 28,
       "value": "\"https:\/\/www.kakaocorp.com\/\""
     },
     {
       "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Models\/Native\/NativeAdDefaultAd.swift",
       "kind": "StringLiteral",
-      "offset": 736,
+      "offset": 737,
       "length": 11,
       "value": "\"mainImage\""
     },
     {
       "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Models\/Native\/NativeAdDefaultAd.swift",
       "kind": "StringLiteral",
-      "offset": 750,
+      "offset": 751,
       "length": 5,
       "value": "\"url\""
     },
     {
       "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Models\/Native\/NativeAdDefaultAd.swift",
       "kind": "StringLiteral",
-      "offset": 778,
+      "offset": 779,
       "length": 7,
       "value": "\"width\""
     },
     {
       "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Models\/Native\/NativeAdDefaultAd.swift",
       "kind": "IntegerLiteral",
-      "offset": 787,
+      "offset": 788,
       "length": 3,
       "value": "320"
     },
     {
       "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Models\/Native\/NativeAdDefaultAd.swift",
       "kind": "StringLiteral",
-      "offset": 792,
+      "offset": 793,
       "length": 8,
       "value": "\"height\""
     },
     {
       "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Models\/Native\/NativeAdDefaultAd.swift",
       "kind": "IntegerLiteral",
-      "offset": 802,
+      "offset": 803,
       "length": 3,
       "value": "100"
     },
     {
       "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Models\/Native\/NativeAdDefaultAd.swift",
       "kind": "StringLiteral",
-      "offset": 816,
+      "offset": 817,
       "length": 13,
       "value": "\"profileIcon\""
     },
     {
       "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Models\/Native\/NativeAdDefaultAd.swift",
       "kind": "StringLiteral",
-      "offset": 832,
+      "offset": 833,
       "length": 5,
       "value": "\"url\""
     },
     {
       "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Models\/Native\/NativeAdDefaultAd.swift",
       "kind": "StringLiteral",
-      "offset": 860,
+      "offset": 861,
       "length": 7,
       "value": "\"width\""
     },
     {
       "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Models\/Native\/NativeAdDefaultAd.swift",
       "kind": "IntegerLiteral",
-      "offset": 869,
+      "offset": 870,
       "length": 2,
       "value": "30"
     },
     {
       "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Models\/Native\/NativeAdDefaultAd.swift",
       "kind": "StringLiteral",
-      "offset": 873,
+      "offset": 874,
       "length": 8,
       "value": "\"height\""
     },
     {
       "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Models\/Native\/NativeAdDefaultAd.swift",
       "kind": "IntegerLiteral",
-      "offset": 883,
+      "offset": 884,
       "length": 2,
       "value": "30"
     },
     {
       "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Models\/Native\/NativeAdDefaultAd.swift",
       "kind": "StringLiteral",
-      "offset": 896,
+      "offset": 897,
       "length": 13,
       "value": "\"profileName\""
     },
     {
       "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Models\/Native\/NativeAdDefaultAd.swift",
       "kind": "StringLiteral",
-      "offset": 911,
+      "offset": 912,
       "length": 17,
       "value": "\"프로필이름\""
     },
     {
       "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Models\/Native\/NativeAdDefaultAd.swift",
       "kind": "StringLiteral",
-      "offset": 938,
+      "offset": 939,
       "length": 14,
       "value": "\"callToAction\""
     },
     {
       "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Models\/Native\/NativeAdDefaultAd.swift",
       "kind": "StringLiteral",
-      "offset": 954,
+      "offset": 955,
       "length": 14,
       "value": "\"바로가기\""
     },
     {
       "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Models\/Native\/NativeAdDefaultAd.swift",
       "kind": "StringLiteral",
-      "offset": 978,
+      "offset": 979,
       "length": 7,
       "value": "\"title\""
     },
     {
       "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Models\/Native\/NativeAdDefaultAd.swift",
       "kind": "StringLiteral",
-      "offset": 987,
+      "offset": 988,
       "length": 11,
       "value": "\"타이틀\""
     },
     {
       "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Models\/Native\/NativeAdDefaultAd.swift",
       "kind": "StringLiteral",
-      "offset": 1008,
+      "offset": 1009,
       "length": 6,
       "value": "\"body\""
     },
     {
       "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Models\/Native\/NativeAdDefaultAd.swift",
       "kind": "StringLiteral",
-      "offset": 1016,
+      "offset": 1017,
       "length": 8,
       "value": "\"설명\""
     },
     {
       "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Models\/Native\/NativeAdDefaultAd.swift",
       "kind": "StringLiteral",
-      "offset": 1034,
+      "offset": 1035,
       "length": 9,
       "value": "\"altText\""
     },
     {
       "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Models\/Native\/NativeAdDefaultAd.swift",
       "kind": "StringLiteral",
-      "offset": 1045,
+      "offset": 1046,
       "length": 65,
       "value": "\"기술과 사람으로 더 나은 세상을 만드는 카카오\""
     },
     {
       "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Models\/Native\/NativeAdDefaultAd.swift",
       "kind": "StringLiteral",
-      "offset": 1120,
+      "offset": 1121,
       "length": 8,
       "value": "\"events\""
     },
     {
       "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Models\/Native\/NativeAdDefaultAd.swift",
       "kind": "Array",
-      "offset": 1130,
+      "offset": 1131,
       "length": 11,
       "value": "[]"
     },
@@ -43102,73 +43129,101 @@
     },
     {
       "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Logging\/Logger.swift",
+      "kind": "IntegerLiteral",
+      "offset": 653,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Logging\/Logger.swift",
+      "kind": "IntegerLiteral",
+      "offset": 679,
+      "length": 1,
+      "value": "7"
+    },
+    {
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Logging\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 2076,
+      "offset": 2398,
       "length": 23,
       "value": "\".Logger.printingQueue\""
     },
     {
       "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Logging\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 2189,
+      "offset": 2511,
       "length": 22,
       "value": "\".Logger.loggingQueue\""
     },
     {
       "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Logging\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 2341,
+      "offset": 2663,
       "length": 14,
       "value": "\"HH:mm:ss.SSS\""
     },
     {
       "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Logging\/Logger.swift",
       "kind": "BooleanLiteral",
-      "offset": 2539,
+      "offset": 2861,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Logging\/Logger.swift",
       "kind": "BooleanLiteral",
-      "offset": 4158,
+      "offset": 4480,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Logging\/Logger.swift",
       "kind": "BooleanLiteral",
-      "offset": 4607,
+      "offset": 4929,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Logging\/Logger.swift",
       "kind": "BooleanLiteral",
-      "offset": 5050,
+      "offset": 5372,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Logging\/Logger.swift",
       "kind": "BooleanLiteral",
-      "offset": 5600,
+      "offset": 5922,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Logging\/Logger.swift",
       "kind": "BooleanLiteral",
-      "offset": 6047,
+      "offset": 6376,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Logging\/Logger.swift",
       "kind": "BooleanLiteral",
-      "offset": 6508,
+      "offset": 6845,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Logging\/Logger.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7306,
       "length": 4,
       "value": "true"
+    },
+    {
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Logging\/Logger.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8194,
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Events\/EventManager.swift",
@@ -43544,7 +43599,7 @@
     {
       "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/API\/Api.swift",
       "kind": "BooleanLiteral",
-      "offset": 12844,
+      "offset": 12745,
       "length": 5,
       "value": "false"
     },
@@ -45077,30 +45132,72 @@
     {
       "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/ViewControllers\/WebBrowserViewController.swift",
       "kind": "StringLiteral",
-      "offset": 987,
+      "offset": 1024,
       "length": 7,
       "value": "\"xmark\""
     },
     {
       "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/ViewControllers\/WebBrowserViewController.swift",
       "kind": "StringLiteral",
-      "offset": 1166,
+      "offset": 1139,
+      "length": 13,
+      "value": "\"closeButton\""
+    },
+    {
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/ViewControllers\/WebBrowserViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1220,
+      "length": 15,
+      "value": "\"Browser_Close\""
+    },
+    {
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/ViewControllers\/WebBrowserViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1422,
       "length": 14,
       "value": "\"chevron.left\""
     },
     {
       "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/ViewControllers\/WebBrowserViewController.swift",
       "kind": "StringLiteral",
-      "offset": 1354,
+      "offset": 1563,
+      "length": 18,
+      "value": "\"Browser_Backward\""
+    },
+    {
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/ViewControllers\/WebBrowserViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1773,
       "length": 15,
       "value": "\"chevron.right\""
     },
     {
       "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/ViewControllers\/WebBrowserViewController.swift",
       "kind": "StringLiteral",
-      "offset": 1541,
+      "offset": 1917,
+      "length": 17,
+      "value": "\"Browser_Forward\""
+    },
+    {
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/ViewControllers\/WebBrowserViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2119,
       "length": 21,
       "value": "\"square.and.arrow.up\""
+    },
+    {
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/ViewControllers\/WebBrowserViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2253,
+      "length": 14,
+      "value": "\"actionButton\""
+    },
+    {
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/ViewControllers\/WebBrowserViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2336,
+      "length": 15,
+      "value": "\"Browser_Share\""
     },
     {
       "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Views\/ClickableInfoView.swift",
@@ -45931,7 +46028,7 @@
     {
       "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/API\/AdRequestInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 1780,
+      "offset": 1809,
       "length": 1,
       "value": "1"
     },
@@ -46106,21 +46203,21 @@
     {
       "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Logging\/LogViewCell.swift",
       "kind": "StringLiteral",
-      "offset": 4629,
+      "offset": 4686,
       "length": 15,
       "value": "\"Menlo-Regular\""
     },
     {
       "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Logging\/LogViewCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 4652,
+      "offset": 4709,
       "length": 1,
       "value": "9"
     },
     {
       "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Logging\/LogViewCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 4684,
+      "offset": 4741,
       "length": 1,
       "value": "9"
     },
@@ -47470,50 +47567,750 @@
     },
     {
       "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Logging\/LogConsoleViewController.swift",
-      "kind": "Array",
-      "offset": 4054,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Logging\/LogConsoleViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 4174,
-      "length": 24,
-      "value": "\"logconsole.filterqueue\""
-    },
-    {
-      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Logging\/LogConsoleViewController.swift",
-      "kind": "Array",
-      "offset": 4252,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Logging\/LogConsoleViewController.swift",
-      "kind": "Array",
-      "offset": 4298,
-      "length": 2,
-      "value": "[]"
+      "kind": "IntegerLiteral",
+      "offset": 274,
+      "length": 1,
+      "value": "0"
     },
     {
       "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Logging\/LogConsoleViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 4471,
+      "offset": 292,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Logging\/LogConsoleViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 311,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Logging\/LogConsoleViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 333,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Logging\/LogConsoleViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1059,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Logging\/LogConsoleViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1526,
+      "length": 9,
+      "value": "123123123"
+    },
+    {
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Logging\/LogConsoleViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 1586,
+      "length": 3,
+      "value": "0.2"
+    },
+    {
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Logging\/LogConsoleViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 1598,
+      "length": 3,
+      "value": "0.2"
+    },
+    {
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Logging\/LogConsoleViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 1609,
+      "length": 3,
+      "value": "0.2"
+    },
+    {
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Logging\/LogConsoleViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1621,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Logging\/LogConsoleViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1657,
+      "length": 3,
+      "value": "200"
+    },
+    {
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Logging\/LogConsoleViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1707,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Logging\/LogConsoleViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 1761,
+      "length": 3,
+      "value": "0.2"
+    },
+    {
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Logging\/LogConsoleViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 1819,
+      "length": 3,
+      "value": "0.2"
+    },
+    {
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Logging\/LogConsoleViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1875,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Logging\/LogConsoleViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1931,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Logging\/LogConsoleViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1942,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Logging\/LogConsoleViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1997,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Logging\/LogConsoleViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 2088,
+      "length": 3,
+      "value": "0.3"
+    },
+    {
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Logging\/LogConsoleViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 2146,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Logging\/LogConsoleViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 2198,
+      "length": 3,
+      "value": "0.7"
+    },
+    {
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Logging\/LogConsoleViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 2251,
+      "length": 3,
+      "value": "0.8"
+    },
+    {
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Logging\/LogConsoleViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 2305,
+      "length": 4,
+      "value": "0.92"
+    },
+    {
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Logging\/LogConsoleViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 2358,
+      "length": 4,
+      "value": "1.05"
+    },
+    {
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Logging\/LogConsoleViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 2408,
+      "length": 4,
+      "value": "1.15"
+    },
+    {
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Logging\/LogConsoleViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 2467,
+      "length": 4,
+      "value": "0.25"
+    },
+    {
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Logging\/LogConsoleViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2520,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Logging\/LogConsoleViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2608,
       "length": 2,
       "value": "36"
     },
     {
       "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Logging\/LogConsoleViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 4511,
+      "offset": 2672,
+      "length": 2,
+      "value": "26"
+    },
+    {
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Logging\/LogConsoleViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2736,
+      "length": 2,
+      "value": "36"
+    },
+    {
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Logging\/LogConsoleViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2794,
+      "length": 3,
+      "value": "375"
+    },
+    {
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Logging\/LogConsoleViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2844,
+      "length": 1,
+      "value": "7"
+    },
+    {
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Logging\/LogConsoleViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 2893,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Logging\/LogConsoleViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2953,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Logging\/LogConsoleViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3003,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Logging\/LogConsoleViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3054,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Logging\/LogConsoleViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3144,
       "length": 3,
       "value": "200"
     },
     {
       "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Logging\/LogConsoleViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3152,
+      "length": 3,
+      "value": "200"
+    },
+    {
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Logging\/LogConsoleViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3209,
+      "length": 2,
+      "value": "50"
+    },
+    {
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Logging\/LogConsoleViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3216,
+      "length": 3,
+      "value": "150"
+    },
+    {
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Logging\/LogConsoleViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3276,
+      "length": 3,
+      "value": "240"
+    },
+    {
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Logging\/LogConsoleViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3336,
+      "length": 3,
+      "value": "360"
+    },
+    {
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Logging\/LogConsoleViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3396,
+      "length": 3,
+      "value": "360"
+    },
+    {
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Logging\/LogConsoleViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3457,
+      "length": 3,
+      "value": "240"
+    },
+    {
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Logging\/LogConsoleViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3521,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Logging\/LogConsoleViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3624,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Logging\/LogConsoleViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3681,
+      "length": 2,
+      "value": "40"
+    },
+    {
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Logging\/LogConsoleViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3730,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Logging\/LogConsoleViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3781,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Logging\/LogConsoleViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3846,
+      "length": 2,
+      "value": "26"
+    },
+    {
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Logging\/LogConsoleViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3912,
+      "length": 2,
+      "value": "40"
+    },
+    {
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Logging\/LogConsoleViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3965,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Logging\/LogConsoleViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4019,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Logging\/LogConsoleViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4075,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Logging\/LogConsoleViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4128,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Logging\/LogConsoleViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4182,
+      "length": 2,
+      "value": "22"
+    },
+    {
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Logging\/LogConsoleViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4194,
+      "length": 2,
+      "value": "22"
+    },
+    {
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Logging\/LogConsoleViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4256,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Logging\/LogConsoleViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4317,
+      "length": 1,
+      "value": "9"
+    },
+    {
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Logging\/LogConsoleViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4362,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Logging\/LogConsoleViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4461,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Logging\/LogConsoleViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4515,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Logging\/LogConsoleViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4573,
+      "length": 2,
+      "value": "30"
+    },
+    {
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Logging\/LogConsoleViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4633,
+      "length": 2,
+      "value": "50"
+    },
+    {
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Logging\/LogConsoleViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4687,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Logging\/LogConsoleViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4736,
+      "length": 2,
+      "value": "11"
+    },
+    {
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Logging\/LogConsoleViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4841,
+      "length": 2,
+      "value": "36"
+    },
+    {
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Logging\/LogConsoleViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4897,
+      "length": 2,
+      "value": "55"
+    },
+    {
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Logging\/LogConsoleViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4947,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Logging\/LogConsoleViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 5185,
+      "length": 5,
+      "value": "0.133"
+    },
+    {
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Logging\/LogConsoleViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 5199,
+      "length": 5,
+      "value": "0.133"
+    },
+    {
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Logging\/LogConsoleViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 5212,
+      "length": 5,
+      "value": "0.133"
+    },
+    {
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Logging\/LogConsoleViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 5226,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Logging\/LogConsoleViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5291,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Logging\/LogConsoleViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 5301,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Logging\/LogConsoleViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 5368,
+      "length": 4,
+      "value": "0.25"
+    },
+    {
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Logging\/LogConsoleViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5381,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Logging\/LogConsoleViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 5449,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Logging\/LogConsoleViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 5461,
+      "length": 3,
+      "value": "0.3"
+    },
+    {
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Logging\/LogConsoleViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 5472,
+      "length": 3,
+      "value": "0.8"
+    },
+    {
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Logging\/LogConsoleViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5484,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Logging\/LogConsoleViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 5556,
+      "length": 3,
+      "value": "0.2"
+    },
+    {
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Logging\/LogConsoleViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 5568,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Logging\/LogConsoleViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 5636,
+      "length": 3,
+      "value": "0.8"
+    },
+    {
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Logging\/LogConsoleViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 5648,
+      "length": 3,
+      "value": "0.7"
+    },
+    {
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Logging\/LogConsoleViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 5659,
+      "length": 3,
+      "value": "0.2"
+    },
+    {
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Logging\/LogConsoleViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5671,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Logging\/LogConsoleViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 5741,
+      "length": 3,
+      "value": "0.3"
+    },
+    {
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Logging\/LogConsoleViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5753,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Logging\/LogConsoleViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6015,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Logging\/LogConsoleViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 6025,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Logging\/LogConsoleViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 6115,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Logging\/LogConsoleViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 6168,
+      "length": 3,
+      "value": "0.7"
+    },
+    {
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Logging\/LogConsoleViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 6217,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Logging\/LogConsoleViewController.swift",
+      "kind": "Array",
+      "offset": 9314,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Logging\/LogConsoleViewController.swift",
+      "kind": "Array",
+      "offset": 9359,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Logging\/LogConsoleViewController.swift",
+      "kind": "Array",
+      "offset": 9436,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Logging\/LogConsoleViewController.swift",
+      "kind": "Array",
+      "offset": 9480,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Logging\/LogConsoleViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 9580,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Logging\/LogConsoleViewController.swift",
       "kind": "StringLiteral",
-      "offset": 32999,
+      "offset": 9643,
+      "length": 24,
+      "value": "\"logconsole.filterqueue\""
+    },
+    {
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Logging\/LogConsoleViewController.swift",
+      "kind": "Array",
+      "offset": 9721,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Logging\/LogConsoleViewController.swift",
+      "kind": "Array",
+      "offset": 9767,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Logging\/LogConsoleViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 16510,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Logging\/LogConsoleViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 16537,
+      "length": 4,
+      "value": "0.05"
+    },
+    {
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Logging\/LogConsoleViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 17172,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Logging\/LogConsoleViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 17199,
+      "length": 4,
+      "value": "0.05"
+    },
+    {
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Logging\/LogConsoleViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 40958,
       "length": 19,
       "value": "\"DAN-1hux82hxke720\""
     },
@@ -48052,7 +48849,7 @@
     {
       "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Models\/Native\/AdFitNativeAdLoader.swift",
       "kind": "IntegerLiteral",
-      "offset": 2989,
+      "offset": 3077,
       "length": 1,
       "value": "1"
     },
@@ -48407,163 +49204,177 @@
       "value": "true"
     },
     {
-      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/ViewableImpressionSDK-1.4.16\/VIViewableChecker.swift",
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/ViewableImpressionSDK-1.4.19\/VIViewableChecker.swift",
+      "kind": "BooleanLiteral",
+      "offset": 258,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/ViewableImpressionSDK-1.4.19\/VIViewableChecker.swift",
       "kind": "FloatLiteral",
-      "offset": 293,
+      "offset": 336,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/ViewableImpressionSDK-1.4.16\/VIViewableChecker.swift",
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/ViewableImpressionSDK-1.4.19\/VIViewableChecker.swift",
       "kind": "FloatLiteral",
-      "offset": 324,
+      "offset": 367,
       "length": 4,
       "value": "50.0"
     },
     {
-      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/ViewableImpressionSDK-1.4.16\/VIViewableChecker.swift",
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/ViewableImpressionSDK-1.4.19\/VIViewableChecker.swift",
       "kind": "FloatLiteral",
-      "offset": 366,
+      "offset": 409,
       "length": 3,
       "value": "0.5"
     },
     {
-      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/ViewableImpressionSDK-1.4.16\/VIViewableChecker.swift",
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/ViewableImpressionSDK-1.4.19\/VIViewableChecker.swift",
       "kind": "BooleanLiteral",
-      "offset": 392,
+      "offset": 435,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/ViewableImpressionSDK-1.4.16\/VIViewableChecker.swift",
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/ViewableImpressionSDK-1.4.19\/VIViewableChecker.swift",
       "kind": "BooleanLiteral",
-      "offset": 424,
+      "offset": 467,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/ViewableImpressionSDK-1.4.16\/VIViewableChecker.swift",
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/ViewableImpressionSDK-1.4.19\/VIViewableChecker.swift",
       "kind": "StringLiteral",
-      "offset": 549,
+      "offset": 592,
       "length": 17,
       "value": "\"viewableChecker\""
     },
     {
-      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/ViewableImpressionSDK-1.4.16\/VIViewableChecker.swift",
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/ViewableImpressionSDK-1.4.19\/VIViewableChecker.swift",
       "kind": "StringLiteral",
-      "offset": 569,
+      "offset": 612,
       "length": 34,
       "value": "\".viewableImpression.workingQueue\""
     },
     {
-      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/ViewableImpressionSDK-1.4.16\/VIViewableChecker.swift",
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/ViewableImpressionSDK-1.4.19\/VIViewableChecker.swift",
       "kind": "StringLiteral",
-      "offset": 678,
+      "offset": 721,
       "length": 17,
       "value": "\"viewableChecker\""
     },
     {
-      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/ViewableImpressionSDK-1.4.16\/VIViewableChecker.swift",
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/ViewableImpressionSDK-1.4.19\/VIViewableChecker.swift",
       "kind": "StringLiteral",
-      "offset": 698,
+      "offset": 741,
       "length": 30,
       "value": "\".viewableChange.workingQueue\""
     },
     {
-      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/ViewableImpressionSDK-1.4.16\/VIViewableChecker.swift",
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/ViewableImpressionSDK-1.4.19\/VIViewableChecker.swift",
       "kind": "BooleanLiteral",
-      "offset": 765,
+      "offset": 808,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/ViewableImpressionSDK-1.4.16\/VIViewableChecker.swift",
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/ViewableImpressionSDK-1.4.19\/VIViewableChecker.swift",
       "kind": "BooleanLiteral",
-      "offset": 802,
+      "offset": 845,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/ViewableImpressionSDK-1.4.16\/VIViewableChecker.swift",
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/ViewableImpressionSDK-1.4.19\/VIViewableChecker.swift",
       "kind": "BooleanLiteral",
-      "offset": 942,
+      "offset": 985,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/ViewableImpressionSDK-1.4.16\/VIViewableChecker.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1023,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/ViewableImpressionSDK-1.4.16\/VIViewableChecker.swift",
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/ViewableImpressionSDK-1.4.19\/VIViewableChecker.swift",
       "kind": "BooleanLiteral",
       "offset": 1066,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/ViewableImpressionSDK-1.4.16\/VIViewableChecker.swift",
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/ViewableImpressionSDK-1.4.19\/VIViewableChecker.swift",
       "kind": "BooleanLiteral",
-      "offset": 4011,
+      "offset": 1109,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/ViewableImpressionSDK-1.4.16\/VIViewableChecker.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4073,
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/ViewableImpressionSDK-1.4.19\/VIViewableChecker.swift",
+      "kind": "FloatLiteral",
+      "offset": 1369,
       "length": 4,
-      "value": "true"
+      "value": "0.01"
     },
     {
-      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/ViewableImpressionSDK-1.4.16\/VIViewableChecker.swift",
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/ViewableImpressionSDK-1.4.19\/VIViewableChecker.swift",
       "kind": "BooleanLiteral",
-      "offset": 5541,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/ViewableImpressionSDK-1.4.16\/VIViewableChecker.swift",
-      "kind": "BooleanLiteral",
-      "offset": 6294,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/ViewableImpressionSDK-1.4.16\/VIViewableChecker.swift",
-      "kind": "BooleanLiteral",
-      "offset": 6661,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/ViewableImpressionSDK-1.4.16\/VIViewableChecker.swift",
-      "kind": "BooleanLiteral",
-      "offset": 7113,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/ViewableImpressionSDK-1.4.16\/VIViewableChecker.swift",
-      "kind": "BooleanLiteral",
-      "offset": 9095,
+      "offset": 4191,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/ViewableImpressionSDK-1.4.16\/VIViewableChecker.swift",
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/ViewableImpressionSDK-1.4.19\/VIViewableChecker.swift",
       "kind": "BooleanLiteral",
-      "offset": 9219,
+      "offset": 4253,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/ViewableImpressionSDK-1.4.19\/VIViewableChecker.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5721,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/ViewableImpressionSDK-1.4.19\/VIViewableChecker.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6474,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/ViewableImpressionSDK-1.4.19\/VIViewableChecker.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6841,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/ViewableImpressionSDK-1.4.19\/VIViewableChecker.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7293,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/ViewableImpressionSDK-1.4.19\/VIViewableChecker.swift",
+      "kind": "BooleanLiteral",
+      "offset": 9275,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/ViewableImpressionSDK-1.4.16\/VIViewableChecker.swift",
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/ViewableImpressionSDK-1.4.19\/VIViewableChecker.swift",
       "kind": "BooleanLiteral",
-      "offset": 21213,
+      "offset": 9399,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/ViewableImpressionSDK-1.4.19\/VIViewableChecker.swift",
+      "kind": "BooleanLiteral",
+      "offset": 21393,
       "length": 5,
       "value": "false"
     },
