@@ -1227,6 +1227,20 @@
       },
       {
         "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AdFitSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "AdFitSDK"
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -1237,8 +1251,56 @@
       },
       {
         "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AdFitSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "AdFitSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AdFitSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "AdFitSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AdFitSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AdFitSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
         "declKind": "Import",
         "moduleName": "AdFitSDK"
       },
@@ -1670,6 +1732,33 @@
             "mangledName": "$ss16SendableMetatypeP"
           }
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AdFitSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AdFitSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "AdFitSDK"
       },
       {
         "kind": "Import",
@@ -4865,26 +4954,6 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "AdFitSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "AdFitSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -6658,6 +6727,47 @@
       },
       {
         "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AdFitSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "AdFitSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AdFitSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "AdFitSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AdFitSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -6702,6 +6812,23 @@
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AdFitSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AdFitSDK"
       },
       {
         "kind": "Import",
@@ -6793,6 +6920,904 @@
       },
       {
         "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AdFitSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AdFitSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AdFitSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AdFitSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AdFitSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AdFitSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AdFitSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MultiAdTheme",
+        "printedName": "MultiAdTheme",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "light",
+            "printedName": "light",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AdFitSDK.MultiAdTheme.Type) -> AdFitSDK.MultiAdTheme",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MultiAdTheme",
+                    "printedName": "AdFitSDK.MultiAdTheme",
+                    "usr": "s:8AdFitSDK05MultiA5ThemeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AdFitSDK.MultiAdTheme.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MultiAdTheme",
+                        "printedName": "AdFitSDK.MultiAdTheme",
+                        "usr": "s:8AdFitSDK05MultiA5ThemeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8AdFitSDK05MultiA5ThemeO5lightyA2CmF",
+            "mangledName": "$s8AdFitSDK05MultiA5ThemeO5lightyA2CmF",
+            "moduleName": "AdFitSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "dark",
+            "printedName": "dark",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AdFitSDK.MultiAdTheme.Type) -> AdFitSDK.MultiAdTheme",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MultiAdTheme",
+                    "printedName": "AdFitSDK.MultiAdTheme",
+                    "usr": "s:8AdFitSDK05MultiA5ThemeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AdFitSDK.MultiAdTheme.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MultiAdTheme",
+                        "printedName": "AdFitSDK.MultiAdTheme",
+                        "usr": "s:8AdFitSDK05MultiA5ThemeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8AdFitSDK05MultiA5ThemeO4darkyA2CmF",
+            "mangledName": "$s8AdFitSDK05MultiA5ThemeO4darkyA2CmF",
+            "moduleName": "AdFitSDK"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "AdFitSDK.MultiAdTheme?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MultiAdTheme",
+                    "printedName": "AdFitSDK.MultiAdTheme",
+                    "usr": "s:8AdFitSDK05MultiA5ThemeO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:8AdFitSDK05MultiA5ThemeO8rawValueACSgSS_tcfc",
+            "mangledName": "$s8AdFitSDK05MultiA5ThemeO8rawValueACSgSS_tcfc",
+            "moduleName": "AdFitSDK",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8AdFitSDK05MultiA5ThemeO8rawValueSSvp",
+            "mangledName": "$s8AdFitSDK05MultiA5ThemeO8rawValueSSvp",
+            "moduleName": "AdFitSDK",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8AdFitSDK05MultiA5ThemeO8rawValueSSvg",
+                "mangledName": "$s8AdFitSDK05MultiA5ThemeO8rawValueSSvg",
+                "moduleName": "AdFitSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:8AdFitSDK05MultiA5ThemeO",
+        "mangledName": "$s8AdFitSDK05MultiA5ThemeO",
+        "moduleName": "AdFitSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "enumRawTypeName": "String",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AdFitSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AdFitSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AdFitSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AdFitSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AdFitSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "AdFitSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AdFitSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AdFitSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AdFitSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AdFitSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "AdFitSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AdFitSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MultiNativeAdView",
+        "printedName": "MultiNativeAdView",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "estimateHeight",
+            "printedName": "estimateHeight(width:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8AdFitSDK011MultiNativeA4ViewC14estimateHeight5width14CoreFoundation7CGFloatVAH_tF",
+            "mangledName": "$s8AdFitSDK011MultiNativeA4ViewC14estimateHeight5width12CoreGraphics7CGFloatVAH_tF",
+            "moduleName": "AdFitSDK",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(frame:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MultiNativeAdView",
+                "printedName": "AdFitSDK.MultiNativeAdView",
+                "usr": "c:@M@AdFitSDK@objc(cs)MultiNativeAdView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@AdFitSDK@objc(cs)MultiNativeAdView(im)initWithFrame:",
+            "mangledName": "$s8AdFitSDK011MultiNativeA4ViewC5frameACSo6CGRectV_tcfc",
+            "moduleName": "AdFitSDK",
+            "overriding": true,
+            "objc_name": "initWithFrame:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "setUpStyle",
+            "printedName": "setUpStyle(isDarkMode:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8AdFitSDK011MultiNativeA4ViewC10setUpStyle10isDarkModeySb_tF",
+            "mangledName": "$s8AdFitSDK011MultiNativeA4ViewC10setUpStyle10isDarkModeySb_tF",
+            "moduleName": "AdFitSDK",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "Final",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "adTitleLabel",
+            "printedName": "adTitleLabel()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UILabel?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UILabel",
+                    "printedName": "UIKit.UILabel",
+                    "usr": "c:objc(cs)UILabel"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AdFitSDK@objc(cs)MultiNativeAdView(im)adTitleLabel",
+            "mangledName": "$s8AdFitSDK011MultiNativeA4ViewC12adTitleLabelSo7UILabelCSgyF",
+            "moduleName": "AdFitSDK",
+            "objc_name": "adTitleLabel",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "adCallToActionButton",
+            "printedName": "adCallToActionButton()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIButton?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIButton",
+                    "printedName": "UIKit.UIButton",
+                    "usr": "c:objc(cs)UIButton"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AdFitSDK@objc(cs)MultiNativeAdView(im)adCallToActionButton",
+            "mangledName": "$s8AdFitSDK011MultiNativeA4ViewC20adCallToActionButtonSo8UIButtonCSgyF",
+            "moduleName": "AdFitSDK",
+            "objc_name": "adCallToActionButton",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "adProfileNameLabel",
+            "printedName": "adProfileNameLabel()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UILabel?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UILabel",
+                    "printedName": "UIKit.UILabel",
+                    "usr": "c:objc(cs)UILabel"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AdFitSDK@objc(cs)MultiNativeAdView(im)adProfileNameLabel",
+            "mangledName": "$s8AdFitSDK011MultiNativeA4ViewC18adProfileNameLabelSo7UILabelCSgyF",
+            "moduleName": "AdFitSDK",
+            "objc_name": "adProfileNameLabel",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "adProfileIconView",
+            "printedName": "adProfileIconView()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIImageView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImageView",
+                    "printedName": "UIKit.UIImageView",
+                    "usr": "c:objc(cs)UIImageView"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AdFitSDK@objc(cs)MultiNativeAdView(im)adProfileIconView",
+            "mangledName": "$s8AdFitSDK011MultiNativeA4ViewC013adProfileIconF0So07UIImageF0CSgyF",
+            "moduleName": "AdFitSDK",
+            "objc_name": "adProfileIconView",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "adMediaView",
+            "printedName": "adMediaView()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "AdFitSDK.AdFitMediaView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AdFitMediaView",
+                    "printedName": "AdFitSDK.AdFitMediaView",
+                    "usr": "c:@M@AdFitSDK@objc(cs)AdFitMediaView"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AdFitSDK@objc(cs)MultiNativeAdView(im)adMediaView",
+            "mangledName": "$s8AdFitSDK011MultiNativeA4ViewC07adMediaF0AA0abhF0CSgyF",
+            "moduleName": "AdFitSDK",
+            "objc_name": "adMediaView",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "isContainerClickable",
+            "printedName": "isContainerClickable()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AdFitSDK@objc(cs)MultiNativeAdView(im)isContainerClickable",
+            "mangledName": "$s8AdFitSDK011MultiNativeA4ViewC20isContainerClickableSbyF",
+            "moduleName": "AdFitSDK",
+            "objc_name": "isContainerClickable",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "customInfoIconView",
+            "printedName": "customInfoIconView()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIImageView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImageView",
+                    "printedName": "UIKit.UIImageView",
+                    "usr": "c:objc(cs)UIImageView"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AdFitSDK@objc(cs)MultiNativeAdView(im)customInfoIconView",
+            "mangledName": "$s8AdFitSDK011MultiNativeA4ViewC014customInfoIconF0So07UIImageF0CSgyF",
+            "moduleName": "AdFitSDK",
+            "objc_name": "customInfoIconView",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@AdFitSDK@objc(cs)MultiNativeAdView",
+        "mangledName": "$s8AdFitSDK011MultiNativeA4ViewC",
+        "moduleName": "AdFitSDK",
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "Final",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIView",
+        "hasMissingDesignatedInitializers": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIView",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "VFLayoutSizeValueType",
+            "printedName": "VFLayoutSizeValueType",
+            "usr": "s:8AdFitSDK21VFLayoutSizeValueTypeP",
+            "mangledName": "$s8AdFitSDK21VFLayoutSizeValueTypeP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "AdFitNativeAdRenderable",
+            "printedName": "AdFitNativeAdRenderable",
+            "usr": "c:@M@AdFitSDK@objc(pl)AdFitNativeAdRenderable",
+            "mangledName": "$s8AdFitSDK0ab6NativeA10RenderableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AdFitSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AdFitSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AdFitSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AdFitSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AdFitSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "AdFitSDK"
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -6865,6 +7890,30 @@
         "kind": "Import",
         "name": "AVFoundation",
         "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "AdFitSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AdFitSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AdFitSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
         "declKind": "Import",
         "moduleName": "AdFitSDK"
       },
@@ -10868,6 +11917,23 @@
       },
       {
         "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AdFitSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AdFitSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -12963,6 +14029,16 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AdFitSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -12990,8 +14066,42 @@
       },
       {
         "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "AdFitSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AdFitSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "AdFitSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AdFitSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
         "declKind": "Import",
         "moduleName": "AdFitSDK"
       },
@@ -13368,6 +14478,145 @@
         ]
       },
       {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AdFitSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AdFitSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AdFitSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "AdFitSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "AdFitSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AdFitSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AdFitSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "AdFitSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AdFitSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "AdFitSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AdFitSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AdFitSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AdFitSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "AdFitSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AdFitSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AdFitSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
         "kind": "TypeDecl",
         "name": "AdFitBannerAdViewDelegate",
         "printedName": "AdFitBannerAdViewDelegate",
@@ -13545,6 +14794,23 @@
       },
       {
         "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AdFitSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AdFitSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -13599,95 +14865,6 @@
         "declAttributes": [
           "Infix"
         ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "AdFitSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "AdFitSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "Combine",
-        "printedName": "Combine",
-        "declKind": "Import",
-        "moduleName": "AdFitSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "AdFitSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "AdFitSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "Combine",
-        "printedName": "Combine",
-        "declKind": "Import",
-        "moduleName": "AdFitSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "AdFitSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Combine",
-        "printedName": "Combine",
-        "declKind": "Import",
-        "moduleName": "AdFitSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "AdFitSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "AdFitSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "Combine",
-        "printedName": "Combine",
-        "declKind": "Import",
-        "moduleName": "AdFitSDK"
       },
       {
         "kind": "Import",
@@ -14215,6 +15392,16 @@
             "usr": "s:s16SendableMetatypeP",
             "mangledName": "$ss16SendableMetatypeP"
           }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AdFitSDK",
+        "declAttributes": [
+          "RawDocComment"
         ]
       },
       {
@@ -17465,880 +18652,6 @@
       },
       {
         "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "AdFitSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "AdFitSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "AdFitSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "AdFitSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "AdFitSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "AdFitSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "AdFitSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "MultiAdTheme",
-        "printedName": "MultiAdTheme",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "light",
-            "printedName": "light",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(AdFitSDK.MultiAdTheme.Type) -> AdFitSDK.MultiAdTheme",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "MultiAdTheme",
-                    "printedName": "AdFitSDK.MultiAdTheme",
-                    "usr": "s:8AdFitSDK05MultiA5ThemeO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "AdFitSDK.MultiAdTheme.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "MultiAdTheme",
-                        "printedName": "AdFitSDK.MultiAdTheme",
-                        "usr": "s:8AdFitSDK05MultiA5ThemeO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:8AdFitSDK05MultiA5ThemeO5lightyA2CmF",
-            "mangledName": "$s8AdFitSDK05MultiA5ThemeO5lightyA2CmF",
-            "moduleName": "AdFitSDK"
-          },
-          {
-            "kind": "Var",
-            "name": "dark",
-            "printedName": "dark",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(AdFitSDK.MultiAdTheme.Type) -> AdFitSDK.MultiAdTheme",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "MultiAdTheme",
-                    "printedName": "AdFitSDK.MultiAdTheme",
-                    "usr": "s:8AdFitSDK05MultiA5ThemeO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "AdFitSDK.MultiAdTheme.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "MultiAdTheme",
-                        "printedName": "AdFitSDK.MultiAdTheme",
-                        "usr": "s:8AdFitSDK05MultiA5ThemeO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:8AdFitSDK05MultiA5ThemeO4darkyA2CmF",
-            "mangledName": "$s8AdFitSDK05MultiA5ThemeO4darkyA2CmF",
-            "moduleName": "AdFitSDK"
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(rawValue:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "AdFitSDK.MultiAdTheme?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "MultiAdTheme",
-                    "printedName": "AdFitSDK.MultiAdTheme",
-                    "usr": "s:8AdFitSDK05MultiA5ThemeO"
-                  }
-                ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:8AdFitSDK05MultiA5ThemeO8rawValueACSgSS_tcfc",
-            "mangledName": "$s8AdFitSDK05MultiA5ThemeO8rawValueACSgSS_tcfc",
-            "moduleName": "AdFitSDK",
-            "implicit": true,
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Var",
-            "name": "rawValue",
-            "printedName": "rawValue",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:8AdFitSDK05MultiA5ThemeO8rawValueSSvp",
-            "mangledName": "$s8AdFitSDK05MultiA5ThemeO8rawValueSSvp",
-            "moduleName": "AdFitSDK",
-            "implicit": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:8AdFitSDK05MultiA5ThemeO8rawValueSSvg",
-                "mangledName": "$s8AdFitSDK05MultiA5ThemeO8rawValueSSvg",
-                "moduleName": "AdFitSDK",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          }
-        ],
-        "declKind": "Enum",
-        "usr": "s:8AdFitSDK05MultiA5ThemeO",
-        "mangledName": "$s8AdFitSDK05MultiA5ThemeO",
-        "moduleName": "AdFitSDK",
-        "declAttributes": [
-          "AccessControl"
-        ],
-        "enumRawTypeName": "String",
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "RawRepresentable",
-            "printedName": "RawRepresentable",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "RawValue",
-                "printedName": "RawValue",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:SY",
-            "mangledName": "$sSY"
-          }
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "AdFitSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "AdFitSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "AdFitSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "AdFitSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "AdFitSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Combine",
-        "printedName": "Combine",
-        "declKind": "Import",
-        "moduleName": "AdFitSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "AdFitSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "AdFitSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "AdFitSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "AdFitSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "Combine",
-        "printedName": "Combine",
-        "declKind": "Import",
-        "moduleName": "AdFitSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "AdFitSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "MultiNativeAdView",
-        "printedName": "MultiNativeAdView",
-        "children": [
-          {
-            "kind": "Function",
-            "name": "estimateHeight",
-            "printedName": "estimateHeight(width:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "CGFloat",
-                "printedName": "CoreGraphics.CGFloat",
-                "usr": "s:14CoreFoundation7CGFloatV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "CGFloat",
-                "printedName": "CoreGraphics.CGFloat",
-                "usr": "s:14CoreFoundation7CGFloatV"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:8AdFitSDK011MultiNativeA4ViewC14estimateHeight5width14CoreFoundation7CGFloatVAH_tF",
-            "mangledName": "$s8AdFitSDK011MultiNativeA4ViewC14estimateHeight5width12CoreGraphics7CGFloatVAH_tF",
-            "moduleName": "AdFitSDK",
-            "declAttributes": [
-              "Preconcurrency",
-              "Custom",
-              "Final",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(frame:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "MultiNativeAdView",
-                "printedName": "AdFitSDK.MultiNativeAdView",
-                "usr": "c:@M@AdFitSDK@objc(cs)MultiNativeAdView"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "CGRect",
-                "printedName": "CoreFoundation.CGRect",
-                "usr": "c:@S@CGRect"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "c:@M@AdFitSDK@objc(cs)MultiNativeAdView(im)initWithFrame:",
-            "mangledName": "$s8AdFitSDK011MultiNativeA4ViewC5frameACSo6CGRectV_tcfc",
-            "moduleName": "AdFitSDK",
-            "overriding": true,
-            "objc_name": "initWithFrame:",
-            "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "Preconcurrency",
-              "Custom",
-              "Override",
-              "AccessControl"
-            ],
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Function",
-            "name": "setUpStyle",
-            "printedName": "setUpStyle(isDarkMode:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:8AdFitSDK011MultiNativeA4ViewC10setUpStyle10isDarkModeySb_tF",
-            "mangledName": "$s8AdFitSDK011MultiNativeA4ViewC10setUpStyle10isDarkModeySb_tF",
-            "moduleName": "AdFitSDK",
-            "declAttributes": [
-              "Preconcurrency",
-              "Custom",
-              "Final",
-              "AccessControl"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "adTitleLabel",
-            "printedName": "adTitleLabel()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "UIKit.UILabel?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UILabel",
-                    "printedName": "UIKit.UILabel",
-                    "usr": "c:objc(cs)UILabel"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@CM@AdFitSDK@objc(cs)MultiNativeAdView(im)adTitleLabel",
-            "mangledName": "$s8AdFitSDK011MultiNativeA4ViewC12adTitleLabelSo7UILabelCSgyF",
-            "moduleName": "AdFitSDK",
-            "objc_name": "adTitleLabel",
-            "declAttributes": [
-              "Final",
-              "ObjC",
-              "Preconcurrency",
-              "Custom",
-              "AccessControl"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "adCallToActionButton",
-            "printedName": "adCallToActionButton()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "UIKit.UIButton?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UIButton",
-                    "printedName": "UIKit.UIButton",
-                    "usr": "c:objc(cs)UIButton"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@CM@AdFitSDK@objc(cs)MultiNativeAdView(im)adCallToActionButton",
-            "mangledName": "$s8AdFitSDK011MultiNativeA4ViewC20adCallToActionButtonSo8UIButtonCSgyF",
-            "moduleName": "AdFitSDK",
-            "objc_name": "adCallToActionButton",
-            "declAttributes": [
-              "Final",
-              "ObjC",
-              "Preconcurrency",
-              "Custom",
-              "AccessControl"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "adProfileNameLabel",
-            "printedName": "adProfileNameLabel()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "UIKit.UILabel?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UILabel",
-                    "printedName": "UIKit.UILabel",
-                    "usr": "c:objc(cs)UILabel"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@CM@AdFitSDK@objc(cs)MultiNativeAdView(im)adProfileNameLabel",
-            "mangledName": "$s8AdFitSDK011MultiNativeA4ViewC18adProfileNameLabelSo7UILabelCSgyF",
-            "moduleName": "AdFitSDK",
-            "objc_name": "adProfileNameLabel",
-            "declAttributes": [
-              "Final",
-              "ObjC",
-              "Preconcurrency",
-              "Custom",
-              "AccessControl"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "adProfileIconView",
-            "printedName": "adProfileIconView()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "UIKit.UIImageView?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UIImageView",
-                    "printedName": "UIKit.UIImageView",
-                    "usr": "c:objc(cs)UIImageView"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@CM@AdFitSDK@objc(cs)MultiNativeAdView(im)adProfileIconView",
-            "mangledName": "$s8AdFitSDK011MultiNativeA4ViewC013adProfileIconF0So07UIImageF0CSgyF",
-            "moduleName": "AdFitSDK",
-            "objc_name": "adProfileIconView",
-            "declAttributes": [
-              "Final",
-              "ObjC",
-              "Preconcurrency",
-              "Custom",
-              "AccessControl"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "adMediaView",
-            "printedName": "adMediaView()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "AdFitSDK.AdFitMediaView?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "AdFitMediaView",
-                    "printedName": "AdFitSDK.AdFitMediaView",
-                    "usr": "c:@M@AdFitSDK@objc(cs)AdFitMediaView"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@CM@AdFitSDK@objc(cs)MultiNativeAdView(im)adMediaView",
-            "mangledName": "$s8AdFitSDK011MultiNativeA4ViewC07adMediaF0AA0abhF0CSgyF",
-            "moduleName": "AdFitSDK",
-            "objc_name": "adMediaView",
-            "declAttributes": [
-              "Final",
-              "ObjC",
-              "Preconcurrency",
-              "Custom",
-              "AccessControl"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "isContainerClickable",
-            "printedName": "isContainerClickable()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@CM@AdFitSDK@objc(cs)MultiNativeAdView(im)isContainerClickable",
-            "mangledName": "$s8AdFitSDK011MultiNativeA4ViewC20isContainerClickableSbyF",
-            "moduleName": "AdFitSDK",
-            "objc_name": "isContainerClickable",
-            "declAttributes": [
-              "Final",
-              "ObjC",
-              "Preconcurrency",
-              "Custom",
-              "AccessControl"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "customInfoIconView",
-            "printedName": "customInfoIconView()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "UIKit.UIImageView?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UIImageView",
-                    "printedName": "UIKit.UIImageView",
-                    "usr": "c:objc(cs)UIImageView"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@CM@AdFitSDK@objc(cs)MultiNativeAdView(im)customInfoIconView",
-            "mangledName": "$s8AdFitSDK011MultiNativeA4ViewC014customInfoIconF0So07UIImageF0CSgyF",
-            "moduleName": "AdFitSDK",
-            "objc_name": "customInfoIconView",
-            "declAttributes": [
-              "Final",
-              "ObjC",
-              "Preconcurrency",
-              "Custom",
-              "AccessControl"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Class",
-        "usr": "c:@M@AdFitSDK@objc(cs)MultiNativeAdView",
-        "mangledName": "$s8AdFitSDK011MultiNativeA4ViewC",
-        "moduleName": "AdFitSDK",
-        "declAttributes": [
-          "Preconcurrency",
-          "Custom",
-          "Final",
-          "AccessControl",
-          "ObjC"
-        ],
-        "superclassUsr": "c:objc(cs)UIView",
-        "hasMissingDesignatedInitializers": true,
-        "inheritsConvenienceInitializers": true,
-        "superclassNames": [
-          "UIKit.UIView",
-          "UIKit.UIResponder",
-          "ObjectiveC.NSObject"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObservingPublishing",
-            "printedName": "_KeyValueCodingAndObservingPublishing",
-            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
-            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "UITraitChangeObservable",
-            "printedName": "UITraitChangeObservable",
-            "usr": "s:5UIKit23UITraitChangeObservableP",
-            "mangledName": "$s5UIKit23UITraitChangeObservableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "__DefaultCustomPlaygroundQuickLookable",
-            "printedName": "__DefaultCustomPlaygroundQuickLookable",
-            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
-            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "VFLayoutSizeValueType",
-            "printedName": "VFLayoutSizeValueType",
-            "usr": "s:8AdFitSDK21VFLayoutSizeValueTypeP",
-            "mangledName": "$s8AdFitSDK21VFLayoutSizeValueTypeP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Sendable",
-            "printedName": "Sendable",
-            "usr": "s:s8SendableP",
-            "mangledName": "$ss8SendableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "SendableMetatype",
-            "printedName": "SendableMetatype",
-            "usr": "s:s16SendableMetatypeP",
-            "mangledName": "$ss16SendableMetatypeP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "AdFitNativeAdRenderable",
-            "printedName": "AdFitNativeAdRenderable",
-            "usr": "c:@M@AdFitSDK@objc(pl)AdFitNativeAdRenderable",
-            "mangledName": "$s8AdFitSDK0ab6NativeA10RenderableP"
-          }
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "AdFitSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "AdFitSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "AdFitSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -18392,6 +18705,23 @@
         "kind": "Import",
         "name": "WebKit",
         "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "AdFitSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AdFitSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
         "declKind": "Import",
         "moduleName": "AdFitSDK"
       },
@@ -19061,47 +19391,6 @@
         "declAttributes": [
           "RawDocComment"
         ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "AdFitSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "AdFitSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "Combine",
-        "printedName": "Combine",
-        "declKind": "Import",
-        "moduleName": "AdFitSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "AdFitSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Combine",
-        "printedName": "Combine",
-        "declKind": "Import",
-        "moduleName": "AdFitSDK"
       },
       {
         "kind": "Import",
@@ -20351,6 +20640,23 @@
       },
       {
         "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "AdFitSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AdFitSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -21322,6 +21628,23 @@
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AdFitSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "AdFitSDK"
       },
       {
         "kind": "Import",
@@ -24009,57 +24332,6 @@
         ]
       },
       {
-        "kind": "Import",
-        "name": "Combine",
-        "printedName": "Combine",
-        "declKind": "Import",
-        "moduleName": "AdFitSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "AdFitSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Combine",
-        "printedName": "Combine",
-        "declKind": "Import",
-        "moduleName": "AdFitSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "AdFitSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Combine",
-        "printedName": "Combine",
-        "declKind": "Import",
-        "moduleName": "AdFitSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "AdFitSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
         "kind": "TypeDecl",
         "name": "AdditionalAdEventType",
         "printedName": "AdditionalAdEventType",
@@ -25914,6 +26186,30 @@
             "mangledName": "$sSY"
           }
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AdFitSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "AdFitSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "StoreKit",
+        "printedName": "StoreKit",
+        "declKind": "Import",
+        "moduleName": "AdFitSDK"
       },
       {
         "kind": "Import",
@@ -28353,23 +28649,6 @@
       },
       {
         "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "AdFitSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "AdFitSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -28382,101 +28661,6 @@
         "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "AdFitSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Combine",
-        "printedName": "Combine",
-        "declKind": "Import",
-        "moduleName": "AdFitSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "Combine",
-        "printedName": "Combine",
-        "declKind": "Import",
-        "moduleName": "AdFitSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "AdFitSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "AdFitSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Combine",
-        "printedName": "Combine",
-        "declKind": "Import",
-        "moduleName": "AdFitSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "AdFitSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Combine",
-        "printedName": "Combine",
-        "declKind": "Import",
-        "moduleName": "AdFitSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "AdFitSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "AdFitSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "AdFitSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "Combine",
-        "printedName": "Combine",
         "declKind": "Import",
         "moduleName": "AdFitSDK"
       },
@@ -33997,6 +34181,26 @@
             "usr": "s:8AdFitSDK21VFLayoutSizeValueTypeP",
             "mangledName": "$s8AdFitSDK21VFLayoutSizeValueTypeP"
           }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AdFitSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AdFitSDK",
+        "declAttributes": [
+          "RawDocComment"
         ]
       },
       {
@@ -40965,27 +41169,6 @@
       "value": "\"Video\""
     },
     {
-      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/API\/CookieManager.swift",
-      "kind": "StringLiteral",
-      "offset": 313,
-      "length": 13,
-      "value": "\"ad.daum.net\""
-    },
-    {
-      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/API\/CookieManager.swift",
-      "kind": "Array",
-      "offset": 359,
-      "length": 17,
-      "value": "[\"aid\", \"aid_ts\"]"
-    },
-    {
-      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/API\/CookieManager.swift",
-      "kind": "StringLiteral",
-      "offset": 403,
-      "length": 15,
-      "value": "\"adfit_cookies\""
-    },
-    {
       "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Views\/Template\/QuickView\/QuickViewMediaView.swift",
       "kind": "BooleanLiteral",
       "offset": 1830,
@@ -41005,6 +41188,27 @@
       "offset": 2784,
       "length": 3,
       "value": "0.2"
+    },
+    {
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/API\/CookieManager.swift",
+      "kind": "StringLiteral",
+      "offset": 313,
+      "length": 13,
+      "value": "\"ad.daum.net\""
+    },
+    {
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/API\/CookieManager.swift",
+      "kind": "Array",
+      "offset": 359,
+      "length": 17,
+      "value": "[\"aid\", \"aid_ts\"]"
+    },
+    {
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/API\/CookieManager.swift",
+      "kind": "StringLiteral",
+      "offset": 403,
+      "length": 15,
+      "value": "\"adfit_cookies\""
     },
     {
       "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Report\/EndPoint.swift",
@@ -41308,202 +41512,6 @@
       "value": "2017524"
     },
     {
-      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Models\/ShortForm\/ShortFormAd.swift",
-      "kind": "StringLiteral",
-      "offset": 1078,
-      "length": 11,
-      "value": "\"ckeywords\""
-    },
-    {
-      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Models\/ShortForm\/ShortFormAd.swift",
-      "kind": "StringLiteral",
-      "offset": 15124,
-      "length": 6,
-      "value": "\"type\""
-    },
-    {
-      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Models\/ShortForm\/ShortFormAd.swift",
-      "kind": "StringLiteral",
-      "offset": 15132,
-      "length": 8,
-      "value": "\"native\""
-    },
-    {
-      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Models\/ShortForm\/ShortFormAd.swift",
-      "kind": "StringLiteral",
-      "offset": 15150,
-      "length": 7,
-      "value": "\"dspId\""
-    },
-    {
-      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Models\/ShortForm\/ShortFormAd.swift",
-      "kind": "StringLiteral",
-      "offset": 15159,
-      "length": 7,
-      "value": "\"ADFIT\""
-    },
-    {
-      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Models\/ShortForm\/ShortFormAd.swift",
-      "kind": "StringLiteral",
-      "offset": 15176,
-      "length": 12,
-      "value": "\"adInfoIcon\""
-    },
-    {
-      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Models\/ShortForm\/ShortFormAd.swift",
-      "kind": "StringLiteral",
-      "offset": 15191,
-      "length": 5,
-      "value": "\"url\""
-    },
-    {
-      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Models\/ShortForm\/ShortFormAd.swift",
-      "kind": "StringLiteral",
-      "offset": 15198,
-      "length": 58,
-      "value": "\"https:\/\/t1.daumcdn.net\/b2\/templates\/image\/opt_out_30.png\""
-    },
-    {
-      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Models\/ShortForm\/ShortFormAd.swift",
-      "kind": "StringLiteral",
-      "offset": 15258,
-      "length": 7,
-      "value": "\"width\""
-    },
-    {
-      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Models\/ShortForm\/ShortFormAd.swift",
-      "kind": "IntegerLiteral",
-      "offset": 15267,
-      "length": 2,
-      "value": "15"
-    },
-    {
-      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Models\/ShortForm\/ShortFormAd.swift",
-      "kind": "StringLiteral",
-      "offset": 15271,
-      "length": 8,
-      "value": "\"height\""
-    },
-    {
-      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Models\/ShortForm\/ShortFormAd.swift",
-      "kind": "IntegerLiteral",
-      "offset": 15281,
-      "length": 2,
-      "value": "15"
-    },
-    {
-      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Models\/ShortForm\/ShortFormAd.swift",
-      "kind": "StringLiteral",
-      "offset": 15294,
-      "length": 11,
-      "value": "\"adInfoUrl\""
-    },
-    {
-      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Models\/ShortForm\/ShortFormAd.swift",
-      "kind": "StringLiteral",
-      "offset": 15307,
-      "length": 36,
-      "value": "\"https:\/\/info.ad.daum.net\/optout.do\""
-    },
-    {
-      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Models\/ShortForm\/ShortFormAd.swift",
-      "kind": "StringLiteral",
-      "offset": 15353,
-      "length": 12,
-      "value": "\"landingUrl\""
-    },
-    {
-      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Models\/ShortForm\/ShortFormAd.swift",
-      "kind": "StringLiteral",
-      "offset": 15367,
-      "length": 28,
-      "value": "\"https:\/\/www.kakaocorp.com\/\""
-    },
-    {
-      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Models\/ShortForm\/ShortFormAd.swift",
-      "kind": "StringLiteral",
-      "offset": 15405,
-      "length": 13,
-      "value": "\"profileName\""
-    },
-    {
-      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Models\/ShortForm\/ShortFormAd.swift",
-      "kind": "StringLiteral",
-      "offset": 15420,
-      "length": 17,
-      "value": "\"프로필이름\""
-    },
-    {
-      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Models\/ShortForm\/ShortFormAd.swift",
-      "kind": "StringLiteral",
-      "offset": 15447,
-      "length": 14,
-      "value": "\"callToAction\""
-    },
-    {
-      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Models\/ShortForm\/ShortFormAd.swift",
-      "kind": "StringLiteral",
-      "offset": 15463,
-      "length": 14,
-      "value": "\"바로가기\""
-    },
-    {
-      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Models\/ShortForm\/ShortFormAd.swift",
-      "kind": "StringLiteral",
-      "offset": 15487,
-      "length": 7,
-      "value": "\"title\""
-    },
-    {
-      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Models\/ShortForm\/ShortFormAd.swift",
-      "kind": "StringLiteral",
-      "offset": 15496,
-      "length": 11,
-      "value": "\"타이틀\""
-    },
-    {
-      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Models\/ShortForm\/ShortFormAd.swift",
-      "kind": "StringLiteral",
-      "offset": 15517,
-      "length": 6,
-      "value": "\"body\""
-    },
-    {
-      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Models\/ShortForm\/ShortFormAd.swift",
-      "kind": "StringLiteral",
-      "offset": 15525,
-      "length": 8,
-      "value": "\"설명\""
-    },
-    {
-      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Models\/ShortForm\/ShortFormAd.swift",
-      "kind": "StringLiteral",
-      "offset": 15543,
-      "length": 9,
-      "value": "\"altText\""
-    },
-    {
-      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Models\/ShortForm\/ShortFormAd.swift",
-      "kind": "StringLiteral",
-      "offset": 15554,
-      "length": 65,
-      "value": "\"기술과 사람으로 더 나은 세상을 만드는 카카오\""
-    },
-    {
-      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Models\/ShortForm\/ShortFormAd.swift",
-      "kind": "StringLiteral",
-      "offset": 15629,
-      "length": 8,
-      "value": "\"events\""
-    },
-    {
-      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Models\/ShortForm\/ShortFormAd.swift",
-      "kind": "Array",
-      "offset": 15639,
-      "length": 11,
-      "value": "[]"
-    },
-    {
       "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/ViewCapture\/SnapshotViewConfiguration.swift",
       "kind": "FloatLiteral",
       "offset": 754,
@@ -41691,6 +41699,202 @@
       "offset": 243,
       "length": 1,
       "value": "0"
+    },
+    {
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Views\/Template\/Catalog\/Common\/CatalogMetric.swift",
+      "kind": "IntegerLiteral",
+      "offset": 223,
+      "length": 2,
+      "value": "32"
+    },
+    {
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Views\/Template\/Catalog\/Common\/CatalogMetric.swift",
+      "kind": "IntegerLiteral",
+      "offset": 269,
+      "length": 2,
+      "value": "32"
+    },
+    {
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Views\/Template\/Catalog\/Common\/CatalogMetric.swift",
+      "kind": "IntegerLiteral",
+      "offset": 400,
+      "length": 3,
+      "value": "500"
+    },
+    {
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Views\/Template\/Catalog\/Common\/CatalogMetric.swift",
+      "kind": "IntegerLiteral",
+      "offset": 472,
+      "length": 3,
+      "value": "115"
+    },
+    {
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Views\/Template\/Catalog\/Common\/CatalogMetric.swift",
+      "kind": "IntegerLiteral",
+      "offset": 523,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Views\/Template\/Catalog\/Common\/MultiNativeAdTheme.swift",
+      "kind": "StringLiteral",
+      "offset": 205,
+      "length": 7,
+      "value": "\"light\""
+    },
+    {
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Views\/Template\/Catalog\/Common\/MultiNativeAdTheme.swift",
+      "kind": "StringLiteral",
+      "offset": 229,
+      "length": 6,
+      "value": "\"dark\""
+    },
+    {
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Views\/Template\/Catalog\/Type3\/CatalogType3View.swift",
+      "kind": "Array",
+      "offset": 799,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Views\/Template\/Catalog\/Type4\/CatalogCollectionViewModel.swift",
+      "kind": "Array",
+      "offset": 293,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Views\/Template\/Catalog\/Type4\/CatalogType4View.swift",
+      "kind": "IntegerLiteral",
+      "offset": 379,
+      "length": 2,
+      "value": "97"
+    },
+    {
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Views\/Template\/Catalog\/Type4\/CatalogType4View.swift",
+      "kind": "IntegerLiteral",
+      "offset": 391,
+      "length": 3,
+      "value": "132"
+    },
+    {
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Views\/Template\/Catalog\/Type4\/CatalogType4View.swift",
+      "kind": "IntegerLiteral",
+      "offset": 436,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Views\/Template\/Catalog\/Type4\/CatalogType4View.swift",
+      "kind": "IntegerLiteral",
+      "offset": 483,
+      "length": 1,
+      "value": "9"
+    },
+    {
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Views\/Template\/Catalog\/Type4\/CatalogType4View.swift",
+      "kind": "IntegerLiteral",
+      "offset": 492,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Views\/Template\/Catalog\/Type4\/CatalogType4View.swift",
+      "kind": "FloatLiteral",
+      "offset": 504,
+      "length": 3,
+      "value": "8.5"
+    },
+    {
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Views\/Template\/Catalog\/Type4\/CatalogType4View.swift",
+      "kind": "IntegerLiteral",
+      "offset": 516,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Views\/Template\/Catalog\/Type4\/CatalogType4View.swift",
+      "kind": "StringLiteral",
+      "offset": 959,
+      "length": 7,
+      "value": "\"type4\""
+    },
+    {
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Views\/Template\/Catalog\/MultiNativeAdView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 334,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Views\/Template\/Catalog\/MultiNativeAdView.swift",
+      "kind": "StringLiteral",
+      "offset": 3128,
+      "length": 28,
+      "value": "\"에서 추천하는 상품\""
+    },
+    {
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Views\/Template\/Catalog\/MultiNativeAdView.swift",
+      "kind": "FloatLiteral",
+      "offset": 3372,
+      "length": 4,
+      "value": "0.02"
+    },
+    {
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Views\/Template\/Catalog\/MultiNativeAdView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3418,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Views\/Template\/Catalog\/MultiNativeAdView.swift",
+      "kind": "Array",
+      "offset": 3611,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Views\/Template\/Catalog\/TalkProfileImageView.swift",
+      "kind": "FloatLiteral",
+      "offset": 1466,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Views\/Template\/Catalog\/TalkProfileImageView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1704,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Views\/Template\/Catalog\/TalkProfileImageView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1649,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Views\/ThreadImageCollectionView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 539,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Views\/ThreadImageCollectionView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 597,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Views\/ThreadImageCollectionView.swift",
+      "kind": "StringLiteral",
+      "offset": 1072,
+      "length": 12,
+      "value": "\"collection\""
     },
     {
       "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Logging\/UserLogger\/CreativeErrorReport.swift",
@@ -42169,6 +42373,20 @@
       "value": "\"reportHandler\""
     },
     {
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Hybrid\/Service\/Model\/ScriptMessageType.swift",
+      "kind": "StringLiteral",
+      "offset": 367,
+      "length": 28,
+      "value": "\"skanImpressionStartHandler\""
+    },
+    {
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Hybrid\/Service\/Model\/ScriptMessageType.swift",
+      "kind": "StringLiteral",
+      "offset": 425,
+      "length": 26,
+      "value": "\"skanImpressionEndHandler\""
+    },
+    {
       "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Report\/BreadcrumbStore.swift",
       "kind": "StringLiteral",
       "offset": 355,
@@ -42221,230 +42439,230 @@
       "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Models\/Native\/NativeAdDefaultAd.swift",
       "kind": "StringLiteral",
       "offset": 529,
-      "length": 58,
-      "value": "\"https:\/\/t1.daumcdn.net\/b2\/templates\/image\/opt_out_30.png\""
+      "length": 59,
+      "value": "\"https:\/\/t1.kakaocdn.net\/b2\/templates\/image\/opt_out_30.png\""
     },
     {
       "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Models\/Native\/NativeAdDefaultAd.swift",
       "kind": "StringLiteral",
-      "offset": 589,
+      "offset": 590,
       "length": 7,
       "value": "\"width\""
     },
     {
       "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Models\/Native\/NativeAdDefaultAd.swift",
       "kind": "IntegerLiteral",
-      "offset": 598,
+      "offset": 599,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Models\/Native\/NativeAdDefaultAd.swift",
       "kind": "StringLiteral",
-      "offset": 602,
+      "offset": 603,
       "length": 8,
       "value": "\"height\""
     },
     {
       "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Models\/Native\/NativeAdDefaultAd.swift",
       "kind": "IntegerLiteral",
-      "offset": 612,
+      "offset": 613,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Models\/Native\/NativeAdDefaultAd.swift",
       "kind": "StringLiteral",
-      "offset": 625,
+      "offset": 626,
       "length": 11,
       "value": "\"adInfoUrl\""
     },
     {
       "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Models\/Native\/NativeAdDefaultAd.swift",
       "kind": "StringLiteral",
-      "offset": 638,
+      "offset": 639,
       "length": 37,
       "value": "\"https:\/\/info.ds.kakao.com\/optout.do\""
     },
     {
       "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Models\/Native\/NativeAdDefaultAd.swift",
       "kind": "StringLiteral",
-      "offset": 685,
+      "offset": 686,
       "length": 12,
       "value": "\"landingUrl\""
     },
     {
       "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Models\/Native\/NativeAdDefaultAd.swift",
       "kind": "StringLiteral",
-      "offset": 699,
+      "offset": 700,
       "length": 28,
       "value": "\"https:\/\/www.kakaocorp.com\/\""
     },
     {
       "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Models\/Native\/NativeAdDefaultAd.swift",
       "kind": "StringLiteral",
-      "offset": 737,
+      "offset": 738,
       "length": 11,
       "value": "\"mainImage\""
     },
     {
       "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Models\/Native\/NativeAdDefaultAd.swift",
       "kind": "StringLiteral",
-      "offset": 751,
+      "offset": 752,
       "length": 5,
       "value": "\"url\""
     },
     {
       "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Models\/Native\/NativeAdDefaultAd.swift",
       "kind": "StringLiteral",
-      "offset": 779,
+      "offset": 780,
       "length": 7,
       "value": "\"width\""
     },
     {
       "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Models\/Native\/NativeAdDefaultAd.swift",
       "kind": "IntegerLiteral",
-      "offset": 788,
+      "offset": 789,
       "length": 3,
       "value": "320"
     },
     {
       "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Models\/Native\/NativeAdDefaultAd.swift",
       "kind": "StringLiteral",
-      "offset": 793,
+      "offset": 794,
       "length": 8,
       "value": "\"height\""
     },
     {
       "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Models\/Native\/NativeAdDefaultAd.swift",
       "kind": "IntegerLiteral",
-      "offset": 803,
+      "offset": 804,
       "length": 3,
       "value": "100"
     },
     {
       "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Models\/Native\/NativeAdDefaultAd.swift",
       "kind": "StringLiteral",
-      "offset": 817,
+      "offset": 818,
       "length": 13,
       "value": "\"profileIcon\""
     },
     {
       "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Models\/Native\/NativeAdDefaultAd.swift",
       "kind": "StringLiteral",
-      "offset": 833,
+      "offset": 834,
       "length": 5,
       "value": "\"url\""
     },
     {
       "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Models\/Native\/NativeAdDefaultAd.swift",
       "kind": "StringLiteral",
-      "offset": 861,
+      "offset": 862,
       "length": 7,
       "value": "\"width\""
     },
     {
       "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Models\/Native\/NativeAdDefaultAd.swift",
       "kind": "IntegerLiteral",
-      "offset": 870,
+      "offset": 871,
       "length": 2,
       "value": "30"
     },
     {
       "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Models\/Native\/NativeAdDefaultAd.swift",
       "kind": "StringLiteral",
-      "offset": 874,
+      "offset": 875,
       "length": 8,
       "value": "\"height\""
     },
     {
       "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Models\/Native\/NativeAdDefaultAd.swift",
       "kind": "IntegerLiteral",
-      "offset": 884,
+      "offset": 885,
       "length": 2,
       "value": "30"
     },
     {
       "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Models\/Native\/NativeAdDefaultAd.swift",
       "kind": "StringLiteral",
-      "offset": 897,
+      "offset": 898,
       "length": 13,
       "value": "\"profileName\""
     },
     {
       "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Models\/Native\/NativeAdDefaultAd.swift",
       "kind": "StringLiteral",
-      "offset": 912,
+      "offset": 913,
       "length": 17,
       "value": "\"프로필이름\""
     },
     {
       "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Models\/Native\/NativeAdDefaultAd.swift",
       "kind": "StringLiteral",
-      "offset": 939,
+      "offset": 940,
       "length": 14,
       "value": "\"callToAction\""
     },
     {
       "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Models\/Native\/NativeAdDefaultAd.swift",
       "kind": "StringLiteral",
-      "offset": 955,
+      "offset": 956,
       "length": 14,
       "value": "\"바로가기\""
     },
     {
       "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Models\/Native\/NativeAdDefaultAd.swift",
       "kind": "StringLiteral",
-      "offset": 979,
+      "offset": 980,
       "length": 7,
       "value": "\"title\""
     },
     {
       "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Models\/Native\/NativeAdDefaultAd.swift",
       "kind": "StringLiteral",
-      "offset": 988,
+      "offset": 989,
       "length": 11,
       "value": "\"타이틀\""
     },
     {
       "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Models\/Native\/NativeAdDefaultAd.swift",
       "kind": "StringLiteral",
-      "offset": 1009,
+      "offset": 1010,
       "length": 6,
       "value": "\"body\""
     },
     {
       "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Models\/Native\/NativeAdDefaultAd.swift",
       "kind": "StringLiteral",
-      "offset": 1017,
+      "offset": 1018,
       "length": 8,
       "value": "\"설명\""
     },
     {
       "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Models\/Native\/NativeAdDefaultAd.swift",
       "kind": "StringLiteral",
-      "offset": 1035,
+      "offset": 1036,
       "length": 9,
       "value": "\"altText\""
     },
     {
       "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Models\/Native\/NativeAdDefaultAd.swift",
       "kind": "StringLiteral",
-      "offset": 1046,
+      "offset": 1047,
       "length": 65,
       "value": "\"기술과 사람으로 더 나은 세상을 만드는 카카오\""
     },
     {
       "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Models\/Native\/NativeAdDefaultAd.swift",
       "kind": "StringLiteral",
-      "offset": 1121,
+      "offset": 1122,
       "length": 8,
       "value": "\"events\""
     },
     {
       "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Models\/Native\/NativeAdDefaultAd.swift",
       "kind": "Array",
-      "offset": 1131,
+      "offset": 1132,
       "length": 11,
       "value": "[]"
     },
@@ -42767,50 +42985,50 @@
       "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/API\/RandomRequest.swift",
       "kind": "Array",
       "offset": 816,
-      "length": 573,
-      "value": "[\"https:\/\/t1.daumcdn.net\/adfit_sdk\/creatives\/mock\/bizboard\/biz-motion-rangerover.json\", \"https:\/\/t1.daumcdn.net\/adfit_sdk\/creatives\/mock\/bizboard\/biz-motion-netfilx.json\", \"https:\/\/t1.daumcdn.net\/adfit_sdk\/creatives\/mock\/bizboard\/biz-motion-pa.json\", \"https:\/\/t1.daumcdn.net\/adfit_sdk\/creatives\/mock\/bizboard\/biz-image-1029x258.json\", \"https:\/\/t1.daumcdn.net\/adfit_sdk\/creatives\/mock\/bizboard\/biz-image-eximage.json\"]"
+      "length": 578,
+      "value": "[\"https:\/\/t1.kakaocdn.net\/adfit_sdk\/creatives\/mock\/bizboard\/biz-motion-rangerover.json\", \"https:\/\/t1.kakaocdn.net\/adfit_sdk\/creatives\/mock\/bizboard\/biz-motion-netfilx.json\", \"https:\/\/t1.kakaocdn.net\/adfit_sdk\/creatives\/mock\/bizboard\/biz-motion-pa.json\", \"https:\/\/t1.kakaocdn.net\/adfit_sdk\/creatives\/mock\/bizboard\/biz-image-1029x258.json\", \"https:\/\/t1.kakaocdn.net\/adfit_sdk\/creatives\/mock\/bizboard\/biz-image-eximage.json\"]"
     },
     {
       "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/API\/RandomRequest.swift",
       "kind": "Array",
-      "offset": 1428,
-      "length": 292,
-      "value": "[\"https:\/\/t1.daumcdn.net\/adfit_sdk\/creatives\/mock\/bizboard\/biz-motion-eximage-rangerover.json\", \"https:\/\/t1.daumcdn.net\/adfit_sdk\/creatives\/mock\/bizboard\/biz-motion-exvideo-netfilx.json\"]"
+      "offset": 1433,
+      "length": 294,
+      "value": "[\"https:\/\/t1.kakaocdn.net\/adfit_sdk\/creatives\/mock\/bizboard\/biz-motion-eximage-rangerover.json\", \"https:\/\/t1.kakaocdn.net\/adfit_sdk\/creatives\/mock\/bizboard\/biz-motion-exvideo-netfilx.json\"]"
     },
     {
       "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/API\/RandomRequest.swift",
       "kind": "Array",
-      "offset": 1747,
-      "length": 437,
-      "value": "[\"https:\/\/t1.daumcdn.net\/adfit_sdk\/creatives\/mock\/bizboard\/biz-image-eximage.json\", \"https:\/\/t1.daumcdn.net\/adfit_sdk\/creatives\/mock\/bizboard\/biz-image-exmulti.json\", \"https:\/\/t1.daumcdn.net\/adfit_sdk\/creatives\/mock\/bizboard\/biz-image-exvideo-1.json\", \"https:\/\/t1.daumcdn.net\/adfit_sdk\/creatives\/mock\/bizboard\/biz-image-exvideo-2.json\"]"
+      "offset": 1754,
+      "length": 441,
+      "value": "[\"https:\/\/t1.kakaocdn.net\/adfit_sdk\/creatives\/mock\/bizboard\/biz-image-eximage.json\", \"https:\/\/t1.kakaocdn.net\/adfit_sdk\/creatives\/mock\/bizboard\/biz-image-exmulti.json\", \"https:\/\/t1.kakaocdn.net\/adfit_sdk\/creatives\/mock\/bizboard\/biz-image-exvideo-1.json\", \"https:\/\/t1.kakaocdn.net\/adfit_sdk\/creatives\/mock\/bizboard\/biz-image-exvideo-2.json\"]"
     },
     {
       "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/API\/RandomRequest.swift",
       "kind": "Array",
-      "offset": 2213,
-      "length": 656,
-      "value": "[\"https:\/\/t1.daumcdn.net\/adfit_sdk\/creatives\/mock\/bizboard\/biz-image-eximage.json\", \"https:\/\/t1.daumcdn.net\/adfit_sdk\/creatives\/mock\/bizboard\/biz-image-exmulti.json\", \"https:\/\/t1.daumcdn.net\/adfit_sdk\/creatives\/mock\/bizboard\/biz-image-exvideo-1.json\", \"https:\/\/t1.daumcdn.net\/adfit_sdk\/creatives\/mock\/bizboard\/biz-image-1029x258.json\", \"https:\/\/t1.daumcdn.net\/adfit_sdk\/creatives\/mock\/bizboard\/biz-custom.json\", \"https:\/\/t1.daumcdn.net\/adfit_sdk\/creatives\/mock\/bizboard\/biz-image-1029x222.json\"]"
+      "offset": 2224,
+      "length": 662,
+      "value": "[\"https:\/\/t1.kakaocdn.net\/adfit_sdk\/creatives\/mock\/bizboard\/biz-image-eximage.json\", \"https:\/\/t1.kakaocdn.net\/adfit_sdk\/creatives\/mock\/bizboard\/biz-image-exmulti.json\", \"https:\/\/t1.kakaocdn.net\/adfit_sdk\/creatives\/mock\/bizboard\/biz-image-exvideo-1.json\", \"https:\/\/t1.kakaocdn.net\/adfit_sdk\/creatives\/mock\/bizboard\/biz-image-1029x258.json\", \"https:\/\/t1.kakaocdn.net\/adfit_sdk\/creatives\/mock\/bizboard\/biz-custom.json\", \"https:\/\/t1.kakaocdn.net\/adfit_sdk\/creatives\/mock\/bizboard\/biz-image-1029x222.json\"]"
     },
     {
       "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/API\/RandomRequest.swift",
       "kind": "Array",
-      "offset": 2891,
-      "length": 280,
-      "value": "[\"https:\/\/t1.daumcdn.net\/adfit_sdk\/creatives\/mock\/focusAd\/focusAd-autoplay.json\", \"https:\/\/t1.daumcdn.net\/adfit_sdk\/creatives\/mock\/focusAd\/focusAd-chun.json\", \"https:\/\/t1.daumcdn.net\/adfit_sdk\/creatives\/mock\/focusAd\/focusAd-noad.json\"]"
+      "offset": 2908,
+      "length": 283,
+      "value": "[\"https:\/\/t1.kakaocdn.net\/adfit_sdk\/creatives\/mock\/focusAd\/focusAd-autoplay.json\", \"https:\/\/t1.kakaocdn.net\/adfit_sdk\/creatives\/mock\/focusAd\/focusAd-chun.json\", \"https:\/\/t1.kakaocdn.net\/adfit_sdk\/creatives\/mock\/focusAd\/focusAd-noad.json\"]"
     },
     {
       "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/API\/RandomRequest.swift",
       "kind": "Array",
-      "offset": 3196,
-      "length": 612,
-      "value": "[\"https:\/\/t1.daumcdn.net\/adfit_sdk\/creatives\/mock\/native\/native-image-1.json\", \"https:\/\/t1.daumcdn.net\/adfit_sdk\/creatives\/mock\/native\/native-image-2.json\", \"https:\/\/t1.daumcdn.net\/adfit_sdk\/creatives\/mock\/native\/native-video-1.json\", \"https:\/\/t1.daumcdn.net\/adfit_sdk\/creatives\/mock\/native\/native-catalog4.json\", \"https:\/\/t1.daumcdn.net\/adfit_sdk\/creatives\/mock\/native\/native-catalog8.json\", \"https:\/\/t1.daumcdn.net\/adfit_sdk\/creatives\/mock\/native\/native-catalog2.json\", \"https:\/\/t1.daumcdn.net\/adfit_sdk\/creatives\/mock\/native\/native-catalog3.json\"]"
+      "offset": 3216,
+      "length": 619,
+      "value": "[\"https:\/\/t1.kakaocdn.net\/adfit_sdk\/creatives\/mock\/native\/native-image-1.json\", \"https:\/\/t1.kakaocdn.net\/adfit_sdk\/creatives\/mock\/native\/native-image-2.json\", \"https:\/\/t1.kakaocdn.net\/adfit_sdk\/creatives\/mock\/native\/native-video-1.json\", \"https:\/\/t1.kakaocdn.net\/adfit_sdk\/creatives\/mock\/native\/native-catalog4.json\", \"https:\/\/t1.kakaocdn.net\/adfit_sdk\/creatives\/mock\/native\/native-catalog8.json\", \"https:\/\/t1.kakaocdn.net\/adfit_sdk\/creatives\/mock\/native\/native-catalog2.json\", \"https:\/\/t1.kakaocdn.net\/adfit_sdk\/creatives\/mock\/native\/native-catalog3.json\"]"
     },
     {
       "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/API\/RandomRequest.swift",
       "kind": "Array",
-      "offset": 3828,
-      "length": 100,
-      "value": "[\"https:\/\/t1.daumcdn.net\/adfit_sdk\/creatives\/mock\/native\/native-catalog2-order3.json\"]"
+      "offset": 3855,
+      "length": 101,
+      "value": "[\"https:\/\/t1.kakaocdn.net\/adfit_sdk\/creatives\/mock\/native\/native-catalog2-order3.json\"]"
     },
     {
       "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Models\/Common\/ExpandableAsset.swift",
@@ -43233,6 +43451,34 @@
       "value": "\".Event.accessingQueue\""
     },
     {
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Models\/Friend\/Controller\/FeedMediaController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 731,
+      "length": 2,
+      "value": "58"
+    },
+    {
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Models\/Friend\/Controller\/FeedMediaController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 773,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Models\/Friend\/Controller\/FeedMediaController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 824,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Models\/Friend\/Controller\/FeedMediaController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 922,
+      "length": 1,
+      "value": "8"
+    },
+    {
       "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Report\/CrashToReportCreator.swift",
       "kind": "IntegerLiteral",
       "offset": 1990,
@@ -43287,6 +43533,209 @@
       "offset": 601,
       "length": 9,
       "value": "\"Unknown\""
+    },
+    {
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Views\/Template\/ShortForm\/ShortFormCatalogView.swift",
+      "kind": "StringLiteral",
+      "offset": 928,
+      "length": 11,
+      "value": "\"shortForm\""
+    },
+    {
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Views\/Template\/ShortForm\/ShortFormCatalogView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1123,
+      "length": 2,
+      "value": "72"
+    },
+    {
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Views\/Template\/ShortForm\/ShortFormCatalogView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1164,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Views\/Template\/ShortForm\/ShortFormVideoControlView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 326,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Views\/Template\/ShortForm\/ShortFormVideoControlView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 336,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Views\/Template\/ShortForm\/ShortFormVideoControlView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 345,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Views\/Template\/ShortForm\/ShortFormVideoControlView.swift",
+      "kind": "FloatLiteral",
+      "offset": 355,
+      "length": 3,
+      "value": "0.3"
+    },
+    {
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Views\/Template\/ShortForm\/ShortFormVideoControlView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 394,
+      "length": 3,
+      "value": "153"
+    },
+    {
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Views\/Template\/ShortForm\/ShortFormVideoControlView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 398,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Views\/Template\/ShortForm\/ShortFormVideoControlView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 410,
+      "length": 3,
+      "value": "153"
+    },
+    {
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Views\/Template\/ShortForm\/ShortFormVideoControlView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 414,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Views\/Template\/ShortForm\/ShortFormVideoControlView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 425,
+      "length": 3,
+      "value": "153"
+    },
+    {
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Views\/Template\/ShortForm\/ShortFormVideoControlView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 429,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Views\/Template\/ShortForm\/ShortFormVideoControlView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 441,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Views\/Template\/ShortForm\/ShortFormVideoControlView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 548,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Views\/Template\/ShortForm\/ShortFormVideoControlView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 733,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Views\/Template\/ShortForm\/ShortFormVideoControlView.swift",
+      "kind": "FloatLiteral",
+      "offset": 743,
+      "length": 4,
+      "value": "0.03"
+    },
+    {
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Views\/Template\/ShortForm\/ShortFormVideoControlView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 779,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Views\/Template\/ShortForm\/ShortFormVideoControlView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 811,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Views\/Template\/ShortForm\/ShortFormVideoControlView.swift",
+      "kind": "StringLiteral",
+      "offset": 1061,
+      "length": 16,
+      "value": "\"shortForm\/Play\""
+    },
+    {
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Views\/Template\/ShortForm\/ShortFormVideoControlView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1163,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Views\/Template\/ShortForm\/ShortFormVideoControlView.swift",
+      "kind": "StringLiteral",
+      "offset": 1226,
+      "length": 12,
+      "value": "\"Video_Play\""
+    },
+    {
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Views\/Template\/ShortForm\/ShortFormVideoControlView.swift",
+      "kind": "StringLiteral",
+      "offset": 2410,
+      "length": 30,
+      "value": "\"Video_Error_ShortFormVersion\""
+    },
+    {
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Views\/Template\/ShortForm\/ShortFormVideoControlView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2477,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Views\/Template\/ShortForm\/ShortFormVideoControlView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2840,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Views\/Template\/ShortForm\/ShortFormVideoControlView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2877,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Views\/Template\/ShortForm\/ShortFormVideoControlView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3238,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Views\/Template\/ShortForm\/ShortFormVideoControlView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3848,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Views\/Template\/ShortForm\/ShortFormVideoControlView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4127,
+      "length": 1,
+      "value": "0"
     },
     {
       "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Views\/WebBrowserTitleView.swift",
@@ -45895,21 +46344,21 @@
     {
       "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Views\/AdFitBannerAdView.swift",
       "kind": "StringLiteral",
-      "offset": 2845,
+      "offset": 2846,
       "length": 639,
       "value": "\"        <!DOCTYPE html>\n        <html>\n            <head>\n                <style>\n                    body {\n                        padding:0;\n                        margin:0;\n                        width: 100%;\n                        height: 100%;\n                        background-image: url('banner_placeholder.jpg');\n                        background-repeat: no-repeat;\n                        background-size: cover;\n                          }\n                <\/style>\n            <\/head>\n            <body>\n            <\/body>\n        <\/html>\""
     },
     {
       "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Views\/AdFitBannerAdView.swift",
       "kind": "StringLiteral",
-      "offset": 3536,
+      "offset": 3537,
       "length": 1182,
       "value": "\"            <!DOCTYPE html>\n            <html lang=\"ko\">\n            <head>\n                <meta charset=\"UTF-8\">\n                <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n                <title>WKWebView Image<\/title>\n                <style>\n                    html, body {\n                        margin: 0;\n                        padding: 0;\n                        height: 100%;\n                        display: flex;\n                        justify-content: center;\n                        align-items: center;\n                    }\n                    img {\n                        height: 100vh; \/* WKWebView 높이와 동일 *\/\n                        width: auto; \/* 비율 유지 *\/\n                        max-width: 100%; \/* 뷰포트보다 커지지 않도록 제한 *\/\n                        display: block;\n                    }\n                <\/style>\n            <\/head>\n            <body>\n                <img src=\"bannerDefaultAsset-300x250.png\" alt=\"Responsive Image\">\n            <\/body>\n            <\/html>\""
     },
     {
       "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Views\/AdFitBannerAdView.swift",
       "kind": "StringLiteral",
-      "offset": 4770,
+      "offset": 4771,
       "length": 719,
       "value": "\"            <!DOCTYPE html>\n            <html>\n                <head>\n                    <style>\n                        body {\n                            padding:0;\n                            margin:0;\n                            width: 100%;\n                            height: 100%;\n                            background-image: url('bannerDefaultAsset-320x100.png');\n                            background-repeat: no-repeat;\n                            background-size: cover;\n                              }\n                    <\/style>\n                <\/head>\n                <body>\n                <\/body>\n            <\/html>\""
     },
@@ -46535,181 +46984,6 @@
       "offset": 2377,
       "length": 24,
       "value": "\"browserShareIcoRefresh\""
-    },
-    {
-      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Views\/Template\/Catalog\/Common\/CatalogMetric.swift",
-      "kind": "IntegerLiteral",
-      "offset": 223,
-      "length": 2,
-      "value": "32"
-    },
-    {
-      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Views\/Template\/Catalog\/Common\/CatalogMetric.swift",
-      "kind": "IntegerLiteral",
-      "offset": 269,
-      "length": 2,
-      "value": "32"
-    },
-    {
-      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Views\/Template\/Catalog\/Common\/CatalogMetric.swift",
-      "kind": "IntegerLiteral",
-      "offset": 400,
-      "length": 3,
-      "value": "500"
-    },
-    {
-      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Views\/Template\/Catalog\/Common\/CatalogMetric.swift",
-      "kind": "IntegerLiteral",
-      "offset": 472,
-      "length": 3,
-      "value": "115"
-    },
-    {
-      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Views\/Template\/Catalog\/Common\/CatalogMetric.swift",
-      "kind": "IntegerLiteral",
-      "offset": 523,
-      "length": 2,
-      "value": "10"
-    },
-    {
-      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Views\/Template\/Catalog\/Common\/MultiNativeAdTheme.swift",
-      "kind": "StringLiteral",
-      "offset": 205,
-      "length": 7,
-      "value": "\"light\""
-    },
-    {
-      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Views\/Template\/Catalog\/Common\/MultiNativeAdTheme.swift",
-      "kind": "StringLiteral",
-      "offset": 229,
-      "length": 6,
-      "value": "\"dark\""
-    },
-    {
-      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Views\/Template\/Catalog\/Type3\/CatalogType3View.swift",
-      "kind": "Array",
-      "offset": 799,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Views\/Template\/Catalog\/Type4\/CatalogCollectionViewModel.swift",
-      "kind": "Array",
-      "offset": 293,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Views\/Template\/Catalog\/Type4\/CatalogType4View.swift",
-      "kind": "IntegerLiteral",
-      "offset": 379,
-      "length": 2,
-      "value": "97"
-    },
-    {
-      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Views\/Template\/Catalog\/Type4\/CatalogType4View.swift",
-      "kind": "IntegerLiteral",
-      "offset": 391,
-      "length": 3,
-      "value": "132"
-    },
-    {
-      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Views\/Template\/Catalog\/Type4\/CatalogType4View.swift",
-      "kind": "IntegerLiteral",
-      "offset": 436,
-      "length": 1,
-      "value": "6"
-    },
-    {
-      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Views\/Template\/Catalog\/Type4\/CatalogType4View.swift",
-      "kind": "IntegerLiteral",
-      "offset": 483,
-      "length": 1,
-      "value": "9"
-    },
-    {
-      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Views\/Template\/Catalog\/Type4\/CatalogType4View.swift",
-      "kind": "IntegerLiteral",
-      "offset": 492,
-      "length": 2,
-      "value": "16"
-    },
-    {
-      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Views\/Template\/Catalog\/Type4\/CatalogType4View.swift",
-      "kind": "FloatLiteral",
-      "offset": 504,
-      "length": 3,
-      "value": "8.5"
-    },
-    {
-      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Views\/Template\/Catalog\/Type4\/CatalogType4View.swift",
-      "kind": "IntegerLiteral",
-      "offset": 516,
-      "length": 2,
-      "value": "16"
-    },
-    {
-      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Views\/Template\/Catalog\/Type4\/CatalogType4View.swift",
-      "kind": "StringLiteral",
-      "offset": 959,
-      "length": 7,
-      "value": "\"type4\""
-    },
-    {
-      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Views\/Template\/Catalog\/MultiNativeAdView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 334,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Views\/Template\/Catalog\/MultiNativeAdView.swift",
-      "kind": "StringLiteral",
-      "offset": 3128,
-      "length": 28,
-      "value": "\"에서 추천하는 상품\""
-    },
-    {
-      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Views\/Template\/Catalog\/MultiNativeAdView.swift",
-      "kind": "FloatLiteral",
-      "offset": 3372,
-      "length": 4,
-      "value": "0.02"
-    },
-    {
-      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Views\/Template\/Catalog\/MultiNativeAdView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3418,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Views\/Template\/Catalog\/MultiNativeAdView.swift",
-      "kind": "Array",
-      "offset": 3611,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Views\/Template\/Catalog\/TalkProfileImageView.swift",
-      "kind": "FloatLiteral",
-      "offset": 1466,
-      "length": 3,
-      "value": "0.5"
-    },
-    {
-      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Views\/Template\/Catalog\/TalkProfileImageView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1704,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Views\/Template\/Catalog\/TalkProfileImageView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1649,
-      "length": 4,
-      "value": "true"
     },
     {
       "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Models\/Utils\/ToastView.swift",
@@ -48462,6 +48736,27 @@
       "value": "\"AdFitStore\""
     },
     {
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Models\/BaseNativeAdObject\/BaseNativeAdImpl.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1461,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Models\/BaseNativeAdObject\/BaseNativeAdImpl.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1539,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Models\/BaseNativeAdObject\/BaseNativeAdImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 1993,
+      "length": 10,
+      "value": "\"26.01.03\""
+    },
+    {
       "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/ColorFit\/ColorFit.swift",
       "kind": "IntegerLiteral",
       "offset": 248,
@@ -48647,8 +48942,8 @@
       "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/NAS\/Live\/Data\/ResponseJSON.swift",
       "kind": "StringLiteral",
       "offset": 186,
-      "length": 5320,
-      "value": "\"{\n    \"adfit\": {\n        \"data\": {\n            \"events\": [\n                {\n                  \"type\" : \"rendered\",\n                  \"url\" : \"http:\/\/www.mocky.io\/v2\/59ae2c0a130000a1020355d8?type=rendered\"\n                },\n                {\n                  \"type\" : \"viewable\",\n                  \"url\" : \"http:\/\/www.mocky.io\/v2\/59ae2c0a130000a1020355d8?type=viewable\"\n                },\n                {\n                  \"type\" : \"click\",\n                  \"url\" : \"http:\/\/www.mocky.io\/v2\/59ae2c0a130000a1020355d8?type=click\"\n                }\n            ],\n            \"links\": [\n                {\n                    \"id\": \"default\",\n                    \"url\": \"http:\/\/www.daum.net\"\n                },\n                {\n                    \"id\": \"cta_link\",\n                    \"url\": \"http:\/\/www.daum.net\"\n                }\n            ],\n            \"styles\": [\n                {\n                    \"name\": \"default\",\n                    \"colors\": [\n                        {\n                            \"id\": \"titleColor\",\n                            \"value\": \"#123456\"\n                        },\n                        {\n                            \"id\": \"subColor\",\n                            \"value\": \"#234567\"\n                        }\n                    ]\n                },\n                {\n                    \"name\": \"dark\",\n                    \"colors\": [\n                        {\n                            \"id\": \"titleColor\",\n                            \"value\": \"#345678\"\n                        },\n                        {\n                            \"id\": \"subColor\",\n                            \"value\": \"#456789\"\n                        }\n                    ]\n                }\n            ]\n        },\n        \"layout\": {\n            \"type\": \"Box\",\n            \"width\": \"fill\",\n            \"height\": \"wrap\",\n            \"aspectRatio\": \"1029:222\",\n            \"maxHeight\": 71,\n            \"background\": \"#f3f3f3\",\n            \"backgroundCornerRadius\": 5,\n            \"link\": \"@link\/default\",\n            \"widgets\": [\n                {\n                    \"type\": \"Row\",\n                    \"width\": \"wrap\",\n                    \"height\": \"wrap\",\n                    \"align\": \"center\",\n                    \"contentAlign\": \"center\",\n                    \"paddingHorizontal\": 17,\n                    \"paddingVertical\": 7,\n                    \"widgets\": [\n                        {\n                            \"type\": \"Column\",\n                            \"width\": 0,\n                            \"height\": \"wrap\",\n                            \"weight\": 7,\n                            \"align\": \"centerLeft\",\n                            \"widgets\": [\n                                {\n                                    \"type\": \"Text\",\n                                    \"width\": \"wrap\",\n                                    \"height\": \"wrap\",\n                                    \"text\": \"일이삼사오육칠팔구십일이삼사오육칠팔구십일이삼사오육칠팔구십\",\n                                    \"textAlign\": \"centerLeft\",\n                                    \"textColor\": \"#000000\",\n                                    \"textSize\": 16,\n                                    \"textStyle\": \"bold\",\n                                    \"maxLines\": 1\n                                },\n                                {\n                                    \"type\": \"Row\",\n                                    \"width\": \"wrap\",\n                                    \"height\": \"wrap\",\n                                    \"contentAlign\": \"center\"\n                                    \"widgets\": [\n                                        {\n                                            \"type\": \"Image\",\n                                            \"width\": 52,\n                                            \"height\": 17,\n                                            \"marginRight\": 6\n                                            \"url=\"https:\/\/t1.daumcdn.net\/adfit_sdk\/creatives\/images\/nas\/more.png\"\n                                        },\n                                        {\n                                            \"type\": \"Text\",\n                                            \"width\": \"wrap\",\n                                            \"height\": \"wrap\",\n                                            \"text\": \"일이삼사오육칠팔구십일이삼사오육칠팔구십일이삼사오육칠팔구십\",\n                                            \"textAlign\": \"centerLeft\",\n                                            \"textColor\": #aaaaaa\",\n                                            \"textSize\": 12,\n                                            \"maxLines\": 1,\n                                        }\n                                    ]\n                                }\n                            ]\n                        },\n                        {\n                            \"type\": \"Image\",\n                            \"width\": 0,\n                            \"height\": \"wrap\",\n                            \"weight\": 3,\n                            \"aspectRatio\": \"315:212\",\n                            \"marginLeft\": 11,\n                            \"url\": \"@image\/mainImage\"\n                        }\n                    ]\n                }\n            ]\n        }\n    }\n}\""
+      "length": 5321,
+      "value": "\"{\n    \"adfit\": {\n        \"data\": {\n            \"events\": [\n                {\n                  \"type\" : \"rendered\",\n                  \"url\" : \"http:\/\/www.mocky.io\/v2\/59ae2c0a130000a1020355d8?type=rendered\"\n                },\n                {\n                  \"type\" : \"viewable\",\n                  \"url\" : \"http:\/\/www.mocky.io\/v2\/59ae2c0a130000a1020355d8?type=viewable\"\n                },\n                {\n                  \"type\" : \"click\",\n                  \"url\" : \"http:\/\/www.mocky.io\/v2\/59ae2c0a130000a1020355d8?type=click\"\n                }\n            ],\n            \"links\": [\n                {\n                    \"id\": \"default\",\n                    \"url\": \"http:\/\/www.daum.net\"\n                },\n                {\n                    \"id\": \"cta_link\",\n                    \"url\": \"http:\/\/www.daum.net\"\n                }\n            ],\n            \"styles\": [\n                {\n                    \"name\": \"default\",\n                    \"colors\": [\n                        {\n                            \"id\": \"titleColor\",\n                            \"value\": \"#123456\"\n                        },\n                        {\n                            \"id\": \"subColor\",\n                            \"value\": \"#234567\"\n                        }\n                    ]\n                },\n                {\n                    \"name\": \"dark\",\n                    \"colors\": [\n                        {\n                            \"id\": \"titleColor\",\n                            \"value\": \"#345678\"\n                        },\n                        {\n                            \"id\": \"subColor\",\n                            \"value\": \"#456789\"\n                        }\n                    ]\n                }\n            ]\n        },\n        \"layout\": {\n            \"type\": \"Box\",\n            \"width\": \"fill\",\n            \"height\": \"wrap\",\n            \"aspectRatio\": \"1029:222\",\n            \"maxHeight\": 71,\n            \"background\": \"#f3f3f3\",\n            \"backgroundCornerRadius\": 5,\n            \"link\": \"@link\/default\",\n            \"widgets\": [\n                {\n                    \"type\": \"Row\",\n                    \"width\": \"wrap\",\n                    \"height\": \"wrap\",\n                    \"align\": \"center\",\n                    \"contentAlign\": \"center\",\n                    \"paddingHorizontal\": 17,\n                    \"paddingVertical\": 7,\n                    \"widgets\": [\n                        {\n                            \"type\": \"Column\",\n                            \"width\": 0,\n                            \"height\": \"wrap\",\n                            \"weight\": 7,\n                            \"align\": \"centerLeft\",\n                            \"widgets\": [\n                                {\n                                    \"type\": \"Text\",\n                                    \"width\": \"wrap\",\n                                    \"height\": \"wrap\",\n                                    \"text\": \"일이삼사오육칠팔구십일이삼사오육칠팔구십일이삼사오육칠팔구십\",\n                                    \"textAlign\": \"centerLeft\",\n                                    \"textColor\": \"#000000\",\n                                    \"textSize\": 16,\n                                    \"textStyle\": \"bold\",\n                                    \"maxLines\": 1\n                                },\n                                {\n                                    \"type\": \"Row\",\n                                    \"width\": \"wrap\",\n                                    \"height\": \"wrap\",\n                                    \"contentAlign\": \"center\"\n                                    \"widgets\": [\n                                        {\n                                            \"type\": \"Image\",\n                                            \"width\": 52,\n                                            \"height\": 17,\n                                            \"marginRight\": 6\n                                            \"url=\"https:\/\/t1.kakaocdn.net\/adfit_sdk\/creatives\/images\/nas\/more.png\"\n                                        },\n                                        {\n                                            \"type\": \"Text\",\n                                            \"width\": \"wrap\",\n                                            \"height\": \"wrap\",\n                                            \"text\": \"일이삼사오육칠팔구십일이삼사오육칠팔구십일이삼사오육칠팔구십\",\n                                            \"textAlign\": \"centerLeft\",\n                                            \"textColor\": #aaaaaa\",\n                                            \"textSize\": 12,\n                                            \"maxLines\": 1,\n                                        }\n                                    ]\n                                }\n                            ]\n                        },\n                        {\n                            \"type\": \"Image\",\n                            \"width\": 0,\n                            \"height\": \"wrap\",\n                            \"weight\": 3,\n                            \"aspectRatio\": \"315:212\",\n                            \"marginLeft\": 11,\n                            \"url\": \"@image\/mainImage\"\n                        }\n                    ]\n                }\n            ]\n        }\n    }\n}\""
     },
     {
       "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Views\/Template\/TemplateGradientView.swift",
@@ -48677,34 +48972,6 @@
       "offset": 308,
       "length": 1,
       "value": "0"
-    },
-    {
-      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Models\/Friend\/Controller\/FeedMediaController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 731,
-      "length": 2,
-      "value": "58"
-    },
-    {
-      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Models\/Friend\/Controller\/FeedMediaController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 773,
-      "length": 2,
-      "value": "16"
-    },
-    {
-      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Models\/Friend\/Controller\/FeedMediaController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 824,
-      "length": 1,
-      "value": "8"
-    },
-    {
-      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Models\/Friend\/Controller\/FeedMediaController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 922,
-      "length": 1,
-      "value": "8"
     },
     {
       "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Models\/Media\/ImageCollection.swift",
@@ -48842,14 +49109,14 @@
     {
       "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Models\/Native\/AdFitNativeAdLoader.swift",
       "kind": "BooleanLiteral",
-      "offset": 2370,
+      "offset": 2371,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Models\/Native\/AdFitNativeAdLoader.swift",
       "kind": "IntegerLiteral",
-      "offset": 3077,
+      "offset": 3078,
       "length": 1,
       "value": "1"
     },
@@ -49377,209 +49644,6 @@
       "offset": 21393,
       "length": 5,
       "value": "false"
-    },
-    {
-      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Views\/Template\/ShortForm\/ShortFormCatalogView.swift",
-      "kind": "StringLiteral",
-      "offset": 928,
-      "length": 11,
-      "value": "\"shortForm\""
-    },
-    {
-      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Views\/Template\/ShortForm\/ShortFormCatalogView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1123,
-      "length": 2,
-      "value": "72"
-    },
-    {
-      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Views\/Template\/ShortForm\/ShortFormCatalogView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1164,
-      "length": 2,
-      "value": "10"
-    },
-    {
-      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Views\/Template\/ShortForm\/ShortFormVideoControlView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 326,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Views\/Template\/ShortForm\/ShortFormVideoControlView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 336,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Views\/Template\/ShortForm\/ShortFormVideoControlView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 345,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Views\/Template\/ShortForm\/ShortFormVideoControlView.swift",
-      "kind": "FloatLiteral",
-      "offset": 355,
-      "length": 3,
-      "value": "0.3"
-    },
-    {
-      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Views\/Template\/ShortForm\/ShortFormVideoControlView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 394,
-      "length": 3,
-      "value": "153"
-    },
-    {
-      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Views\/Template\/ShortForm\/ShortFormVideoControlView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 398,
-      "length": 3,
-      "value": "255"
-    },
-    {
-      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Views\/Template\/ShortForm\/ShortFormVideoControlView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 410,
-      "length": 3,
-      "value": "153"
-    },
-    {
-      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Views\/Template\/ShortForm\/ShortFormVideoControlView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 414,
-      "length": 3,
-      "value": "255"
-    },
-    {
-      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Views\/Template\/ShortForm\/ShortFormVideoControlView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 425,
-      "length": 3,
-      "value": "153"
-    },
-    {
-      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Views\/Template\/ShortForm\/ShortFormVideoControlView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 429,
-      "length": 3,
-      "value": "255"
-    },
-    {
-      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Views\/Template\/ShortForm\/ShortFormVideoControlView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 441,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Views\/Template\/ShortForm\/ShortFormVideoControlView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 548,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Views\/Template\/ShortForm\/ShortFormVideoControlView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 733,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Views\/Template\/ShortForm\/ShortFormVideoControlView.swift",
-      "kind": "FloatLiteral",
-      "offset": 743,
-      "length": 4,
-      "value": "0.03"
-    },
-    {
-      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Views\/Template\/ShortForm\/ShortFormVideoControlView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 779,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Views\/Template\/ShortForm\/ShortFormVideoControlView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 811,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Views\/Template\/ShortForm\/ShortFormVideoControlView.swift",
-      "kind": "StringLiteral",
-      "offset": 1061,
-      "length": 16,
-      "value": "\"shortForm\/Play\""
-    },
-    {
-      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Views\/Template\/ShortForm\/ShortFormVideoControlView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1163,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Views\/Template\/ShortForm\/ShortFormVideoControlView.swift",
-      "kind": "StringLiteral",
-      "offset": 1226,
-      "length": 12,
-      "value": "\"Video_Play\""
-    },
-    {
-      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Views\/Template\/ShortForm\/ShortFormVideoControlView.swift",
-      "kind": "StringLiteral",
-      "offset": 2410,
-      "length": 30,
-      "value": "\"Video_Error_ShortFormVersion\""
-    },
-    {
-      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Views\/Template\/ShortForm\/ShortFormVideoControlView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2477,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Views\/Template\/ShortForm\/ShortFormVideoControlView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2840,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Views\/Template\/ShortForm\/ShortFormVideoControlView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2877,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Views\/Template\/ShortForm\/ShortFormVideoControlView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3238,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Views\/Template\/ShortForm\/ShortFormVideoControlView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3848,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Views\/Template\/ShortForm\/ShortFormVideoControlView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4127,
-      "length": 1,
-      "value": "0"
     },
     {
       "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Models\/Utils\/Cache\/CachedAd.swift",
@@ -50151,14 +50215,14 @@
     {
       "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Talk\/BizBoard\/BizBoardAd.swift",
       "kind": "StringLiteral",
-      "offset": 5324,
+      "offset": 5326,
       "length": 7,
       "value": "\"empty\""
     },
     {
       "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Talk\/BizBoard\/BizBoardAd.swift",
       "kind": "StringLiteral",
-      "offset": 5339,
+      "offset": 5341,
       "length": 7,
       "value": "\"empty\""
     },
@@ -50187,27 +50251,27 @@
       "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/NAS\/Live\/Data\/ResponseXML.swift",
       "kind": "StringLiteral",
       "offset": 183,
-      "length": 3621,
-      "value": "\"<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<AdFitLayout>\n    <data>\n        <events>\n            <rendered>\n                <tracker url=\"https:\/\/tracker.com\/rendered1\" \/>\n                <tracker url=\"https:\/\/tracker.com\/rendered2\" \/>\n            <\/rendered>\n\n            <viewable>\n                <tracker url=\"https:\/\/tracker.com\/viewable1\" \/>\n                <tracker url=\"https:\/\/tracker.com\/viewable2\" \/>\n            <\/viewable>\n\n            <hide>\n                <tracker url=\"https:\/\/tracker.com\/hide1\" \/>\n                <tracker url=\"https:\/\/tracker.com\/hide2\" \/>\n            <\/hide>\n        <\/events>\n        <links>\n            <link\n                id=\"default\"\n                url=\"https:\/\/m.daum.net\/\">\n                <tracker url=\"https:\/\/tracker.com\/click1\" \/>\n                <tracker url=\"https:\/\/tracker.com\/click2\" \/>\n            <\/link>\n\n            <link\n                id=\"cta_click\"\n                url=\"https:\/\/m.daum.net\/\">\n                <tracker url=\"https:\/\/tracker.com\/cta_click1\" \/>\n                <tracker url=\"https:\/\/tracker.com\/cta_click2\" \/>\n            <\/link>\n        <\/links>\n        <styles>\n            <style>\n                <colors>\n                    <color id=\"textColor\" value=\"#101010\" \/>\n                <\/colors>\n                <images>\n                    <image id=\"mainImage\" url=\"https:\/\/t1.daumcdn.net\/adfit_sdk\/creatives\/images\/nas\/img_native_ad_template_image_type_main_image.jpg\" \/>\n                    <image id=\"profileImage\" url=\"https:\/\/m.daum.net\/profile_image_default.png\" \/>\n                <\/images>\n            <\/style>\n            <style name=\"dark\">\n                <colors>\n                    <color id=\"textColor\" value=\"0xffffff\" \/>\n                <\/colors>\n                <images>\n                    <image id=\"mainImage\" url=\"https:\/\/t1.daumcdn.net\/adfit_sdk\/creatives\/images\/nas\/img_native_ad_template_image_type_main_image.jpeg\" \/>\n                <\/images>\n            <\/style>\n        <\/styles>\n    <\/data>\n    <layout>\n        <Box\n            width=\"fill\"\n            height=\"wrap\">\n\n            <!-- main image -->\n            <Image\n                width=\"wrap\"\n                height=\"wrap\"\n                aspectRatio=\"1080:720\"\n                url=\"img_native_ad_template_image_type_main_image.jpg\" \/>\n\n            <!-- ad info icon -->\n            <Image\n                width=\"wrap\"\n                height=\"wrap\"\n                margin=\"8\"\n                align=\"topRight\"\n                url=\"markADmark.png\" \/>\n\n            <Row\n                width=\"fill\"\n                height=\"46\"\n                paddingHorizontal=\"15\"\n                align=\"bottom\"\n                contentAlign=\"center\"\n                background=\"#ffffff\">\n\n                <!-- title -->\n                <Text\n                    width=\"0\"\n                    height=\"wrap\"\n                    weight=\"1\"\n                    marginRight=\"20\"\n                    text=\"New Balance with IU\"\n                    textColor=\"#101010\"\n                    textSize=\"15\" \/>\n\n                <!-- cta button -->\n                <Button\n                    width=\"wrap\"\n                    height=\"wrap\"\n                    minHeight=\"28\"\n                    paddingHorizontal=\"7.5\"\n                    background=\"#ffffff\"\n                    backgroundCornerRadius=\"3\"\n                    backgroundBorderColor=\"#1f0000\"\n                    backgroundBorderWidth=\"2\"\n                    text=\"바로가기\"\n                    textColor=\"#000000\"\n                    textSize=\"14\" \/>\n            <\/Row>\n        <\/Box>\n    <\/layout>\n<\/AdFitLayout>\n\""
+      "length": 3623,
+      "value": "\"<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<AdFitLayout>\n    <data>\n        <events>\n            <rendered>\n                <tracker url=\"https:\/\/tracker.com\/rendered1\" \/>\n                <tracker url=\"https:\/\/tracker.com\/rendered2\" \/>\n            <\/rendered>\n\n            <viewable>\n                <tracker url=\"https:\/\/tracker.com\/viewable1\" \/>\n                <tracker url=\"https:\/\/tracker.com\/viewable2\" \/>\n            <\/viewable>\n\n            <hide>\n                <tracker url=\"https:\/\/tracker.com\/hide1\" \/>\n                <tracker url=\"https:\/\/tracker.com\/hide2\" \/>\n            <\/hide>\n        <\/events>\n        <links>\n            <link\n                id=\"default\"\n                url=\"https:\/\/m.daum.net\/\">\n                <tracker url=\"https:\/\/tracker.com\/click1\" \/>\n                <tracker url=\"https:\/\/tracker.com\/click2\" \/>\n            <\/link>\n\n            <link\n                id=\"cta_click\"\n                url=\"https:\/\/m.daum.net\/\">\n                <tracker url=\"https:\/\/tracker.com\/cta_click1\" \/>\n                <tracker url=\"https:\/\/tracker.com\/cta_click2\" \/>\n            <\/link>\n        <\/links>\n        <styles>\n            <style>\n                <colors>\n                    <color id=\"textColor\" value=\"#101010\" \/>\n                <\/colors>\n                <images>\n                    <image id=\"mainImage\" url=\"https:\/\/t1.kakaocdn.net\/adfit_sdk\/creatives\/images\/nas\/img_native_ad_template_image_type_main_image.jpg\" \/>\n                    <image id=\"profileImage\" url=\"https:\/\/m.daum.net\/profile_image_default.png\" \/>\n                <\/images>\n            <\/style>\n            <style name=\"dark\">\n                <colors>\n                    <color id=\"textColor\" value=\"0xffffff\" \/>\n                <\/colors>\n                <images>\n                    <image id=\"mainImage\" url=\"https:\/\/t1.kakaocdn.net\/adfit_sdk\/creatives\/images\/nas\/img_native_ad_template_image_type_main_image.jpeg\" \/>\n                <\/images>\n            <\/style>\n        <\/styles>\n    <\/data>\n    <layout>\n        <Box\n            width=\"fill\"\n            height=\"wrap\">\n\n            <!-- main image -->\n            <Image\n                width=\"wrap\"\n                height=\"wrap\"\n                aspectRatio=\"1080:720\"\n                url=\"img_native_ad_template_image_type_main_image.jpg\" \/>\n\n            <!-- ad info icon -->\n            <Image\n                width=\"wrap\"\n                height=\"wrap\"\n                margin=\"8\"\n                align=\"topRight\"\n                url=\"markADmark.png\" \/>\n\n            <Row\n                width=\"fill\"\n                height=\"46\"\n                paddingHorizontal=\"15\"\n                align=\"bottom\"\n                contentAlign=\"center\"\n                background=\"#ffffff\">\n\n                <!-- title -->\n                <Text\n                    width=\"0\"\n                    height=\"wrap\"\n                    weight=\"1\"\n                    marginRight=\"20\"\n                    text=\"New Balance with IU\"\n                    textColor=\"#101010\"\n                    textSize=\"15\" \/>\n\n                <!-- cta button -->\n                <Button\n                    width=\"wrap\"\n                    height=\"wrap\"\n                    minHeight=\"28\"\n                    paddingHorizontal=\"7.5\"\n                    background=\"#ffffff\"\n                    backgroundCornerRadius=\"3\"\n                    backgroundBorderColor=\"#1f0000\"\n                    backgroundBorderWidth=\"2\"\n                    text=\"바로가기\"\n                    textColor=\"#000000\"\n                    textSize=\"14\" \/>\n            <\/Row>\n        <\/Box>\n    <\/layout>\n<\/AdFitLayout>\n\""
     },
     {
       "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/NAS\/Live\/Data\/ResponseXML.swift",
       "kind": "StringLiteral",
-      "offset": 3824,
-      "length": 4218,
-      "value": "\"<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<AdFitNasLayout>\n    <data>\n        <events>\n            <rendered>\n                <tracker url=\"https:\/\/tracker.com\/rendered1\" \/>\n                <tracker url=\"https:\/\/tracker.com\/rendered2\" \/>\n            <\/rendered>\n\n            <viewable>\n                <tracker url=\"https:\/\/tracker.com\/viewable1\" \/>\n                <tracker url=\"https:\/\/tracker.com\/viewable2\" \/>\n            <\/viewable>\n\n            <hide>\n                <tracker url=\"https:\/\/tracker.com\/hide1\" \/>\n                <tracker url=\"https:\/\/tracker.com\/hide2\" \/>\n            <\/hide>\n        <\/events>\n\n        <links>\n            <link\n                id=\"default\"\n                url=\"https:\/\/m.daum.net\/\">\n            <\/link>\n\n            <link\n                id=\"cta_click\"\n                url=\"https:\/\/m.daum.net\/\">\n            <\/link>\n        <\/links>\n        <styles>\n            <style>\n                <colors>\n                    <color id=\"titleColor\" value=\"0x000000\" \/>\n                    <color id=\"textColor\" value=\"0x000000\" \/>\n                <\/colors>\n                <images>\n                    <image id=\"mainImage\" url=\"https:\/\/t1.daumcdn.net\/adfit_sdk\/creatives\/images\/nas\/img_bizboard_main_image.png\" \/>\n                    <image id=\"profileImage\" url=\"https:\/\/m.daum.net\/profile_image_default.png\" \/>\n                <\/images>\n            <\/style>\n            <style name=\"dark\">\n                <colors>\n                    <color id=\"titleColor\" value=\"0xffffff\" \/>\n                <\/colors>\n                <images>\n                    <image id=\"mainImage\" url=\"https:\/\/t1.daumcdn.net\/adfit_sdk\/creatives\/images\/nas\/img_native_ad_template_image_type_main_image.jpeg\" \/>\n                <\/images>\n            <\/style>\n        <\/styles>\n    <\/data>\n    <layout>\n        <Box\n            width=\"fill\"\n            height=\"wrap\"\n            aspectRatio=\"1029:222\"\n            maxHeight=\"71\"\n            background=\"#f3f3f3\"\n            backgroundCornerRadius=\"5\"\n            link=\"@link\/default\">\n            <Row\n                width=\"wrap\"\n                height=\"wrap\"\n                align=\"center\"\n                contentAlign=\"center\"\n                paddingHorizontal=\"17\"\n                paddingVertical=\"7\">\n\n                <Column\n                    width=\"0\"\n                    height=\"wrap\"\n                    weight=\"7\"\n                    align=\"centerLeft\">\n\n                    <!-- title text -->\n                    <Text\n                        width=\"wrap\"\n                        height=\"wrap\"\n                        text=\"일이삼사오육칠팔구십일이삼사오육칠팔구십일이삼사오육칠팔구십\"\n                        textAlign=\"centerLeft\"\n                        textColor=\"#000000\"\n                        textSize=\"16\"\n                        textStyle=\"bold\"\n                        maxLines=\"1\" \/>\n\n                    <Row\n                        width=\"wrap\"\n                        height=\"wrap\"\n                        contentAlign=\"center\">\n\n                        <!-- badge image -->\n                        <Image\n                            width=\"52\"\n                            height=\"17\"\n                            marginRight=\"6\"\n                            url=\"https:\/\/t1.daumcdn.net\/adfit_sdk\/creatives\/images\/nas\/more.png\" \/>\n\n                        <!-- description text -->\n                        <Text\n                            width=\"wrap\"\n                            height=\"wrap\"\n                            text=\"일이삼사오육칠팔구십일이삼사오육칠팔구십일이삼사오육칠팔구십\"\n                            textAlign=\"centerLeft\"\n                            textColor=\"#aaaaaa\"\n                            textSize=\"12\"\n                            maxLines=\"1\" \/>\n                    <\/Row>\n                <\/Column>\n\n                <!-- main image -->\n                <Image\n                    width=\"0\"\n                    height=\"wrap\"\n                    weight=\"3\"\n                    aspectRatio=\"315:212\"\n                    marginLeft=\"11\"\n                    url=\"@image\/mainImage\" \/>\n            <\/Row>\n        <\/Box>\n    <\/layout>\n<\/AdFitNasLayout>\""
+      "offset": 3826,
+      "length": 4221,
+      "value": "\"<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<AdFitNasLayout>\n    <data>\n        <events>\n            <rendered>\n                <tracker url=\"https:\/\/tracker.com\/rendered1\" \/>\n                <tracker url=\"https:\/\/tracker.com\/rendered2\" \/>\n            <\/rendered>\n\n            <viewable>\n                <tracker url=\"https:\/\/tracker.com\/viewable1\" \/>\n                <tracker url=\"https:\/\/tracker.com\/viewable2\" \/>\n            <\/viewable>\n\n            <hide>\n                <tracker url=\"https:\/\/tracker.com\/hide1\" \/>\n                <tracker url=\"https:\/\/tracker.com\/hide2\" \/>\n            <\/hide>\n        <\/events>\n\n        <links>\n            <link\n                id=\"default\"\n                url=\"https:\/\/m.daum.net\/\">\n            <\/link>\n\n            <link\n                id=\"cta_click\"\n                url=\"https:\/\/m.daum.net\/\">\n            <\/link>\n        <\/links>\n        <styles>\n            <style>\n                <colors>\n                    <color id=\"titleColor\" value=\"0x000000\" \/>\n                    <color id=\"textColor\" value=\"0x000000\" \/>\n                <\/colors>\n                <images>\n                    <image id=\"mainImage\" url=\"https:\/\/t1.kakaocdn.net\/adfit_sdk\/creatives\/images\/nas\/img_bizboard_main_image.png\" \/>\n                    <image id=\"profileImage\" url=\"https:\/\/m.daum.net\/profile_image_default.png\" \/>\n                <\/images>\n            <\/style>\n            <style name=\"dark\">\n                <colors>\n                    <color id=\"titleColor\" value=\"0xffffff\" \/>\n                <\/colors>\n                <images>\n                    <image id=\"mainImage\" url=\"https:\/\/t1.kakaocdn.net\/adfit_sdk\/creatives\/images\/nas\/img_native_ad_template_image_type_main_image.jpeg\" \/>\n                <\/images>\n            <\/style>\n        <\/styles>\n    <\/data>\n    <layout>\n        <Box\n            width=\"fill\"\n            height=\"wrap\"\n            aspectRatio=\"1029:222\"\n            maxHeight=\"71\"\n            background=\"#f3f3f3\"\n            backgroundCornerRadius=\"5\"\n            link=\"@link\/default\">\n            <Row\n                width=\"wrap\"\n                height=\"wrap\"\n                align=\"center\"\n                contentAlign=\"center\"\n                paddingHorizontal=\"17\"\n                paddingVertical=\"7\">\n\n                <Column\n                    width=\"0\"\n                    height=\"wrap\"\n                    weight=\"7\"\n                    align=\"centerLeft\">\n\n                    <!-- title text -->\n                    <Text\n                        width=\"wrap\"\n                        height=\"wrap\"\n                        text=\"일이삼사오육칠팔구십일이삼사오육칠팔구십일이삼사오육칠팔구십\"\n                        textAlign=\"centerLeft\"\n                        textColor=\"#000000\"\n                        textSize=\"16\"\n                        textStyle=\"bold\"\n                        maxLines=\"1\" \/>\n\n                    <Row\n                        width=\"wrap\"\n                        height=\"wrap\"\n                        contentAlign=\"center\">\n\n                        <!-- badge image -->\n                        <Image\n                            width=\"52\"\n                            height=\"17\"\n                            marginRight=\"6\"\n                            url=\"https:\/\/t1.kakaocdn.net\/adfit_sdk\/creatives\/images\/nas\/more.png\" \/>\n\n                        <!-- description text -->\n                        <Text\n                            width=\"wrap\"\n                            height=\"wrap\"\n                            text=\"일이삼사오육칠팔구십일이삼사오육칠팔구십일이삼사오육칠팔구십\"\n                            textAlign=\"centerLeft\"\n                            textColor=\"#aaaaaa\"\n                            textSize=\"12\"\n                            maxLines=\"1\" \/>\n                    <\/Row>\n                <\/Column>\n\n                <!-- main image -->\n                <Image\n                    width=\"0\"\n                    height=\"wrap\"\n                    weight=\"3\"\n                    aspectRatio=\"315:212\"\n                    marginLeft=\"11\"\n                    url=\"@image\/mainImage\" \/>\n            <\/Row>\n        <\/Box>\n    <\/layout>\n<\/AdFitNasLayout>\""
     },
     {
       "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/NAS\/Live\/Data\/ResponseXML.swift",
       "kind": "StringLiteral",
-      "offset": 8066,
+      "offset": 8071,
       "length": 2437,
       "value": "\"<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<AdFitNasLayout>\n    <layout>\n        <Box\n            width=\"fill\"\n            height=\"wrap\"\n            maxHeight=\"71\"\n            aspectRatio=\"1029:222\"\n            background=\"#f3f3f3\"\n            backgroundCornerRadius=\"5\">\n\n            <Row\n                width=\"wrap\"\n                height=\"wrap\"\n                align=\"center\"\n                contentAlign=\"center\"\n                paddingHorizontal=\"17\"\n                paddingVertical=\"7\">\n\n                <!-- main image -->\n                <Image\n                    width=\"0\"\n                    height=\"wrap\"\n                    weight=\"3\"\n                    aspectRatio=\"315:212\"\n                    marginRight=\"11\"\n                    url=\"img_native_ad_template_image_type_main_image.jpg\" \/>\n\n                <Column\n                    width=\"0\"\n                    height=\"wrap\"\n                    weight=\"7\"\n                    align=\"centerLeft\">\n\n                    <!-- title text -->\n                    <Text\n                        width=\"wrap\"\n                        height=\"wrap\"\n                        text=\"일이삼사오육칠팔구십일이삼사오육칠팔구십일이삼사오육칠팔구십\"\n                        textAlign=\"centerLeft\"\n                        textColor=\"#000000\"\n                        textSize=\"16\"\n                        textStyle=\"bold\"\n                        maxLines=\"1\" \/>\n\n                    <Row\n                        width=\"wrap\"\n                        height=\"wrap\"\n                        contentAlign=\"center\">\n\n                        <!-- badge image -->\n                        <Image\n                            width=\"52\"\n                            height=\"22\"\n                            marginRight=\"6\"\n                            url=\"badge_icon.png\" \/>\n\n                        <!-- description text -->\n                        <Text\n                            width=\"wrap\"\n                            height=\"wrap\"\n                            text=\"일이삼사오육칠팔구십일이삼사오육칠팔구십일이삼사오육칠팔구십\"\n                            textAlign=\"centerLeft\"\n                            textColor=\"#aaaaaa\"\n                            textSize=\"12\"\n                            maxLines=\"1\" \/>\n                    <\/Row>\n                <\/Column>\n            <\/Row>\n        <\/Box>\n    <\/layout>\n<\/AdFitNasLayout>\""
     },
     {
       "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/NAS\/Live\/Data\/ResponseXML.swift",
       "kind": "StringLiteral",
-      "offset": 13013,
+      "offset": 13020,
       "length": 6748,
       "value": "\"<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<AdFitLayout>\n    <layout>\n        <Box\n            width=\"fill\"\n            height=\"wrap\">\n\n            <!-- Video -->\n            <Video\n                width=\"wrap\"\n                height=\"wrap\"\n                aspectRatio=\"1080:720\"\n                mainImage=\"@Image\/mainImage\">\n                <![CDATA[PD94bWwgdmVyc2lvbj1cIjEuMFwiIGVuY29kaW5nPVwiVVRGLThcIj8+PFZBU1QgeG1sbnM6eHNpPVwiaHR0cDpcL1wvd3d3LnczLm9yZ1wvMjAwMVwvWE1MU2NoZW1hLWluc3RhbmNlXCIgdmVyc2lvbj1cIjMuMFwiPjxBZD48SW5MaW5lPjxBZFN5c3RlbT5BZEZpdCBNb2NrPFwvQWRTeXN0ZW0+PEFkVGl0bGU+aVBob25lIFg8XC9BZFRpdGxlPjxFcnJvcj48IVtDREFUQVtodHRwczpcL1wvcHV0LmRpYW5hLmtha2FvLmNvbVwvYXBpXC9wdXRcLzkyZGFiN2YzLTkzYjItNGFkNC04YTVlLWE4ZGZiZTc2YzVmOD9hZD1pcGhvbmV4JmVycm9yPVtFUlJPUkNPREVdXV0+PFwvRXJyb3I+PEltcHJlc3Npb24+PCFbQ0RBVEFbaHR0cHM6XC9cL3B1dC5kaWFuYS5rYWthby5jb21cL2FwaVwvcHV0XC85MmRhYjdmMy05M2IyLTRhZDQtOGE1ZS1hOGRmYmU3NmM1Zjg\/YWQ9aXBob25leCZldmVudFR5cGU9SW1wcmVzc2lvbl1dPjxcL0ltcHJlc3Npb24+PENyZWF0aXZlcz48Q3JlYXRpdmUgYWRJRD1cIjI0NDcyMjZcIj48TGluZWFyPjxEdXJhdGlvbj4wMDowMToxODxcL0R1cmF0aW9uPjxUcmFja2luZ0V2ZW50cz48VHJhY2tpbmcgZXZlbnQ9XCJjcmVhdGl2ZVZpZXdcIj48IVtDREFUQVtodHRwczpcL1wvcHV0LmRpYW5hLmtha2FvLmNvbVwvYXBpXC9wdXRcLzkyZGFiN2YzLTkzYjItNGFkNC04YTVlLWE4ZGZiZTc2YzVmOD9hZD1pcGhvbmV4JmV2ZW50VHlwZT10cmFja2luZyZldmVudFZhbHVlPWNyZWF0aXZlVmlld11dPjxcL1RyYWNraW5nPjxUcmFja2luZyBldmVudD1cInN0YXJ0XCI+PCFbQ0RBVEFbaHR0cHM6XC9cL3B1dC5kaWFuYS5rYWthby5jb21cL2FwaVwvcHV0XC85MmRhYjdmMy05M2IyLTRhZDQtOGE1ZS1hOGRmYmU3NmM1Zjg\/YWQ9aXBob25leCZldmVudFR5cGU9dHJhY2tpbmcmZXZlbnRWYWx1ZT1zdGFydF1dPjxcL1RyYWNraW5nPjxUcmFja2luZyBldmVudD1cInByb2dyZXNzXCIgb2Zmc2V0PVwiMDA6MDA6MDNcIj48IVtDREFUQVtodHRwczpcL1wvcHV0LmRpYW5hLmtha2FvLmNvbVwvYXBpXC9wdXRcLzkyZGFiN2YzLTkzYjItNGFkNC04YTVlLWE4ZGZiZTc2YzVmOD9hZD1pcGhvbmV4JmV2ZW50VHlwZT10cmFja2luZyZldmVudFZhbHVlPXByb2dyZXNzJmV2ZW50T2Zmc2V0PTAwJTNBMDAlM0EwM11dPjxcL1RyYWNraW5nPjxUcmFja2luZyBldmVudD1cInByb2dyZXNzXCIgb2Zmc2V0PVwiMDA6MDA6MTBcIj48IVtDREFUQVtodHRwczpcL1wvcHV0LmRpYW5hLmtha2FvLmNvbVwvYXBpXC9wdXRcLzkyZGFiN2YzLTkzYjItNGFkNC04YTVlLWE4ZGZiZTc2YzVmOD9hZD1pcGhvbmV4JmV2ZW50VHlwZT10cmFja2luZyZldmVudFZhbHVlPXByb2dyZXNzJmV2ZW50T2Zmc2V0PTAwJTNBMDAlM0ExMF1dPjxcL1RyYWNraW5nPjxUcmFja2luZyBldmVudD1cInByb2dyZXNzXCIgb2Zmc2V0PVwiMDA6MDA6MTVcIj48IVtDREFUQVtodHRwczpcL1wvcHV0LmRpYW5hLmtha2FvLmNvbVwvYXBpXC9wdXRcLzkyZGFiN2YzLTkzYjItNGFkNC04YTVlLWE4ZGZiZTc2YzVmOD9hZD1pcGhvbmV4JmV2ZW50VHlwZT10cmFja2luZyZldmVudFZhbHVlPXByb2dyZXNzJmV2ZW50T2Zmc2V0PTAwJTNBMDAlM0ExNV1dPjxcL1RyYWNraW5nPjxUcmFja2luZyBldmVudD1cInByb2dyZXNzXCIgb2Zmc2V0PVwiMDA6MDA6MzBcIj48IVtDREFUQVtodHRwczpcL1wvcHV0LmRpYW5hLmtha2FvLmNvbVwvYXBpXC9wdXRcLzkyZGFiN2YzLTkzYjItNGFkNC04YTVlLWE4ZGZiZTc2YzVmOD9hZD1pcGhvbmV4JmV2ZW50VHlwZT10cmFja2luZyZldmVudFZhbHVlPXByb2dyZXNzJmV2ZW50T2Zmc2V0PTAwJTNBMDAlM0EzMF1dPjxcL1RyYWNraW5nPjxUcmFja2luZyBldmVudD1cInByb2dyZXNzXCIgb2Zmc2V0PVwiMDA6MDE6MDBcIj48IVtDREFUQVtodHRwczpcL1wvcHV0LmRpYW5hLmtha2FvLmNvbVwvYXBpXC9wdXRcLzkyZGFiN2YzLTkzYjItNGFkNC04YTVlLWE4ZGZiZTc2YzVmOD9hZD1pcGhvbmV4JmV2ZW50VHlwZT10cmFja2luZyZldmVudFZhbHVlPXByb2dyZXNzJmV2ZW50T2Zmc2V0PTAwJTNBMDElM0EwMF1dPjxcL1RyYWNraW5nPjxUcmFja2luZyBldmVudD1cImZpcnN0UXVhcnRpbGVcIj48IWh0dHBzOlwvXC9wdXQuZGlhbmEua2FrYW8uY29tXC9hcGlcL3B1dFwvOTJkYWI3ZjMtOTNiMi00YWQ0LThhNWUtYThkZmJlNzZjNWY4P2FkPWlwaG9uZXgmZXZlbnRUeXBlPXRyYWNraW5nJmV2ZW50VmFsdWU9Zmlyc3RRdWFydGlsZV1dPjxcL1RyYWNraW5nPjxUcmFja2luZyBldmVudD1cIm1pZHBvaW50XCI+PCFbQ0RBVEFbaHR0cHM6XC9cL3B1dC5kaWFuYS5rYWthby5jb21cL2FwaVwvcHV0XC85MmRhYjdmMy05M2IyLTRhZDQtOGE1ZS1hOGRmYmU3NmM1Zjg\/YWQ9aXBob25leCZldmVudFR5cGU9dHJhY2tpbmcmZXZlbnRWYWx1ZT1taWRwb2ludF1dPjxcL1RyYWNraW5nPjxUcmFja2luZyBldmVudD1cInRoaXJkUXVhcnRpbGVcIj48IVtDREFUQVtodHRwczpcL1wvcHV0LmRpYW5hLmtha2FvLmNvbVwvYXBpXC9wdXRcLzkyZGFiN2YzLTkzYjItNGFkNC04YTVlLWE4ZGZiZTc2YzVmOD9hZD1pcGhvbmV4JmV2ZW50VHlwZT10cmFja2luZyZldmVudFZhbHVlPXRoaXJkUXVhcnRpbGVdXT48XC9UcmFja2luZz48VHJhY2tpbmcgZXZlbnQ9XCJjb21wbGV0ZVwiPjwhW0NEQVRBW2h0dHBzOlwvXC9wdXQuZGlhbmEua2FrYW8uY29tXC9hcGlcL3B1dFwvOTJkYWI3ZjMtOTNiMi00YWQ0LThhNWUtYThkZmJlNzZjNWY4P2FkPWlwaG9uZXgmZXZlbnRUeXBlPXRyYWNraW5nJmV2ZW50VmFsdWU9Y29tcGxldGVdXT48XC9UcmFja2luZz48VHJhY2tpbmcgZXZlbnQ9XCJtdXRlXCI+PCFbQ0RBVEFbaHR0cHM6XC9cL3B1dC5kaWFuYS5rYWthby5jb21cL2FwaVwvcHV0XC85MmRhYjdmMy05M2IyLTRhZDQtOGE1ZS1hOGRmYmU3NmM1Zjg\/YWQ9aXBob25leCZldmVudFR5cGU9dHJhY2tpbmcmZXZlbnRWYWx1ZT1tdXRlXV0+PFwvVHJhY2tpbmc+PFRyYWNraW5nIGV2ZW50PVwidW5tdXRlXCI+PCFbQ0RBVEFbaHR0cHM6XC9cL3B1dC5kaWFuYS5rYWthby5jb21cL2FwaVwvcHV0XC85MmRhYjdmMy05M2IyLTRhZDQtOGE1ZS1hOGRmYmU3NmM1Zjg\/YWQ9aXBob25leCZldmVudFR5cGU9dHJhY2tpbmcmZXZlbnRWYWx1ZT11bm11dGVdXT48XC9UcmFja2luZz48VHJhY2tpbmcgZXZlbnQ9XCJyZXN1bWVcIj48IVtDREFUQVtodHRwczpcL1wvcHV0LmRpYW5hLmtha2FvLmNvbVwvYXBpXC9wdXRcLzkyZGFiN2YzLTkzYjItNGFkNC04YTVlLWE4ZGZiZTc2YzVmOD9hZD1pcGhvbmV4JmV2ZW50VHlwZT10cmFja2luZyZldmVudFZhbHVlPXJlc3VtZV1dPjxcL1RyYWNraW5nPjxUcmFja2luZyBldmVudD1cInBhdXNlXCI+PCFbQ0RBVEFbaHR0cHM6XC9cL3B1dC5kaWFuYS5rYWthby5jb21cL2FwaVwvcHV0XC85MmRhYjdmMy05M2IyLTRhZDQtOGE1ZS1hOGRmYmU3NmM1Zjg\/YWQ9aXBob25leCZldmVudFR5cGU9dHJhY2tpbmcmZXZlbnRWYWx1ZT1wYXVzZV1dPjxcL1RyYWNraW5nPjxcL1RyYWNraW5nRXZlbnRzPjxNZWRpYUZpbGVzPjxNZWRpYUZpbGUgZGVsaXZlcnk9XCJwcm9ncmVzc2l2ZVwiIHR5cGU9XCJ2aWRlb1wvbXA0XCIgc2NhbGFibGU9XCIxXCIgd2lkdGg9XCIxMjgwXCIgaGVpZ2h0PVwiNzIwXCI+PCFbQ0RBVEFbaHR0cHM6XC9cL3QxLmRhdW1jZG4ubmV0XC9hZGZpdF9zZGtcL2NyZWF0aXZlc1wvdmlkZW9zXC9pcGhvbmV4LW5ldy5tcDRdXT48XC9NZWRpYUZpbGU+PFwvTWVkaWFGaWxlcz48XC9MaW5lYXI+PFwvQ3JlYXRpdmU+PFwvQ3JlYXRpdmVzPjxcL0luTGluZT48XC9BZD48XC9WQVNUPg==]]>\n            <\/Video>\n\n            <!-- ad info icon -->\n            <Image\n                width=\"wrap\"\n                height=\"wrap\"\n                margin=\"8\"\n                align=\"topRight\"\n                url=\"markADmark.png\" \/>\n\n            <Row\n                width=\"fill\"\n                height=\"46\"\n                paddingHorizontal=\"15\"\n                align=\"bottom\"\n                contentAlign=\"center\"\n                background=\"#ffffff\">\n\n                <!-- title -->\n                <Text\n                    width=\"0\"\n                    height=\"wrap\"\n                    weight=\"1\"\n                    marginRight=\"20\"\n                    text=\"New Balance with IU\"\n                    textColor=\"#101010\"\n                    textSize=\"15\" \/>\n\n                <!-- cta button -->\n                <Button\n                    width=\"wrap\"\n                    height=\"wrap\"\n                    minHeight=\"28\"\n                    paddingHorizontal=\"7.5\"\n                    background=\"#ffffff\"\n                    backgroundCornerRadius=\"3\"\n                    backgroundBorderColor=\"#1f0000\"\n                    backgroundBorderWidth=\"2\"\n                    text=\"바로가기\"\n                    textColor=\"#000000\"\n                    textSize=\"14\" \/>\n            <\/Row>\n        <\/Box>\n    <\/layout>\n<\/AdFitLayout>\""
     },
@@ -50354,7 +50418,7 @@
     {
       "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Models\/Media\/Catalog.swift",
       "kind": "BooleanLiteral",
-      "offset": 947,
+      "offset": 974,
       "length": 5,
       "value": "false"
     },
@@ -50459,28 +50523,28 @@
     {
       "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Enums\/AdFitInfoIconPosition.swift",
       "kind": "IntegerLiteral",
-      "offset": 452,
+      "offset": 453,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Enums\/AdFitInfoIconPosition.swift",
       "kind": "IntegerLiteral",
-      "offset": 496,
+      "offset": 497,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Enums\/AdFitInfoIconPosition.swift",
       "kind": "IntegerLiteral",
-      "offset": 542,
+      "offset": 543,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Enums\/AdFitInfoIconPosition.swift",
       "kind": "IntegerLiteral",
-      "offset": 589,
+      "offset": 590,
       "length": 1,
       "value": "3"
     },
@@ -50606,7 +50670,7 @@
     {
       "filePath": "\/Users\/deploy\/actions-runner\/_work\/ad-fit-ios\/ad-fit-ios\/AdFitSDK\/AdFitSDK\/Models\/Native\/CodableNativeAd.swift",
       "kind": "StringLiteral",
-      "offset": 1933,
+      "offset": 1932,
       "length": 11,
       "value": "\"ckeywords\""
     },
@@ -51362,49 +51426,63 @@
     {
       "filePath": "\/Users\/deploy\/Library\/Developer\/Xcode\/DerivedData\/AdFitSDK-bpvfhkrvzccrmygehwxddtsbtkns\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AdFit-External\/IntermediateBuildFilesPath\/AdFitSDK.build\/Release-iphonesimulator\/AdFitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 18539,
+      "offset": 18629,
+      "length": 21,
+      "value": "\"thread\/defaultImage\""
+    },
+    {
+      "filePath": "\/Users\/deploy\/Library\/Developer\/Xcode\/DerivedData\/AdFitSDK-bpvfhkrvzccrmygehwxddtsbtkns\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AdFit-External\/IntermediateBuildFilesPath\/AdFitSDK.build\/Release-iphonesimulator\/AdFitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 18797,
+      "length": 20,
+      "value": "\"thread\/profileIcon\""
+    },
+    {
+      "filePath": "\/Users\/deploy\/Library\/Developer\/Xcode\/DerivedData\/AdFitSDK-bpvfhkrvzccrmygehwxddtsbtkns\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AdFit-External\/IntermediateBuildFilesPath\/AdFitSDK.build\/Release-iphonesimulator\/AdFitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 18954,
       "length": 12,
       "value": "\"feedBubble\""
     },
     {
       "filePath": "\/Users\/deploy\/Library\/Developer\/Xcode\/DerivedData\/AdFitSDK-bpvfhkrvzccrmygehwxddtsbtkns\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AdFit-External\/IntermediateBuildFilesPath\/AdFitSDK.build\/Release-iphonesimulator\/AdFitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 18693,
+      "offset": 19108,
       "length": 18,
       "value": "\"feedBubbleBorder\""
     },
     {
       "filePath": "\/Users\/deploy\/Library\/Developer\/Xcode\/DerivedData\/AdFitSDK-bpvfhkrvzccrmygehwxddtsbtkns\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AdFit-External\/IntermediateBuildFilesPath\/AdFitSDK.build\/Release-iphonesimulator\/AdFitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 18837,
+      "offset": 19252,
       "length": 11,
       "value": "\"i Mark_AD\""
     },
     {
       "filePath": "\/Users\/deploy\/Library\/Developer\/Xcode\/DerivedData\/AdFitSDK-bpvfhkrvzccrmygehwxddtsbtkns\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AdFit-External\/IntermediateBuildFilesPath\/AdFitSDK.build\/Release-iphonesimulator\/AdFitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 18978,
+      "offset": 19393,
       "length": 12,
       "value": "\"markADmark\""
     },
     {
       "filePath": "\/Users\/deploy\/Library\/Developer\/Xcode\/DerivedData\/AdFitSDK-bpvfhkrvzccrmygehwxddtsbtkns\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AdFit-External\/IntermediateBuildFilesPath\/AdFitSDK.build\/Release-iphonesimulator\/AdFitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 19134,
+      "offset": 19549,
       "length": 19,
       "value": "\"nativePlaceholder\""
     },
     {
       "filePath": "\/Users\/deploy\/Library\/Developer\/Xcode\/DerivedData\/AdFitSDK-bpvfhkrvzccrmygehwxddtsbtkns\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AdFit-External\/IntermediateBuildFilesPath\/AdFitSDK.build\/Release-iphonesimulator\/AdFitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 19271,
+      "offset": 19686,
       "length": 6,
       "value": "\"path\""
     },
     {
       "filePath": "\/Users\/deploy\/Library\/Developer\/Xcode\/DerivedData\/AdFitSDK-bpvfhkrvzccrmygehwxddtsbtkns\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AdFit-External\/IntermediateBuildFilesPath\/AdFitSDK.build\/Release-iphonesimulator\/AdFitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 19407,
+      "offset": 19822,
       "length": 12,
       "value": "\"popupClose\""
     }

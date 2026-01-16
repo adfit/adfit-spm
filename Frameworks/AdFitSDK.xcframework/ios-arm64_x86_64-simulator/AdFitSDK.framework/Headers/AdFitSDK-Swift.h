@@ -541,7 +541,7 @@ SWIFT_PROTOCOL("_TtP8AdFitSDK30AdFitFlexibleViewVideoDelegate_")
 - (void)flexibleViewVideoDidDurationChange:(AdFitFlexibleView * _Nonnull)adView current:(NSTimeInterval)current total:(NSTimeInterval)total;
 @end
 
-/// 네이티브 광고에서 정보 아이콘(<img src="https://t1.daumcdn.net/adfit/image/d_i_m_201607.png" width="20" valign="middle">)을 표시할 위치.<br>
+/// 네이티브 광고에서 정보 아이콘(<img src="https://t1.kakaocdn.net/adfit/image/d_i_m_201607.png" width="20" valign="middle">)을 표시할 위치.<br>
 typedef SWIFT_ENUM(NSInteger, AdFitInfoIconPosition, open) {
 /// 좌측 상단
   AdFitInfoIconPositionTopLeft = 0,
@@ -730,7 +730,7 @@ SWIFT_CLASS("_TtC8AdFitSDK19AdFitNativeAdLoader")
 /// 광고주 페이지를 표시할 때 사용될 부모 뷰 컨트롤러.<br>
 /// 별도로 할당하지 않는 경우 SDK에서 자체적으로 가장 적당한 뷰 컨트롤러를 탐색하여 사용합니다.
 @property (nonatomic, weak) UIViewController * _Nullable rootViewController;
-/// 광고 뷰 내에서 정보 아이콘(<img src="https://t1.daumcdn.net/adfit/image/d_i_m_201607.png" width="20" valign="middle">)이 표시될 위치.<br>
+/// 광고 뷰 내에서 정보 아이콘(<img src="https://t1.kakaocdn.net/adfit/image/d_i_m_201607.png" width="20" valign="middle">)이 표시될 위치.<br>
 /// 이 아이콘을 표시하기 위해 별다른 처리는 필요하지 않으며, 지정된 위치에 자동으로 표시됩니다.<br>
 /// 기본값은 <em>topRight</em> (우측 상단) 입니다.
 @property (nonatomic) enum AdFitInfoIconPosition infoIconPosition;
@@ -1606,7 +1606,7 @@ SWIFT_PROTOCOL("_TtP8AdFitSDK30AdFitFlexibleViewVideoDelegate_")
 - (void)flexibleViewVideoDidDurationChange:(AdFitFlexibleView * _Nonnull)adView current:(NSTimeInterval)current total:(NSTimeInterval)total;
 @end
 
-/// 네이티브 광고에서 정보 아이콘(<img src="https://t1.daumcdn.net/adfit/image/d_i_m_201607.png" width="20" valign="middle">)을 표시할 위치.<br>
+/// 네이티브 광고에서 정보 아이콘(<img src="https://t1.kakaocdn.net/adfit/image/d_i_m_201607.png" width="20" valign="middle">)을 표시할 위치.<br>
 typedef SWIFT_ENUM(NSInteger, AdFitInfoIconPosition, open) {
 /// 좌측 상단
   AdFitInfoIconPositionTopLeft = 0,
@@ -1795,7 +1795,7 @@ SWIFT_CLASS("_TtC8AdFitSDK19AdFitNativeAdLoader")
 /// 광고주 페이지를 표시할 때 사용될 부모 뷰 컨트롤러.<br>
 /// 별도로 할당하지 않는 경우 SDK에서 자체적으로 가장 적당한 뷰 컨트롤러를 탐색하여 사용합니다.
 @property (nonatomic, weak) UIViewController * _Nullable rootViewController;
-/// 광고 뷰 내에서 정보 아이콘(<img src="https://t1.daumcdn.net/adfit/image/d_i_m_201607.png" width="20" valign="middle">)이 표시될 위치.<br>
+/// 광고 뷰 내에서 정보 아이콘(<img src="https://t1.kakaocdn.net/adfit/image/d_i_m_201607.png" width="20" valign="middle">)이 표시될 위치.<br>
 /// 이 아이콘을 표시하기 위해 별다른 처리는 필요하지 않으며, 지정된 위치에 자동으로 표시됩니다.<br>
 /// 기본값은 <em>topRight</em> (우측 상단) 입니다.
 @property (nonatomic) enum AdFitInfoIconPosition infoIconPosition;
